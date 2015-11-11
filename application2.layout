@@ -175,13 +175,13 @@
         if(footerCount == null){ 
             footerCount = 1; 
             $.cookie('footer', footerCount, { expires: 7 }); 
-            $('.footerImg').attr("src","http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/784a865b6100927ccec2664f41a9a21d/11968HSC-Website-Footer-Logos-Fall-15-1.png");
+            $('.footerImg').attr("src","http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/image/png/1447269164000/footer1.png");
         } else {
             if(footerCount % 2 == 0){
-                $('.footerImg').attr("src","http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/784a865b6100927ccec2664f41a9a21d/11968HSC-Website-Footer-Logos-Fall-15-2.png");
+                $('.footerImg').attr("src","http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/image/png/1447269244000/footer2.png");
      
             }else{
-                $('.footerImg').attr("src","http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/784a865b6100927ccec2664f41a9a21d/11968HSC-Website-Footer-Logos-Fall-15-1.png");
+                $('.footerImg').attr("src","http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/image/png/1447269164000/footer1.png");
             }
             footerCount++;
              $.cookie('footer', footerCount, { expires: 7 }); 
