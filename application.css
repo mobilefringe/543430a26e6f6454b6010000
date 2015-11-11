@@ -33,55 +33,55 @@
     
     /* Newsletter text(Top right); "Get On The List"*/
     .signup {
-        color: #964f4c;
+        color: #80c6ce;
     }
 
     /* sub headers*/
     h1, h4 {
-        color: #964f4c;
+        color: #80c6ce;
     }
     h3,h5{
-        color:#964f4c;
+        color:#80c6ce;
     }
     
     h3 a, h5 a, h3 a:hover, h5 a:hover, h3 a:active, h5 a:active, h3 a:visited {
-        color: #964f4c;
+        color: #80c6ce;
     }
     
     /* Navigation text*/
     .navbar-default .navbar-nav > li > a {
-        color: #964f4c !important;
+        color: #80c6ce !important;
     }
     
     /* Navigation dropdown hover color*/
     .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-        background-color: #964f4c;
+        background-color: #80c6ce;
     }
     .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-        background-color: #964f4c;
+        background-color: #80c6ce;
     }
     
     /* Side bar headers: hours, customer service, administration...*/
     .sidebar-header{
-        color: #964f4c;
+        color: #80c6ce;
     }
         
     /* Store Detail page; store name*/
     .store-detail-name{
-        color:#964f4c;
+        color:#80c6ce;
     }
     .mobile-store-name{
-        color:#964f4c;
+        color:#80c6ce;
     }
     
     /*Promotion page; store name*/
     .promo-name{
-        color:#964f4c;
+        color:#80c6ce;
     }
     
     /* Our Style; Style File, Opposite Attract, Shopt the Look title color  */
     .style-header, .attract-header, .shop-header{
-        color: #964f4c;
+        color: #80c6ce;
     }
     
     /* link*/
