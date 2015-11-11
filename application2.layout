@@ -395,7 +395,7 @@
            
               
             </div>
-          <a href="/home" class="navbar-brand">logo<img alt="logo image" src="http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/784a865b6100927ccec2664f41a9a21d/HMlogo.png"></a>
+          <a href="/home" class="navbar-brand">logo<img alt="logo image" src="http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/image/png/1426861653000/HMlogo.png"></a>
         </div>
    
 	<button id="mobile_menu_button" onclick="toggleMenu()"  class="navbar-toggle" type="button">
