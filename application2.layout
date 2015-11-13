@@ -446,7 +446,7 @@
             </ul>
             </li>
             <li class="menu-gift"><a href="/gift_cards">Gift Cards</a></li>
-            <li class="menu-holiday hidden-desktop"><a href="/holidays_at_hsc">Holiday Events</a></li>
+            <li class="menu-gift"><a href="/holidays_at_hsc">Holiday Events</a></li>
         </ul>	
                 
     </nav>
