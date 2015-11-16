@@ -262,28 +262,28 @@
     <div class="hidden-popup-bg">
         <div class="visible-phone mobile-sign-up" >
             <div style="background:#fff; width: 80%; margin: 10% auto;">
-              <div style="background:#333;" class="modal-header">
-                <button style="color:#fff;" data-dismiss="modal" class="close" type="button">×</button>
-                <h3 style="color:#fff; text-align:center;" id="smModalLabel">Download<br/> our app yet?</h3>
-              </div>
-              <div style="text-align:center;" class="modal-body">
-                <p>Get the latest fashions and trends, curated by HSC style experts, delivered straight to your mobile. The most fashionable iPhones are wearing it!</p>
+              <!--<div style="background:#333;" class="modal-header">-->
+              <!--  <button style="color:#fff;" data-dismiss="modal" class="close" type="button">×</button>-->
+              <!--  <h3 style="color:#fff; text-align:center;" id="smModalLabel">Download<br/> our app yet?</h3>-->
+              <!--</div>-->
+              <!--<div style="text-align:center;" class="modal-body">-->
+              <!--  <p>Get the latest fashions and trends, curated by HSC style experts, delivered straight to your mobile. The most fashionable iPhones are wearing it!</p>-->
                 
-                <div class="myhsccloset">
-            	    <div class="icon-myhsccloset-ico"></div><div class="icon-myhsccloset"></div>
-                </div>     
-                <a id="submit-mobile" href="https://itunes.apple.com/us/app/myhsccloset/id701538001?ls=1&amp;mt=8" class="getitnowbutton">Get it Now!</a>
-                <br/><br/>
-              </div>
+              <!--  <div class="myhsccloset">-->
+            	 <!--   <div class="icon-myhsccloset-ico"></div><div class="icon-myhsccloset"></div>-->
+              <!--  </div>     -->
+              <!--  <a id="submit-mobile" href="https://itunes.apple.com/us/app/myhsccloset/id701538001?ls=1&amp;mt=8" class="getitnowbutton">Get it Now!</a>-->
+              <!--  <br/><br/>-->
+              <!--</div>-->
               
-               <!--<div class="popup-body">-->
-               <!--   <p tabindex="-1" onclick="close_popup();" onkeypress="close_popup();" class="popup-close pull-right" style="-->
-               <!-- position: fixed; margin-left: 305px;">X</p>-->
-               <!-- <a href="https://www.surveymonkey.com/r/3P6VYZH" target="_blank">                -->
-               <!--     <img style="width:100%;" src="http://cdn.mallmaverick.com/system/site_images/photos/000/012/747/original/12175HSC-Pretty-PopUp-MOBILE.jpg?1442887504">                     -->
+               <div class="popup-body">
+                  <p tabindex="-1" onclick="close_popup();" onkeypress="close_popup();" class="popup-close pull-right" style="
+                position: fixed; margin-left: 305px;">X</p>
+                <a href="https://www.surveymonkey.com/r/3P6VYZH" target="_blank">                
+                    <img style="width:100%;" src="http://cdn.mallmaverick.com/system/site_images/photos/000/012/747/original/12175HSC-Pretty-PopUp-MOBILE.jpg?1442887504">                     
                         
-               <!--     </a>-->
-               <!-- </div>-->
+                    </a>
+                </div>
             </div>
         </div>
         <div class="hidden-popup-form hidden-phone">
