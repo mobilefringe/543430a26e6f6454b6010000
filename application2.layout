@@ -276,7 +276,7 @@
               <!--  <br/><br/>-->
               <!--</div>-->
               
-               <div class="popup-body" style="margin:0;">
+               <div class="popup-body" style="padding:0;">
                   <p tabindex="-1" onclick="close_popup();" onkeypress="close_popup();" class="popup-close pull-right" style="
                 position: fixed; margin-left: 270px;">X</p>
                 <a href="https://www.surveymonkey.com/r/3P6VYZH" target="_blank">                
@@ -344,7 +344,7 @@
         <!--   </div>-->
       
           
-                <div class="popup-body" style="margin:0;">
+                <div class="popup-body" style="padding:0;">
                   <p tabindex="-1" onclick="close_popup();" onkeypress="close_popup();" class="popup-close pull-right" style="
                 position: fixed; margin-left: 410px;">X</p>
                 <a href="https://www.surveymonkey.com/r/3P6VYZH" target="_blank">                
