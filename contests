@@ -22,9 +22,7 @@
         <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
         <script id="event_item_template" type="x-tmpl-mustache">
              <div class="event-details">
-                        <div class="event-image">
-                            <img src="{{event_image_url}}">
-                        </div>
+                       
                         <div class="event-name">
                             <h3>{{ name }}</h3>
                         </div>
