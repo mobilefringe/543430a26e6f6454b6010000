@@ -143,19 +143,8 @@ function renderSpecialNotice(notice_template, notice_content, repo){
     Mustache.parse(banner_template_html);   // optional, speeds up future uses
     var bannerCount = 0;
     
+    
     $.each( repo , function( key, val ) {
-        if( val.name == "banner"){
-            $.each( val.images , function( key, val ) {
-                item_list.push(val);
-            });
-        }
-    });
-    item_list.sort(function(a, b){
-        if(a.name < b.name) return -1;
-        if(a.name > b.name) return 1;
-        return 0;
-    });
-    $.each( item_list , function( key, val ) {
            
            
             if (bannerCount == 0){
