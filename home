@@ -40,7 +40,7 @@
         
             function renderPageData(){
                 var repoList = getBanners();
-                 renderIndicator('#indicator_template','#banner_indicator', repoList);
+                renderIndicator('#indicator_template','#banner_indicator', repoList);
                 renderBanner('#banner_template','#home_banner',repoList);
                
             }
