@@ -97,36 +97,40 @@ function renderSpecialNotice(notice_template, notice_content, repo){
     
 }
 
- function renderBanner(banner_template, home_banner, repo){
+ function renderBanner(banner_template, home_banner, banners){
     
     var item_list = [];
     var item_rendered = [];
     var banner_template_html = $(banner_template).html();
     Mustache.parse(banner_template_html);   // optional, speeds up future uses
-    $.each( repo , function( key, val ) {
-        if( val.name == "banner"){
-            $.each( val.images , function( key, val ) {
-               if(val.url == ""){
-                   val.css = "style=cursor:default;";
-                   val.noLink = "return false";
-               }
-                item_list.push(val);
-               
-            });
-        }
-    });
-    item_list.sort(function(a, b){
-        if(a.name < b.name) return -1;
-        if(a.name > b.name) return 1;
-        return 0;
+    
+    $.each( banners , function( key, val ) {
+        today = new Date();
+        start = new Date (val.start_date);
+       
+        start.setDate(start.getDate());
+       if(val.url == "" || val.url === null){
+           val.css = "style=cursor:default;";
+           val.noLink = "return false";
+       }
+       if (start <= today){
+         if (val.end_date){
+             end = new Date (val.end_date);
+             end.setDate(end.getDate() + 1);
+             if (end >= today){
+               item_list.push(val);  
+             }
+             
+         } else {
+             item_list.push(val);
+         }
+       }
     });
     $.each( item_list , function( key, val ) {
-            var repo_rendered = Mustache.render(banner_template_html,val);
-            item_rendered.push(repo_rendered);
-           
+        var repo_rendered = Mustache.render(banner_template_html,val);
+        item_rendered.push(repo_rendered);
+       
     });
-    
-   
     $(home_banner).show();
     $(home_banner).html(item_rendered.join(''));
     $('.item').first().addClass('active');
