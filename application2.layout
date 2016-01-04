@@ -423,7 +423,7 @@
             	<li class="menu-contests"><a href="/contests">Contests</a></li>
         		<li class="menu-development"><a href="/development">Development</a></li>
             	<li class="menu-news"><a href="/news">News</a></li>
-            	<li class="menu-holiday"><a href="/holidays_at_hsc">Holiday Events</a></li>
+            	
             </ul>
             </li>
             <li class="menu-find-a-store"><a href="/stores">Find a Store</a></li>
