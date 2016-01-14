@@ -64,7 +64,7 @@ function renderRepoTxtMobile(repo_template, repo_txt, repo){
                     var repo_rendered = Mustache.render(repo_template_html,val);
                     item_list.push(repo_rendered);
                 }
- 
+                 console.log('repo text');
             });
         }
     });
