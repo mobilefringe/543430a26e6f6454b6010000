@@ -56,7 +56,8 @@ function renderRepoTxtMobile(repo_template, repo_txt, repo){
                     show = true;
                     var repo_rendered = Mustache.render(repo_template_html,val);
                     item_list.push(repo_rendered);
-                } else if(title == "special notice"){
+                // } else if(title == "special notice"){
+                } else if(title.indexOf("special notice") > -1){
                     val.href = '/centre_hours';
                     show= true;
                     var repo_rendered = Mustache.render(repo_template_html,val);
