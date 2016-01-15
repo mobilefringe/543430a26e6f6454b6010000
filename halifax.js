@@ -79,12 +79,12 @@ function renderSpecialNotice(notice_template, notice_content, repo){
     Mustache.parse(repo_template_html);   // optional, speeds up future uses
     $.each( repo , function( key, val ) {
         var title = val.name.toLowerCase();
-        // if( title == "special notice"){
-         if(title.indexOf("special notice") > -1){
-
+        if( title == "special notice"){
             $.each( val.images , function( key, val ) {
                 var title_two = val.name.toLowerCase();
-                if(title_two == "special notice"){
+                // if(title_two == "special notice"){
+                if(title_two.indexOf("special notice") > -1){
+
                     show= true;
                     var repo_rendered = Mustache.render(repo_template_html,val);
                     item_list.push(repo_rendered);
