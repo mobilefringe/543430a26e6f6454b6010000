@@ -13,6 +13,7 @@ function renderRepoTxtMobile(repo_template, repo_txt, repo){
 
     if (slug.length===0 || slug ==="/" ||slug.match(/^\/?home/)){
     
+        cnosole.log('in render');
         var show = false;
         var item_list = [];
         var repo_template_html = $(repo_template).html();
