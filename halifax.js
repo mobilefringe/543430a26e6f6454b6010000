@@ -13,7 +13,7 @@ function renderRepoTxtMobile(repo_template, repo_txt, repo){
 
     if (slug.length===0 || slug ==="/" ||slug.match(/^\/?home/)){
     
-        console.log('in render');
+      
         var show = false;
         var item_list = [];
         var repo_template_html = $(repo_template).html();
@@ -23,9 +23,10 @@ function renderRepoTxtMobile(repo_template, repo_txt, repo){
                 $.each( val.images , function( key, val ) {
                     var title = val.name.toLowerCase();
                     title = title.trim();
+                    
                     if(title.indexOf("special notice") > -1){
                         val.href = '/centre_hours';
-                        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || winwidth <= 600) {
+                        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || screen.width <= 600) {
                             show= true;
                         }
                         
