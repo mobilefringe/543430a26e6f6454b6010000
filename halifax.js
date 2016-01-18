@@ -22,7 +22,7 @@ function renderRepoTxtMobile(repo_template, repo_txt, repo){
                 $.each( val.images , function( key, val ) {
                     var title = val.name.toLowerCase();
                     title = title.trim();
-                    if(title == "special notice"){
+                    if(title.indexOf("special notice") > -1){
                         val.href = '/centre_hours';
                         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || winwidth <= 600) {
                             show= true;
