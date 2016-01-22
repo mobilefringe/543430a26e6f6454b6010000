@@ -259,9 +259,9 @@
 
 <body class="index" id="page-top">
    
-    <!--<div class="hidden-popup-bg">-->
-    <!--    <div class="visible-phone mobile-sign-up" >-->
-    <!--        <div style="background:#fff; width: 80%; margin: 10% auto;">-->
+    <div class="hidden-popup-bg">
+        <div class="visible-phone mobile-sign-up" >
+            <div style="background:#fff; width: 80%; margin: 10% auto;">
               <!--<div style="background:#333;" class="modal-header">-->
               <!--  <button style="color:#fff;" data-dismiss="modal" class="close" type="button">×</button>-->
               <!--  <h3 style="color:#fff; text-align:center;" id="smModalLabel">Download<br/> our app yet?</h3>-->
@@ -276,16 +276,16 @@
               <!--  <br/><br/>-->
               <!--</div>-->
               
-    <!--           <div class="popup-body" style="padding:0;">-->
-    <!--              <p tabindex="-1" onclick="close_popup();" onkeypress="close_popup();" class="popup-close pull-right" style="-->
-    <!--            position: fixed; margin-left: 290px; margin-top:15px;">X</p>-->
-    <!--            <a href="http://www.halifaxshoppingcentre.com/events/halifaxcentre-now-open-lululemon-seasonal-store" target="_blank">                -->
-    <!--                <img style="width:100%;" src="http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/image/jpeg/1447689476000/12243HSC Lululemon PopUp MOBILE.jpg">                     -->
+               <div class="popup-body" style="padding:0;">
+                  <p tabindex="-1" onclick="close_popup();" onkeypress="close_popup();" class="popup-close pull-right" style="
+                position: fixed; margin-left: 290px; margin-top:15px;">X</p>
+                <a href="http://www.halifaxshoppingcentre.com/events/halifaxcentre-now-open-lululemon-seasonal-store" target="_blank">                
+                    <img style="width:100%;" src="http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/image/jpeg/1447689476000/12243HSC Lululemon PopUp MOBILE.jpg">                     
                         
-    <!--                </a>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
+                    </a>
+                </div>
+            </div>
+        </div>
         <div class="hidden-popup-form hidden-phone">
            <!--<div class="popup-header">-->
            <!--    <p tabindex="-1" onclick="close_popup();" onkeypress="close_popup();" class="popup-close pull-right">X</p>-->
