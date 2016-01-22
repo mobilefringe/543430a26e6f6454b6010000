@@ -10,7 +10,7 @@ function popupCheck(page){
    
         var visited = $.cookie("popup");
         
-        console.log(visited);
+        console.log("visited");
         var winwidth = $(window).width();
         // var i = getPopups();
         // var cookieMS = i[0].cookie_timer;
