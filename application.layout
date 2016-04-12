@@ -124,12 +124,6 @@
             </div>
         </div>
         
-        <div class="menu_container hidden_phone">
-            <a href="/stores">shop & entertainment</a>
-            <a href="/events">events</a>
-            <a href="/promotions">specials</a>
-            <a href="/directions">directions</a>
-        </div>
     </section>
     <section class="yield">
         {{yield}}
