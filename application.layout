@@ -90,7 +90,7 @@
             </div>
             <div class="col-md-4 col-xs-4 text-center">
                 <a href="/">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899596000/main_logo.png" class="main_logo " alt="main_logo">
+                    <img src="http://placehold.it/208x80" class="main_logo " alt="main_logo">
                 </a>
             </div>
             <div class="col-md-4 col-xs-4 text-right position_relative">
