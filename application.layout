@@ -118,14 +118,6 @@
         <div class="site_map">
             <div class="row">
                 <div class="col-md-4 right_border">
-                    <div class="hidden_phone">
-                        <h4 class="site_map_heading">SOCIAL</h2>
-                        <p class="site_map_desc">
-                            Follow us and stay tune with all
-                            <br />
-                            our activities and news!
-                        </p>
-                    </div>
                     <div class="show_phone">
                         <h4 class="site_map_heading">SOCIAL</h2>
                         <p class="site_map_desc">
