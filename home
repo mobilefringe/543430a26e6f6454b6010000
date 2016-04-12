@@ -3,11 +3,8 @@ safd
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-           
             show_content();
-            $('.flexslider').flexslider({
-                animation: "slide",
-            });
+            
         }
         loadMallData(renderAll); 
     })
