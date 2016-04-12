@@ -909,6 +909,7 @@ body{
     .open_menu{
         width:33px;
         margin-top:16px;
+        cursor: pointer;
     }
     .search_results_container{
         position: absolute;
