@@ -200,10 +200,10 @@ body{
 }
 
 .social_icons{
-    margin:0 -2.5px;
+    margin:0 -10px;
     img{
-        width:35px;
-        padding:0 2.5px;
+        width:50px;
+        padding:0 10px;
         float:left;
     }
 }
