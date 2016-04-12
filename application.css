@@ -906,6 +906,10 @@ body{
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 769px) {
+    .open_menu{
+        width:33px;
+        margin-top:16px;
+    }
     .search_results_container{
         position: absolute;
         z-index: 99;
