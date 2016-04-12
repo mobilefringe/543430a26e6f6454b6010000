@@ -609,7 +609,7 @@ body{
 
 .hours_dot{
     background:#50E3C2;
-    display:block;
+    display:inline-block;
     height: 10px;
     width:10px;
     border-radius:5px;
