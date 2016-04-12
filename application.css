@@ -615,6 +615,13 @@ body{
     border-radius:5px;
 }
 
+.holiday_hours_home{
+    /* Check for Holiday Ho: */
+    font-style: italic;
+    font-size: 14px;
+    color: #DCBB8D;
+}
+
 
 @media(max-width: 320px){
     .opened_mobile_menu ul a{
