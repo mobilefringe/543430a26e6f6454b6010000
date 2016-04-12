@@ -39,9 +39,6 @@
     <script>
         setEndPoint('http://halifaxcentre.mallmaverick.com/api/v2/halifaxcentre/all.json');
     </script>
-    <script>
-        var mall_name = "Virginia Gateway";
-    </script>
 </head>
 
 <body class="">
