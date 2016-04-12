@@ -607,9 +607,7 @@ body{
     }
 }
 
-.hours_home{
-    color: #424242;
-}
+
 
 @media(max-width: 320px){
     .opened_mobile_menu ul a{
