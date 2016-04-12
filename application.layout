@@ -121,7 +121,7 @@
                     <div class="">
                         <h4 class="site_map_heading">SOCIAL</h2>
                         <p class="site_map_desc">
-                            Follow us and stay tune with all our activities and news!
+                            Follow us and stay tune with all<br /> our activities and news!
                         </p>
                         <div class="social_icons">
                             <a href="#" target="_blank">
