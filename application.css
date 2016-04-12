@@ -61,6 +61,11 @@ body{
     border-bottom: 1px solid #ccc;
 }
 
+.open_search{
+    width: 25px;
+    margin-top: 16px;
+}
+
 .site_search_results a {
     display: block;
     padding: 10px 12px;
