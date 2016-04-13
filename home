@@ -1,4 +1,6 @@
-
+<div class="hero_banner">
+    
+</div>
 <script>
     $(document).ready(function(e){
         init(e);
