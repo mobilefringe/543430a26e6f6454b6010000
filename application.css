@@ -38,43 +38,12 @@ body{
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.stores_table, .search_results_container{
-    display:none;
-}
-
-.site_search_results h2 {
-    padding: 10px 12px;
-    border-bottom: 1px solid #eee;
-    cursor: pointer;
-    margin: 0;
-    font-size: 14px;
-    font-weight: 300;
-    position: relative;
-    background: #eee;
-    text-align: left;
-    border-bottom: 1px solid #000;
-}
-
-.site_search_results h4 {
-    font-size: 14px;
-    margin: 0;
-    border-bottom: 1px solid #ccc;
-}
-
-.open_search{
-    width: 25px;
-    margin-top: 16px;
-    cursor: pointer;
-}
-
-.site_search_results a {
-    display: block;
-    padding: 10px 12px;
-    text-align: left;
-}
-
-.blog_search_results{
-    display:none;
+.hero_banner{
+    background-color:#000;
+    background-image:url(http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/jpeg/1460560666000/HeroBanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: 50%;
 }
 
 .banner_image_div{
