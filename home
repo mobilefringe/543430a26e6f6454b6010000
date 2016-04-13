@@ -1,5 +1,6 @@
 <div class="hero_banner text-center">
     <h3>EXPERIENCE THE LUXURY</h3>
+    <p>your premier shopping destination</p>
 </div>
 <script>
     $(document).ready(function(e){
