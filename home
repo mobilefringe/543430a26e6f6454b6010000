@@ -4,7 +4,9 @@
     <a href="/stores">visit our stores</a>
 </div>
 <div class="feature_items_box">
-    
+    <div class="feature_row">
+        
+    </div>
 </div>
 <script>
     $(document).ready(function(e){
