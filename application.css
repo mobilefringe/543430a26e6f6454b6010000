@@ -42,8 +42,7 @@ body{
     background-color:#000;
     background-image:url(http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/jpeg/1460560666000/HeroBanner.jpg);
     background-size: cover;
-    background-repeat: no-repeat;  
-    background-position: 50%;
+    background-repeat: no-repeat; 
 }
 
 .banner_image_div{
