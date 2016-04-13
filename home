@@ -1,5 +1,5 @@
-<div class="hero_banner">
-    
+<div class="hero_banner text-center">
+    <h3>EXPERIENCE THE LUXURY</h3>
 </div>
 <script>
     $(document).ready(function(e){
