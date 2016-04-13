@@ -8,27 +8,6 @@ function init(e){
         $('body').removeClass('no_scroll');
         $('.mobile_menu_container').fadeOut();
     });
-    
-    $('#mobile_alpha_list').change(function(){
-        window.location.href = "#" + $(this).val().toUpperCase();
-    })
-    
-    $('#mobile_cat_list').change(function(){
-        var v = $(this).val();
-        if(v == "all"){
-            $('.show_all_stores').click();
-       }
-       else{
-           $('a[data-id="' + v + '"]').click();
-       }
-     
-    })
-    
-    $('.locate_store').click(function(e){
-        e.preventDefault();
-        $('.stores_table').show()
-    })
-    
 
 }
 
