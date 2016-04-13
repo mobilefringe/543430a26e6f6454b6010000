@@ -3,6 +3,9 @@
     <p>your premier shopping destination</p>
     <a href="/stores">visit our stores</a>
 </div>
+<div class="feature_items_box">
+    
+</div>
 <script>
     $(document).ready(function(e){
         init(e);
