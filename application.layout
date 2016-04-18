@@ -72,8 +72,8 @@
                 <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460488452000/icon_menu.png" class="open_menu" alt="menu open">
             </div>
             <div class="col-xs-12 show_phone">
-                <p class="hours_home hidden_phone"><span class="hours_dot"></span> Today's Hours: Thu 09:30am - 08:00pm</p>
-                <p class="holiday_hours_home hidden_phone">Check for Holiday Hours</p>
+                <p class="hours_home"><span class="hours_dot"></span> Today's Hours: Thu 09:30am - 08:00pm</p>
+                <p class="holiday_hours_home">Check for Holiday Hours</p>
             </div>
         </div>
         
