@@ -69,7 +69,7 @@ function renderStoreDetails(container, template, collection, slug){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if ((val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899596000/main_logo.png";
+            val.alt_store_front_url = "";
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
