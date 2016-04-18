@@ -59,7 +59,7 @@
     </div>
     <section class="content_container main_container position_relative">
         <div class="row header mobile_margin">
-            <div class="col-md-4 col-xs-4">
+            <div class="col-md-4 col-xs-4 hidden_phone">
                 <p class="hours_home"><span class="hours_dot"></span> Today's Hours: Thu 09:30am - 08:00pm</p>
                 <p class="holiday_hours_home">Check for Holiday Hours</p>
             </div>
