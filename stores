@@ -4,8 +4,6 @@
         <h3>Shop & Entertainment</h3>
         <p>explore • enjoy • shop</p>
     </div>
-    <h2 class="stores_main_heading"></h2>
-    <p class="store_main_desc">explore • enjoy • shop</p>
     <div class="mobile_padding show_phone">
         <a href="/map" class="mobile_dd">Open Centre Map</a>
         <select id="mobile_cat_list" class="form-control custom_form_control">
