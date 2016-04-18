@@ -17,14 +17,6 @@
     </div>
 </div>
 <div class="content_container main_container position_relative">
-    <div class="mobile_padding show_phone">
-        <a href="/map" class="mobile_dd">Open Centre Map</a>
-        <select id="mobile_cat_list" class="form-control custom_form_control">
-            <script id="category_template2" type="x-tmpl-mustache/text">
-                <option value="{{id}}">{{name}}</option>
-            </script>
-        </select>
-    </div>
     <div class="row">
         <div class="col-md-8">
             <h5 class="category_header" style="display:none" id="cat_name_header">All</h5>
