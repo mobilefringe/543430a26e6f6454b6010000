@@ -81,7 +81,7 @@
             }
             
              if (coming_soon_stores.length > 0){
-                renderGeneral("#coming_soon_container","#coming_soon_template", new_stores);
+                renderGeneral("#coming_soon_container","#coming_soon_template", coming_soon_stores);
             }
             else{
                 $('#coming_soon_stores').hide();
