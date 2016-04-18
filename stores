@@ -1,9 +1,9 @@
 <script src="http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
+<div class="hero_banner text-center">
+    <h3>Shop & Entertainment</h3>
+    <p>explore • enjoy • shop</p>
+</div>
 <div class="content_container main_container position_relative">
-    <div class="hero_banner text-center">
-        <h3>Shop & Entertainment</h3>
-        <p>explore • enjoy • shop</p>
-    </div>
     <div class="mobile_padding show_phone">
         <a href="/map" class="mobile_dd">Open Centre Map</a>
         <select id="mobile_cat_list" class="form-control custom_form_control">
