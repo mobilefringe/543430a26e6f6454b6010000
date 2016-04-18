@@ -116,7 +116,7 @@
                                 <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1455899577000/icon_newsletter.png" class="" alt="Newsletter">
                             </a>
                             <div class="clearfix"></div>
-                            <br />
+                            <br class="hidden_phone" />
                         </div>
                     </div>
                 </div>
