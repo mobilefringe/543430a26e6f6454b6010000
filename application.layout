@@ -51,6 +51,7 @@
                 <li><a href="/about_us">ABOUT US</a></li>
                 <li><a href="/contact">CONTACT US</a></li>
             </ul>
+            <h4 id="close_menu">close</h4>
         </div>
     </div>
     <section class="content_container main_container position_relative">
