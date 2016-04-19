@@ -6,7 +6,7 @@ function init(e){
     });
     $('#close_menu').click(function(e){
         $('body').removeClass('no_scroll');
-        $('.mobile_menu_container').removeClass('mobile_menu_container')
+        $('.mobile_menu_container').removeClass('active_menu')
     });
 
 }
