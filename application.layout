@@ -40,21 +40,7 @@
 </head>
 
 <body class="">
-    <div class="mobile_menu_container">
-        <div class="opened_mobile_menu">
-            <h4>MENU</h4>
-            <ul>
-                <li><a href="/stores">SHOP & RESTAURANTS</a></li>
-                <li><a href="/promotions">SPECIAL OFFERS</a></li>
-                <li><a href="/events">EVENTS</a></li>
-                <li><a href="/directions">DIRECTIONS</a></li>
-                <li><a href="/about_us">ABOUT US</a></li>
-                <li><a href="/contact">CONTACT US</a></li>
-            </ul>
-            <h4 id="close_menu">close</h4>
-            <hr class="strikethrough" />
-        </div>
-    </div>
+    
     <section class="content_container main_container position_relative">
         <div class="row header mobile_margin">
             <div class="col-md-4 col-xs-4">
