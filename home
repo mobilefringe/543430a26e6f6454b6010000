@@ -36,7 +36,6 @@
         init(e);
         function renderAll(){
             show_content();
-            
         }
         loadMallData(renderAll); 
     })
