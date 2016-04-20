@@ -122,18 +122,20 @@
                     <div class="row footer_site_map">
                         <div class="col-md-6 col-xs-6">
                             <ul>
-                                <li><a href="/stores">Shop & Restaurants</a></li>
+                                <li><a href="/stores">Directory</a></li>
+                                <li><a href="/map">Centre Map</a></li>
+                                <li><a href="#">The Latest</a></li>
                                 <li><a href="/promotions">Promotions</a></li>
                                 <li><a href="/events">Events</a></li>
-                                <li><a href="/directions">Directions</a></li>
                             </ul>
                         </div>
                         <div class="col-md-6 col-xs-6">
                             <ul>
-                                <li><a href="/contact">Contact Us</a></li>
-                                <li><a href="/about_us">About Us</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Property URL</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Guest Services</a></li>
+                                <li><a href="#">Shopping Hours</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Jobs</a></li>
                             </ul>
                         </div>
                     </div>
@@ -143,7 +145,7 @@
                     <p class="rights_reserved">
                         7001 Mumford Road, Halifax, NS<br />
                         Administration: <a href="tel:9024548666">902.454.8666</a><br />
-                        <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461165096000/20Vic_logo.png" class="vic_logo" alt="">
+                        <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461165096000/20Vic_logo.png" class="20vic_logo" alt="">
                     </p>
                     <p class="rights_reserved">
                         Powered by <a href="http://mallmaverick.com" target="_blank">Mall Maverick</a>
