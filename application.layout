@@ -85,6 +85,20 @@
 						<li><a href="#">Blog</a></li>
 					</ul>
                 </li>
+                <li>
+                    <a href="#">
+                        GUEST SERVICES
+                        <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
+						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461167028000/close_submenu.png" style="display: none;">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+						<li><a href="#">Community</a></li>
+						<li><a href="#">Events</a></li>
+						<li><a href="#">Development</a></li>
+						<li><a href="#">Contests</a></li>
+						<li><a href="#">News</a></li>
+					</ul>
+                </li>
                 <li><a href="/events">EVENTS</a></li>
                 <li><a href="/directions">DIRECTIONS</a></li>
                 <li><a href="/about_us">ABOUT US</a></li>
