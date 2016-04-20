@@ -47,7 +47,9 @@
                 <span id="close_menu" class="pull-right"><img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166976000/close_menu.png" class="menu_icon" alt="close"></span>        
             </h4>
             <ul>
-                <li><a href="/stores">SHOP & RESTAURANTS</a></li>
+                <li><a href="/stores">
+                    SHOP & RESTAURANTS
+                </a></li>
                 <li><a href="/promotions">SPECIAL OFFERS</a></li>
                 <li><a href="/events">EVENTS</a></li>
                 <li><a href="/directions">DIRECTIONS</a></li>
