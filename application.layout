@@ -140,7 +140,10 @@
                 </div>
                 <div class="col-md-4">
                     <h4 class="site_map_heading">© 2016 - HALIFAX SHOPPING CENTRE</h2>
-                    
+                    <p class="site_map_desc">
+                        7001 Mumford Road, Halifax, NS<br />
+                        Administration: 902.454.8666
+                    </p>
                     <p class="rights_reserved">
                         Powered by <a href="http://mallmaverick.com" target="_blank">Mall Maverick</a>
                     </p>
