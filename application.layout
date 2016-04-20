@@ -44,7 +44,7 @@
         <div class="opened_mobile_menu">
             <h4>
                 MENU
-                <span id="close_menu"><i class="fa fa-close"></i></span>        
+                <span id="close_menu"><img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166976000/close_menu.png" class="" alt=""></span>        
             </h4>
             <ul>
                 <li><a href="/stores">SHOP & RESTAURANTS</a></li>
