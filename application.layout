@@ -50,6 +50,8 @@
                 <li>
                     <a href="/stores" class="submenu_expander">
                         SHOP & RESTAURANTS
+                        <img src="/assets/corporate_v2/mobile_menu_expand.png" style="display: inline;">
+						<img src="/assets/corporate_v2/mobile_menu_collapse.png" style="display: none;">
                     </a>
                         
                 </li>
