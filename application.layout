@@ -60,7 +60,7 @@
                         
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#"  class="submenu_expander">
                         SPECIAL OFFERS
                         <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
 						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461167028000/close_submenu.png" style="display: none;">
@@ -74,7 +74,7 @@
 					</ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#"  class="submenu_expander">
                         OUR STYLE
                         <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
 						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461167028000/close_submenu.png" style="display: none;">
@@ -86,7 +86,7 @@
 					</ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#"  class="submenu_expander">
                         GUEST SERVICES
                         <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
 						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461167028000/close_submenu.png" style="display: none;">
@@ -98,7 +98,7 @@
 					</ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#" class="submenu_expander">
                         PLAN YOUR VIST
                         <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
 						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461167028000/close_submenu.png" style="display: none;">
@@ -108,7 +108,7 @@
 					</ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#" class="submenu_expander">
                         CONTACT US
                         <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
 						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461167028000/close_submenu.png" style="display: none;">
