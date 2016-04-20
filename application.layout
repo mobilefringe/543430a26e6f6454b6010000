@@ -44,14 +44,14 @@
         <div class="opened_mobile_menu">
             <h4>
                 MENU
-                <span id="close_menu" class="pull-right"><img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166976000/close_menu.png" class="menu_icon" alt="close"></span>        
+                <span id="close_menu" class="pull-right"><img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166976000/close_menu.png"  alt="close"></span>        
             </h4>
             <ul>
                 <li>
                     <a href="/stores" class="submenu_expander">
                         SHOP & RESTAURANTS
-                        <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461167028000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
+						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461167028000/close_submenu.png" style="display: none;">
                     </a>
                         
                 </li>
