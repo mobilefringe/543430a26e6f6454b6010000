@@ -44,7 +44,7 @@
         <div class="opened_mobile_menu">
             <h4>
                 MENU
-                <span id="close_menu"></span>        
+                <span id="close_menu">X</span>        
             </h4>
             <ul>
                 <li><a href="/stores">SHOP & RESTAURANTS</a></li>
