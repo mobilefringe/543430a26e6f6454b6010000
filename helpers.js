@@ -9,7 +9,7 @@ function init(e){
         $('.mobile_menu_container').removeClass('active_menu')
     });
     
-    $('.mobile_menu_expand').click(function(e){
+    $('.submenu_expander').click(function(e){
 		e.preventDefault()
 		$(this).next().slideToggle();
 		$(this).find('img').toggle();
