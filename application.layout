@@ -55,7 +55,7 @@
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/stores">Directory</a></li>
-						<li><a href="/mao">Centre Map</a></li>
+						<li><a href="/map">Centre Map</a></li>
 					</ul>
                         
                 </li>
@@ -65,6 +65,7 @@
                         <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
 						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461167028000/close_submenu.png" style="display: none;">
                     </a>
+                    
                 </li>
                 <li><a href="/events">EVENTS</a></li>
                 <li><a href="/directions">DIRECTIONS</a></li>
