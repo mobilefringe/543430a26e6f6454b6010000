@@ -577,9 +577,9 @@
            <div class="visible-phone">
              <div class="phone-socialicons">
                 <a target="_blank" href="http://www.facebook.com/halifaxshoppingcentre" onclick="trackOutboundLink('http://www.facebook.com/halifaxshoppingcentre'); return false;"><span class="facebook">facebook</span></a>
-                <a target="_blank" href="http://www.twitter.com/shopHSC" onclick="trackOutboundLink('http://www.example.com'); return false;"><span class="twitter">twitter</span></a>
-            	<a target="_blank" href="http://instagram.com/shophsc" onclick="trackOutboundLink('http://www.example.com'); return false;"><span class="instagram">instagram</span></a>
-            	<a target="_blank" href="http://www.youtube.com/user/HalifaxShop" onclick="trackOutboundLink('http://www.example.com'); return false;"><span class="youtube">youtube</span></a>
+                <a target="_blank" href="http://www.twitter.com/shopHSC" onclick="trackOutboundLink('http://www.twitter.com/shopHSC'); return false;"><span class="twitter">twitter</span></a>
+            	<a target="_blank" href="http://instagram.com/shophsc" onclick="trackOutboundLink('http://instagram.com/shophsc'); return false;"><span class="instagram">instagram</span></a>
+            	<a target="_blank" href="http://www.youtube.com/user/HalifaxShop" onclick="trackOutboundLink('http://www.youtube.com/user/HalifaxShop'); return false;"><span class="youtube">youtube</span></a>
             </div>  
           
         </div>
