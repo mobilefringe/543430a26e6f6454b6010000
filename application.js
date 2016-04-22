@@ -295,6 +295,7 @@ function renderEventDetails(container, template, collection, mall_name){
             else{
                 val.phone_show = "display:none";
                 val.show = "display:none";
+                val.show = "display:none";
             }
         }
         else{
