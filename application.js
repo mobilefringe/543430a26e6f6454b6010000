@@ -88,7 +88,7 @@ function renderStoreDetails(container, template, collection, slug){
         }
         
         if (val.twitter != null && val.twitter.length > 0){
-            val.twitter_show = "display:block";
+            val.twitter_show = "display:inline-block";
         }
         else{
             val.twitter_show = "display:none";
@@ -98,7 +98,7 @@ function renderStoreDetails(container, template, collection, slug){
             val.hide_social = "display:none;";
         }
         if (val.facebook != null && val.facebook.length > 0){
-            val.facebook_show = "display:block";
+            val.facebook_show = "display:inline-block";
         }
         else{
             val.facebook_show = "display:none";
@@ -289,7 +289,7 @@ function renderEventDetails(container, template, collection, mall_name){
                 val.show = "display:none";
             }
             if (store_details.phone != null && store_details.phone.length > 0){
-                val.phone_show = "display:inline-block";
+                val.phone_show = "display:block";
                 val.phone = store_details.phone
             }
             else{
