@@ -88,7 +88,7 @@ function renderStoreDetails(container, template, collection, slug){
         }
         
         if (val.twitter != null && val.twitter.length > 0){
-            val.twitter_show = "display:inline-block";
+            val.twitter_show = "display:block";
         }
         else{
             val.twitter_show = "display:none";
@@ -98,7 +98,7 @@ function renderStoreDetails(container, template, collection, slug){
             val.hide_social = "display:none;";
         }
         if (val.facebook != null && val.facebook.length > 0){
-            val.facebook_show = "display:inline-block";
+            val.facebook_show = "display:block";
         }
         else{
             val.facebook_show = "display:none";
