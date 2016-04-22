@@ -158,6 +158,54 @@ function renderPromotions(container, template, collection, centre){
     $(container).html(item_rendered.join(''));
 }
 
+function renderEvents(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    $.each( collection , function( key, val ) {
+        if (val.eventable_type == "Store") {
+            var store_details = getStoreDetailsByID(val.eventable_id);
+            val.store_detail_btn = store_details.slug ;
+            val.store_name = store_details.name;
+            val.image_url = store_details.store_front_url_abs;
+            val.cat_list = store_details.categories.join(',')
+        }
+        else{
+            val.store_name = mall_name;
+            val.image_url = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+        }
+        
+        if(val.image_url.indexOf('missing.png') > 0){
+            val.image_url  = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+        }
+        
+        if(val.description.length > 200){
+            val.description_short = val.description.substring(0,200) + "...";
+        }
+        else{
+            val.description_short = val.description
+        }
+        
+        if(val.event_image_url_abs.indexOf('missing.png') > -1){
+            val.event_image_url_abs="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+        }
+        
+        var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
+        start = new Date (val.start_date + "T05:00:00Z");
+        end = new Date (val.end_date + "T05:00:00Z");
+    
+        if (start.toDateString() == end.toDateString()) {
+            val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
+        } else {
+            val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
 function renderJobs(container, template, collection){
     var item_list = [];
     var item_rendered = [];
