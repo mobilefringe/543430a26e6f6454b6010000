@@ -3,7 +3,7 @@
     <p>explore • enjoy • shop</p>
 </div>
 <div class="store_list_head main_container">
-    <div class="row">
+    <div class="row hidden_phone">
         <div class="col-md-3">
             <h5><a href="/events">EVENTS</a></h5>
         </div>
