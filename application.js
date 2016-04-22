@@ -299,7 +299,7 @@ function renderEventDetails(container, template, collection, mall_name){
         }
         else{
             val.store_name = mall_name;
-            val.store_image = "http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461163897000/Logo.png";
+            val.store_image = "http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461352407000/HallifaxLogo.png";
             val.store_show = "display:none";
             val.phone_show = "display:none";
             val.show = "display:none";
