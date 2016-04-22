@@ -114,7 +114,7 @@ function renderStoreDetails(container, template, collection, slug){
 }
 
 
-function renderPromotions(container, template, collection){
+function renderPromotions(container, template, collection, centre){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
