@@ -13,6 +13,24 @@
         <li><a href="/news">News</a></li>
       </ul>
   </div>
+</div>
+<div class="main_banner text-center">
+    <h3>Shop & Entertainment</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="store_list_head main_container">
+    <div class="row">
+        <div class="col-md-4">
+            <h5>Shopping & services</h5>
+        </div>
+        <div class="col-md-4">
+            <h5>Dining & Entertainment</h5>
+        </div>
+        <div class="col-md-4">
+            <h5>Centre Map</h5>
+        </div>
+    </div>
+</div>
  <div class="content_container main_container">
     <div class="promo_main_header">
         SPECIALS
