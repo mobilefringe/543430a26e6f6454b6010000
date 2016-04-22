@@ -268,7 +268,7 @@ function renderEvents(container, template, collection, centre){
     $(container).html(item_rendered.join(''));
 }
 
-function renderEventDetails(container, template, collection){
+function renderEventDetails(container, template, collection, mall_name){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
