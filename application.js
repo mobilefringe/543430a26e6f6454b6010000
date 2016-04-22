@@ -158,7 +158,7 @@ function renderPromotions(container, template, collection, centre){
     $(container).html(item_rendered.join(''));
 }
 
-function renderPromoDetails(container, template, collection){
+function renderPromoDetails(container, template, collection, centre){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
@@ -204,9 +204,9 @@ function renderPromoDetails(container, template, collection){
             val.promo_image_show="display:none";
         }
         
-        var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
-        start = new Date (val.start_date + "T05:00:00Z");
-        end = new Date (val.end_date + "T05:00:00Z");
+        var show_date = new Date (val.show_on_web_date + "T04:00:00Z");
+        start = new Date (val.start_date + "T04:00:00Z");
+        end = new Date (val.end_date + "T04:00:00Z");
     
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
