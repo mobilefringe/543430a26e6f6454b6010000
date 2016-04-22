@@ -299,7 +299,7 @@ function renderEventDetails(container, template, collection){
         }
         else{
             val.store_name = mall_name;
-            val.store_image = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899596000/main_logo.png";
+            val.store_image = "http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461163897000/Logo.png";
             val.store_show = "display:none";
             val.phone_show = "display:none";
         }
