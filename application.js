@@ -396,9 +396,8 @@ function renderEventDetails(container, template, collection, mall_name){
             val.show = "display:none";
         }
         
-        var show_date = new Date (val.show_on_web_date + "T04:00:00Z");
-        start = new Date (val.start_date + "T04:00:00Z");
-        end = new Date (val.end_date + "T04:00:00Z");
+        var show_date = new Date (val.start_date + "T04:00:00Z");
+        val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
     
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
