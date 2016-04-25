@@ -6,9 +6,10 @@
 <div class="content_container main_container">
     <div class="row">
         <div class="col-md-8">
+            <h3 class="hours_container">Regular Hours</h3>
             <div id="hours_container">
                 <script id="hours_template" type="x-tmpl-mustache/text">
-                    <h3 class="hours_container">Regular Hours</h3>
+                    
                 </script>
             </div>
         </div>
