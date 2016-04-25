@@ -394,7 +394,7 @@ function renderJobDetails(container, template, collection, mall_name){
             val.show = "display:none";
         }
         
-        if(val.store_image.indexof('missing.png') <0){
+        if(val.store_image.indexOf('missing.png') <0){
             val.store_image = "http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461352407000/HallifaxLogo.png";
         }
         
