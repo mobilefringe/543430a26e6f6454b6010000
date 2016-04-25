@@ -394,6 +394,8 @@ function renderJobDetails(container, template, collection, mall_name){
             val.show = "display:none";
         }
         
+        if(val.store_image.index_of('missing.png'))
+        
         var show_date = new Date (val.start_date + "T04:00:00Z");
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
     
