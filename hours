@@ -9,7 +9,7 @@
             <h3 class="hours_heading">Regular Hours</h3>
             <div id="hours_container">
                 <script id="hours_template" type="x-tmpl-mustache/text">
-                    <div class="">
+                    <div class="hours_div">
                         <span>{{day}}:</span>
                         <span>{{h}}</span>
                     </div>>
