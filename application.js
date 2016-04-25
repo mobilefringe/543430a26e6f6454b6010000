@@ -359,7 +359,7 @@ function renderJobs(container, template, collection){
 }
 
 
-function renderEventDetails(container, template, collection, mall_name){
+function renderJobDetails(container, template, collection, mall_name){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
