@@ -46,7 +46,7 @@
         function renderAll(){
             var hours = getPropertyHours();
             renderHours('#hours_container','#hours_template', hours, 'reg_hours')
-            renderHours('#hours_container','#hours_template', hours, 'holidays_hour')
+            renderHours('#hours_container','#hours_template', hours, 'holidays_hours')
             renderHours('#hours_container','#hours_template', hours, 'closed_hours')
             show_content();
         }
