@@ -368,7 +368,7 @@ function renderJobDetails(container, template, collection, mall_name){
     $.each( item_list , function( key, val ) {
         if(val.jobable_type == "Store"){
             val.store_name = getStoreDetailsByID(val.jobable_id).name;
-            val.store_image = getStoreDetailsByID(val.jobable_id).slug;
+            val.store_image = getStoreDetailsByID(val.jobable_id).store_front_url_abs;
         }
         else{
             val.store_name = mall_name;
