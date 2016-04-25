@@ -6,7 +6,7 @@
 <div class="content_container main_container">
     <div class="row">
         <div class="col-md-8">
-            <div id="hours__container">
+            <div id="hours_container">
                 <script id="jobs_template" type="x-tmpl-mustache/text">
                     
                 </script>
