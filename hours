@@ -46,6 +46,8 @@
         function renderAll(){
             var hours = getPropertyHours();
             renderHours('#hours_container','#hours_template', hours, 'reg_hours')
+            renderHours('#hours_container','#hours_template', hours, 'reg_hours')
+            renderHours('#hours_container','#hours_template', hours, 'reg_hours')
             show_content();
         }
         loadMallDataCached(renderAll); 
