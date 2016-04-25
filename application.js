@@ -394,7 +394,9 @@ function renderJobDetails(container, template, collection, mall_name){
             val.show = "display:none";
         }
         
-        if(val.store_image.index_of('missing.png'))
+        if(val.store_image.index_of('missing.png') <0){
+            val.store_image = "http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461352407000/HallifaxLogo.png";
+        }
         
         var show_date = new Date (val.start_date + "T04:00:00Z");
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
