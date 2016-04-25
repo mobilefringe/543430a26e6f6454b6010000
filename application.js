@@ -338,21 +338,6 @@ function renderJobs(container, template, collection){
         if(val.jobable_type == "Store"){
             val.store_name = getStoreDetailsByID(val.jobable_id).name;
             val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
-            if (store_details.website != null && store_details.website.length > 0){
-                val.show = "display:inline-block";
-                val.website = store_details.website
-            }
-            else{
-                val.show = "display:none";
-            }
-            if (store_details.phone != null && store_details.phone.length > 0){
-                val.phone_show = "display:block";
-                val.phone = store_details.phone
-            }
-            else{
-                val.phone_show = "display:none";
-                val.show = "display:none";
-            }
         }
         else{
             val.store_name = mall_name;
