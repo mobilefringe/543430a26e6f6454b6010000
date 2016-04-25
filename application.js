@@ -282,7 +282,7 @@ function renderEventDetails(container, template, collection, mall_name){
             val.store_image = store_details.store_front_url_abs;
             val.store_slug = store_details.slug
             if (store_details.website != null && store_details.website.length > 0){
-                val.show = "display:inline-block";
+                val.show = "display:block";
                 val.website = store_details.website
             }
             else{
