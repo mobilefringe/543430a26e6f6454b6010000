@@ -10,8 +10,8 @@
             <div id="hours_container">
                 <script id="hours_template" type="x-tmpl-mustache/text">
                     <tr class="">
-                        <td>{{day}}:</td>
-                        <td>{{h}}</td>
+                        <span>{{day}}:</span>
+                        <span>{{h}}</span>
                     </tr>>
                 </script>
             </div>
