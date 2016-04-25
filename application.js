@@ -507,7 +507,7 @@ function renderHours(container, template, collection, type){
                      if (val.close_time == "0:00 AM"){
                         val.close_time = "12:00 AM"
                     }
-                    val.h = val.open_time+ " - " + val.close_time;
+                    val.h = val.open_time+ " to " + val.close_time;
                 } else {
                     val.h = "Closed"
                 }
