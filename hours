@@ -7,14 +7,16 @@
     <div class="row">
         <div class="col-md-8">
             <h3 class="hours_container">Regular Hours</h3>
-            <div id="hours_container">
-                <script id="hours_template" type="x-tmpl-mustache/text">
-                    <div>
-                        <span>{{day}}:</span>
-                        <span>{{h}}</span>
-                    </div>
-                </script>
-            </div>
+            <table>
+                <div id="hours_container">
+                    <script id="hours_template" type="x-tmpl-mustache/text">
+                        <tr>
+                            <td>{{day}}:</td>
+                            <td>{{h}}</td>
+                        </tr>>
+                    </script>
+                </div>
+            </table>
         </div>
         
         <div class="col-md-4 hidden_phone">
