@@ -367,7 +367,7 @@ function renderEventDetails(container, template, collection, mall_name){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if (val.jobbale_type == "Store") {
-            var store_details = getStoreDetailsByID(val.eventable_id);
+            var store_details = getStoreDetailsByID(val.jobbale_id);
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
             val.store_image = store_details.store_front_url_abs;
