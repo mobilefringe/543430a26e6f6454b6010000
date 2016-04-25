@@ -20,8 +20,8 @@
             <div id="holidays_hours_container" class="hours_container">
                 <script id="holidays_hours_template" type="x-tmpl-mustache/text">
                     <div class="hours_div">
-                        <span>{{day}}:</span>
-                        <span>{{h}}</span>
+                        <span>{{holiday_name}}:</span>
+                        <span>{{formatted_date}}</span>
                     </div>
                 </script>
             </div>
