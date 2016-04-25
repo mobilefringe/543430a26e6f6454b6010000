@@ -16,8 +16,8 @@
                 </script>
             </div>
             <div class="margin_20"></div>
-            <div id="hours_container" class="hours_container">
-                <script id="hours_template" type="x-tmpl-mustache/text">
+            <div id="holidays_hours_container" class="hours_container">
+                <script id="holidays_hours_template" type="x-tmpl-mustache/text">
                     <div class="hours_div">
                         <span>{{day}}:</span>
                         <span>{{h}}</span>
@@ -25,8 +25,8 @@
                 </script>
             </div>
             <div class="margin_20"></div>
-            <div id="hours_container" class="hours_container">
-                <script id="hours_template" type="x-tmpl-mustache/text">
+            <div id="closed_hours_container" class="hours_container">
+                <script id="closed_hours_template" type="x-tmpl-mustache/text">
                     <div class="hours_div">
                         <span>{{day}}:</span>
                         <span>{{h}}</span>
