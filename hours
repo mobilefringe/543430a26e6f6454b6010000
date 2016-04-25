@@ -8,7 +8,7 @@
         <div class="col-md-8">
             <div id="hours_container">
                 <script id="hours_template" type="x-tmpl-mustache/text">
-                    {{h}}
+                    <h3 class="hours_container"></h3>
                 </script>
             </div>
         </div>
