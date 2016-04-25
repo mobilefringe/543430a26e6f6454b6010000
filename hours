@@ -12,7 +12,7 @@
                     <div class="hours_div">
                         <span>{{day}}:</span>
                         <span>{{h}}</span>
-                    </div>>
+                    </div>
                 </script>
             </div>
         </div>
