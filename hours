@@ -2,6 +2,33 @@
     <h3>CENTRE HOURS</h3>
     <p>explore • enjoy • shop</p>
 </div>
+<div class="margin_20"></div>
+<div class="content_container main_container">
+    <div class="row">
+        <div class="col-md-8">
+            <div id="jobs_container">
+                <script id="jobs_template" type="x-tmpl-mustache/text">
+                    <div class="row promo_item cats_row job_list_item" data-cat="{{cat_list}}">
+                        <div class="col-md-12">
+                            <h2 class="promo_list_name">{{name}}</h2>
+                            <p>
+                                <span class="promo_store">{{store_name}}</span>
+                                <span class="promo_store">{{job_type}}</span>
+                                <span class="promo_dates">{{published_on}}</span>
+                            </p>
+                            <div class="promo_list_desc hidden_phone">{{description_short}}</div>
+                            <a class="read_more" href="/jobs/{{slug}}">View job info</a>
+                        </div>
+                    </div>
+                </script>
+            </div>
+        </div>
+        
+        <div class="col-md-4 hidden_phone">
+            <img style="margin-bottom:20px;" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461609484000/Plaza.png" class="" alt="plaza">
+        </div> 
+    </div>
+</div>
 <script>
     $(document).ready(function(e){
         init(e);
