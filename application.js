@@ -371,7 +371,7 @@ function renderJobDetails(container, template, collection, mall_name){
             val.store_name = store_details.name;
             val.store_image = store_details.store_front_url_abs;
             if (store_details.website != null && store_details.website.length > 0){
-                val.show = "display:inline-block";
+                val.show = "display:block";
                 val.website = store_details.website
             }
             else{
