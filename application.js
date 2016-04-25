@@ -366,27 +366,12 @@ function renderJobDetails(container, template, collection, mall_name){
     Mustache.parse(template_html); 
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
-        if (val.jobbale_type == "Store") {
-            var store_details = getStoreDetailsByID(val.jobbale_id);
-            val.store_detail_btn = store_details.slug ;
-            val.store_name = store_details.name;
-            val.store_image = store_details.store_front_url_abs;
-            val.store_slug = store_details.slug
-            if (store_details.website != null && store_details.website.length > 0){
-                val.show = "display:inline-block";
-                val.website = store_details.website
-            }
-            else{
-                val.show = "display:none";
-            }
-            if (store_details.phone != null && store_details.phone.length > 0){
-                val.phone_show = "display:block";
-                val.phone = store_details.phone
-            }
-            else{
-                val.phone_show = "display:none";
-                val.show = "display:none";
-            }
+        if(val.jobable_type == "Store"){
+            val.store_name = getStoreDetailsByID(val.jobable_id).name;
+            val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
+        }
+        else{
+            val.store_name = mall_name;
         }
         else{
             val.store_name = mall_name;
