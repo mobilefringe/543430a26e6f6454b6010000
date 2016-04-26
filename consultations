@@ -21,38 +21,30 @@
     }
 </style>
 
-<div class="jobs_banner text-center">
-    <h3>ACCESSIBILTY</h3>
-    <p>explore • enjoy • shop</p>
+<div class="page-header" style="margin-bottom:0px;">
+  <h1>
+    Our Style  </h1>
+
+  <div class="submenu">
+  <ul>
+<li><a href="/style_all">All</a></li>
+  <li><a href="/style_file">Style File</a></li>
+<li><a href="/shop">Shop the Look</a></li>
+<li><a href="/attract">Opposites Attract</a></li>
+<li><a href="/spotted">Spotted</a></li>
+<li  class="current_page_item"><a href="/consultations">Consultations</a></li>
+<li><a href="/setters">Style Setters</a></li>
+  </ul>
+  </div>
+  
 </div>
-<div class="margin_20"></div>
-<div class="content_container main_container mobile_padding">
-    <div class="row">
-        <div class="col-md-8">
-            <div class="style-consultation">
-                <section id="editor" class="froala-element" style="margin-top:22px">
-                    <a href="#" style="font-size:20px;display:none" id="content_block_5446bd7b6e6f645822000000">
-                        Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_5446bd7b6e6f645822000000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
-                    <div id='edit_5446bd7b6e6f645822000000'>
-	                    <%=content_block_5446bd7b6e6f645822000000%>
-                    </div>
-                </section>
-            </div>
-        </div>
-        <div class="col-md-4 hidden_phone">
-                <img style="margin-bottom:20px;" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461609484000/Plaza.png" class="" alt="plaza">
-                <div class="share_container">
-                    <a href="http://www.facebook.com/sharer.php?u=http://halifaxshoppingcentre.com/events/accessibility" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461347327000/fb_share.png">
-                    </a>
-                    <a href="http://twitter.com/?status=Accessibility%20%20http://halifaxshoppingcentre.com/accessibility" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461347344000/tweet.png">
-                    </a>
-                </div>
-            </div> 
-        </div>
-    </div>
-</div>
+<div class="style-consultation">
+<!-- style consultations CONTENT BLOCK START-->    
+<section id="editor" class="froala-element" style="margin-top:22px">
+  <a href="#" style="font-size:20px;display:none" id="content_block_5446bd7b6e6f645822000000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_5446bd7b6e6f645822000000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
+  <div id='edit_5446bd7b6e6f645822000000'>
+	  <%=content_block_5446bd7b6e6f645822000000%>
+  </div>
   <script>
       $(function(){
 		if (typeof $('#edit_5446bd7b6e6f645822000000').editable != 'undefined') {
@@ -109,3 +101,6 @@
         });
       });
   </script>
+</section>    
+<!-- style consultations CONTENT BLOCK END -->
+</div>
