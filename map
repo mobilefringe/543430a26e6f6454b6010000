@@ -41,7 +41,7 @@
             });
             show_content();
             var map = $('#mapsvg_store_detail').mapSvg({
-                source: '{{site.property.svgmap_file_path}}',    // Path to SVG map
+                source: 'http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/svg+xml/1461698614000/Hallifax_map_2300x1700.svg',    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
                 disableAll: true,
                 regions: regions,
