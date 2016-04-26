@@ -189,3 +189,11 @@ function sortByWebDate(a, b){
 
     return ((aDate > bDate) ? -1 : ((aDate < bDate) ? 1 : 0));
 }
+
+function dateToString(dateString){
+    var datePart = dateString.split('T');
+    var dateItem = datePart[0].split('-');
+    var dateFormat = new Date(dateItem[0], dateItem[1]-1, dateItem[2]);
+  
+    return dateFormat.toDateString();
+}
