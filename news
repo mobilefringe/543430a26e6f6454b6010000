@@ -82,12 +82,11 @@
   
 
 <script>
- $(document).ready(function() {
-        
+    $(document).ready(function(e){
+        init(e);    
         function renderPageData(){
-        renderEventsWithImgTemplate('#event_item_template','#events_list','#events_not_empty_section','#events_empty_section',getEventsList(), "news");
-        
-       
+            renderEventsWithImgTemplate('#event_item_template','#events_list','#events_not_empty_section','#events_empty_section',getEventsList(), "news");
+            show_content();
         }
         
         loadMallDataCached(renderPageData);
