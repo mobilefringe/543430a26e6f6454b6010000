@@ -53,7 +53,7 @@
                 pan:true,
                 cursor:'pointer',
                 responsive:true,
-                zoomLimit: [0,5],
+                zoomLimit: [0,5]
             });
         }
         loadMallDataCached(renderAll); 
