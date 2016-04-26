@@ -92,7 +92,7 @@
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/style_file">Style File</a></li>
-						<li><a href="#">Opposites Attract</a></li>
+						<li><a href="/attract">Opposites Attract</a></li>
 						<li><a href="#">Blog</a></li>
 					</ul>
                 </li>
