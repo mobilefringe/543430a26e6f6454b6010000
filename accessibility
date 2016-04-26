@@ -32,7 +32,6 @@
   
   
 <script>
-
      $(document).ready(function(e){
         init(e);
         show_content();
