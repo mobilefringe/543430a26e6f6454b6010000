@@ -18,7 +18,7 @@
         
         <div class="col-md-4 hidden_phone">
             <div id="stores_container">
-                
+                <script id="stores_template" type="x-tmpl-mustache/text">
             </div>
         </div> 
     </div>
