@@ -529,3 +529,46 @@ function renderHours(container, template, collection, type){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
+
+function renderEventsWithImgTemplate(template_id,html_id,not_empty_section_id,empty_section_id,events, type){
+    var item_list = [];
+    var sorted_list = [];
+    var template_html = $(template_id).html();
+    Mustache.parse(template_html);   // optional, speeds up future uses
+
+    $.each( events , function( key, val ) {
+
+        if(($.inArray(type, val.tags) != -1) && showOnWeb(val)){
+            if(hasImage(val.event_image_url)){
+                val.event_image_url = getImageURL(val.event_image_url);
+                val.event_image_url_abs = getAbsoluteImageURL(val.event_image_url_abs);
+        
+            }else{
+                if(type=="development" || type=="news"){
+                    val.show = 'display:none';
+                }else{
+                    val.show = '';
+                }
+                val.event_image_url =  "http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/d17d8c90fe9a800df686233fab0e6569/default.jpg";
+                 
+            }
+            item_list.push(val);        
+        }
+    });
+     item_list.sort(sortByWebDate);
+    
+      $.each( item_list , function( key, val ) {
+            var rendered = Mustache.render(template_html,val);
+            sorted_list.push(rendered);
+      });
+      
+   // console.log(sorted_list);
+    if(sorted_list.length > 0){
+        $(not_empty_section_id).show();
+        $(empty_section_id).hide();
+        $(html_id).html(sorted_list.join(''));
+    }else{
+        $(not_empty_section_id).hide();
+        $(empty_section_id).show();
+    }
+}
