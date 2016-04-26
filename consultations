@@ -57,6 +57,7 @@
       $(function(){
 		if (typeof $('#edit_5446bd7b6e6f645822000000').editable != 'undefined') {
 			$('#content_block_5446bd7b6e6f645822000000').show();
+			show_content()
 	        $('#edit_5446bd7b6e6f645822000000').editable({
 				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
 				inlineMode: false,
