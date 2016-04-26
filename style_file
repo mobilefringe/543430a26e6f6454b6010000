@@ -53,6 +53,7 @@
             }
         });
         renderContentBlocks('#content_block_template','#content_blocks',web_page_json);
+        show_content();
     }
     
     function renderContentBlocks(template_id,html_id,web_page_json){
