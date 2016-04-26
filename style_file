@@ -71,7 +71,7 @@
             rendered_list.push(item_rendered);
           
         });
-      
+      console.log(rendered_list)
         $(html_id).html(rendered_list.join(''));
      
     }
