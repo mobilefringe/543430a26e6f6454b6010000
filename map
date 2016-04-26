@@ -61,7 +61,8 @@
                 responsive:true,
                 zoomLimit: [0,5]
             });
-            $('.map_pin_a').click(function(){
+            $('.map_pin_a').click(function(e){
+                e.preventDefault();
                 var id = $(this).data-attr('data-value')
                 map_pin(id)
             })
