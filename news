@@ -6,58 +6,58 @@
 <div class="content_container main_container mobile_padding">
     <div class="row">
         <div class="col-md-8">
-<div id="events_not_empty_section">
-    <ul class="promotion-list" id="events_list">
-            
-        <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
-        <script id="event_item_template" type="x-tmpl-mustache">
-            <li class="promotion-list-item hidden-phone row">
-                <a name="{{name}}"></a>
-                <div class="promo-image col-xs-12">
-                    <a href="../events/{{ slug }}">
-                        <img src="{{event_image_url}}" style="width:100%; height:auto; {{show}}">
-                    </a>
-                </div>
-                <div class="promo-details col-xs-12">
-                    <div class="name">
-                            <a href="../events/{{slug}}">
-                            <h3>{{ name }}</h3>
+        <div id="events_not_empty_section">
+            <ul class="promotion-list" id="events_list">
+                    
+                <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
+                <script id="event_item_template" type="x-tmpl-mustache">
+                    <li class="promotion-list-item hidden-phone row">
+                        <a name="{{name}}"></a>
+                        <div class="promo-image col-xs-12">
+                            <a href="../events/{{ slug }}">
+                                <img src="{{event_image_url}}" style="width:100%; height:auto; {{show}}">
                             </a>
                         </div>
-                       
-                        <div class="dates">
-                            {{ start_date }}
+                        <div class="promo-details col-xs-12">
+                            <div class="name">
+                                    <a href="../events/{{slug}}">
+                                    <h3>{{ name }}</h3>
+                                    </a>
+                                </div>
+                               
+                                <div class="dates">
+                                    {{ start_date }}
+                                </div>
+                                <div class="description_news">
+                                    {{{ rich_description }}}
+                            </div>
                         </div>
-                        <div class="description_news">
-                            {{{ rich_description }}}
-                    </div>
-                </div>
-            </li>
-             <li class="promotion-list-item visible-phone row">
-                <div class="promo-image col-md-12">
-                    <img src="{{event_image_url}}" style="width:100%; height:auto;">
-                </div>
-                <div class="promo-details col-md-12">
-                    <div class="name">
-                         <a href="../events/{{ slug }}">
-                        <h3>{{ name }}</h3>
-                        </a>
-                    </div>
-                    <div class="dates">
-                        {{ start_date }}
-                    </div>
-                   <div>
-                       {{{ rich_description }}}
-                    </div>
-                </div>
-            </li>
-        </script>
-
-    </ul>  
-</div>
-<div id="events_empty_section" style="display:none;">
-    <p>No news posted</p>
-</div>
+                    </li>
+                     <li class="promotion-list-item visible-phone row">
+                        <div class="promo-image col-md-12">
+                            <img src="{{event_image_url}}" style="width:100%; height:auto;">
+                        </div>
+                        <div class="promo-details col-md-12">
+                            <div class="name">
+                                 <a href="../events/{{ slug }}">
+                                <h3>{{ name }}</h3>
+                                </a>
+                            </div>
+                            <div class="dates">
+                                {{ start_date }}
+                            </div>
+                           <div>
+                               {{{ rich_description }}}
+                            </div>
+                        </div>
+                    </li>
+                </script>
+        
+            </ul>  
+        </div>
+        <div id="events_empty_section" style="display:none;">
+            <p>No news posted</p>
+        </div>
 
   
 
