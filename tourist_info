@@ -39,9 +39,6 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        function renderAll(){
-            show_content();
-        }
-        loadMallDataCached(renderAll); 
+        show_content();
     })
 </script>
