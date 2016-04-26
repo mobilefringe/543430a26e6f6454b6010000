@@ -62,6 +62,7 @@
                 zoomLimit: [0,5]
             });
             $('.map_pin_a').click(function(){
+                var id = $(this).data-attribute('data-value')
                 
             })
         }
