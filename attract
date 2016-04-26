@@ -1,0 +1,89 @@
+<div class="jobs_banner text-center">
+    <h3>STYLE FILE</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding">
+    <div class="row">
+        <div class="col-md-8">
+
+<div class="style-attract">
+            <div id="content_blocks">
+    <center> <img alt="loading" style="width:250px; height:250px;" src="http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/466b965dbf1459e8b4127cd8039f46ab/loading-1.gif"></center>
+  
+        </div>
+        <script id="content_block_template" type="x-tmpl-mustache">
+        <div class="froala-element">
+            <div class="icon-style-attract"></div>
+            <h2 class="attract-header" style="margin-bottom:30px">Opposites Attract: {{title}}</h2>
+            
+                {{{content}}}
+                <hr>
+        </div>
+        </script>
+
+
+<script>
+       $(document).ready(function() {
+        
+        function renderPageData(){
+                var web_page_json = null;
+    $.ajax({
+        url: "../web_pages/5446b6ca6e6f6417a9000000.json",
+        dataType: 'json',
+        async: false,
+        data: "",
+        success: function(data) {
+            web_page_json = data;
+            log("website json");
+            log(web_page_json);
+        }
+    });
+    
+    renderContentBlocks('#content_block_template','#content_blocks',web_page_json);
+    function renderContentBlocks(template_id,html_id,web_page_json){
+        var item_list = [];
+        var rendered_list = [];
+        var template = $(template_id).html();
+        Mustache.parse(template);
+  
+         $.each( web_page_json.web_content_blocks , function( key, val ) {
+          if( val.tags == "attract"){
+            item_list.push(val);
+            val.date_string = dateToString(val.publish_date);
+            val.img_src="";
+          }
+        });
+      
+          item_list.sort(sortByDate);
+         $.each( item_list , function( key, val ) {
+            var item_rendered = Mustache.render(template,val);
+            rendered_list.push(item_rendered);
+          
+        });
+      
+        $(html_id).html(rendered_list.join(''));
+     
+    }
+ 
+        }
+        
+        loadMallDataCached(renderPageData);
+    });
+
+
+
+
+
+
+    function sortByDate(a, b){
+       
+        var aDate = a.publish_date;
+        var bDate = b.publish_date;
+ 
+        return ((aDate > bDate) ? -1 : ((aDate < bDate) ? 1 : 0));
+    }
+
+</script>
+
+</div>
