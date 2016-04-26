@@ -11,7 +11,7 @@
                     
                 <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
                 <script id="event_item_template" type="x-tmpl-mustache">
-                    <li class="promotion-list-item hidden-phone row">
+                    <li class="promotion-list-item">
                         <a name="{{name}}"></a>
                         <div class="promo-image col-xs-12">
                             <a href="../events/{{ slug }}">
