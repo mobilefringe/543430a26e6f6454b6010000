@@ -1,7 +1,9 @@
-<div class="page-header">
-  <h1>The Latest</h1>
+<div class="jobs_banner text-center">
+    <h3>DEVELOPMENT</h3>
+    <p>explore • enjoy • shop</p>
 </div>
-
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding">
 <div id="events_not_empty_section">
     <ul class="promotion-list" id="events_list">
         <script id="event_item_template" type="x-tmpl-mustache">
