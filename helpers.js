@@ -182,3 +182,10 @@ function sortByKey(array, key) {
         return ((x < y) ? -1 : ((x > y) ? 1 : 0));
     });
 }
+function sortByWebDate(a, b){
+       
+    var aDate = a.show_on_web_date;
+    var bDate = b.show_on_web_date;
+
+    return ((aDate > bDate) ? -1 : ((aDate < bDate) ? 1 : 0));
+}
