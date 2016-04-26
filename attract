@@ -63,7 +63,7 @@
         Mustache.parse(template);
   
          $.each( web_page_json.web_content_blocks , function( key, val ) {
-          if(val.tags == "style-file"){
+          if(val.tags == "attract){
             item_list.push(val);
               val.date_string = dateToString(val.publish_date);
               val.img_src = "";
