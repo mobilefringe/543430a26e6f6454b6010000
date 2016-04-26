@@ -57,7 +57,7 @@
     $(document).ready(function(e){
         init(e);
         show_content();
-    });
+    
       $(function(){
 		if (typeof $('#edit_5446bd7b6e6f645822000000').editable != 'undefined') {
 			$('#content_block_5446bd7b6e6f645822000000').show();
