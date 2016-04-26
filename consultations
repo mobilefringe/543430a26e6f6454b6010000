@@ -107,5 +107,6 @@
             event.preventDefault();
             $('#edit_5446bd7b6e6f645822000000').editable("save");
         });
+        show_content()
       });
   </script>
