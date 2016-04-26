@@ -6,21 +6,19 @@
 <div class="content_container main_container mobile_padding">
     <div class="row">
         <div class="col-md-8">
-
-<div class="style-attract">
-            <div id="content_blocks">
-    <center> <img alt="loading" style="width:250px; height:250px;" src="http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/466b965dbf1459e8b4127cd8039f46ab/loading-1.gif"></center>
-  
+            <div class="style-attract">
+                <div id="content_blocks"></div>
+                    <script id="content_block_template" type="x-tmpl-mustache">
+                        <div class="froala-element">
+                            <div class="icon-style-attract"></div>
+                            <h2 class="attract-header" style="margin-bottom:30px">Opposites Attract: {{title}}</h2>
+                            {{{content}}}
+                            <hr>
+                        </div>
+                    </script>
+                </div>
+            </div>
         </div>
-        <script id="content_block_template" type="x-tmpl-mustache">
-        <div class="froala-element">
-            <div class="icon-style-attract"></div>
-            <h2 class="attract-header" style="margin-bottom:30px">Opposites Attract: {{title}}</h2>
-            
-                {{{content}}}
-                <hr>
-        </div>
-        </script>
 
 
 <script>
