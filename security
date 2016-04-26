@@ -1,34 +1,3 @@
-
-<div class="page-header ">
-  <h1>Plan Your Visit  </h1>
-
-  <div class="submenu">
-      <ul>
-         <li><a href="/directions">Directions</a></li>
-        <li><a href="/tourist_info">Tourist Info</a></li>
-        <li><a href="/mall_services">Mall Services</a></li>
-        <li><a href="/accessibility">Accessibility</a></li>
-        <li><a href="/centre_hours">Mall Hours</a></li>
-        <li class="current_page_item"><a href="/security">Security</a></li>
-      </ul>
-  </div>
-</div>
-<h2>Security</h2>
-<p>Halifax Shopping Centre’s Security works 24 hours a day, 365 days a year to provide a safe and enjoyable environment for our customers.&nbsp; &nbsp;The Security department has 13 full-time security officers, two supervisors and one manager.&nbsp; Along with close circuit television surveillance, and crime prevention and intervention, our security personal is responsible for:</p>
-<ul>
-<li>Assisting customers with locations of vehicles;</li>
-<li>Providing first aid for injuries or illnesses.&nbsp; Our security staff are trained in CPR, First Aid and use of on-site defibrillators;</li>
-<li>Locating lost children;</li>
-<li>Operating a lost and found property program</li>
-<li>Ensuring personal safety through escorts and constant, uniformed patrols using a marked security vehicle and bike seasonal bicycle patrols;</li>
-<li>Providing battery boosts. (Security can assist in directly all other vehicle problems to a tow truck company.)</li>
-</ul>
-<p>Our Security acts as an important link to Halifax Regional Police and other emergency services that may be required at Halifax Shopping Centre.&nbsp; &nbsp;If you require security assistant, please visit their office on the upper level next to Roots.&nbsp; Customer Service, located on the lower level across from La Senza, can also contact them for you.</p>
-<p><a href="http://d33wyx0pza9yj4.cloudfront.net/sites/5438407c6e6f64462d020000/58e59d04617f358607587f54457834b7/HSC-Mall-Rules.pdf">Halifax Shopping Centre Safety and Security Policies</a></p>
-<h5>Employment</h5>
-<p> Are you interested in working as a member of the Halifax Shopping Centre Security Service?&nbsp; If so, please submit your resume and cover letter, specifying if you desire part-time or full-time, to the security office.&nbsp; Resumes are accepted on a continuous basis, with interviews held as positions become available.&nbsp; Security experience and post-secondary education (particularly in Law and Security or Police Foundation) is preferred,&nbsp; but not required.</p>
-
-
 <div class="jobs_banner text-center">
     <h3>LEASING</h3>
     <p>explore • enjoy • shop</p>
@@ -37,13 +6,21 @@
 <div class="content_container main_container mobile_padding">
     <div class="row">
         <div class="col-md-8">
-            <h3>Temporary Leasing</h3>
-            <p>For information on temporary leasing please review the <a href="http://d33wyx0pza9yj4.cloudfront.net/sites/5438407c6e6f64462d020000/5f4c55a494748435294adf0df47fe486/Temp-Leasing-Package-2012.pdf">Temp Leasing Package</a>. Included in the package is an application form. Once completed and returned, your application will be reviewed and you will be contacted as soon as possible.</p>
-            <h3>Permanent Leasing</h3>
-            <p>For information on permanent leasing contact visit <a target="_blank" href="http://www.20vic.com/">www.20vic.com</a>.</p>
-            <p>Please review our <a rel="attachment wp-att-5053" href="http://d33wyx0pza9yj4.cloudfront.net/sites/5438407c6e6f64462d020000/5f4c55a494748435294adf0df47fe486/HSC_Tenant-Criteria-Package1.pdf">Tenant Criteria Package</a>.</p>
-            <h3>Office Leasing</h3>
-            <p>For information regarding office leasing please visit <a target="_blank" href="http://www.20vichalifax.com">www.20vichalifax.com</a>.</p>
+            <h2>Security</h2>
+            <p>Halifax Shopping Centre’s Security works 24 hours a day, 365 days a year to provide a safe and enjoyable environment for our customers.&nbsp; &nbsp;The Security department has 13 full-time security officers, two supervisors and one manager.&nbsp; Along with close circuit television surveillance, and crime prevention and intervention, our security personal is responsible for:</p>
+            <ul>
+            <li>Assisting customers with locations of vehicles;</li>
+            <li>Providing first aid for injuries or illnesses.&nbsp; Our security staff are trained in CPR, First Aid and use of on-site defibrillators;</li>
+            <li>Locating lost children;</li>
+            <li>Operating a lost and found property program</li>
+            <li>Ensuring personal safety through escorts and constant, uniformed patrols using a marked security vehicle and bike seasonal bicycle patrols;</li>
+            <li>Providing battery boosts. (Security can assist in directly all other vehicle problems to a tow truck company.)</li>
+            </ul>
+            <p>Our Security acts as an important link to Halifax Regional Police and other emergency services that may be required at Halifax Shopping Centre.&nbsp; &nbsp;If you require security assistant, please visit their office on the upper level next to Roots.&nbsp; Customer Service, located on the lower level across from La Senza, can also contact them for you.</p>
+            <p><a href="http://d33wyx0pza9yj4.cloudfront.net/sites/5438407c6e6f64462d020000/58e59d04617f358607587f54457834b7/HSC-Mall-Rules.pdf">Halifax Shopping Centre Safety and Security Policies</a></p>
+            <h5>Employment</h5>
+            <p> Are you interested in working as a member of the Halifax Shopping Centre Security Service?&nbsp; If so, please submit your resume and cover letter, specifying if you desire part-time or full-time, to the security office.&nbsp; Resumes are accepted on a continuous basis, with interviews held as positions become available.&nbsp; Security experience and post-secondary education (particularly in Law and Security or Police Foundation) is preferred,&nbsp; but not required.</p>
+
         </div>
         <div class="col-md-4 hidden_phone">
                 <img style="margin-bottom:20px;" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461609484000/Plaza.png" class="" alt="plaza">
