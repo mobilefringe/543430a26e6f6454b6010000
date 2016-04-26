@@ -53,7 +53,7 @@
                 pan:true,
                 cursor:'pointer',
                 responsive:true,
-                zoomLimit: [0,10],
+                zoomLimit: [0,20],
                 viewBox:[260,260,900,900]
             });
         }
