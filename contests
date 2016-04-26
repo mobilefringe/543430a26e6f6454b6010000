@@ -9,7 +9,7 @@
             <div id="events_not_empty_section">
                 <div class="" id="events_list">
                     <script id="event_item_template" type="x-tmpl-mustache">
-                        <div class="promo-details col-md-9">
+                        <div class="promo-details col-md-12">
                             <div class="event-image">
                                 <img src="{{event_image_url}}">
                             </div>
