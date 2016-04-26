@@ -1,0 +1,40 @@
+
+<div class="page-header ">
+  <h1>
+    Plan Your Visit  </h1>
+
+  <div class="submenu">
+      <ul>
+         <li><a href="/directions">Directions</a></li>
+        <li><a href="/tourist_info">Tourist Info</a></li>
+        <li><a href="/mall_services">Mall Services</a></li>
+        <li  class="current_page_item"><a href="/accessibility">Accessibility</a></li>
+        <li><a href="/centre_hours">Mall Hours</a></li>
+        <li><a href="/security">Security</a></li>
+      </ul>
+  </div>
+  
+</div>
+<h2>Accessibility</h2>
+<p><strong>Halifax Shopping Centre</strong> continues to improve its convenience and accessibility with:</p>
+<ul>
+<li>Complimentary wheel chairs and walkers at the Customer Services desk</li>
+<li>45 parking spaces reserved for handicap accessibility</li>
+<li>Automatic door at all entrances</li>
+<li>Accessible washrooms</li>
+<li>Elevator located at Customer Service, Text teletype pay telephone (TTY) located on the lower level by ICE (International Currency Exchange).</li>
+<li>If you require assistance, conctact us prior to your visit at customer service (902) 453-1752 and we will do everything possible to make your visit to Halifax Shopping Centre as pleasant as possible.</li>
+</ul>
+<h5>Everyone is welcome at Halifax Shopping Centre.&nbsp;</h5>
+<p>We recognize that while our programs provide a useful service to&nbsp;many of our visitors,&nbsp;they&nbsp;may not&nbsp;meet&nbsp;the needs of all of our visitors&nbsp;as many&nbsp;may&nbsp;have specific requirements. Whenever it is safe to do so,&nbsp;any visitor who&nbsp;requires a piece of equipment, or service animal, to accommodate a disability may bring their equipment or animal to Halifax Shopping Centre with them.</p>
+<p>When purchasing our equipment for our courtesy programs, our policy&nbsp;is to consult with groups representing Nova Scotians with accessibility&nbsp;needs. Our Customer Service&nbsp;desk amenities are part&nbsp;of a commitment to&nbsp;making Halifax Shopping Centre a safe and comfortable place to visit.&nbsp;This commitment includes handicap and family parking at each entrance,&nbsp;family &amp; handicap washrooms located on both levels, and trained emergency responders onsite.</p>
+<p>We are continuously making strides to&nbsp;improve. If you have concerns or questions about&nbsp;our accessiblity, or the&nbsp;equipment available&nbsp;from our Customer&nbsp;Service&nbsp;desk, we&nbsp;encourage you to&nbsp;contact us at <a href="mailto:hfxcustomerservice@20vic.com">hfxcustomerservice@20vic.com</a> or by contact our Customer Service&nbsp;desk at&nbsp;902-453-1752.</p>
+  
+  
+<script>
+
+     $(document).ready(function(e){
+        init(e);
+        show_content();
+    });
+</script>
