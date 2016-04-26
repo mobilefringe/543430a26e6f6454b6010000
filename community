@@ -63,3 +63,4 @@
         init(e);
         show_content();
     });
+</script>
