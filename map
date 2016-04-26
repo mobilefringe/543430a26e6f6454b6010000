@@ -41,8 +41,8 @@
                 			{% endif %}
                 		{% endfor %}
                 },
-                height:696,
-                width:682,
+                height:1700,
+                width:2300,
                 tooltipsMode:'custom',
                 zoom:true,
                 zoomButtons: {'show': true, 'location': 'left'},
