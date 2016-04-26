@@ -63,7 +63,7 @@
             });
             $('.map_pin_a').click(function(e){
                 e.preventDefault();
-                var id = $(this).data-attr('data-value')
+                var id = $(this).attr('data-value')
                 map_pin(id)
             })
         }
