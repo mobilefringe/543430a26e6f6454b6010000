@@ -11,7 +11,9 @@
 <div class="content_container main_container mobile_padding">
     <div class="row">
         <div class="col-md-8">
-            
+            div class="map" style="margin-bottom:30px">
+                <div id="mapsvg_store_detail"></div>  
+            </div>
         </div>
         
         <div class="col-md-4 hidden_phone">
