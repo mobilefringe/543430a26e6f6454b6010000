@@ -6,33 +6,20 @@
 <div class="content_container main_container mobile_padding">
     <div class="row">
         <div class="col-md-8">
-<div class="social-links">
-    <span class="social-share">share:</span>
-    <span>
-        <a href="http://www.facebook.com/sharer.php?u=http://halifaxshoppingcentre.com/style_file" target="_blank">
-            <img class="share_icon" alt="share on facebook" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/251f914efb0a8216e2cd28dd4834e614/share_fb.png">
-        </a>
-    </span>
-    <span>
-        <a href="http://twitter.com/?status=Style File%20%20http://halifaxshoppingcentre.com/style_file" target="_blank">
-            <img class="share_icon" alt="share on twitter" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/251f914efb0a8216e2cd28dd4834e614/share_twit.png">
-        </a>
-    </span>
-</div>
-<div class="clearfix"></div>
-<div id="content_blocks">
-
-</div>
-<script id="content_block_template" type="x-tmpl-mustache">
-    <div class="froala-element">
-        <div class="icon-style-file">
-       
+            <div id="content_blocks">
+            
+            </div>
+            <script id="content_block_template" type="x-tmpl-mustache">
+                <div class="froala-element">
+                    <div class="icon-style-file">
+               
+                    </div>
+                    <h2 class="style-header" style="margin-bottom:30px;">{{title}}</h2>
+                    {{{content}}}
+                    <hr>
+                </div>
+            </script>
         </div>
-        <h2 class="style-header" style="margin-bottom:30px;">{{title}}</h2>
-        {{{content}}}
-        <hr>
-    </div>
-</script>
 
 <script>
 
