@@ -125,7 +125,7 @@
 						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="#">Shopping Hours</a></li>
+						<li><a href="/centre_hours">Shopping Hours</a></li>
 						<li><a href="#">Contact Us</a></li>
 						<li><a href="#">Leasing</a></li>
 						<li><a href="#">Security</a></li>
