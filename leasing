@@ -1,18 +1,5 @@
-<div class="page-header ">
-  <h1>Contact Us</h1>
-  <div class="submenu">
-    <ul>
-        <li><a href="/contact_us">Contact Us</a></li>
-        <li  class="current_page_item"><a href="/leasing">Leasing</a></li>
-        <li><a href="/jobs">Employment Opportunities</a></li>
-    </ul>
-  </div>
-  
-</div>
-
-
 <div class="jobs_banner text-center">
-    <h3>CONTACT US</h3>
+    <h3>LEASING</h3>
     <p>explore • enjoy • shop</p>
 </div>
 <div class="margin_20"></div>
