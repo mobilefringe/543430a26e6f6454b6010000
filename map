@@ -20,7 +20,7 @@
             <p class='category_header'>Find Store</p>
             <div id="stores_container">
                 <script id="stores_template" type="x-tmpl-mustache/text">
-                    <
+                    <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="2411">Banks</a></h5>
                 </script>
             </div>
         </div> 
