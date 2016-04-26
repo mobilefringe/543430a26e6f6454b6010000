@@ -41,6 +41,15 @@
         </div>
         <div class="col-md-4 hidden_phone">
             <img style="margin-bottom:20px;" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461609484000/Plaza.png" class="" alt="plaza">
+            <div class="share_container">
+                <span class="social-share">share:</span>
+                <a href="http://www.facebook.com/sharer.php?u=http://halifaxshoppingcentre.com/events/{{slug}}" target="_blank">
+                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461347327000/fb_share.png">
+                </a>
+                <a href="http://twitter.com/?status={{name}}%20%20http://halifaxshoppingcentre.com/events/{{slug}}" target="_blank">
+                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461347344000/tweet.png">
+                </a>
+            </div>
         </div> 
     </div>
 </div>
