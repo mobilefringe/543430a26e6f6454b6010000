@@ -39,18 +39,22 @@
      $(document).ready(function() {
         
         function renderPageData(){
-                var web_page_json = null;
-    $.ajax({
-        url: "../web_pages/5446b6ca6e6f6417a9000000.json",
-        dataType: 'json',
-        async: false,
-        data: "",
-        success: function(data) {
-            web_page_json = data;
+            var web_page_json = null;
+            $.ajax({
+                url: "../web_pages/5446b6ca6e6f6417a9000000.json",
+                dataType: 'json',
+                async: false,
+                data: "",
+                success: function(data) {
+                    web_page_json = data;
+                }
+            });
+            renderContentBlocks('#content_block_template','#content_blocks',web_page_json);
         }
+        
+        loadMallDataCached(renderPageData);
     });
     
-    renderContentBlocks('#content_block_template','#content_blocks',web_page_json);
     function renderContentBlocks(template_id,html_id,web_page_json){
         var item_list = [];
         var rendered_list = [];
@@ -74,10 +78,6 @@
         $(html_id).html(rendered_list.join(''));
      
     }
-        }
-        
-        loadMallDataCached(renderPageData);
-    });
 
 
 
