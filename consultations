@@ -32,7 +32,8 @@
             <div class="style-consultation">
                 <section id="editor" class="froala-element">
                     <a href="#" style="font-size:20px;display:none" id="content_block_5446bd7b6e6f645822000000">
-                        Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_5446bd7b6e6f645822000000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
+                        Save&nbsp;&nbsp;</a>
+                    <span id="status_5446bd7b6e6f645822000000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
                     <div id='edit_5446bd7b6e6f645822000000'>
 	                    <%=content_block_5446bd7b6e6f645822000000%>
                     </div>
