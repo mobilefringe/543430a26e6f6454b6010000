@@ -11,12 +11,12 @@
                     <script id="event_item_template" type="x-tmpl-mustache">
                         <li class="promotion-list-item hidden-phone row">
                             <a name="{{name}}"></a>
-                            <div class="promo-image col-xs-12">
+                            <div class="promo-image col-md-12">
                                 <a href="../events/{{ slug }}">
                                     <img src="{{event_image_url}}" style="width:100%; height:auto; {{show}}">
                                 </a>
                             </div>
-                            <div class="promo-details col-xs-12">
+                            <div class="promo-details col-md-12">
                                 <div class="name">
                                         <a href="../events/{{slug}}">
                                             <h3>{{ name }}</h3>
