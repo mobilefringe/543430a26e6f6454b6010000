@@ -54,7 +54,6 @@
                 cursor:'pointer',
                 responsive:true,
                 zoomLimit: [0,5],
-                viewBox:[260,260,900,900]
             });
         }
         loadMallDataCached(renderAll); 
