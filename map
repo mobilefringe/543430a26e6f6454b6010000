@@ -23,7 +23,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            
+            var stores = getStoreList();
             show_content();
             var map = $('#mapsvg_store_detail').mapSvg({
                 source: '{{site.property.svgmap_file_path}}',    // Path to SVG map
