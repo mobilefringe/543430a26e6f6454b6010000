@@ -20,7 +20,7 @@ function init(e){
         $('.mobile_menu_container').removeClass('active_menu')
     });
     
-    $('#menucontainer').click(function(event){
+    $('.mobile_menu_container').click(function(event){
         event.stopPropagation();
     });
 
