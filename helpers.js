@@ -20,7 +20,9 @@ function init(e){
 		$('body').removeClass('no_scroll');
 	});
 
-	
+	$('.custom_menu, #menu_open').click(function(event){
+	    event.stopPropagation();
+	});
 
 }
 
