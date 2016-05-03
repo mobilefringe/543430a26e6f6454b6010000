@@ -16,13 +16,12 @@ function init(e){
 	})
 	
 	$('html').click(function() {
-// 		$('.mobile_menu_container').removeClass( "active_menu" );
-		$('body').removeClass('no_scroll');
-	});
+  //Hide the menus if visible
+});
 
-	$('.mobile_menu_container, #menu_open').click(function(event){
-	    event.stopPropagation();
-	});
+$('#menucontainer').click(function(event){
+    event.stopPropagation();
+});
 
 }
 
