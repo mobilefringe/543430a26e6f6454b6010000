@@ -153,7 +153,9 @@
                     <p class="hours_home"><span class="hours_dot"></span> Today's Hours: Thu 09:30am - 08:00pm</p>
                     <p class="holiday_hours_home">Check for Holiday Hours</p>
                 </div>
-                <div class="hedaer_divider"></div>
+                <div class="col-md-12">
+                    <div class="hedaer_divider"></div>
+                </div>
             </div>
             
         </section>
