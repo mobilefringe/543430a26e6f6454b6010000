@@ -16,7 +16,7 @@ function init(e){
 	})
 	
 	$('html').click(function() {
-		$('.custom_menu').removeClass( "custom_menu_open" );
+		$('.mobile_menu_container').removeClass( "active_menu" );
 		$('body').removeClass('no_scroll');
 	});
 
