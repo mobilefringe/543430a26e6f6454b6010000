@@ -154,10 +154,9 @@
                     <p class="holiday_hours_home">Check for Holiday Hours</p>
                 </div>
                 <div class="col-md-12">
-                    <div class="hedaer_divider"></div>
                 </div>
             </div>
-            
+            <div class="hedaer_divider"></div>
         </section>
     </div>
     <section class="yield">
