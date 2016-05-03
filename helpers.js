@@ -14,6 +14,15 @@ function init(e){
 		$(this).next().slideToggle();
 		$(this).find('img').toggle();
 	})
+	
+	$('html').click(function() {
+		$('.custom_menu').removeClass( "custom_menu_open" );
+		$('body').removeClass('no_scroll');
+	});
+
+	$('.custom_menu, #menu_open').click(function(event){
+	    event.stopPropagation();
+	});
 
 }
 
