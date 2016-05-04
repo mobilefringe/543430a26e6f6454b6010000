@@ -10,6 +10,7 @@ function init(e){
         $('body').removeClass('no_scroll');
         $('.mobile_menu_container').removeClass('active_menu');
         $('.sub_menu.hidden_now').css('display', "none")
+        $('.menu_icon').show()
     });
     
     $('.submenu_expander').click(function(e){
