@@ -105,7 +105,8 @@
                           }
                 }
                 ])
-                selectRegion(store_details.svgmap_region);
+                map.setViewBox(store_details.svgmap_region);
+    map.selectRegion(store_details.svgmap_region);
         }
         }
         
