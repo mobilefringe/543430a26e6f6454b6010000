@@ -54,7 +54,7 @@ function renderRepoTxtMobile(repo_template, repo_txt, repo){
                 var title = val.name.toLowerCase();
                 title = title.trim();
                 if( title == "holiday hours" ){
-                    val.href = '/centre_hours#holiday_hours';
+                    val.href = '/hours#holiday_hours';
                     show = true;
                     var repo_rendered = Mustache.render(repo_template_html,val);
                     item_list.push(repo_rendered);
