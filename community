@@ -13,9 +13,6 @@
         <div class="col-md-3 text-center">
             <h5><a href="/contests">CONTEST</a></h5>
         </div>
-        <div class="col-md-3 text-right">
-            <h5><a href="/news">NEWS</a></h5>
-        </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         Tap for more options
