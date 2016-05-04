@@ -25,7 +25,7 @@ function renderRepoTxtMobile(repo_template, repo_txt, repo){
                     
                     if(title.indexOf("special notice") > -1){
                         
-                        val.href = '/centre_hours';
+                        val.href = '/hours';
                         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || screen.width <= 600) {
                             show= true;
                         }
