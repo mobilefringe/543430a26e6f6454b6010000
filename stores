@@ -6,7 +6,7 @@
 <div class="store_list_head main_container">
     <div class="row">
         <div class="col-md-4">
-            <h5>Shopping & services</h5>
+            <h5 class="active_heading">Shopping & services</h5>
         </div>
         <div class="col-md-4">
             <h5>Dining & Entertainment</h5>
