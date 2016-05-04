@@ -2,6 +2,22 @@
     <h3>ACCESSIBILITY</h3>
     <p>explore • enjoy • shop</p>
 </div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-4">
+            <h5 class="active_heading">COMMUNITY</a></h5>
+        </div>
+        <div class="col-md-4 text-center">
+            <h5><a href="/accessibility">ACCESSIBILITY</a></h5>
+        </div>
+        <div class="col-md-4">
+            <h5><a href="/conultations">CONSULTATIONS</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        Tap for more options
+    </h5>
+</div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding pages_text">
     <div class="row">
