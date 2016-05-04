@@ -174,6 +174,7 @@ function renderPromoDetails(container, template, collection, centre){
             val.store_name = store_details.name;
             val.store_image = store_details.store_front_url_abs;
             val.store_slug = store_details.slug
+            val.store_show = "display:block";
             if (store_details.website != null && store_details.website.length > 0){
                 val.show = "display:block";
                 val.website = store_details.website
