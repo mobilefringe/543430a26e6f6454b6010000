@@ -74,7 +74,7 @@
                     <a href="#"  class="submenu_expander">
                         SPECIAL OFFERS
                         <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/promotions">Promotions</a></li>
@@ -88,7 +88,7 @@
                     <a href="#"  class="submenu_expander">
                         OUR STYLE
                         <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/style_file">Style File</a></li>
@@ -101,7 +101,7 @@
                     <a href="#"  class="submenu_expander">
                         GUEST SERVICES
                         <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/community">Community</a></li>
@@ -113,7 +113,7 @@
                     <a href="#" class="submenu_expander">
                         PLAN YOUR VIST
                         <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/tourist_info">Tourist Info</a></li>
@@ -123,7 +123,7 @@
                     <a href="#" class="submenu_expander">
                         CONTACT US
                         <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/centre_hours">Shopping Hours</a></li>
