@@ -44,6 +44,7 @@
         function renderPageData(){
             var post = getBlogByName("Shop The Look")[0];
             renderPostDetailTemplate('#blog_detail_template', '#blog_detail', post);
+            show_content()
         }
         
         function renderPostDetailTemplate(blog_template, blog_block, post){
