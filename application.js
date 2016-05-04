@@ -131,6 +131,7 @@ function renderPromotions(container, template, collection, centre){
         else{
             val.store_name = mall_name;
             val.image_url = "";
+            val.store_slug = "/"
         }
         
         if(val.image_url.indexOf('missing.png') > 0){
