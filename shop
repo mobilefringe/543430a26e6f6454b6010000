@@ -48,6 +48,7 @@
            
         
             $(blog_block).html(item_list.join(''));
+            show_content()
         }
         loadMallData(renderPageData);
         
