@@ -3,22 +3,32 @@
         vertical-align: top;
     }
 </style>
-<div class="page-header ">
-  <h1>
-    Our Style  </h1>
 
-  <div class="submenu">
-  <ul>
-<li class=""><a href="/style_all">All</a></li>
-  <li><a href="/style_file">Style File</a></li>
-<li class="current_page_item"><a href="/shop">Shop the Look</a></li>
-<li><a href="/attract">Opposites Attract</a></li>
-<li><a href="/spotted">Spotted</a></li>
-<li><a href="/consultations">Consultations</a></li>
-<li><a href="/setters">Style Setters</a></li>
-  </ul>
-  </div>
-  
+<div class="jobs_banner text-center">
+    <h3>STYLE FILE</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-3">
+            <h5><a href="/style_file">STYLE FILE</a></h5>
+        </div>
+        <div class="col-md-3 text-center">
+            <h5><a href="/shop_the_look">SHOP THE LOOK</a></h5>
+        </div>
+        <div class="col-md-4 text-center">
+            <h5><a href="/attract">OPPOSITES ATTRACT</a></h5>
+        </div>
+        <div class="col-md-2 text-right">
+            <h5><a href="http://prettygreathsc.com/">BLOG</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        Tap for more options
+    </h5>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding">
 </div>
 <div id="blog_detail">  
     <script id="blog_detail_template" type="x-tmpl-mustache">
