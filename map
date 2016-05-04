@@ -60,19 +60,22 @@
             renderStoreList('#stores_container','#stores_template', stores, "A", "Z");
             show_content();
             var map = $('#mapsvg_store_detail').mapSvg({
-                source: getSVGMapURL(),
-                colors: {stroke: '#fff', selected: -20, hover: "#a6a6a6"},
+                source: getSVGMapURL(),    // Path to SVG map
+                colors: {stroke: '#aaa', hover: '#EF4D86'},
                 disableAll: true,
-                regions: regions,
-                height:1700,
-                width:2300,
+                height:800,
+                width:1140,
+                regions: reg,
                 tooltipsMode:'custom',
-                zoom:true,
-                zoomButtons: {'show': true, 'location': 'left'},
+                loadingText: "loading...",
+                zoom: true,
+                zoomButtons: {'show': true,'location': 'right' },
                 pan:true,
+                panLimit:true,
                 cursor:'pointer',
                 responsive:true,
-                zoomLimit: [0,5]
+                zoomLimit: [0,10],
+                viewBox:[420,420,1650,1650]
             });
             $('.map_pin_a').click(function(e){
                 e.preventDefault();
