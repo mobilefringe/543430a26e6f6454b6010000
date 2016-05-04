@@ -96,24 +96,24 @@ function show_pin(param){
 	
 	return false;
 }
-
 function drop_pin(id){
-    map.marksHide();
+
     var coords = map.get_coords(id);
-    var height = parseInt(coords["height"]);
-    var width = parseInt(coords["width"]);
+    var height = parseInt(coords["height"])
+    var width = parseInt(coords["width"])
     var x_offset = (parseInt(width) / 2);
     var y_offset = (parseInt(height) /2);
-    map.setMarks([{ xy: [coords["x"] - 46 + x_offset, coords["y"] - 110 + y_offset],
-        attrs: {
-            src:  'http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/png/1452532624000/pin_93.png'
+    
+    map.setMarks([{ xy: [coords["x"] - 15 + x_offset, coords["y"] - 55 + y_offset],
+              attrs: {
+                        src:  'http://assets.codecloudapp.com/sites/565e0ca36e6f64738f020000/image/png/1446761110000/pin.png'     // image for marker
+                      }
         }
-    }]);
-    map.setViewBox(id);
-    $('#btnZoomIn').click()
+        ])
+        map.setViewBox(id);
+        map.selectRegion(id);
 }
-
-
+    
 function get_day(id){
     switch(id) {
         case 0:
