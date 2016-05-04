@@ -61,10 +61,10 @@
                 <li>
                     <a href="#" class="submenu_expander">
                         STORES
-                        <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: none;">
+						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: inline;">
                     </a>
-                    <ul class="sub_menu hidden_now">
+                    <ul class="sub_menu">
 						<li><a href="/stores">Directory</a></li>
 						<li><a href="/map">Centre Map</a></li>
 					</ul>
@@ -73,8 +73,8 @@
                 <li>
                     <a href="#"  class="submenu_expander">
                         SPECIAL OFFERS
-                        <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/promotions">Promotions</a></li>
@@ -87,74 +87,77 @@
                 <li>
                     <a href="#"  class="submenu_expander">
                         OUR STYLE
-                        <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/style_file">Style File</a></li>
+						<li><a href="/shop_the_look">Shop the Look</a></li>
 						<li><a href="/attract">Opposites Attract</a></li>
-						<li><a href="#">Blog</a></li>
+						<li><a href="http://prettygreathsc.com/">Blog</a></li>
 					</ul>
                 </li>
                 <li>
                     <a href="#"  class="submenu_expander">
                         GUEST SERVICES
-                        <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/community">Community</a></li>
-						<li><a href="/accessibility">Accessibilty</a></li>
+						<li><a href="/accessibility">Accessibility</a></li>
 						<li><a href="/consultations">Consultations</a></li>
 					</ul>
                 </li>
                 <li>
                     <a href="#" class="submenu_expander">
                         PLAN YOUR VIST
-                        <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="#">Tourist Info</a></li>
+						<li><a href="/tourist_info">Tourist Info</a></li>
 					</ul>
                 </li>
                 <li>
                     <a href="#" class="submenu_expander">
                         CONTACT US
-                        <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="#">Shopping Hours</a></li>
-						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">Leasing</a></li>
-						<li><a href="#">Security</a></li>
+						<li><a href="/centre_hours">Shopping Hours</a></li>
+						<li><a href="/contact_us">Contact Us</a></li>
+						<li><a href="/leasing">Leasing</a></li>
+						<li><a href="/security">Security</a></li>
 					</ul>
                 </li>
             </ul>
         </div>
     </div>
-    <section class="content_container main_container position_relative">
-        <div class="row header mobile_margin">
-            <div class="col-md-4 col-xs-4">
-                <p class="hours_home hidden_phone"><span class="hours_dot"></span> Today's Hours: Thu 09:30am - 08:00pm</p>
-                <p class=" hidden_phone"><a href="/hours" class="holiday_hours_home">Check for Holiday Hours</a></p>
+    <div class="fixed_header">
+        <section class="content_container main_container position_relative">
+            <div class="row header mobile_margin">
+                <div class="col-md-4 col-xs-4">
+                    <p class="hours_home hidden_phone"><span class="hours_dot"></span> Today's Hours: Thu 09:30am - 08:00pm</p>
+                    <p class=" hidden_phone"><a href="/hours" class="holiday_hours_home">Check for Holiday Hours</a></p>
+                </div>
+                <div class="col-md-4 col-xs-4 text-center">
+                    <a href="/">
+                        <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461163897000/Logo.png" class="main_logo " alt="main_logo">
+                    </a>
+                </div>
+                <div class="col-md-4 col-xs-4 text-right position_relative">
+                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460488452000/icon_menu.png" class="open_menu" alt="menu open">
+                </div>
+                <div class="col-xs-12 show_phone home_hours_phone">
+                    <p class="hours_home"><span class="hours_dot"></span> Today's Hours: Thu 09:30am - 08:00pm</p>
+                    <p class="holiday_hours_home">Check for Holiday Hours</p>
+                </div>
             </div>
-            <div class="col-md-4 col-xs-4 text-center">
-                <a href="/">
-                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461163897000/Logo.png" class="main_logo " alt="main_logo">
-                </a>
-            </div>
-            <div class="col-md-4 col-xs-4 text-right position_relative">
-                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460488452000/icon_menu.png" class="open_menu" alt="menu open">
-            </div>
-            <div class="col-xs-12 show_phone home_hours_phone">
-                <p class="hours_home"><span class="hours_dot"></span> Today's Hours: Thu 09:30am - 08:00pm</p>
-                <p class="holiday_hours_home">Check for Holiday Hours</p>
-            </div>
-        </div>
-        
-    </section>
+            <div class="hedaer_divider"></div>
+        </section>
+    </div>
     <section class="yield">
         {{yield}}
     </section>
@@ -162,7 +165,7 @@
     <section class="content_container main_container">
         <div class="newsletter_container text-center">
             <h2 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h2>
-            <p class="newsletter_desc">Breaking Fashion News <br class="show_phone" /><span>•</span> Style Tips & Advice <br class="show_phone" /><span>•</span> Exclusive Events</p>
+            <p class="newsletter_desc"><span>•</span>Breaking Fashion News <br class="show_phone" /><span>•</span> Style Tips & Advice <br class="show_phone" /><span>•</span> Exclusive Events</p>
             <a href="#" class="newsletter_btn">join us</a>
         </div>
         <div class="site_map">
@@ -176,22 +179,19 @@
                         <br class="hidden_phone" />
                         <div class="social_icons">
                             <a href="#" target="_blank">
-                                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1455899536000/icon_facebook.png" class="" alt="FB">
+                                <span id="social_fb"></span>
                             </a>
                             <a href="#" target="_blank">
-                                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1455899545000/icon_twitter.png" class="" alt="Twitter">
+                                <span id="social_twitter"></span>
                             </a>
                             <a href="http://instagram.com/VAGateway" target="_blank">
-                                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1455899555000/icon_insta.png" class="" alt="Instagram">
+                                <span id="social_insta"></span>
                             </a>
                             <a href="#" target="_blank">
-                                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1455899562000/icon_yt.png" class="" alt="YouTube">
+                                <span id="social_yt"></span>
                             </a>
                             <a href="#" target="_blank">
-                                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1455899570000/icon_gplus.png" class="" alt="Google Plus">
-                            </a>
-                            <a href="#" target="_blank">
-                                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1455899577000/icon_newsletter.png" class="" alt="Newsletter">
+                                <span id="social_newsletter"></span>
                             </a>
                             <div class="clearfix"></div>
                             <br class="hidden_phone" />
@@ -212,7 +212,7 @@
                         </div>
                         <div class="col-md-6 col-xs-6">
                             <ul>
-                                <li><a href="#">Blog</a></li>
+                                <li><a href="http://prettygreathsc.com/">Blog</a></li>
                                 <li><a href="#">Guest Services</a></li>
                                 <li><a href="#">Shopping Hours</a></li>
                                 <li><a href="#">Contact Us</a></li>
@@ -224,7 +224,10 @@
                 <div class="col-md-4">
                     <h4 class="site_map_heading">© 2016 - HALIFAX SHOPPING CENTRE</h2>
                     <p class="rights_reserved">
-                        7001 Mumford Road, Halifax, NS<br />
+                        <a href="http://maps.google.com/?q=7001 Mumford Road, Halifax, NS, B3L 4N9" target="_blank">
+                            7001 Mumford Road, Halifax, NS
+                        </a>
+                        <br />
                         Administration: <a href="tel:9024548666">902.454.8666</a><br />
                         <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461165096000/20Vic_logo.png" class="vic_logo" alt="">
                     </p>
