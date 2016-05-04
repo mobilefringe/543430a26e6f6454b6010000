@@ -22,6 +22,7 @@ function init(e){
         $('body').removeClass('no_scroll');
         $('.mobile_menu_container').removeClass('active_menu')
         $('.sub_menu.hidden_now').css('display', "none")
+        
     });
     
     $('.mobile_menu_container, .open_menu').click(function(event){
