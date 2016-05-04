@@ -223,7 +223,10 @@
                 <div class="col-md-4">
                     <h4 class="site_map_heading">© 2016 - HALIFAX SHOPPING CENTRE</h2>
                     <p class="rights_reserved">
-                        7001 Mumford Road, Halifax, NS<br />
+                        <a href="http://maps.google.com/?q=7001 Mumford Road, Halifax, NS">
+                            7001 Mumford Road, Halifax, NS
+                        </a>
+                        <br />
                         Administration: <a href="tel:9024548666">902.454.8666</a><br />
                         <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461165096000/20Vic_logo.png" class="vic_logo" alt="">
                     </p>
