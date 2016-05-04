@@ -10,7 +10,7 @@
 <div class="store_list_head main_container">
     <div class="row">
         <div class="col-md-4">
-            <h5>Shopping & services</h5>
+            <h5><a href="/stores">Shopping & services</a></h5>
         </div>
         <div class="col-md-4">
             <h5><a href="#">Dining & Entertainment</a></h5>
