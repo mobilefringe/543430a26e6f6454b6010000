@@ -132,6 +132,7 @@ function renderPromotions(container, template, collection, centre){
         else{
             val.store_name = mall_name;
             val.image_url = "";
+            val.store_slug = "/"
             val.store_show = "display:none;";
         }
         
