@@ -178,13 +178,13 @@
                         <br class="hidden_phone" />
                         <div class="social_icons">
                             <a href="#" target="_blank">
-                                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1455899536000/icon_facebook.png" class="" alt="FB">
+                                <span id="social_fb"></span>
                             </a>
                             <a href="#" target="_blank">
-                                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1455899545000/icon_twitter.png" class="" alt="Twitter">
+                                <span id="social_twitter"></span>
                             </a>
                             <a href="http://instagram.com/VAGateway" target="_blank">
-                                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1455899555000/icon_insta.png" class="" alt="Instagram">
+                                <span id="social_insta"></span>
                             </a>
                             <a href="#" target="_blank">
                                 <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1455899562000/icon_yt.png" class="" alt="YouTube">
