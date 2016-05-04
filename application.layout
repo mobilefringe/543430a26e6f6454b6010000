@@ -187,10 +187,10 @@
                                 <span id="social_insta"></span>
                             </a>
                             <a href="#" target="_blank">
-                                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1455899562000/icon_yt.png" class="" alt="YouTube">
+                                <span id="social_yt"></span>
                             </a>
                             <a href="#" target="_blank">
-                                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1455899577000/icon_newsletter.png" class="" alt="Newsletter">
+                                <span id="social_newsletter"></span>
                             </a>
                             <div class="clearfix"></div>
                             <br class="hidden_phone" />
