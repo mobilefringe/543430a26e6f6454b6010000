@@ -106,7 +106,7 @@
                 }
                 ])
                 map.setViewBox(id);
-    map.selectRegion(sid);
+    map.selectRegion(id);
         }
         }
         
