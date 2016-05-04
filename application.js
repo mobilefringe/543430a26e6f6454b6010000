@@ -126,6 +126,7 @@ function renderPromotions(container, template, collection, centre){
             val.store_name = store_details.name;
             val.image_url = val.promo_image_url_abs;
             val.cat_list = store_details.categories.join(',')
+            val.store_slug = store_details.slug
         }
         else{
             val.store_name = mall_name;
