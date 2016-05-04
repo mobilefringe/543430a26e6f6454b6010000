@@ -2,6 +2,25 @@
     <h3>STYLE FILE</h3>
     <p>explore • enjoy • shop</p>
 </div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-3">
+            <h5 class="active_heading">STYLE FILE</h5>
+        </div>
+        <div class="col-md-3 text-center">
+            <h5><a href="/shop_the_look">SHOP THE LOOK</a></h5>
+        </div>
+        <div class="col-md-4 text-center">
+            <h5><a href="/attract">OPPOSITES ATTRACT</a></h5>
+        </div>
+        <div class="col-md-2 text-right">
+            <h5><a href="http://prettygreathsc.com/">BLOG</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        Tap for more options
+    </h5>
+</div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
     <div class="row">
