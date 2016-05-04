@@ -105,8 +105,10 @@
                           }
                 }
                 ])
-            }
+                selectRegion(store_details.svgmap_region);
         }
+        }
+        
         loadMallDataCached(renderAll); 
     })
     
