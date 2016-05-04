@@ -25,7 +25,7 @@ function init(e){
         $('.mobile_menu_container').removeClass('active_menu')
         $('.sub_menu.hidden_now').css('display', "none")
         $('.menu_icon').show()
-        $('.minus_icon').hide()
+        $('.minus_icon.menu_icon').hide()
     });
     
     $('.mobile_menu_container, .open_menu').click(function(event){
