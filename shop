@@ -14,7 +14,7 @@
             <h5><a href="/style_file">STYLE FILE</a></h5>
         </div>
         <div class="col-md-3 text-center">
-            <h5 class="active_heading"><a href="/shop_the_look">SHOP THE LOOK</a></h5>
+            <h5><a class="active_heading" href="/shop_the_look">SHOP THE LOOK</a></h5>
         </div>
         <div class="col-md-4 text-center">
             <h5><a href="/attract">OPPOSITES ATTRACT</a></h5>
