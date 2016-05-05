@@ -18,7 +18,13 @@
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
-        Tap for more options
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>Tap for more options</option>
+            <option value="/promotions">Promotions</option>
+            <option value="/events">Events</option>
+            <option value="/contests">Contest</option>
+            <option value="/news">News</option>
+        </select>
     </h5>
 </div>
 <div class="margin_20"></div>
