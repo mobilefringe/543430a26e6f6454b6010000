@@ -44,6 +44,7 @@
         init(e);
         loadMallDataCached(renderPageData);
     });
+    
     function renderPageData(){
         var stores = getStoresList();
         regions = {}
