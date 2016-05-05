@@ -18,7 +18,12 @@
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
-        Tap for more options
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>Tap for more options</option>
+            <option value="/stores">Shopping & Services</option>
+            <option value="#">Dining & Entertainment</option>
+            <option value="/map">Centre Map</option>
+        </select>
     </h5>
 </div>
  <div class="content_container main_container">
