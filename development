@@ -21,7 +21,7 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>Tap for more options</option>
             <option value="/promotions">Promotions</option>
-            <option value="/development">Development</option>
+            <option value="/events">Events</option>
             <option value="/contests">Contest</option>
             <option value="/news">News</option>
         </select>
