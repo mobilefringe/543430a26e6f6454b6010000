@@ -21,7 +21,7 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/hours">Centre Hours File</option>
-            <option value="/contact_us">Shop The Look</option>
+            <option value="/contact_us">Contact Us</option>
             <option value="/leasing">Opposites Attract</option>
             <option value="/security">Opposites Attract</option>
         </select>
