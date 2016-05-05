@@ -19,7 +19,7 @@
             <option value="" disabled selected>Tap for more options</option>
             <option value="/community">Community</option>
             <option value="/accessibility">Accessibility</option>
-            <option value="/consultations">Opposites Attract</option>
+            <option value="/consultations">Consultations</option>
         </select>
     </h5>
 </div>
