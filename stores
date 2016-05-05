@@ -3,7 +3,7 @@
     <h3>Shop & Entertainment</h3>
     <p>explore • enjoy • shop</p>
 </div>
-<div class="store_list_head main_container">
+<div class="store_list_head main_container hidden_phone">
     <div class="row">
         <div class="col-md-4">
             <h5 class="active_heading">Shopping & services</h5>
