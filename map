@@ -8,7 +8,7 @@
     <p>explore • enjoy • shop</p>
 </div>
 <div class="store_list_head main_container">
-    <div class="row">
+    <div class="row hidden_phone">
         <div class="col-md-4">
             <h5><a href="/stores">Shopping & services</a></h5>
         </div>
@@ -19,6 +19,14 @@
             <h5 class="active_heading">Centre Map</h5>
         </div>
     </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>Tap for more options</option>
+            <option value="/stores">Shopping & Services</option>
+            <option value="#">Dining & Entertainment</option>
+            <option value="/map">Centre Map</option>
+        </select>
+    </h5>
 </div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
