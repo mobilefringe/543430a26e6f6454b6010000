@@ -74,19 +74,20 @@
                 responsive:true,
                 zoomLimit: [0,5]
             });
+            
             $('.map_pin_a').click(function(e){
                 e.preventDefault();
                 var id = $(this).attr('data-value')
                 map_pin(id)
             })
-            function map_pin(value){
-            map.marksHide();
-            value = value.split('/')
-            if (value[0] != null){
-                drop_pin(value[0]);    
-            }
             
-        }
+            function map_pin(value){
+                map.marksHide();
+                value = value.split('/')
+                if (value[0] != null){
+                    drop_pin(value[0]);    
+                }
+            }
         })
     
     
