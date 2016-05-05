@@ -22,7 +22,7 @@
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/hours">Centre Hours File</option>
             <option value="/contact_us">Contact Us</option>
-            <option value="/leasing">Opposites Attract</option>
+            <option value="/leasing">Leasing</option>
             <option value="/security">Opposites Attract</option>
         </select>
     </h5>
