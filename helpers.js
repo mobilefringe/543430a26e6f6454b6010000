@@ -31,6 +31,10 @@ function init(e){
     $('.mobile_menu_container, .open_menu').click(function(event){
         event.stopPropagation();
     });
+    
+    $('#option_selector').change(function(){
+        window.location = $(this).val();
+    })
 
 }
 
