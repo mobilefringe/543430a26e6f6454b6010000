@@ -22,7 +22,6 @@
             <option value="#">Dining & Entertainment</option>
             <option value="/map">Centre Map</option>
         </select>
-        
     </h5>
 </div>
 <div class="content_container main_container position_relative">
