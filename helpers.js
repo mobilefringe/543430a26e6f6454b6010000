@@ -96,7 +96,7 @@ function show_pin(param){
 	
 	return false;
 }
-function drop_pin(id){
+function drop_pin(id, map){
 
     var coords = map.get_coords(id);
     var height = parseInt(coords["height"])
