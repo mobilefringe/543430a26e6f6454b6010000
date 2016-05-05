@@ -22,7 +22,7 @@
             <option value="" disabled selected>Tap for more options</option>
             <option value="/style_file">Style File</option>
             <option value="/attract">Events</option>
-            <option value="/development">Development</option>
+            <option value="http://prettygreathsc.com">Development</option>
         </select>
     </h5>
 </div>
