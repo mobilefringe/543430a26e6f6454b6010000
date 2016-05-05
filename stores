@@ -15,6 +15,9 @@
             <h5><a href="/map">Centre Map</a></h5>
         </div>
     </div>
+    <h5 class="text-center tap_here show_phone">
+        Tap for more options
+    </h5>
 </div>
 <div class="content_container main_container position_relative">
     <div class="row">
