@@ -21,7 +21,7 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>Tap for more options</option>
             <option value="/style_file">Style File</option>
-            <option value="/events">Events</option>
+            <option value="/attract">Events</option>
             <option value="/development">Development</option>
         </select>
     </h5>
