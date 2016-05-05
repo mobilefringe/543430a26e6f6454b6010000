@@ -20,7 +20,7 @@
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/hours">Style File</option>
+            <option value="/hours">Centre Hours File</option>
             <option value="/contact_us">Shop The Look</option>
             <option value="/leasing">Opposites Attract</option>
             <option value="/security">Opposites Attract</option>
