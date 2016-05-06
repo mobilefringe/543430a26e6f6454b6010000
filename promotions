@@ -96,7 +96,7 @@
         function renderPageData(){
             var published_promos = []
             var promos = getStorePromotionsListByStoreName().sort(sortEventsPromotionsByDate)
-            $.each(promos_events, function(i,val){
+            $.each(promos, function(i,val){
                 webDate = new Date(val.show_on_web_date + "T08:00:00Z")
                 if (today >= webDate) {
                     published_promos.push(val)
