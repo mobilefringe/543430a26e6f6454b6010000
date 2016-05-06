@@ -312,7 +312,7 @@ function renderStoreWithImgTemplate(template_id,html_id,not_empty_section_id,emp
           
       }
       var rendered = Mustache.render(template_html,val);
-    item_list.push(rendered);
+      item_list.push(rendered);
     });
     if(promotions.length > 0){
         $(not_empty_section_id).show();
