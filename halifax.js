@@ -446,14 +446,15 @@ function renderStoreWithImgTemplate(template_id,html_id,not_empty_section_id,emp
                     var rendered = Mustache.render(promo_template_html,val);
                     item_list.push(rendered);
                 } 
-            }
-            
-            else{
+                else{
                  val.promotionable_name = "Halifax Centre";
                  val.store_img = "http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/d17d8c90fe9a800df686233fab0e6569/default.jpg";
                   var rendered = Mustache.render(promo_template_html,val);
                 item_list.push(rendered);
             }
+            }
+            
+            
             console.log(val)
         });
         if(events_promotions.length > 0){
