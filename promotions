@@ -99,7 +99,7 @@
             $.each(promos_events, function(i,val){
                 webDate = new Date(val.show_on_web_date + "T08:00:00Z")
                 if (today >= webDate) {
-                    all_array.push(val)
+                    published_promos.push(val)
                 }
             });
             renderStoreWithImgTemplate('#promotion_item_template','#promotion_list','#promotions_not_empty_section','#promotions_empty_section', );
