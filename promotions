@@ -94,7 +94,8 @@
     $(document).ready(function() {
         
         function renderPageData(){
-            var published_promos = []
+            var published_promos = [];
+            today = new Date();
             var promos = getStorePromotionsListByStoreName().sort(sortEventsPromotionsByDate)
             $.each(promos, function(i,val){
                 webDate = new Date(val.show_on_web_date + "T08:00:00Z")
