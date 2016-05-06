@@ -310,7 +310,7 @@ function renderStoreWithImgTemplate(template_id,html_id,not_empty_section_id,emp
       }  
       else{
           val.store_img = changeStoreImgUrl(store_details);
-          val.promotionable_name = store_details.name;
+          val.promotionable_name = "Halifax Centre";
       }
       var rendered = Mustache.render(template_html,val);
       item_list.push(rendered);
