@@ -159,7 +159,7 @@
                 </div>
                 <div class="col-xs-12 show_phone home_hours_phone">
                     <p class="hours_home"><span class="hours_dot"></span> Today's Hours: Thu 09:30am - 08:00pm</p>
-                    <p class="holiday_hours_home"><a href="/hours">Check for Holiday Hours</a></p>
+                    <a class="holiday_hours_home" href="/hours">Check for Holiday Hours</a></p>
                 </div>
             </div>
             <div class="hedaer_divider"></div>
