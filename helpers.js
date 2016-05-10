@@ -120,7 +120,7 @@ function drop_pin(id, map){
         map.selectRegion(id);
 }
     
-function get_day(id){
+function getDayName(id){
     switch(id) {
         case 0:
             return ("Sunday");
