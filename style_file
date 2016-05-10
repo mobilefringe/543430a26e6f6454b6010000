@@ -39,7 +39,7 @@
                     <div class="icon-style-file">
                
                     </div>
-                    <h2 class="style-header" style="margin-bottom:30px;">{{title}}</h2>
+                    <h2 class="style-header" style="margin-bottom:30px; margin-top: 5px;">{{title}}</h2>
                     {{{content}}}
                     <hr>
                 </div>
