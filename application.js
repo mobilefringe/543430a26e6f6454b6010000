@@ -124,7 +124,7 @@ function renderPromotions(container, template, collection, centre){
             var store_details = getStoreDetailsByID(val.promotionable_id);
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
-            val.store_show = "display:block";
+            val.store_show = "display:inline-block";
             val.image_url = val.promo_image_url_abs;
             val.cat_list = store_details.categories.join(',')
             val.store_slug = "/stores/" + store_details.slug
