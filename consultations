@@ -49,7 +49,7 @@
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div class="style-consultation">
                 <section id="editor" class="froala-element">
                     <a href="#" style="font-size:20px;display:none" id="content_block_5446bd7b6e6f645822000000">
@@ -60,18 +60,6 @@
                     </div>
                 </section>
             </div>
-        </div>
-        <div class="col-md-4 hidden_phone">
-                <img style="margin-bottom:20px;" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461609484000/Plaza.png" class="" alt="plaza">
-                <div class="share_container">
-                    <a href="http://www.facebook.com/sharer.php?u=http://halifaxshoppingcentre.com/events/accessibility" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461347327000/fb_share.png">
-                    </a>
-                    <a href="http://twitter.com/?status=Accessibility%20%20http://halifaxshoppingcentre.com/accessibility" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461347344000/tweet.png">
-                    </a>
-                </div>
-            </div> 
         </div>
     </div>
 </div>
