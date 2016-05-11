@@ -104,7 +104,7 @@
 						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="pages/halifaxcentre-cummunity">Community</a></li>
+						<li><a href="/cummunity">Community</a></li>
 						<li><a href="/accessibility">Accessibility</a></li>
 						<li><a href="/consultations">Consultations</a></li>
 					</ul>
