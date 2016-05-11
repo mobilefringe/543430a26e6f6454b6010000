@@ -18,7 +18,7 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="pages/halifaxcentre-cummunity">Community</option>
-            <option value="/accessibility">Accessibility</option>
+            <option value="/pages/halifaxcentre-accessibility">Accessibility</option>
             <option value="/consultations">Consultations</option>
         </select>
     </h5>
