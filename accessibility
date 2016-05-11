@@ -42,7 +42,8 @@
         </div>
     </div>
 </div>
-  <script>
+ 
+ <script>
     $(document).ready(function(e){
         init(e);
         function renderAll(){
