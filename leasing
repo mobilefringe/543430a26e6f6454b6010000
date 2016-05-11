@@ -30,26 +30,8 @@
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
     <div class="row">
-        <div class="col-md-8">
-            <h3>Temporary Leasing</h3>
-            <p>For information on temporary leasing please review the <a href="http://d33wyx0pza9yj4.cloudfront.net/sites/5438407c6e6f64462d020000/5f4c55a494748435294adf0df47fe486/Temp-Leasing-Package-2012.pdf">Temp Leasing Package</a>. Included in the package is an application form. Once completed and returned, your application will be reviewed and you will be contacted as soon as possible.</p>
-            <h3>Permanent Leasing</h3>
-            <p>For information on permanent leasing contact visit <a target="_blank" href="http://www.20vic.com/">www.20vic.com</a>.</p>
-            <p>Please review our <a rel="attachment wp-att-5053" href="http://d33wyx0pza9yj4.cloudfront.net/sites/5438407c6e6f64462d020000/5f4c55a494748435294adf0df47fe486/HSC_Tenant-Criteria-Package1.pdf">Tenant Criteria Package</a>.</p>
-            <h3>Office Leasing</h3>
-            <p>For information regarding office leasing please visit <a target="_blank" href="http://www.20vichalifax.com">www.20vichalifax.com</a>.</p>
-        </div>
-        <div class="col-md-4 hidden_phone">
-                <img style="margin-bottom:20px;" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461609484000/Plaza.png" class="" alt="plaza">
-                <div class="share_container">
-                    <a href="http://www.facebook.com/sharer.php?u=http://halifaxshoppingcentre.com/events/leasing" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461347327000/fb_share.png">
-                    </a>
-                    <a href="http://twitter.com/?status=Leasing%20%20http://halifaxshoppingcentre.com/leasing" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461347344000/tweet.png">
-                    </a>
-                </div>
-            </div> 
+        <div class="col-md-12">
+            
         </div>
     </div>
 </div>
