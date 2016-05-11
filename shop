@@ -19,9 +19,6 @@
         <div class="col-md-4 text-center">
             <h5><a href="/attract">OPPOSITES ATTRACT</a></h5>
         </div>
-        <div class="col-md-2 text-right">
-            <h5><a href="http://prettygreathsc.com/"  target="_blank">BLOG</a></h5>
-        </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
