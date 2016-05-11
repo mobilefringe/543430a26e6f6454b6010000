@@ -53,10 +53,10 @@
 <body class="">
     <div class="mobile_menu_container">
         <div class="opened_mobile_menu">
-            <h4>
+            <h3>
                 MENU
                 <span id="close_menu" class="pull-right"><img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166976000/close_menu.png"  alt="close"></span>        
-            </h4>
+            </h3>
             <ul>
                 <li>
                     <a href="#" class="submenu_expander">
