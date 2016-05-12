@@ -31,15 +31,17 @@
 </div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
-    <div class="row">
-        <div class="col-md-12">
-            <div id="blog_detail">  
-                <script id="blog_detail_template" type="x-tmpl-mustache">
-                    <h2 class="blogpost_detail_title">{{ title }}</h2>
-                    <div class="blog_detail_description">
-                        {{{ html_body }}}
-                    </div>
-                </script>
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="blog_detail">  
+                    <script id="blog_detail_template" type="x-tmpl-mustache">
+                        <h2 class="blogpost_detail_title">{{ title }}</h2>
+                        <div class="blog_detail_description">
+                            {{{ html_body }}}
+                        </div>
+                    </script>
+                </div>
             </div>
         </div>
     </div>
