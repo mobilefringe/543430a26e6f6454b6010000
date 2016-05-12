@@ -54,7 +54,6 @@ function show_content(){
             contests_exist = true;
         }
     })
-    if 
 }
 
 function show_cat_stores(){
