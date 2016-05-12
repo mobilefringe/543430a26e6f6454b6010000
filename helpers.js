@@ -50,7 +50,7 @@ function show_content(){
         if(($.inArray("news", v.tags) != -1) && showOnWeb(v)){
             news_exist = true;
         }
-        if(($.inArray("contest", v.tags) != -1) && showOnWeb(v)){
+        if(($.inArray("contests", v.tags) != -1) && showOnWeb(v)){
             news_exist = true;
         }
     })
