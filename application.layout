@@ -147,7 +147,7 @@
                             </script>
                         </span>
                     </p>
-                    <p class=" hidden_phone"><a href="/hours" class="holiday_hours_home">Check for Holiday Hours</a></p>
+                    <a href="/hours" class="holiday_hours_home hidden_phone">Check for Holiday Hours</a>
                 </div>
                 <div class="col-md-4 col-xs-4 text-center">
                     <a href="/">
