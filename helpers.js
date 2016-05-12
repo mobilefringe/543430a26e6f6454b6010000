@@ -54,6 +54,7 @@ function show_content(){
             contests_exist = true;
         }
     })
+    console.log(news_exist)
     if (news_exist == false){
         $('#news_link').hide()
     }
