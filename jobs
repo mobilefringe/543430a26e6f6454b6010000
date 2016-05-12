@@ -5,7 +5,7 @@
 <div class="margin_20"></div>
 <div class="content_container main_container">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div id="jobs_container">
                 <script id="jobs_template" type="x-tmpl-mustache/text">
                     <div class="row promo_item cats_row job_list_item" data-cat="{{cat_list}}">
@@ -23,10 +23,6 @@
                 </script>
             </div>
         </div>
-        
-        <div class="col-md-4 hidden_phone">
-            <img style="margin-bottom:20px;" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461609484000/Plaza.png" class="" alt="plaza">
-        </div> 
     </div>
 </div>
 
