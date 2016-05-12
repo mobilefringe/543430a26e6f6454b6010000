@@ -25,21 +25,23 @@
 </div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
-    <div class="row">
-        <div class="col-md-12">
-            <div id="content_blocks">
-            
-            </div>
-            <script id="content_block_template" type="x-tmpl-mustache">
-                <div class="froala-element">
-                    <div class="icon-style-file">
-               
-                    </div>
-                    <h2 class="style-header" style="margin-bottom:30px; margin-top: 3px;">{{title}}</h2>
-                    {{{content}}}
-                    <hr>
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="content_blocks">
+                
                 </div>
-            </script>
+                <script id="content_block_template" type="x-tmpl-mustache">
+                    <div class="froala-element">
+                        <div class="icon-style-file">
+                   
+                        </div>
+                        <h2 class="style-header" style="margin-bottom:30px; margin-top: 3px;">{{title}}</h2>
+                        {{{content}}}
+                        <hr>
+                    </div>
+                </script>
+            </div>
         </div>
     </div>
 </div>
