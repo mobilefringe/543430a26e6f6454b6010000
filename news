@@ -14,7 +14,7 @@
             <h5><a href="/development">DEVELOPMENT</a></h5>
         </div>
         <div class="col-md-3 text-right">
-            <h5 class="contes_link"><a href="/contests">CONTEST</a></h5>
+            <h5 class="contest_link"><a href="/contests">CONTEST</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
@@ -23,7 +23,7 @@
             <option value="/promotions">Promotions</option>
             <option value="/events">Events</option>
             <option value="/development">Development</option>
-            <option class="contes_link" value="/contests">Contest</option>
+            <option class="contest_link" value="/contests">Contest</option>
         </select>
     </h5>
 </div>
