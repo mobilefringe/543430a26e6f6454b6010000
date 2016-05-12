@@ -51,9 +51,10 @@ function show_content(){
             news_exist = true;
         }
         if(($.inArray("contests", v.tags) != -1) && showOnWeb(v)){
-            news_exist = true;
+            contests_exist = true;
         }
     })
+    if 
 }
 
 function show_cat_stores(){
