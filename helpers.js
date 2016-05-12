@@ -44,6 +44,11 @@ function show_content(){
     var today_hours = getTodaysHours();
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
     var events = getEventsList();
+    var news_exist = false;
+    var contest_exist = false;
+    $.each(events, function(i, v){
+        
+    })
 }
 
 function show_cat_stores(){
