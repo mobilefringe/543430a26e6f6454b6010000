@@ -47,7 +47,9 @@ function show_content(){
     var news_exist = false;
     var contests_exist = false;
     $.each(events, function(i, v){
-        
+        if(($.inArray("news", val.tags) != -1) && showOnWeb(val)){
+            
+        }
     })
 }
 
