@@ -23,7 +23,7 @@
             <option value="/promotions">Promotions</option>
             <option value="/development">Development</option>
             <option value="/contests">Contest</option>
-            <option value="/news">News</option>
+            <option class="news_link" value="/news">News</option>
         </select>
     </h5>
 </div>
