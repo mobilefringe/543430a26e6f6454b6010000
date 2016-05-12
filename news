@@ -30,7 +30,7 @@
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div id="events_not_empty_section">
                 <ul class="promotion-list" id="events_list">
                     <script id="event_item_template" type="x-tmpl-mustache">
