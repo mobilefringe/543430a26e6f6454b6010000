@@ -30,21 +30,23 @@
 </div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
-    <div class="row">
-        <div class="col-md-8">
-            <div class="map" style="margin-bottom:30px">
-                <div id="mapsvg_store_detail"></div>  
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="map" style="margin-bottom:30px">
+                    <div id="mapsvg_store_detail"></div>  
+                </div>
             </div>
+            
+            <div class="col-md-4 hidden_phone">
+                <p class='category_header'>Find Store</p>
+                <div id="stores_container">
+                    <script id="stores_template" type="x-tmpl-mustache/text">
+                        <h5 class="category_name"><a class="map_pin_a" href="#" data-value='{{svgmap_region}}/{{slug}}'>{{name}}</a></h5>
+                    </script>
+                </div>
+            </div> 
         </div>
-        
-        <div class="col-md-4 hidden_phone">
-            <p class='category_header'>Find Store</p>
-            <div id="stores_container">
-                <script id="stores_template" type="x-tmpl-mustache/text">
-                    <h5 class="category_name"><a class="map_pin_a" href="#" data-value='{{svgmap_region}}/{{slug}}'>{{name}}</a></h5>
-                </script>
-            </div>
-        </div> 
     </div>
 </div>
 <script>
