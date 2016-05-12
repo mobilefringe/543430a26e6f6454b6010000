@@ -53,7 +53,13 @@ function show_content(){
         if(($.inArray("contests", v.tags) != -1) && showOnWeb(v)){
             contests_exist = true;
         }
-    })
+    }
+    if (news_exist == false){
+        $('#news_link').hide()
+    }
+    if (contests_exist == false){
+        $('#contest_link').hide()
+    }
 }
 
 function show_cat_stores(){
