@@ -54,12 +54,11 @@ function show_content(){
             contests_exist = true;
         }
     })
-    console.log(news_exist)
     if (news_exist == false){
-        $('#news_link').hide()
+        $('.news_link').hide()
     }
     if (contests_exist == false){
-        $('#contest_link').hide()
+        $('.contest_link').hide()
     }
 }
 
