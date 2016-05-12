@@ -2,106 +2,107 @@
     <h3>NEWSLETTER SIGN-UP</h3>
     <p>explore • enjoy • shop</p>
 </div>
-
-<p>Be the first to know! Sign up to receive the latest Halifax Shopping Centre updates including contests, events and promotions.</p>
-
-<div class="newsletter_page">
-
-
-<form action="//halifaxshoppingcentre.us2.list-manage.com/subscribe/post-json?u=606e5e50d5c4e3e328b36adbe&amp;id=69aa212972&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
-     <!--mail chimp hidden inputs-->
-            
-            
-            <input title="advice newsletter" class="newletter-hidden" id="mce-FNAME" name="FNAME" type="hidden" />
-            <input title="advice newsletter" class="newletter-hidden" id="mce-LNAME" name="LNAME" type="hidden" />
-            <input title="advice newsletter" class="newletter-hidden" id="mce-EMAIL" name="EMAIL" type="hidden" />
-            <input title="advice newsletter" class="newletter-hidden" id="mce-MMERGE4" name="MMERGE4" type="hidden" />
-            <input title="advice newsletter" class="newletter-hidden" id="mce-MMERGE5" name="MMERGE5" type="hidden" />
-            <input title="giftcard newsletter" class="newletter-hidden" name="group[5][1]" id="mce-group[5]-5-0" type="hidden" />
-            <input title="contest newsletter" class="newletter-hidden" name="group[5][2]" id="mce-group[5]-5-1" type="hidden" />
-            <input title="sales newsletter" class="newletter-hidden" name="group[5][4]" id="mce-group[5]-5-2" type="hidden" />
-            <input title="advice newsletter" class="newletter-hidden" name="group[5][8]" id="mce-group[5]-5-3" type="hidden" />
-            
-            
-            
-            <!--end mail chimp hidden inputs-->
-</form>
-
-
-    <form id="newsletter_form">
-
-        <div class="floater-left">
-            <input title="giftcard newsletter" class="newletter-hidden" id="fieldwkdij_newsletter" name="cm-f-wkdij" type="hidden" />
-           <input title="contest newsletter" class="newletter-hidden" id="fieldwkdik_newsletter" name="cm-f-wkdik" type="hidden" />
-           <input title="sales newsletter" class="newletter-hidden" id="fieldwkdiu_newsletter" name="cm-f-wkdiu" type="hidden" />
-            <input title="advice newsletter" class="newletter-hidden" id="fieldwkddl_newsletter" name="cm-f-wkddl" type="hidden" />
-            
-           
-            
-            
-            <input title="birthday newsletter" class="newletter-hidden" id="fieldjuqp_newsletter" name="cm-f-juqp" type="hidden" />
-            
-            
-            <label for="firstName_newsletter">First Name *</label> 
-            <br/>
-            <input class="firstname-newsletter" id="firstName_newsletter" name="firstName" type="text" required />
-            <input title="fullname newsletter" class="newletter-hidden" id="fieldName_newsletter" name="cm-name" type="hidden" />
-        </div>
-        <div class="floater-left">
-            <label for="lastName_newsletter">Last name *</label>
-            <br/>
-            <input class="lastname-newsletter" id="lastName_newsletter" name="lastName" type="text" required />
-        </div>
-        <div class="floater-left">
-            <label for="fieldEmail_newsletter">Email *</label> 
-            <br/>
-            <input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-tylikj-tylikj" type="email" required />
-        </div>
-        <div style="clear:both;"></div>
-        
-        
-        <div class="floater-left">
-            <label for="fieldjhtyly">Birth Month</label> 
-            <br/>
-            <select class="month-newsletter"  id="fieldBirthday_newsletter" name="cm-f-jhtyly">
-                <option default selected disabled>Select one</option>
-                <option>January</option>
-                <option>February</option>
-                <option>March</option>
-                <option>April</option>
-                <option>May</option>
-                <option>June</option>
-                <option>July</option>
-                <option>August</option>
-                <option>September</option>
-                <option>October</option>
-                <option>November</option>
-                <option>December</option>
-            </select>
-            
-             <div class="input-group birthday_input_group">
-            <ul>
-                <li><label>Would you like to receive our birthday offers?</label><input id="birthdayCheck" type="checkbox" style="float:left"/></li>
-            </ul>
-            </div>
-        </div>
-
-        <div class="input-group">Select the categories you would like to hear about:
-            <ul>
-                <li><label for="giftcard_newsletter">Gift Card Offers</label><input title="giftcard" name="giftcard" id="giftcard_newsletter" type="checkbox" checked="checked" style="float:left"/></li>
-                <li><label for="contest_newsletter">Contests</label><input title="contest" name="contest" id="contest_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
-                <li><label for="sales_newsletter">Sales &amp; Events</label><input title="sales" name="sales" id="sales_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
-                <li><label for="advice_newsletter">Fashion Advice</label><input title="advice" name="advice" id="advice_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
-            </ul>
-        </div>
-        
-        <p style="font-size: 13px;"><input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;"><label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from Halifax Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the 
-        <a style="color:#581d37" target="_blank" href="/privacy_policy">Privacy Terms &amp; Conditions</a>.</label></p>
-        <div>     
-            <input class="btn btn-primary" name="commit" type="submit" value="SUBMIT" style="width:150px; height: 45px;background-color:#581d37;" />            
-        </div>
+<div class="content_container main_container mobile_padding">
+    <p>Be the first to know! Sign up to receive the latest Halifax Shopping Centre updates including contests, events and promotions.</p>
+    
+    <div class="newsletter_page">
+    
+    
+    <form action="//halifaxshoppingcentre.us2.list-manage.com/subscribe/post-json?u=606e5e50d5c4e3e328b36adbe&amp;id=69aa212972&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
+         <!--mail chimp hidden inputs-->
+                
+                
+                <input title="advice newsletter" class="newletter-hidden" id="mce-FNAME" name="FNAME" type="hidden" />
+                <input title="advice newsletter" class="newletter-hidden" id="mce-LNAME" name="LNAME" type="hidden" />
+                <input title="advice newsletter" class="newletter-hidden" id="mce-EMAIL" name="EMAIL" type="hidden" />
+                <input title="advice newsletter" class="newletter-hidden" id="mce-MMERGE4" name="MMERGE4" type="hidden" />
+                <input title="advice newsletter" class="newletter-hidden" id="mce-MMERGE5" name="MMERGE5" type="hidden" />
+                <input title="giftcard newsletter" class="newletter-hidden" name="group[5][1]" id="mce-group[5]-5-0" type="hidden" />
+                <input title="contest newsletter" class="newletter-hidden" name="group[5][2]" id="mce-group[5]-5-1" type="hidden" />
+                <input title="sales newsletter" class="newletter-hidden" name="group[5][4]" id="mce-group[5]-5-2" type="hidden" />
+                <input title="advice newsletter" class="newletter-hidden" name="group[5][8]" id="mce-group[5]-5-3" type="hidden" />
+                
+                
+                
+                <!--end mail chimp hidden inputs-->
     </form>
-</div>    
+    
+    
+        <form id="newsletter_form">
+    
+            <div class="floater-left">
+                <input title="giftcard newsletter" class="newletter-hidden" id="fieldwkdij_newsletter" name="cm-f-wkdij" type="hidden" />
+               <input title="contest newsletter" class="newletter-hidden" id="fieldwkdik_newsletter" name="cm-f-wkdik" type="hidden" />
+               <input title="sales newsletter" class="newletter-hidden" id="fieldwkdiu_newsletter" name="cm-f-wkdiu" type="hidden" />
+                <input title="advice newsletter" class="newletter-hidden" id="fieldwkddl_newsletter" name="cm-f-wkddl" type="hidden" />
+                
+               
+                
+                
+                <input title="birthday newsletter" class="newletter-hidden" id="fieldjuqp_newsletter" name="cm-f-juqp" type="hidden" />
+                
+                
+                <label for="firstName_newsletter">First Name *</label> 
+                <br/>
+                <input class="firstname-newsletter" id="firstName_newsletter" name="firstName" type="text" required />
+                <input title="fullname newsletter" class="newletter-hidden" id="fieldName_newsletter" name="cm-name" type="hidden" />
+            </div>
+            <div class="floater-left">
+                <label for="lastName_newsletter">Last name *</label>
+                <br/>
+                <input class="lastname-newsletter" id="lastName_newsletter" name="lastName" type="text" required />
+            </div>
+            <div class="floater-left">
+                <label for="fieldEmail_newsletter">Email *</label> 
+                <br/>
+                <input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-tylikj-tylikj" type="email" required />
+            </div>
+            <div style="clear:both;"></div>
+            
+            
+            <div class="floater-left">
+                <label for="fieldjhtyly">Birth Month</label> 
+                <br/>
+                <select class="month-newsletter"  id="fieldBirthday_newsletter" name="cm-f-jhtyly">
+                    <option default selected disabled>Select one</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+                
+                 <div class="input-group birthday_input_group">
+                <ul>
+                    <li><label>Would you like to receive our birthday offers?</label><input id="birthdayCheck" type="checkbox" style="float:left"/></li>
+                </ul>
+                </div>
+            </div>
+    
+            <div class="input-group">Select the categories you would like to hear about:
+                <ul>
+                    <li><label for="giftcard_newsletter">Gift Card Offers</label><input title="giftcard" name="giftcard" id="giftcard_newsletter" type="checkbox" checked="checked" style="float:left"/></li>
+                    <li><label for="contest_newsletter">Contests</label><input title="contest" name="contest" id="contest_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
+                    <li><label for="sales_newsletter">Sales &amp; Events</label><input title="sales" name="sales" id="sales_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
+                    <li><label for="advice_newsletter">Fashion Advice</label><input title="advice" name="advice" id="advice_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
+                </ul>
+            </div>
+            
+            <p style="font-size: 13px;"><input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;"><label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from Halifax Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the 
+            <a style="color:#581d37" target="_blank" href="/privacy_policy">Privacy Terms &amp; Conditions</a>.</label></p>
+            <div>     
+                <input class="btn btn-primary" name="commit" type="submit" value="SUBMIT" style="width:150px; height: 45px;background-color:#581d37;" />            
+            </div>
+        </form>
+    </div>
+</div>
     <script type="text/javascript">
         $(document).ready(function(e){
             init(e);
