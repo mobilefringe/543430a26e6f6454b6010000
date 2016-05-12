@@ -7,7 +7,7 @@
         <li><a href="/programs">Programs</a></li>
         <li><a href="/promotions">Sales & Events</a></li>
         <li><a href="/events">HSC Events</a></li>
-        <li class="contes_link"><a href="/contests">Contests</a></li>
+        <li class="contest_link"><a href="/contests">Contests</a></li>
         <li><a href="/development">Development</a></li> 
         <li class="news_link"><a href="/news">News</a></li>
       </ul>
