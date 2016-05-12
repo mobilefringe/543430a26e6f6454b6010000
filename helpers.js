@@ -53,7 +53,7 @@ function show_content(){
         if(($.inArray("contests", v.tags) != -1) && showOnWeb(v)){
             contests_exist = true;
         }
-    }
+    })
     if (news_exist == false){
         $('#news_link').hide()
     }
