@@ -35,6 +35,8 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
+            var social_feed = getSocialFeed()
+            var latest_tweet = 
             show_content();
         }
         loadMallDataCached(renderAll); 
