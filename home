@@ -48,7 +48,7 @@
             var latest_tweet = social_feed.twitter[0]
             var latest_fb_post = social_feed.facebook[0]
             $('#latest_tweet').text(latest_tweet.text)
-            $('#latest_tweet_date').text(latest_tweet.created_at)
+            $('#latest_tweet_date').text(latest_tweet.created_at.split(',')[0])
             show_content();
         }
         loadMallDataCached(renderAll); 
