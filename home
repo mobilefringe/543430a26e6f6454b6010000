@@ -57,8 +57,8 @@
             var tweet_date = new Date(latest_tweet.created_at.split(',')[0])
             $('#latest_tweet_date').text(get_month(tweet_date.getMonth()) + " " + tweet_date.getDay())
             
-            $('#latest_tweet').text(latest_tweet.text)
-            var tweet_date = new Date(latest_tweet.created_at.split(',')[0])
+            $('#latest_fb').text(latest_fb.text)
+            var fb_date = new Date(latest_fb.created_at.split(',')[0])
             $('#latest_tweet_date').text(get_month(tweet_date.getMonth()) + " " + tweet_date.getDay())
             
             show_content();
