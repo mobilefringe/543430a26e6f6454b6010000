@@ -58,8 +58,8 @@
             $('#latest_tweet_date').text(get_month(tweet_date.getMonth()) + " " + tweet_date.getDay())
             
             $('#latest_fb').text(latest_fb.text)
-            var fb_date = new Date(latest_fb.created_at.split(',')[0])
-            $('#latest_fb_date').text(get_month(fb_date.getMonth()) + " " + fb_date.getDay())
+            // var fb_date = new Date(latest_fb.created_at.split(',')[0])
+            // $('#latest_fb_date').text(get_month(fb_date.getMonth()) + " " + fb_date.getDay())
             
             show_content();
         }
