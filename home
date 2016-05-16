@@ -49,7 +49,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            http://preview-570d369d6e6f643d60030000.codecloudapp.com/
+            loadMallData()
             var social_feed = getSocialFeed()
             var latest_tweet = social_feed.twitter[0]
             var latest_fb_post = social_feed.facebook[0]
