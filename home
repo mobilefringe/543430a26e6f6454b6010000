@@ -16,7 +16,7 @@
                     <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1463434698000/tweet.png" class="" alt="">
                     <p id="latest_tweet" class="latest_post"></p>
                     <p>
-                        @shopHSC
+                        @shopHSC <br />
                         <span id="latest_tweet_date"></span>    
                     </p>
                 </div>
