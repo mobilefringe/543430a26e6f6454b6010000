@@ -63,6 +63,7 @@
             
             show_content();
         }
+        loadSocialFeeds()
         loadMallDataCached(renderAll); 
     })
 </script>
