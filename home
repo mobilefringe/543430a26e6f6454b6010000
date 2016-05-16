@@ -36,7 +36,8 @@
         init(e);
         function renderAll(){
             var social_feed = getSocialFeed()
-            var latest_tweet = 
+            var latest_tweet = social_feed.twitter[0]
+            var latest_fb_post = social_feed.twitter[0]
             show_content();
         }
         loadMallDataCached(renderAll); 
