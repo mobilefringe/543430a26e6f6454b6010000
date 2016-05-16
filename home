@@ -21,7 +21,9 @@
             
             <div class="feature_item">
                 <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568076000/new_stores.png" class="" alt="">
-                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568076000/new_stores.png" class="" alt="">
+                <div class="social_twitter social_box">
+                    
+                </div>
                 <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568089000/contact_us.png" class="" alt="">
             </div>
             
