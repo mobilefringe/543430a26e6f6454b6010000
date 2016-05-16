@@ -55,7 +55,7 @@
         
         loadMallDataCached(renderAll); 
     })
-    function (){
+    function render_social(){
         var social_feed = getSocialFeed()
         var latest_tweet = social_feed.twitter[0]
         var latest_fb_post = social_feed.facebook[0]
