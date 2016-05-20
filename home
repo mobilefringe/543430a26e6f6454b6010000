@@ -17,15 +17,23 @@
             
             <div class="feature_item">
                 <div class="social_box text-center" d="social_twitter">
-                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1463434698000/tweet.png" class="" alt="">
-                    <p id="latest_tweet" class="latest_post"></p>
-                    <p>
-                        @shopHSC <br />
-                        <span id="latest_tweet_date"></span>    
-                    </p>
+                    <div>
+                        <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1463434698000/tweet.png" class="" alt="">
+                    </div>
+                    <div>
+                        <p id="latest_tweet" class="latest_post"></p>
+                        <p>
+                            @shopHSC <br />
+                            <span id="latest_tweet_date"></span>    
+                        </p>
+                    </div>
                 </div>
-                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568071000/directions.png" class="" alt="">
-                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568071000/directions.png" class="" alt="">
+                <div>
+                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568071000/directions.png" class="" alt="">
+                </div>
+                <div>    
+                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568071000/directions.png" class="" alt="">
+                </div>
             </div>
             
             <div class="feature_item">
