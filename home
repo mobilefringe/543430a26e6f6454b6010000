@@ -55,7 +55,7 @@
             
             <div class="feature_item">
                 <div>
-                    <a href="/hours" class="hours_box" id="hours_box">
+                    <a href="/hours" class="social_box hours_box" id="hours_box">
                         <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1463772189000/hours.png" class="" alt="">
                     </a>
                 </div>
