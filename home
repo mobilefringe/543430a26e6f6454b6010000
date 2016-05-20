@@ -37,7 +37,9 @@
             </div>
             
             <div class="feature_item">
-                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568076000/new_stores.png" class="" alt="">
+                </div>
+                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568076000/new_stores.png" class="" alt="">
+                </div>
                 <div class="social_box text-center" id="social_fb">
                     <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1463434709000/facebook_post.png" class="" alt="">
                     <p id="latest_fb" class="latest_post"></p>
@@ -46,12 +48,18 @@
                         <span id="latest_fb_date"></span>    
                     </p>
                 </div>
-                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568089000/contact_us.png" class="" alt="">
+                <div>
+                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568089000/contact_us.png" class="" alt="">
+                </div>
             </div>
             
             <div class="feature_item">
-                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568076000/new_stores.png" class="" alt="">
-                <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568093000/dining.png" class="" alt="">
+                <div>
+                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568076000/new_stores.png" class="" alt="">
+                </div>
+                <div>
+                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568093000/dining.png" class="" alt="">
+                </div>
             </div>
             <div class="clearfix"></div>
         </div>
