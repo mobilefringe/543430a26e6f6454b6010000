@@ -55,7 +55,9 @@
             
             <div class="feature_item">
                 <div>
-                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568076000/new_stores.png" class="" alt="">
+                    <a href="/hours" class="hours_box" id="hours_box">
+                        
+                    </a>
                 </div>
                 <div>
                     <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568093000/dining.png" class="" alt="">
