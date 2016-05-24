@@ -57,8 +57,8 @@
                 <div>
                     <a href="/hours" class="social_box text-center hours_box" id="hours_box">
                         <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1463772189000/hours.png" class="" alt="">
-                        <span id="home_hours_container">
-                            <script id="home_hours_template" type="x-tmpl-mustache/text">
+                        <span id="home_hours_container2">
+                            <script id="home_hours_template2" type="x-tmpl-mustache/text">
                                 {%raw%}{{h}}{%endraw%}
                             </script>
                         </span>
