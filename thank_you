@@ -1,5 +1,14 @@
-<div class="page-header">
-    <h1>Thank you</h1>
+<div class="jobs_banner text-center">
+    <h3>ACCESSIBILITY</h3>
+    <p>explore • enjoy • shop</p>
 </div>
-<p>Your subscription has been confirmed. You've been added to our list and will hear from us soon.</p>
-<p><a href="/">Click here</a> to return to the Home page.</p>
+<div class="store_list_head main_container">
+    <div class="page-header">
+        <h1>Thank you</h1>
+    </div>
+    <p>Your subscription has been confirmed. You've been added to our list and will hear from us soon.</p>
+    <p><a href="/">Click here</a> to return to the Home page.</p>
+</div>
+<script>
+    
+</script>
