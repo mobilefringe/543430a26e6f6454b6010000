@@ -84,7 +84,7 @@
         function renderAll(){
             loadSocialFeeds(render_social)
             var today_hours = getTodaysHours();
-            renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)   
+            renderHomeHours('#home_hours_container2', '#home_hours_template2', today_hours)   
             show_content();
         }
         
