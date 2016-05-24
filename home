@@ -59,7 +59,7 @@
                         <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1463772189000/hours.png" class="" alt="">
                         <span id="home_hours_container2">
                             <script id="home_hours_template2" type="x-tmpl-mustache/text">
-                                {%raw%}{{h}}{%endraw%}
+                                {{h}}
                             </script>
                         </span>
                         <p class="hours_link">See More Hours</p>
