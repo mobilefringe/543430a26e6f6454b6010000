@@ -59,6 +59,7 @@
                         <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1463772189000/hours.png" class="" alt="">
                         <div id="home_hours_container2" class="home_feature_hours">
                             <script id="home_hours_template2" type="x-tmpl-mustache/text">
+                                <h5>SHOPPING HOURS</h5>
                                 {{h}}
                             </script>
                         </div>
