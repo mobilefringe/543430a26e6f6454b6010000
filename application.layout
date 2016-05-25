@@ -185,7 +185,6 @@
                         <p class="site_map_desc">
                             Follow us and stay tune with all<br /> our activities and news!
                         </p>
-                        <br class="hidden_phone" />
                         <div class="social_icons">
                             <a href="http://www.facebook.com/halifaxshoppingcentre" target="_blank">
                                 <span id="social_fb"></span>
