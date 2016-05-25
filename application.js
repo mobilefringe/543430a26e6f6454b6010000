@@ -381,9 +381,12 @@ function renderJobDetails(container, template, collection, mall_name){
             if (store_details.website != null && store_details.website.length > 0){
                 val.show = "display:block";
                 val.website = store_details.website
+                val.store_slug = store_details.slug
+                val.store_show = "display:block";
             }
             else{
                 val.show = "display:none";
+                val.store_show = "display:none";
             }
             if (store_details.phone != null && store_details.phone.length > 0){
                 val.phone_show = "display:block";
