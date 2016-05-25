@@ -39,7 +39,7 @@
             
             <div class="feature_item">
                 <div>
-                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568076000/new_stores.png" class="" alt="">
+                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568076000/new_stores.png" class="hoverer" alt="">
                 </div>
                 <a href="http://facebook.com/halifaxshoppingcentre" target="_blank" class="show_phone">
                     <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/jpeg/1464116373000/hsc_facebook.jpg" alt="">
@@ -53,7 +53,7 @@
                     </p>
                 </div>
                 <div>
-                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568089000/contact_us.png" class="" alt="">
+                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568089000/contact_us.png" class="hoverer" alt="">
                 </div>
             </div>
             
@@ -74,7 +74,7 @@
                     </a>
                 </div>
                 <div>
-                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568093000/dining.png" class="" alt="">
+                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568093000/dining.png" class="hoverer" alt="">
                 </div>
             </div>
             <div class="clearfix"></div>
