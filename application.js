@@ -343,9 +343,12 @@ function renderJobs(container, template, collection){
         if(val.jobable_type == "Store"){
             val.store_name = getStoreDetailsByID(val.jobable_id).name;
             val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
+            val.store_slug = store_details.slug
+            val.store_show = "display:block";
         }
         else{
             val.store_name = mall_name;
+            val.store_show = "display:none";
         }
         if(val.description.length > 200){
             val.description_short = val.description.substring(0,200) + "...";
