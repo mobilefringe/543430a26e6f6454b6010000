@@ -44,7 +44,7 @@ function show_content(){
     var today_hours = getTodaysHours();
     $.each( getPropertyHours(), function(i,v){
         if(v.is_holiday == true || v.is_closed == true){
-            var hours_day = new Date(v.holiday_date + "T05:00:00Z")
+            var hours_day = new Date(v.holiday_date + "T04:00:00Z")
             if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
                 $('#home_hours_container').text("Closed Today")
                 $('.chat_link').hide()
