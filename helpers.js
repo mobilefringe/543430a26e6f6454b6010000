@@ -42,6 +42,16 @@ function show_content(){
     $('.yield').fadeIn();
     $(".modal-backdrop").remove();
     var today_hours = getTodaysHours();
+    $.each( getPropertyHours(), function(i,v){
+        if(v.is_holiday == true || v.is_closed == true){
+            var hours_day = new Date(v.holiday_date + "T05:00:00Z")
+            if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
+                $('#home_hours_container').text("Closed Today")
+                $('.chat_link').hide()
+            }
+            
+        } 
+    })
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
     var events = getEventsList();
     var news_exist = false;
