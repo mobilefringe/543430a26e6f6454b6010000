@@ -41,6 +41,8 @@ function init(e){
 function show_content(){
     $('.yield').fadeIn();
     $(".modal-backdrop").remove();
+     var d = new Date();
+    var n = d.getDay();
     var today_hours = getTodaysHours();
     $.each( getPropertyHours(), function(i,v){
         if(v.is_holiday == true || v.is_closed == true){
