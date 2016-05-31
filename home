@@ -67,7 +67,7 @@
                         <div id="home_hours_container2" class="home_feature_hours">
                             <script id="home_hours_template2" type="x-tmpl-mustache/text">
                                 <h5>SHOPPING HOURS</h5>
-                                {{h}}
+                                <span class="hours_today">{{h}}</span>
                             </script>
                         </div>
                         <p class="hours_link">See More Hours</p>
