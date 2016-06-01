@@ -38,7 +38,7 @@
                             <a name="{{name}}"></a>
                             <div class="promo-image col-md-12">
                                 <a href="../events/{{ slug }}">
-                                    <img src="{{event_image_url}}" style="width:100%; height:auto; {{show}}">
+                                    <img alt="news" src="{{event_image_url}}" style="width:100%; height:auto; {{show}}">
                                 </a>
                             </div>
                             <div class="promo-details col-md-12">
