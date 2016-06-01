@@ -91,6 +91,7 @@ function show_cat_stores(){
                 visible_row++;
             }
         });
+        console.log(visible_row)
         
         e.preventDefault();
     });
