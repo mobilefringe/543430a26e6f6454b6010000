@@ -88,6 +88,7 @@ function show_cat_stores(){
             var cat_array = val.getAttribute('data-cat').split(',');
             if ($.inArray(cat_id, cat_array) >= 0){
                 $(val).show();
+                visible_row++
             }
         });
         
