@@ -75,6 +75,7 @@ function show_content(){
 
 function show_cat_stores(){
     $('.show_cat_stores').click(function(e){
+        var visible_row = 0
         var cat_id = $(this).attr('data-id');
         $('.active_cat').removeClass('active_cat');
         $(this).addClass('active_cat');
