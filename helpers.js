@@ -144,8 +144,6 @@ function drop_pin(id, map){
                       }
         }
         ])
-        map.setViewBox(id);
-        map.selectRegion(id);
 }
     
 function get_day(id){
