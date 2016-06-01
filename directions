@@ -33,6 +33,9 @@
 <h5>From the Annapolis Valley</h5>
 <p>Follow Highway 101 turning right on Exit 1G to Highway 102, take Highway 102 Southbound towards Halifax, follow Highway 102 to Bayers Road inbound, turn right at second light.</p>
 
-
-      
-      
+<script>
+    $(document).ready(function(e){
+        init(e);
+        show_content()
+    });
+</script>
