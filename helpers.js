@@ -99,6 +99,7 @@ function show_cat_stores(){
         e.preventDefault();
     });
     $('.show_all_stores').click(function(e){
+        $('#no_promo_in_category').hide();
         $('.active_cat').removeClass('active_cat');
         $(this).addClass('active_cat');
         var rows = $('.cats_row');
