@@ -81,6 +81,7 @@ function show_cat_stores(){
         $(this).addClass('active_cat');
         var rows = $('.cats_row');
         rows.hide();
+        $('#no_category_promos').hide();
         $('.store_initial').hide();
         $('#cat_name_header').text($(this).text());
         $('#cat_name_header').css('display', 'block');
@@ -91,7 +92,9 @@ function show_cat_stores(){
                 visible_row++;
             }
         });
-        console.log(visible_row)
+        if(visible_row == 0){
+            $('#no_category_promos').show();
+        }
         
         e.preventDefault();
     });
