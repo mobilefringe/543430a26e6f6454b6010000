@@ -18,7 +18,7 @@ function init(e){
 		e.preventDefault()
 		console.log($(this))
 		console.log($('.open'))
-		if ($(this) != $('.open')){
+		if ($(this).is($('.open') == false){
         	$('.open').next().slideToggle();
         	$('.open').find('img').toggle();
         	$('.open').toggleClass('open')
