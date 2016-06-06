@@ -18,7 +18,7 @@ function init(e){
 		e.preventDefault()
 		$('.open').next().slideToggle();
 		$('.open').find('img').toggle();
-		
+		$('.open').toggleClass('open')
 		$(this).next().slideToggle();
 		$(this).find('img').toggle();
 	})
