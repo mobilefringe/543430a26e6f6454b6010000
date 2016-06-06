@@ -16,7 +16,7 @@ function init(e){
     
     $('.submenu_expander').click(function(e){
 		e.preventDefault()
-		$('.submenu_expander').slideUp()
+		$('.submenu_expander').next().slideUp()
 		$(this).next().slideToggle();
 		$(this).find('img').toggle();
 	})
