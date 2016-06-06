@@ -16,8 +16,9 @@ function init(e){
     
     $('.submenu_expander').click(function(e){
 		e.preventDefault()
+		console.log($(this) === $('.open'))
 		
-		if (false){
+		if (true){
         	$('.open').next().slideToggle();
         	$('.open').find('img').toggle();
         	$('.open').toggleClass('open')
