@@ -61,7 +61,7 @@
             </h3>
             <ul>
                 <li>
-                    <a href="#" class="submenu_expander">
+                    <a href="#" class="submenu_expander open">
                         STORES
                         <img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461166990000/open_submenu.png" style="display: none;">
 						<img class="menu_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: inline;">
