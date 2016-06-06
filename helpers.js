@@ -23,7 +23,7 @@ function init(e){
 		}
 		$(this).next().slideToggle();
 		$(this).find('img').toggle();
-		$(this).addClass('open')
+		$(this).toggleClass('open')
 	})
 	
 	$('html').click(function() {
