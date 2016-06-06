@@ -117,6 +117,7 @@
 						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
+						<li><a href="/hours">Shopping Hours</a></li>
 						<li><a href="/tourist_info">Tourist Info</a></li>
 						<li><a href="http://prettygreathsc.com/categories/redevelopment%20news" target="_blank">Redevelopment</a></li>
 					</ul>
@@ -128,7 +129,6 @@
 						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="/hours">Shopping Hours</a></li>
 						<li><a href="/contact_us">Contact Us</a></li>
 						<li><a href="/leasing">Leasing</a></li>
 						<li><a href="/security">Security</a></li>
