@@ -57,6 +57,10 @@
     $(document).ready(function(e){
         init(e);
         loadMallDataCached(renderAll); 
-        show_content()
+        
     });
+    
+    function renderAll(){
+        show_content()
+    }
 </script>
