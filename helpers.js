@@ -17,6 +17,7 @@ function init(e){
     $('.submenu_expander').click(function(e){
 		e.preventDefault()
 		$('.open').next().slideToggle();
+		$('.open').find('img').toggle();
 		$(this).next().slideToggle();
 		$(this).find('img').toggle();
 	})
