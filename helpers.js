@@ -16,7 +16,7 @@ function init(e){
     
     $('.submenu_expander').click(function(e){
 		e.preventDefault()
-		console.log($(this) === $('.open'))
+		console.log($(this) == $('.open'))
 		
 		if (true){
         	$('.open').next().slideToggle();
