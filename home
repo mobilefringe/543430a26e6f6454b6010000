@@ -22,7 +22,7 @@
                     <div>
                         <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>
                         <p>
-                            @shopHSC <br />
+                            <a href="https://twitter.com/shopHSC" target="_blank">@shopHSC</a> <br />
                             <span id="latest_tweet_date"></span>
                         </p>
                     </div>
@@ -48,7 +48,7 @@
                     <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">
                     <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
                     <p>
-                        <a href="" target="_blank">Facebook/ halifaxshoppingcentre</a> <br />
+                        <a href="https://twitter.com/shopHSC" target="_blank">Facebook/ halifaxshoppingcentre</a> <br />
                         <span id="latest_fb_date"></span>    
                     </p>
                 </div>
