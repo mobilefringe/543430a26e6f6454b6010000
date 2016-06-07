@@ -11,7 +11,7 @@
             <h5><a href="/community">COMMUNITY</a></h5>
         </div>
         <div class="col-md-3 text-center">
-            <h5>ACCESSIBILITY</h5>
+            <h5><a href="/accessibility">ACCESSIBILITY</h5>
         </div>
         <div class="col-md-3">
             <h5><a href="/consultations">CONSULTATIONS</a></h5>
