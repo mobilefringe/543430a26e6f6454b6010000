@@ -20,10 +20,10 @@
                 <div class="social_box hidden_phone text-center" d="social_twitter">
                     <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1463434698000/tweet.png" class="" alt="tweet">
                     <div>
-                        <p id="latest_tweet" class="latest_post"></p>
+                        <a href="#" id="latest_tweet_link"><p id="latest_tweet" class="latest_post"></p></a>
                         <p>
                             @shopHSC <br />
-                            <span id="latest_tweet_date"></span>    
+                            <span id="latest_tweet_date"></span>
                         </p>
                     </div>
                 </div>
