@@ -36,7 +36,7 @@
         <hr>
         <p><a name="checkmybalance"></a></p>
         <h2>Check My Balance</h2>
-        <div class="giftbalance"><a target="_blank" href="http://www.getmybalance.com" class="hscbutton">Check My Balance Online</a><p></p>
+        <div class="giftbalance"><a target="_blank" href="http://www.getmybalance.com" class="animated_btn hscbutton">Check My Balance Online</a><p></p>
         <p>Or call 1 (800) 755-8608.</p>
         </div>
         <div class="clearafter">&nbsp;</div>
