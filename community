@@ -7,13 +7,13 @@
         <div class="col-md-3">
             <h5 class="active_heading">GIFT CARDS</h5>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <h5 class="active_heading">COMMUNITY</h5>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-3 text-center">
             <h5><a href="/accessibility">ACCESSIBILITY</a></h5>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <h5><a href="/consultations">CONSULTATIONS</a></h5>
         </div>
     </div>
