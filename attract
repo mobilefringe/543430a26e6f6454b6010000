@@ -32,7 +32,7 @@
                     <div class="">
                         <h2 class="post_header">Opposites Attract: {{title}}</h2>
                         <div class="row">
-                            <div class="col-md-8">
+                            <div class="col-md-12">
                                 {{{html_body}}}
                             </div>
                         </div>
