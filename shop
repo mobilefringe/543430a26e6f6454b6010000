@@ -3,17 +3,18 @@
         vertical-align: top;
     }
 </style>
+
 <div class="jobs_banner text-center">
-    <h3>STYLE FILE</h3>
+    <h3>SHOP THE LOOK</h3>
     <p>explore • enjoy • shop</p>
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-4">
-            <h5 class="active_heading">STYLE FILE</h5>
+            <h5><a href="/style_file">STYLE FILE</a></h5>
         </div>
         <div class="col-md-4 text-center">
-            <h5><a href="/shop_the_look">SHOP THE LOOK</a></h5>
+            <h5 class="active_heading">SHOP THE LOOK</h5>
         </div>
         <div class="col-md-4 text-center">
             <h5><a href="/attract">OPPOSITES ATTRACT</a></h5>
