@@ -27,24 +27,28 @@
 <div class="content_container main_container mobile_padding">
     <div class="margin_25_across">
         <div class="row">
-            <div class="col-md-12">
-                <div class="style-attract">
-                    <div id="content_blocks"></div>
-                        <script id="content_block_template" type="x-tmpl-mustache">
-                            <div class="froala-element">
-                                <div class="icon-style-attract"></div>
-                                <h2 class="attract-header" style="margin-bottom:30px">Opposites Attract: {{title}}</h2>
-                                {{{content}}}
-                                <hr>
+            <div class="col-md-12" id="post_container">
+                <script id="post_template" type="x-tmpl-mustache">
+                    <div class="">
+                        <div class="icon-style-file">
+                   
+                        </div>
+                        <h2 class="post_header">{{title}}</h2>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="{{image_url}}" alt="{{title - banner}}" />
                             </div>
-                        </script>
+                            <div class="col-md-8">
+                                {{{html_body}}}
+                            </div>
+                        </div>
+                        <hr>
                     </div>
-                </div>
+                </script>
             </div>
         </div>
     </div>
 </div>
-
 
 <script>
 
@@ -54,46 +58,9 @@
     });
     
     function renderPageData(){
-        var web_page_json = null;
-        $.ajax({
-            url: "../web_pages/5446b6ca6e6f6417a9000000.json",
-            dataType: 'json',
-            async: false,
-            data: "",
-            success: function(data) {
-                web_page_json = data;
-            }
-        });
-        renderContentBlocks('#content_block_template','#content_blocks',web_page_json);
+        var blog = getBlogDataBySlug('halifaxcentre-life-style');
+        blog.posts = blog.posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse();
+        renderPosts('#post_container', "#post_template", blog.posts)
         show_content();
     }
-    
-    function renderContentBlocks(template_id,html_id,web_page_json){
-        var item_list = [];
-        var rendered_list = [];
-        var template = $(template_id).html();
-        Mustache.parse(template);
-  
-         $.each( web_page_json.web_content_blocks , function( key, val ) {
-          if(val.tags == "attract"){
-            item_list.push(val);
-              val.date_string = dateToString(val.publish_date);
-              val.img_src = "";
-          }
-        });
-      
-          item_list.sort(sortByDate);
-         $.each( item_list , function( key, val ) {
-            var item_rendered = Mustache.render(template,val);
-            rendered_list.push(item_rendered);
-          
-        });
-        $(html_id).html(rendered_list.join(''));
-     
-    }
-
-
-
-
-
 </script>
