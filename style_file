@@ -54,17 +54,7 @@
     });
     
     function renderPageData(){
-        var web_page_json = null;
-        $.ajax({
-            url: "../web_pages/5446b6ca6e6f6417a9000000.json",
-            dataType: 'json',
-            async: false,
-            data: "",
-            success: function(data) {
-                web_page_json = data;
-            }
-        });
-        renderContentBlocks('#content_block_template','#content_blocks',web_page_json);
+        ar blog_beauty = getBlogDataBySlug('stc-stcdresscode');
         show_content();
     }
     
