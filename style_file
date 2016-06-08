@@ -54,7 +54,7 @@
     });
     
     function renderPageData(){
-        ar blog_beauty = getBlogDataBySlug('stc-stcdresscode');
+        var blog = getBlogDataBySlug('stc-stcdresscode');
         show_content();
     }
     
