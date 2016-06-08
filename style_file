@@ -54,7 +54,7 @@
     });
     
     function renderPageData(){
-        var blog = getBlogDataBySlug('stc-stcdresscode');
+        var blog = getBlogDataBySlug('halifaxcentre-pretty');
         show_content();
     }
     
