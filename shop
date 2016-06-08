@@ -3,18 +3,17 @@
         vertical-align: top;
     }
 </style>
-
 <div class="jobs_banner text-center">
-    <h3>SHOP THE LOOK</h3>
+    <h3>STYLE FILE</h3>
     <p>explore • enjoy • shop</p>
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-4">
-            <h5><a href="/style_file">STYLE FILE</a></h5>
+            <h5 class="active_heading">STYLE FILE</h5>
         </div>
         <div class="col-md-4 text-center">
-            <h5 class="active_heading">SHOP THE LOOK</h5>
+            <h5><a href="/shop_the_look">SHOP THE LOOK</a></h5>
         </div>
         <div class="col-md-4 text-center">
             <h5><a href="/attract">OPPOSITES ATTRACT</a></h5>
@@ -33,42 +32,45 @@
 <div class="content_container main_container mobile_padding">
     <div class="margin_25_across">
         <div class="row">
-            <div class="col-md-12">
-                <div id="blog_detail">  
-                    <script id="blog_detail_template" type="x-tmpl-mustache">
-                        <h2 class="blogpost_detail_title">{{ title }}</h2>
-                        <div class="blog_detail_description">
-                            {{{ html_body }}}
+            <div class="col-md-12" id="post_container">
+                <script id="post_template" type="x-tmpl-mustache">
+                    <div class="">
+                        <div class="icon-style-file">
+                   
                         </div>
-                    </script>
-                </div>
+                        <h2 class="post_header">{{title}}</h2>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="{{image_url}}" alt="{{title - banner}}" />
+                            </div>
+                            <div class="col-md-8">
+                                {{{body}}}
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </script>
             </div>
         </div>
     </div>
 </div>
+
 <script>
-    $(document).ready(function(e) {
+
+     $(document).ready(function(e){
         init(e);
-        function renderPageData(){
-            var post = getBlogByName("Shop The Look")[0];
-            renderPostDetailTemplate('#blog_detail_template', '#blog_detail', post);
-            show_content()
-        }
-        
-        function renderPostDetailTemplate(blog_template, blog_block, post){
-    
-            var item_list = [];
-            var blog_template_html = $(blog_template).html();
-            Mustache.parse(blog_template_html);   // optional, speeds up future uses
-        
-           
-            var blog_rendered = Mustache.render(blog_template_html,post);
-            item_list.push(blog_rendered);
-           
-        
-            $(blog_block).html(item_list.join(''));
-        }
-        loadMallData(renderPageData);
-        
+        loadMallDataCached(renderPageData);
     });
+    
+    function renderPageData(){
+        var blog = getBlogDataBySlug('halifaxcentre-pretty');
+        blog.posts = blog.posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse();
+        renderPosts('#post_container', "#post_template", blog.posts)
+        show_content();
+    }
+
+
+
+
+
 </script>
