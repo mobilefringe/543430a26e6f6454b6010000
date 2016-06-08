@@ -28,9 +28,6 @@
     <div class="margin_25_across">
         <div class="row">
             <div class="col-md-12">
-                <div id="content_blocks">
-                
-                </div>
                 <script id="content_block_template" type="x-tmpl-mustache">
                     <div class="froala-element">
                         <div class="icon-style-file">
