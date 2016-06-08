@@ -38,7 +38,7 @@
                         <h2 class="post_header">{{title}}</h2>
                         <div class="row">
                             <div class="col-md-12">
-                                {{{body}}}
+                                {{{html_body}}}
                             </div>
                         </div>
                     </div>
