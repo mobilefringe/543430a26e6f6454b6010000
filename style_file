@@ -34,7 +34,9 @@
                    
                         </div>
                         <h2 class="style-header" style="margin-bottom:30px; margin-top: 3px;">{{title}}</h2>
-                        {{{content}}}
+                        <div>
+                            {{{content}}}
+                        <?div>
                         <hr>
                     </div>
                 </script>
