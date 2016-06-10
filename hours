@@ -21,9 +21,9 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/hours">Hours</option>
-            <option value="/contact_us">Contact Us</option>
-            <option value="/leasing">Leasing</option>
-            <option value="/security">Security</option>
+            <option value="/tourist_info">Tourist Info</option>
+            <option value="/news">News</option>
+            <option value="http://prettygreathsc.com/categories/redevelopment%20news">REDEVELOPMENT</option>
         </select>
     </h5>
 </div>
