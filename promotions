@@ -5,6 +5,9 @@
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-3">
+            <h5 class="active_heading">EVENTS</h5>
+        </div>
+        <div class="col-md-3">
             <h5><a href="/events">EVENTS</a></h5>
         </div>
         <div class="col-md-3 text-center">
