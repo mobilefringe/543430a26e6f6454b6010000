@@ -29,38 +29,40 @@
 </div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
-    <div class="row">
-        <div class="col-md-12">
-            <div id="events_not_empty_section">
-                <ul class="promotion-list" id="events_list">
-                    <script id="event_item_template" type="x-tmpl-mustache">
-                        <li class="promotion-list-item">
-                            <a name="{{name}}"></a>
-                            <div class="promo-image col-md-12">
-                                <a href="../events/{{ slug }}">
-                                    <img alt="news" src="{{event_image_url}}" style="width:100%; height:auto; {{show}}">
-                                </a>
-                            </div>
-                            <div class="promo-details col-md-12">
-                                <div class="name">
-                                        <a href="../events/{{slug}}">
-                                        <h3>{{ name }}</h3>
-                                        </a>
-                                    </div>
-                                   
-                                    <div class="dates">
-                                        {{ start_date }}
-                                    </div>
-                                    <div class="description_news">
-                                        {{{ rich_description }}}
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="events_not_empty_section">
+                    <ul class="promotion-list" id="events_list">
+                        <script id="event_item_template" type="x-tmpl-mustache">
+                            <li class="promotion-list-item">
+                                <a name="{{name}}"></a>
+                                <div class="promo-image col-md-12">
+                                    <a href="../events/{{ slug }}">
+                                        <img alt="news" src="{{event_image_url}}" style="width:100%; height:auto; {{show}}">
+                                    </a>
                                 </div>
-                            </div>
-                        </li>
-                    </script>
-                </ul>  
-            </div>
-            <div id="events_empty_section" style="display:none;">
-                <p>No news posted</p>
+                                <div class="promo-details col-md-12">
+                                    <div class="name">
+                                            <a href="../events/{{slug}}">
+                                            <h3>{{ name }}</h3>
+                                            </a>
+                                        </div>
+                                       
+                                        <div class="dates">
+                                            {{ start_date }}
+                                        </div>
+                                        <div class="description_news">
+                                            {{{ rich_description }}}
+                                    </div>
+                                </div>
+                            </li>
+                        </script>
+                    </ul>  
+                </div>
+                <div id="events_empty_section" style="display:none;">
+                    <p>No news posted</p>
+                </div>
             </div>
         </div>
     </div>
