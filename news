@@ -22,7 +22,6 @@
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/hours">Hours</option>
             <option value="/tourist_info">Tourist Info</option>
-            <option value="/news">News</option>
             <option value="http://prettygreathsc.com/categories/redevelopment%20news">REDEVELOPMENT</option>
         </select>
     </h5>
