@@ -73,6 +73,7 @@ function show_content(){
     })
     if (news_exist == false){
         $('.news_link').hide()
+        $('.plan_visit').css('width', '33.33333%')
     }
     if (contests_exist == false){
         $('.contest_link').hide()
