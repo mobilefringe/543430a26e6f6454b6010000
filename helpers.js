@@ -76,7 +76,7 @@ function show_content(){
     }
     if (contests_exist == false){
         // $('.contest_link').hide()
-        $('.spec_offer').css('width', '33.33333%')
+        // $('.spec_offer').css('width', '33.33333%')
     }
 }
 
