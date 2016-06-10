@@ -119,7 +119,7 @@
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/hours">Shopping Hours</a></li>
-						<li><a href="/news">News</a></li>
+						<li class="news_link"><a href="/news">News</a></li>
 						<li><a href="/tourist_info">Tourist Info</a></li>
 						<li><a href="http://prettygreathsc.com/categories/redevelopment%20news" target="_blank">Redevelopment</a></li>
 					</ul>
