@@ -1,44 +1,61 @@
-
-<div class="page-header ">
-  <h1>
-    Plan Your Visit  </h1>
-
-  <div class="submenu">
-      <ul>
-         <li><a href="/directions">Directions</a></li>
-        <li><a href="/tourist_info">Tourist Info</a></li>
-        <li class="current_page_item"><a href="/mall_services">Mall Services</a></li>
-        <li><a href="/accessibility">Accessibility</a></li>
-        <li><a href="/hours">Mall Hours</a></li>
-        <li><a href="/security">Security</a></li>
-      </ul>
-  </div>
-  
+<div class="jobs_banner text-center">
+    <h3>ACCESSIBILITY</h3>
+    <p>explore • enjoy • shop</p>
 </div>
- <h2>Mall Services</h2>
-<p>Located on the Lower Level across From La Senza,&nbsp;Halifax Shopping Centre’s Customer Service Centre, along with our amenities, can make your shopping easier!</p>
-<ul>
-<li>Free Wifi &ndash; NEW!</li>
-<li>Complimentary coat /parcel check</li>
-<li>Seasonal gift wrapping services</li>
-<li><a href="/gift_cards">Halifax Shopping Centre Gift Cards</a></li>
-<li>Wheelchair Loans</li>
-<li>Stroller loan program</li>
-<li>Family Parking spots at each entrance</li>
-<li>Baby care rooms on each level</li>
-<li>Mall maps and store listings</li>
-<li>Metro Transit Terminal and Yellow Cab service on-site</li>
-<li>Lost &amp; Found</li>
-<li>Mall Paging</li>
-<li>Tourism Information</li>
-<li>Postal services available in Lawton’s Drug Store</li>
-<li>Battery boost and lost vehicle search</li>
-<li>24 hour on-site security with Close circuit Television surveillance, crime prevention and intervention and emergency medical assistance</li>
-</ul>
-<h5>Kiddie Kabs</h5>
-<p>With a $2 donation to local children’s charities you may utilise a Kiddie Kab during mall hours while visiting Halifax Shopping Centre. Our&nbsp;Kiddie Kab and strollers&nbsp;services are offered as a convenience when the equipment&nbsp;is available, and&nbsp;are subject to height&nbsp; restrictions as imposed by&nbsp;the equipment manufacturer’s specifications, to ensure the safety of your child.</p>
-<h5>Questions?</h5>
-<p><strong>Customer Service:</strong>&nbsp;(902) 453-1752</p>
-<p>Our Customer Service staff are World Host certified and dedicated to continuing to raise the bar of service excellence.</p>
-<p><img width="216" height="114" src="http://d33wyx0pza9yj4.cloudfront.net/sites/5438407c6e6f64462d020000/58e59d04617f358607587f54457834b7/World-Host.png" alt="World Host" class="wp-image-6853 aligncenter"></p>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-3">
+            <h5><a href="/gift_cards">GIFT CARDS</a></h5>
+        </div>
+        <div class="col-md-3 text-center">
+            <h5><a href="/community">COMMUNITY</a></h5>
+        </div>
+        <div class="col-md-3 text-center">
+            <h5 class="active_heading">ACCESSIBILITY</h5>
+        </div>
+        <div class="col-md-3">
+            <h5><a href="/consultations">CONSULTATIONS</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/gift_cards">Gift Cards</option>
+            <option value="/community">Community</option>
+            <option value="/accessibility">Accessibility</option>
+            <option value="/consultations">Consultations</option>
+        </select>
+    </h5>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding pages_text">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="mm_page_content"></div>
+            </div>
+        </div>
+    </div>
+</div>
  
+ <script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = prefix+ "/pages/halifaxcentre-accessibility.json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_title').html(data.title.toUpperCase());
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
