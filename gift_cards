@@ -11,7 +11,7 @@
             <h5><a href="/community">COMMUNITY</a></h5>
         </div>
         <div class="col-md-3 text-center">
-            <h5><a href="/accessibility">ACCESSIBILITY</a></h5>
+            <h5><a href="/mall_services">ACCESSIBILITY</a></h5>
         </div>
         <div class="col-md-3">
             <h5><a href="/consultations">CONSULTATIONS</a></h5>
@@ -22,7 +22,7 @@
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/gift_cards">Gift Cards</option>
             <option value="/community">Community</option>
-            <option value="/accessibility">Accessibility</option>
+            <option value="/mall_services">Mall Services</option>
             <option value="/consultations">Consultations</option>
         </select>
     </h5>
