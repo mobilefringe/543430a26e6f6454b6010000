@@ -108,6 +108,7 @@ function show_cat_stores(){
         e.preventDefault();
     });
     $('.show_all_stores').click(function(e){
+        $('.main_row col-md-6').removeClass('full_width')
         $('#no_promo_in_category').hide();
         $('.active_cat').removeClass('active_cat');
         $(this).addClass('active_cat');
