@@ -75,7 +75,7 @@ function show_content(){
         $('.news_link').hide()
     }
     if (contests_exist == false){
-        $('.contest_link').hide()
+        // $('.contest_link').hide()
         $('.spec_offer').css('width', '33.33333%')
     }
 }
