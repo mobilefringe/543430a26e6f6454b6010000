@@ -8,10 +8,10 @@
             <h5><a href="/hours">HOURS</a></h5>
         </div>
         <div class="col-md-3 plan_visit">
-            <h5>TOURIST INFO</h5>
+            <h5><a href="/tourist_info">TOURIST INFO</a></h5>
         </div>
         <div class="col-md-3 plan_visit">
-            <h5 class="active_heading"><a href="/news">NEWS</a></h5>
+            <h5 class="active_heading">NEWS</h5>
         </div>
         <div class="col-md-3 plan_visit">
             <h5><a href="http://prettygreathsc.com/categories/redevelopment%20news" target="_blank">REDEVELOPMENT</a></h5>
