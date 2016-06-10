@@ -83,7 +83,7 @@ function show_content(){
 
 function show_cat_stores(){
     $('.show_cat_stores').click(function(e){
-        $('.main_row col-md-6').addClass('full_width')
+        $('.main_row .col-md-6').addClass('full_width')
         var visible_row = 0
         var cat_id = $(this).attr('data-id');
         $('.active_cat').removeClass('active_cat');
@@ -108,7 +108,7 @@ function show_cat_stores(){
         e.preventDefault();
     });
     $('.show_all_stores').click(function(e){
-        $('.main_row col-md-6').removeClass('full_width')
+        $('.main_row .col-md-6').removeClass('full_width')
         $('#no_promo_in_category').hide();
         $('.active_cat').removeClass('active_cat');
         $(this).addClass('active_cat');
