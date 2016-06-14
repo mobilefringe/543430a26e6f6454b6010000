@@ -94,6 +94,14 @@ function show_content(){
             $('#store_scroll_down').css('display', 'block')
         }
     })
+    
+    $('#stores_container').hover(
+        function() {
+            $( this ).addClass( "hover" );
+        }, function() {
+            $( this ).removeClass( "hover" );
+        }
+    );
 }
 
 function show_cat_stores(){
