@@ -45,6 +45,7 @@ function init(e){
 }
 
 function show_content(){
+    var scrolled = 0;
     $('.yield').fadeIn();
     $(".modal-backdrop").remove();
     var d = new Date();
@@ -102,6 +103,12 @@ function show_content(){
             $('body').removeClass( "no_scroll" );
         }
     );
+    
+    $('#store_scroll_down').click(function(e){
+        e.preventDefault();
+        scrolled = scrolled + 400;
+        $('#stores_container').animate({scrollTop:  scrolled});
+    })
 }
 
 function show_cat_stores(){
