@@ -81,7 +81,12 @@ function show_content(){
     }
     
     $('#stores_container').scroll(function(){
-        alert('yo')
+        if( $(this).scrollTop() == 0){
+            $('#store_scroll_up').css('display', 'none')
+        }
+        else{
+            $('#store_scroll_up').css('display', 'block')
+        }
     })
 }
 
