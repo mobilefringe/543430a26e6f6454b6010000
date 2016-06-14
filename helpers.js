@@ -99,7 +99,7 @@ function show_content(){
         function() {
             $('body').addClass( "no_scoll" );
         }, function() {
-            $('body').removeClass( "hover" );
+            $('body').removeClass( "no_scoll" );
         }
     );
 }
