@@ -97,9 +97,9 @@ function show_content(){
     
     $('#stores_container').hover(
         function() {
-            $('body').addClass( "no_scoll" );
+            $('body').addClass("no_scroll");
         }, function() {
-            $('body').removeClass( "no_scoll" );
+            $('body').removeClass( "no_scroll" );
         }
     );
 }
