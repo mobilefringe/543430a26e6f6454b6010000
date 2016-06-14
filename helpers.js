@@ -106,13 +106,13 @@ function show_content(){
     
     $('#store_scroll_down').click(function(e){
         e.preventDefault();
-        scrolled = scrolled + 350;
+        scrolled = scrolled + 320;
         $('#stores_container').animate({scrollTop:  scrolled});
     })
     
     $('#store_scroll_up').click(function(e){
         e.preventDefault();
-        scrolled = scrolled - 350;
+        scrolled = scrolled - 320;
         $('#stores_container').animate({scrollTop:  scrolled});
     })
 }
