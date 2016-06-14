@@ -79,6 +79,10 @@ function show_content(){
         $('.contest_link').hide()
         $('.spec_offer').css('width', '33.33333%')
     }
+    
+    $('#stores_container').scroll(function(){
+        alert('yo')
+    })
 }
 
 function show_cat_stores(){
