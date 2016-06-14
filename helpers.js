@@ -97,9 +97,9 @@ function show_content(){
     
     $('#stores_container').hover(
         function() {
-            $( this ).addClass( "hover" );
+            $('body').addClass( "hover" );
         }, function() {
-            $( this ).removeClass( "hover" );
+            $('body').removeClass( "hover" );
         }
     );
 }
