@@ -52,7 +52,7 @@
     });
     
     function renderPageData(){
-        var blog = getBlogDataBySlug('halifaxcentre-pretty');
+        var blog = getBlogDataBySlug('halifaxcentre-attract');
         blog.posts = blog.posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse();
         renderPosts('#post_container', "#post_template", blog.posts)
         show_content();
