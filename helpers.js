@@ -109,6 +109,12 @@ function show_content(){
         scrolled = scrolled + 400;
         $('#stores_container').animate({scrollTop:  scrolled});
     })
+    
+    $('#store_scroll_up').click(function(e){
+        e.preventDefault();
+        scrolled = scrolled - 400;
+        $('#stores_container').animate({scrollTop:  scrolled});
+    })
 }
 
 function show_cat_stores(){
