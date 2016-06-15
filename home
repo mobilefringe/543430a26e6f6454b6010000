@@ -8,7 +8,9 @@
         <div class="feature_row">
             <div class="feature_item">
                 <div id="feature_1">
-                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/jpeg/undefined/470x940_SpecialOffers.jpg" class="hoverer" alt="promotions">
+                    <a href="#">
+                        <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/jpeg/undefined/470x940_SpecialOffers.jpg" class="hoverer" alt="promotions">
+                    </a>
                 </div>
                 <div>
                     <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/jpeg/undefined/470x470_Events.jpg" class="hoverer" alt=""events>
