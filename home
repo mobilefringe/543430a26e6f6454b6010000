@@ -28,9 +28,7 @@
             </div>
             
             <div class="feature_item">
-                <div>
-                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568076000/new_stores.png" class="hoverer" alt="">
-                </div>
+                <div id="feature_5" class="position_relative"></div>
                 <a href="http://facebook.com/halifaxshoppingcentre" target="_blank" class="show_phone">
                     <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/jpeg/1464191314000/hsc_facebook-1.jpg" alt="fb">
                 </a>
