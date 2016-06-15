@@ -52,7 +52,6 @@ function show_content(){
     var n = d.getDay();
     var today_hours = getTodaysHours();
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
-    console.log(today_hours)
     renderHomeHours('#home_hours_container3', '#home_hours_template3', today_hours)
     $.each( getPropertyHours(), function(i,v){
         if(v.is_holiday == true || v.is_closed == true){
