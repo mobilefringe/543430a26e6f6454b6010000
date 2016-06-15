@@ -104,6 +104,20 @@ function show_content(){
         $('#stores_container').animate({scrollTop:  scrolled});
     })
     renderHomeHours('#home_hours_container3', '#home_hours_template3', getTodaysHours())
+    $('.open_menu').click(function(e){
+        e.preventDefault();
+        $('body').addClass('no_scroll');
+        $('.mobile_menu_container').addClass('active_menu')
+        console.log("her")
+    });
+    $('#close_menu').click(function(e){
+        e.preventDefault();
+        $('body').removeClass('no_scroll');
+        $('.mobile_menu_container').removeClass('active_menu');
+        $('.sub_menu.hidden_now').css('display', "none")
+        $('.plus_icon').show();
+        $('.minus_icon.menu_icon').hide()
+    });
 }
 
 function show_cat_stores(){
