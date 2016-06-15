@@ -57,7 +57,7 @@
     
     function renderPageData(){
         var blog = getBlogDataBySlug('halifaxcentre-life-style');
-        blog.posts = blog.posts.sortBy(function(o){ return new Date(o.created_at) })
+        blog.posts = blog.posts.sortBy(function(o){ return new Date(o.created_at) }).reverse();
         renderPosts('#post_container', "#post_template", blog.posts)
         show_content();
     }
