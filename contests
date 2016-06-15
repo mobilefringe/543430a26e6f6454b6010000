@@ -4,16 +4,13 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-3 spec_offer">
+        <div class="col-md-4 spec_offer">
             <h5><a href="/promotions">PROMOTIONS</a></h5>
         </div>
-        <div class="col-md-3 spec_offer">
+        <div class="col-md-4 spec_offer">
             <h5><a href="/events">EVENTS</a></h5>
         </div>
-        <div class="col-md-3 spec_offer">
-            <h5><a href="/development">DEVELOPMENT</a></h5>
-        </div>
-        <div class="col-md-3 spec_offer">
+        <div class="col-md-4 spec_offer">
             <h5 class="active_heading">CONTEST</h5>
         </div>
     </div>
