@@ -53,8 +53,8 @@
     
     function renderPageData(){
         var blog = getBlogDataBySlug('halifaxcentre-opposites-attract');
-        blog.posts = blog.posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse();
-        renderPosts('#post_container', "#post_template", blog.posts)
+        // blog.posts = blog.posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse();
+        renderPosts('#post_container', "#post_template", blog.posts.reverse())
         show_content();
     }
 </script>
