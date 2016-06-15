@@ -644,5 +644,22 @@ function renderPosts(container, template, collection){
 }
 
 
+function renderFeatureItems(){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
