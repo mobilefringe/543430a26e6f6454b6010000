@@ -645,6 +645,7 @@ function renderPosts(container, template, collection){
 
 
 function renderFeatureItems(){
+    var items = getFeatureList();
     
 }
 
