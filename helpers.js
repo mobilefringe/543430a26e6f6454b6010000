@@ -4,7 +4,6 @@ function init(e){
         e.preventDefault();
         $('body').addClass('no_scroll');
         $('.mobile_menu_container').addClass('active_menu')
-        console.log("her")
     });
     $('#close_menu').click(function(e){
         e.preventDefault();
