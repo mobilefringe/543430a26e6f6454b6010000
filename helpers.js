@@ -115,7 +115,7 @@ function show_content(){
         scrolled = scrolled - 320;
         $('#stores_container').animate({scrollTop:  scrolled});
     })
-    renderHomeHours('#home_hours_container3', '#home_hours_template3', today_hours)
+    renderHomeHours('#home_hours_container3', '#home_hours_template3', getTodaysHours())
 }
 
 function show_cat_stores(){
