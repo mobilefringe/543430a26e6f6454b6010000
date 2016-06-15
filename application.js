@@ -646,7 +646,9 @@ function renderPosts(container, template, collection){
 
 function renderFeatureItems(){
     var items = getFeatureList();
-    
+    $.each(items, function(i, val){
+        $('#feature' + i+1).html('<a href="#"><img src="" class="hoverer" alt="' +val.name+ '"></a>')
+    })
 }
 
 
