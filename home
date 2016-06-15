@@ -59,9 +59,7 @@
                         <p class="hours_link">See More Hours</p>
                     </a>
                 </div>
-                <div>
-                    <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1460568093000/dining.png" class="hoverer" alt="dining">
-                </div>
+                <div id="feature_6" class="position_relative"></div>
             </div>
             <div class="clearfix"></div>
         </div>
