@@ -132,9 +132,8 @@ function renderPromotions(container, template, collection, centre){
             val.store_slug = "/stores/" + store_details.slug
         }
         else{
-            val.store_image = "http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461163897000/Logo.png";
+            val.image_url = "http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1461163897000/Logo.png";
             val.store_name = mall_name;
-            val.image_url = "";
             val.store_slug = "/"
             val.store_show = "display:none;";
         }
