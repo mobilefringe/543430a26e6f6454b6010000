@@ -24,11 +24,7 @@
                     </div>
                 </div>
                 <div id="feature_3" class="position_relative"></div>
-                <div>    
-                    <a href="/map">
-                        <img src="http://assets.codecloudapp.com/sites/570d369d6e6f643d60030000/image/png/1463769546000/center_map.png" class="" alt="map">
-                    </a>
-                </div>
+                <div id="feature_4" class="position_relative"></div>
             </div>
             
             <div class="feature_item">
