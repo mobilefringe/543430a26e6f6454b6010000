@@ -192,7 +192,6 @@ function renderPromoDetails(container, template, collection, centre){
             }
             else{
                 val.phone_show = "display:none";
-                val.show = "display:none";
             }
         }
         else{
