@@ -186,6 +186,7 @@ function renderPromoDetails(container, template, collection, centre){
             else{
                 val.show = "display:none";
             }
+            console.log(val)
             if (store_details.phone != null && store_details.phone.length > 0){
                 val.phone_show = "display:block";
                 val.phone = store_details.phone
