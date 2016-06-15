@@ -80,7 +80,7 @@ function show_content(){
     if (contests_exist == false){
         $('.contest_link').hide()
         $('option.contest_link').remove()
-        $('.spec_offer').css('width', '33.33333%')
+        $('.spec_offer').css('width', '50%%')
     }
     
     $('#stores_container').scroll(function(){
