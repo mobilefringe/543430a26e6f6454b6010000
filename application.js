@@ -185,7 +185,6 @@ function renderPromoDetails(container, template, collection, centre){
             }
             else{
                 val.show = "display:none";
-                val.website = "display:none"
             }
             if (store_details.phone != null && store_details.phone.length > 0){
                 val.phone_show = "display:block";
