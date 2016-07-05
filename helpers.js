@@ -60,7 +60,8 @@ function show_content(){
             }
         }
         if(v.is_holiday == true && v.is_closed != true){
-            console.log("here")
+            var hours_day = new Date(v.holiday_date + "T04:00:00Z")
+            console.log(hours_day)
         }
     })
     var events = getEventsList();
