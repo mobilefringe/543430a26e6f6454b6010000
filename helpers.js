@@ -58,7 +58,7 @@ function show_content(){
             if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
                 $('.hours_today').text("Closed Today")
             }
-        } 
+        }
         if(v.is_holiday == true){
             
         }
