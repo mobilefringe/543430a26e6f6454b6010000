@@ -61,7 +61,10 @@ function show_content(){
         }
         if(v.is_holiday == true && v.is_closed != true){
             var hours_day = new Date(v.holiday_date + "T05:00:00Z")
-            console.log(hours_day)
+            if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
+                console.log(hours_day)
+            }
+            
         }
     })
     var events = getEventsList();
