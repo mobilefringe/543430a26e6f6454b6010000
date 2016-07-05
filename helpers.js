@@ -61,7 +61,7 @@ function show_content(){
         }
         if(v.is_holiday == true && v.is_closed != true){
             var hours_day = new Date(v.holiday_date + "T04:00:00Z")
-            console.log(v.holiday_date)
+            console.log(v)
         }
     })
     var events = getEventsList();
