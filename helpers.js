@@ -59,7 +59,6 @@ function show_content(){
                 $('.hours_today').text("Closed Today")
             }
         }
-        
     })
     var events = getEventsList();
     var news_exist = false;
