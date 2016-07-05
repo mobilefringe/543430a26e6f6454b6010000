@@ -59,7 +59,7 @@ function show_content(){
                 $('.hours_today').text("Closed Today")
             }
         }
-        if(v.is_holiday == true){
+        if(v.is_holiday == true && v.is_closed != true){
             console.log("here")
         }
     })
