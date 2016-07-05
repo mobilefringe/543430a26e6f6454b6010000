@@ -60,7 +60,7 @@ function show_content(){
             }
         }
         if(v.is_holiday == true && v.is_closed != true){
-            var hours_day = new Date(v.holiday_date + "T05:00:00Z")
+            var hours_day = new Date(v.holiday_date + "T04:00:00Z")
             console.log(hours_day)
         }
     })
