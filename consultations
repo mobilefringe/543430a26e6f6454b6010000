@@ -1,8 +1,5 @@
 <style>
-    h5
-    {
-        font-size:24px;
-    }
+   
     .consultant-desc h5{
         margin-left:170px;
     }
