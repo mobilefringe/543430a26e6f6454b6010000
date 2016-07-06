@@ -13,6 +13,9 @@
     .froala-element img{
         float:left !important;
     }
+    .package{
+        font-weight:bold;
+    }
    @media(max-width:767px){
        .consultant-desc{
            display:block;
