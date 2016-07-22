@@ -4,14 +4,17 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-4">
+        <div class="col-md-3">
             <h5><a href="/style_file">STYLE FILE</a></h5>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-3 text-center">
             <h5><a href="/shop_the_look">SHOP THE LOOK</a></h5>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-3 text-center">
             <h5 class="active_heading">OPPOSITES ATTRACT</h5>
+        </div>
+        <div class="col-md-3 text-center">
+            <h5><a href="/blog">BLOG</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
