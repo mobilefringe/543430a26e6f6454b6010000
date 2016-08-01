@@ -59,7 +59,19 @@ function show_content(){
                 $('.hours_today').text("Closed Today")
             }
         }
+        if(v.is_holiday == true){
+            var hours_day = new Date(v.holiday_date + "T07:00:00Z")
+            if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
+                var open_time = new Date (v.open_time);
+                var close_time = new Date (v.close_time);
+                v.open_time = convert_hour(open_time);
+                v.close_time = convert_hour(close_time);
+                v.h = v.open_time+ " - " + v.close_time;
+                $('#hours_home').text(v.h)
+            }
+        }
     })
+    
     var events = getEventsList();
     var news_exist = false;
     var contests_exist = false;
