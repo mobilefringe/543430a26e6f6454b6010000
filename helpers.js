@@ -61,6 +61,7 @@ function show_content(){
         }
         if(v.is_holiday == true){
             var hours_day = new Date(v.holiday_date + "T05:00:00Z")
+            console.log(v)
             if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
                 var open_time = new Date (v.open_time);
                 var close_time = new Date (v.close_time);
