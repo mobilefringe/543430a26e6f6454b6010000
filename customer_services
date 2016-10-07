@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-4 col-md-9 col-md-push-3">
+            <h1 class="visible-xs" data-i18n="nav.services"><!--Customer Services--></h1>
+            
+            <!--GIFT CARDS-->
+            <a name="gift_cards"></a>
+            <h2 data-i18n="nav.subnav.gift_cards"><!--GIFT CARDS--></h2>
+            <div class="en-CA">
+                <p>gift_cards info ENGLISH</p>
+            </div>
+            <div class="fr-CA">
+                <p>gift_cards info FRENCH</p>
+            </div>
+            
+            <!--CUSTOMER SERVICES-->
+            <a name="customer_services"></a>
+            <h2 data-i18n="nav.subnav.customer_services"><!--CUSTOMER SERVICES--></h2>
+            <div class="en-CA">
+                <p>customer_services info ENGLISH</p>
+            </div>
+            <div class="fr-CA">
+                <p>customer_services info FRENCH</p>
+            </div>
+            
+            <!--FITNESS WALKING CLUB-->
+            <a name="fitness_walking_club"></a>
+            <h2 data-i18n="nav.subnav.fitness_walking_club"><!--FITNESS WALKING CLUB--></h2>
+            <div class="en-CA">
+                <p>fitness_walking_club info ENGLISH</p>
+            </div>
+            <div class="fr-CA">
+                <p>fitness_walking_club info FRENCH</p>
+            </div>
+            
+            
+            <!--WELCOME TO FAMILIES-->
+            <a name="welcome_to_families"></a>
+            <h2 data-i18n="nav.subnav.welcome_to_families"><!--WELCOME TO FAMILIES--></h2>
+            <div class="en-CA">
+                <p>welcome_to_families info ENGLISH</p>
+            </div>
+            <div class="fr-CA">
+                <p>welcome_to_families info FRENCH</p>
+            </div>
+
+            <!--WIFI-->
+            <a name="wifi"></a>
+            <h2 data-i18n="nav.subnav.wifi"><!--WIFI--></h2>
+            <div class="en-CA">
+                <p>wifi info ENGLISH</p>
+            </div>
+            <div class="fr-CA">
+                <p>wifi info FRENCH</p>
+            </div>
+
+        </div>
+        <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9">
+            <h1 class="hidden-xs" data-i18n="nav.services"><!--Customer Services--></h1>
+            <img src="//placehold.it/350x350" class="hidden-xs">
+            <ul class="button-panel">
+                <li><a href="#gift_cards" class="btn btn-default"><span data-i18n="nav.subnav.gift_cards"></span><img src="//testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--GIFT CARDS--></a></li>
+                <li><a href="#customer_services" class="btn btn-default"><span data-i18n="nav.subnav.customer_services"></span><img src="//testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--CUSTOMER SERVICES--></a></li>
+                <li><a href="#fitness_walking_club" class="btn btn-default"><span data-i18n="nav.subnav.fitness_walking_club"></span><img src="//testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--FITNESS WALKING CLUB--></a></li>
+                <li><a href="#welcome_to_families" class="btn btn-default"><span data-i18n="nav.subnav.welcome_to_families"></span><img src="//testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--WELCOME TO FAMILIES--></a></li>
+                <li><a href="#wifi" class="btn btn-default"><span data-i18n="nav.subnav.wifi"></span><img src="//testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--WIFI--></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
