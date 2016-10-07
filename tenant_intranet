@@ -1,0 +1,12 @@
+
+<div class="page-header ">
+  <h1>
+    Protected: Tenant Intranet  </h1>
+
+  
+</div>
+  <form method="post" class="post-password-form" action="//halifaxshoppingcentre.com/cms/wp-login.php?action=postpass">
+<p>This content is password protected. To view it please enter your password below:</p>
+<p><label for="pwbox-250">Password: <input type="password" size="20" id="pwbox-250" name="post_password"></label> <input type="submit" value="Submit" name="Submit"></p>
+</form>
+    
