@@ -36,7 +36,7 @@
                     <div class="col-md-5"> 
                         <h3 class="hours_heading" >Regular Hours</h3>
                         <div id="hours_container" class="hours_container">
-                            <script id="hours_template" type="amp-mustache">
+                            <script id="hours_template" type="x-tmpl-mustache/text">
                                 <div class="hours_div">
                                     <span>{{day}}:</span>
                                     <span>{{h}}</span>
@@ -47,7 +47,7 @@
                     <div class="col-md-7">
                         <h3 class="hours_heading">Reduced Holiday Hours of Operation</h3>
                         <div id="holidays_hours_container" class="hours_container">
-                            <script id="holidays_hours_template" type="amp-mustache">
+                            <script id="holidays_hours_template" type="x-tmpl-mustache/text">
                                 <div class="hours_div">
                                     <span>{{holiday_name}} ({{formatted_date}})</span>
                                     <span>{{h}}</span>
@@ -57,7 +57,7 @@
                         <div class="margin_20"></div>
                         <h3 class="hours_heading">Holiday Closures</h3>
                         <div id="closed_hours_container" class="hours_container">
-                            <script id="closed_hours_template" type="amp-mustache">
+                            <script id="closed_hours_template" type="x-tmpl-mustache/text">
                                 <div class="hours_div">
                                     <span>{{holiday_name}} ({{formatted_date}})</span>
                                 </div>
