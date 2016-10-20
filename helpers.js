@@ -54,7 +54,8 @@ function show_content(){
         if(v.is_closed == true){
             // var hours_day = new Date(v.holiday_date + "T05:00:00Z")
             var hours_day = moment(v.holiday_date).tz(getPropertyTimeZone());
-            if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
+            // if (hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
+            if (hours_day == d){
                 $('.hours_today').text("Closed Today")
             }
         }
