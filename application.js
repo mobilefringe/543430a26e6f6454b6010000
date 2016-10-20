@@ -680,14 +680,14 @@ function renderHomeHours(container, template, collection){
         //     val.h = "Closed";
         // }
         
-        val.day = moment().day(); 
+        val.day = moment().day().format("ddd"); 
         var d = moment();
         val.month = moment().month();
         val.weekday = moment().date();
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
-            var open_time = moment(val.open_time).tz(getPropertyTimeZone()).format("h:mmA");
-            var close_time = moment(val.close_time).tz(getPropertyTimeZone()).format("h:mmA");
-            val.h = val.day + " " + open_time + " - " + close_time;
+            var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+            var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+            val.h = val.day + " " + open_time.format("h:mmA") + " - " + close_time.format("h:mmA");
         } else {
             val.h = "Closed";
         }
