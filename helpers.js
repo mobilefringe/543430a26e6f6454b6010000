@@ -55,25 +55,19 @@ function show_content(){
     $.each( getPropertyHours(), function(i,v){
         if(v.is_closed == true){
             var hours_day = new Date(v.holiday_date + "T05:00:00Z")
-            
             if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
                 $('.hours_today').text("Closed Today")
             }
         }
         if(v.is_holiday == true){
-            // var hours_day = new Date(v.holiday_date + "T05:00:00Z")
-            var hours_day = moment(val.holiday_date).tz(getPropertyTimeZone());
+            var hours_day = new Date(v.holiday_date + "T05:00:00Z")
             if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
                 console.log(v)
-                // var open_time = new Date (v.open_time);
-                // var close_time = new Date (v.close_time);
-                // v.open_time = convert_hour(open_time);
-                // v.close_time = convert_hour(close_time);
-                // v.h = v.open_time+ " - " + v.close_time;
-                
-                var open_time = moment(v.open_time).tz(getPropertyTimeZone());
-                var close_time = moment(v.close_time).tz(getPropertyTimeZone());
-                v.h = v.open_time.format("h:mm A") + " - " + v.close_time.format("h:mm A");
+                var open_time = new Date (v.open_time);
+                var close_time = new Date (v.close_time);
+                v.open_time = convert_hour(open_time);
+                v.close_time = convert_hour(close_time);
+                v.h = v.open_time+ " - " + v.close_time;
                 $('#hours_home').text(v.h)
             }
         }
