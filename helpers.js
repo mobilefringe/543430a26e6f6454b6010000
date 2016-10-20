@@ -77,7 +77,7 @@ function show_content(){
                 $('#hours_home').text(v.h)
             }
         }
-    })
+    });
     
     var events = getEventsList();
     var news_exist = false;
