@@ -484,8 +484,8 @@ function renderHours(container, template, collection, type){
                 // val.close_time = convert_hour(close_time);    
                 // val.h = val.open_time+ " - " + val.close_time;
                 
-                var open_time = moment(open_time).tz(getPropertyTimeZone());
-                var close_time = moment(close_time).tz(getPropertyTimeZone());
+                var open_time = moment(v.open_time).tz(getPropertyTimeZone());
+                var close_time = moment(v.close_time).tz(getPropertyTimeZone());
                 val.h = open_time.format("h:mmA") + " - " + close_time.format("h:mmA");
             } else {
                 "Closed"
