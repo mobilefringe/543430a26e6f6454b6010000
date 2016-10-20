@@ -25,6 +25,7 @@ function init(e){
 		$(this).find('img').toggle();
 		$(this).toggleClass('open')
 	})
+	
 	$('html').click(function() {
         $('body').removeClass('no_scroll');
         $('.mobile_menu_container').removeClass('active_menu')
@@ -32,40 +33,37 @@ function init(e){
         $('.plus_icon').show()
         $('.minus_icon.menu_icon').hide()
     });
+    
     $('.mobile_menu_container, .open_menu').click(function(event){
         event.stopPropagation();
     });
+    
     $('#option_selector').change(function(){
         window.location = $(this).val();
     })
+
 }
 
 function show_content(){
     var scrolled = 0;
     $('.yield').fadeIn();
     $(".modal-backdrop").remove();
-    // var d = new Date();
-    var d = moment();
-    // var n = d.getDay();
-    var n = moment().day();
+    var d = new Date();
+    var n = d.getDay();
     var today_hours = getTodaysHours();
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
     $.each( getPropertyHours(), function(i,v){
         if(v.is_closed == true){
-            // var hours_day = new Date(v.holiday_date + "T05:00:00Z")
-            var hours_day = moment(v.holiday_date).tz(getPropertyTimeZone());
+            var hours_day = new Date(v.holiday_date + "T05:00:00Z")
             
-            // if (hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
-            if (hours_day.format("h:mmA") == d.format("h:mmA")){
+            if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
                 $('.hours_today').text("Closed Today")
             }
         }
         if(v.is_holiday == true){
             // var hours_day = new Date(v.holiday_date + "T05:00:00Z")
-            var hours_day = moment(v.holiday_date).tz(getPropertyTimeZone());
-            
-            // if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
-            if (hours_day.format("h:mmA") == d.format("h:mmA")){
+            var hours_day = moment(val.holiday_date).tz(getPropertyTimeZone());
+            if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
                 console.log(v)
                 // var open_time = new Date (v.open_time);
                 // var close_time = new Date (v.close_time);
@@ -75,7 +73,7 @@ function show_content(){
                 
                 var open_time = moment(v.open_time).tz(getPropertyTimeZone());
                 var close_time = moment(v.close_time).tz(getPropertyTimeZone());
-                v.h = v.open_time.format("h:mmA") + " - " + v.close_time.format("h:mmA");
+                v.h = v.open_time.format("h:mm A") + " - " + v.close_time.format("h:mm A");
                 $('#hours_home').text(v.h)
             }
         }
@@ -102,6 +100,7 @@ function show_content(){
         $('option.contest_link').remove()
         $('.spec_offer').css('width', '50%')
     }
+    
     $('#stores_container').scroll(function(){
         if( $(this).scrollTop() == 0){
             $('#store_scroll_up').css('display', 'none')
