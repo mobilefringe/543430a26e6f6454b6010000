@@ -55,7 +55,7 @@ function show_content(){
             // var hours_day = new Date(v.holiday_date + "T05:00:00Z")
             var hours_day = moment(v.holiday_date).tz(getPropertyTimeZone());
             // if (hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
-            if (hours_day == d){
+            if (hours_day.format(); == d.format()){
                 $('.hours_today').text("Closed Today")
             }
         }
@@ -73,7 +73,7 @@ function show_content(){
                 
                 var open_time = moment(v.open_time).tz(getPropertyTimeZone());
                 var close_time = moment(v.close_time).tz(getPropertyTimeZone());
-                v.h = v.open_time.format("h:mm A") + " - " + v.close_time.format("h:mm A");
+                v.h = v.open_time.format("h:mmA") + " - " + v.close_time.format("h:mmA");
                 $('#hours_home').text(v.h)
             }
         }
