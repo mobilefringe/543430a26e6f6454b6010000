@@ -484,8 +484,8 @@ function renderHours(container, template, collection, type){
                 // val.close_time = convert_hour(close_time);    
                 // val.h = val.open_time+ " - " + val.close_time;
                 
-                open_time = moment(val.open_time).tz(getPropertyTimeZone());
-                close_time = moment(val.close_time).tz(getPropertyTimeZone());
+                var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+                var close_time = moment(val.close_time).tz(getPropertyTimeZone());
                 val.h = open_time.format("h:mmA") + " - " + close_time.format("h:mmA");
             } else {
                 "Closed"
@@ -680,7 +680,7 @@ function renderHomeHours(container, template, collection){
         //     val.h = "Closed";
         // }
         
-        val.day = moment().day(); 
+        val.day = moment().date(); 
         var d = moment();
         val.month = moment().month();
         val.weekday = moment().date();
