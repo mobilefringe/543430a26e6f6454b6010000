@@ -54,15 +54,15 @@ function show_content(){
         if(v.is_closed == true){
             // var hours_day = new Date(v.holiday_date + "T05:00:00Z")
             var hours_day = moment(v.holiday_date).tz(getPropertyTimeZone());
-            // if (hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
-            if (hours_day.format() == d.format()){
+            if (hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
+            // if (hours_day.format() == d.format()){
                 $('.hours_today').text("Closed Today")
             }
         }
         if(v.is_holiday == true){
             // var hours_day = new Date(v.holiday_date + "T05:00:00Z")
             var hours_day = moment(v.holiday_date).tz(getPropertyTimeZone());
-            // if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
+            if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
             if (hours_day.format() == d.format()){
                 console.log(v)
                 // var open_time = new Date (v.open_time);
