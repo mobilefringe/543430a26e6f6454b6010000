@@ -680,7 +680,7 @@ function renderHomeHours(container, template, collection){
         //     val.h = "Closed";
         // }
         
-        val.day = moment().weekday(); 
+        val.day = moment().isoWeekday(); 
         var d = moment();
         val.month = moment().month();
         val.weekday = moment().date();
@@ -723,7 +723,6 @@ function renderPosts(container, template, collection){
         item_rendered.push(rendered);
         counter = counter+1;
     });
-    
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
@@ -735,19 +734,3 @@ function renderFeatureItems(){
         $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"><h5 class="center_h">'+ val.name +'</h5></a>')
     })
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
