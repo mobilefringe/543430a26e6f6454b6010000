@@ -5,13 +5,11 @@ function renderStoreList(container, template, collection, starter, breaker){
     Mustache.parse(template_html);   // optional, speeds up future uses
     var store_initial="";
     $.each( collection , function( key, val ) {
-        
         if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
             val.alt_store_front_url = "";
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url);    
         }
-            
         //var categories = getStoreCategories();
         var current_initial = val.name[0];
         val.cat_list = val.categories.join(',')
@@ -19,7 +17,7 @@ function renderStoreList(container, template, collection, starter, breaker){
             val.initial = "";
             val.show = "display:none;";
         }
-        else{
+        else {
             val.initial = current_initial;
             store_initial = current_initial;
             val.show = "display:block;";
@@ -27,13 +25,13 @@ function renderStoreList(container, template, collection, starter, breaker){
         if (val.promotions.length > 0){
             val.promotion_exist = "display:inline-block";
         }
-        else{
+        else {
             val.promotion_exist = "display:none";
         }
         if (val.jobs.length > 0){
             val.job_exist = "display:inline-block";
         }
-        else{
+        else {
             val.job_exist = "display:none";
         }
         val.block = current_initial + '-block';
@@ -42,10 +40,7 @@ function renderStoreList(container, template, collection, starter, breaker){
         if (upper_current_initial.charCodeAt(0) <= breaker.charCodeAt(0) && upper_current_initial.charCodeAt(0) >= starter.charCodeAt(0)){
             item_rendered.push(rendered);
         }
-         
-
     });
-    
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
@@ -62,7 +57,6 @@ function renderGeneral(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-
 function renderStoreDetails(container, template, collection, slug){
     var item_list = [];
     var item_rendered = [];
@@ -75,34 +69,32 @@ function renderStoreDetails(container, template, collection, slug){
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
-        
         if (val.website != null && val.website.length > 0){
             val.show = "display:block";
         }
-        else{
+        else {
             val.show = "display:none";
         }
         if (val.phone != null && val.phone.length > 0){
             val.phone_show = "display:block";
         }
-        else{
+        else {
             val.phone_show = "display:none";
         }
         
         if (val.twitter != null && val.twitter.length > 0){
             val.twitter_show = "display:inline-block";
         }
-        else{
+        else {
             val.twitter_show = "display:none";
         }
-        
-        if((val.twitter == null || val.twitter == "") && (val.facebook == "" || val.facebook == null)){
+        if ((val.twitter == null || val.twitter == "") && (val.facebook == "" || val.facebook == null)){
             val.hide_social = "display:none;";
         }
         if (val.facebook != null && val.facebook.length > 0){
             val.facebook_show = "display:inline-block";
         }
-        else{
+        else {
             val.facebook_show = "display:none";
         }
         val.map_x_coordinate = val.x_coordinate - 19;
@@ -110,11 +102,9 @@ function renderStoreDetails(container, template, collection, slug){
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
-    
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
-
 
 function renderPromotions(container, template, collection, centre){
     var item_list = [];
@@ -137,13 +127,13 @@ function renderPromotions(container, template, collection, centre){
             val.store_slug = "/"
             val.store_show = "display:none;";
         }
-        if(val.image_url.indexOf('missing.png') > 0){
+        if (val.image_url.indexOf('missing.png') > 0){
             val.image_url  = "";
         }
-        if(val.description.length > 200){
+        if (val.description.length > 200){
             val.description_short = val.description.substring(0,200) + "...";
         }
-        else{
+        else {
             val.description_short = val.description
         }
         // var show_date = new Date (val.show_on_web_date + "T04:00:00Z");
