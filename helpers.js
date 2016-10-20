@@ -47,7 +47,7 @@ function show_content(){
     // var d = new Date();
     var d = moment();
     // var n = d.getDay();
-    var n = d.moment().date();
+    // var n = d.moment().date();
     var today_hours = getTodaysHours();
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
     $.each( getPropertyHours(), function(i,v){
