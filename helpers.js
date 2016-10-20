@@ -98,7 +98,6 @@ function show_content(){
         $('option.contest_link').remove()
         $('.spec_offer').css('width', '50%')
     }
-    
     $('#stores_container').scroll(function(){
         if( $(this).scrollTop() == 0){
             $('#store_scroll_up').css('display', 'none')
