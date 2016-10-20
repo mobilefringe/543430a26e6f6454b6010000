@@ -690,7 +690,7 @@ function renderHomeHours(container, template, collection){
         //     val.h = "Closed";
         // }
         
-        val.day = moment.date(day); 
+        val.day = moment.weekday(); 
         var d = moment();
         val.month = moment.month();
         val.weekday = addZero(d.getDate());
