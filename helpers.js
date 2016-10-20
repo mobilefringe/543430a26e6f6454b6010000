@@ -25,7 +25,6 @@ function init(e){
 		$(this).find('img').toggle();
 		$(this).toggleClass('open')
 	})
-	
 	$('html').click(function() {
         $('body').removeClass('no_scroll');
         $('.mobile_menu_container').removeClass('active_menu')
@@ -33,23 +32,20 @@ function init(e){
         $('.plus_icon').show()
         $('.minus_icon.menu_icon').hide()
     });
-    
     $('.mobile_menu_container, .open_menu').click(function(event){
         event.stopPropagation();
     });
-    
     $('#option_selector').change(function(){
         window.location = $(this).val();
     })
-
 }
 
 function show_content(){
     var scrolled = 0;
     $('.yield').fadeIn();
     $(".modal-backdrop").remove();
-    // var d = new Date();
-    var d = moment();
+    var d = new Date();
+    // var d = moment();
     var n = d.getDay();
     var today_hours = getTodaysHours();
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
