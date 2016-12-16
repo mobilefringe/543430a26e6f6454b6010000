@@ -272,7 +272,7 @@
                 var messages = data.messages.bulletin
                 if (messages != undefined){
                     $.each(messages, function(key ,val){
-                        $('#bulletin').append('<li ></li>')
+                        $('#bulletin').append('<li><strong>' + val.messages[0].title + ' </strong>'  + val.messages[0].title +  '</li>')
                     });
                     
                     var tickerSpeed = $('.news-ticker').attr('data-speed');
