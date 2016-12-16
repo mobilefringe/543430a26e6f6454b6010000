@@ -298,6 +298,9 @@
                         
                     }
                 }
+                else{
+                    $('.news-ticker').hide();
+                }
             });
         });
   
