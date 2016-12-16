@@ -154,7 +154,7 @@
     </div>
     <div class="fixed_header">
         <div class="news-ticker" data-speed="5000">
-            <ul class="bulletin">
+            <ul class="bulletin" id="bulletin">
                 <li><strong>MALL CLOSED TODAY: </strong>Due to severe weather conditions</li>
                 <li><strong>SECOND BULLETIN: </strong>South parking is under contruction </li>
             </ul>
@@ -271,7 +271,7 @@
     </section>
     <script>
         jQuery(document).ready(function($){
-
+        
   var tickerSpeed = $('.news-ticker').attr('data-speed');
 
   $('.news-ticker ul li').hide();
