@@ -274,8 +274,11 @@
             $.getJSON("//halifaxcentre.mallmaverick.com/api/v3/halifaxcentre/messages.json").done(function(data){
                 var bulletin = data.messages.bulletin
                 if (bulletin != undefined){
+                    $.each(bulletin, function(key ,val){
+                        log(val)
+                    });
+                    
                     var tickerSpeed = $('.news-ticker').attr('data-speed');
-    
                     $('.news-ticker ul li').hide();
                     $('.news-ticker ul li:first').show();
                     
