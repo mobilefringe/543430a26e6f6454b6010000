@@ -154,10 +154,7 @@
     </div>
     <div class="fixed_header">
         <div class="news-ticker" data-speed="5000">
-            <ul class="bulletin" id="bulletin">
-                <li><strong>MALL CLOSED TODAY: </strong>Due to severe weather conditions</li>
-                <li><strong>SECOND BULLETIN: </strong>South parking is under contruction </li>
-            </ul>
+            <ul class="bulletin" id="bulletin"></ul>
         </div>
         <section class="content_container main_container position_relative">
             <div class="row header mobile_margin">
@@ -275,7 +272,7 @@
                 var messages = data.messages.bulletin
                 if (messages != undefined){
                     $.each(messages, function(key ,val){
-                        log(val.messages)
+                        $('#bulletin').append('<li ></li>')
                     });
                     
                     var tickerSpeed = $('.news-ticker').attr('data-speed');
