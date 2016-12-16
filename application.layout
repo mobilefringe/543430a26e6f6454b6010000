@@ -153,9 +153,10 @@
         </div>
     </div>
     <div class="fixed_header">
-        <div class="bulletin">
-            <p><strong>MALL CLOSED TODAY: </strong>Due to severe weather conditions</p>
-        </div>
+        <ul class="bulletin">
+            <li><strong>MALL CLOSED TODAY: </strong>Due to severe weather conditions</li>
+            <li><strong>SECOND BULLETIN: </strong>Due to severe weather conditions</li>
+        </ul>
         <section class="content_container main_container position_relative">
             <div class="row header mobile_margin">
                 <div class="col-md-4 col-xs-4">
