@@ -273,7 +273,6 @@
         jQuery(document).ready(function($){
             $.getJSON("//halifaxcentre.mallmaverick.com/api/v3/halifaxcentre/messages.json").done(function(data){
                 var messages = data.messages.bulletin
-                log(messages)
                 if (messages != undefined){
                     $.each(messages, function(key ,val){
                         
