@@ -271,7 +271,9 @@
     </section>
     <script>
         jQuery(document).ready(function($){
-        
+        $.getJSON("//halifaxcentre.mallmaverick.com/api/v3/halifaxcentre/messages.json").done(function(data){
+            log(data)
+        })
   var tickerSpeed = $('.news-ticker').attr('data-speed');
 
   $('.news-ticker ul li').hide();
