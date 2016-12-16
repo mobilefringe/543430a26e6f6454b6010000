@@ -275,7 +275,7 @@
                 var messages = data.messages.bulletin
                 if (messages != undefined){
                     $.each(messages, function(key ,val){
-                        
+                        log(val.messages)
                     });
                     
                     var tickerSpeed = $('.news-ticker').attr('data-speed');
