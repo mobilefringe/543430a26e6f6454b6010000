@@ -301,6 +301,7 @@
                             }, tickerSpeed);
                             
                         }
+                    $('.news-ticker').show();
                     }
                 }
                 else{
