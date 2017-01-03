@@ -23,6 +23,7 @@
             <option value="/style_file">Style File</option>
             <option value="/shop_the_look">Shop The Look</option>
             <option value="/attract">Opposites Attract</option>
+            <option value="/blog">Blog</option>
         </select>
     </h5>
 </div>
