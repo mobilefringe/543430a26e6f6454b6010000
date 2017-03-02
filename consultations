@@ -1,5 +1,5 @@
 <style>
-    .fr-fil{
+    .fr-fil, .alignleft{
         float:left;
     }   
    p {
