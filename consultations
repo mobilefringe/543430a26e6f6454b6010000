@@ -1,5 +1,7 @@
 <style>
-   
+    .fr-fil{
+        float:left;
+    }   
    p {
    
     line-height: 36px;
