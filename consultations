@@ -1,0 +1,145 @@
+<style>
+   
+   p {
+   
+    line-height: 36px;
+}
+    h5
+    {
+        font-size:24px;
+     
+    }
+    .consultant-desc h5{
+        margin-left:170px;
+    }
+    .consultant-desc p{
+        margin-left:170px;
+    }
+    .froala-element img{
+        float:left !important;
+    }
+    .package{
+        font-weight:bold;
+    }
+   @media(max-width:767px){
+       .consultant-desc{
+           display:block;
+       }
+        .consultant-desc h5{
+            margin-left:10px;
+        }
+         .consultant-desc p{
+            margin-left:10px;
+        }
+    }
+</style>
+
+<div class="jobs_banner text-center">
+    <h3>CONSULTATIONS</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-3">
+            <h5><a href="/gift_cards">GIFT CARDS</a></h5>
+        </div>
+        <div class="col-md-3 text-center">
+            <h5><a href="/community">COMMUNITY</a></h5>
+        </div>
+        <div class="col-md-3 text-center">
+            <h5><a href="/mall_services">MALL SERVICES</a></h5>
+        </div>
+        <div class="col-md-3">
+            <h5 class="active_heading">CONSULTATIONS</h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/gift_cards">Gift Cards</option>
+            <option value="/community">Community</option>
+            <option value="/mall_services">Mall Services</option>
+            <option value="/consultations">Consultations</option>
+        </select>
+    </h5>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="style-consultation">
+                    <section id="editor" class="froala-element">
+                        <a href="#" style="font-size:20px;display:none" id="content_block_5446bd7b6e6f645822000000">
+                            Save&nbsp;&nbsp;</a>
+                        <span id="status_5446bd7b6e6f645822000000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
+                        <div id='edit_5446bd7b6e6f645822000000'>
+    	                    <%=content_block_5446bd7b6e6f645822000000%>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <script>
+     $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderAll);
+    });
+      function renderAll(){
+		if (typeof $('#edit_5446bd7b6e6f645822000000').editable != 'undefined') {
+			$('#content_block_5446bd7b6e6f645822000000').show();
+	        $('#edit_5446bd7b6e6f645822000000').editable({
+				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
+				inlineMode: false,
+                paragraphy: true,
+                alwaysBlank: true,
+                toolbarFixed: true,
+                imageMove: true,
+                saveURL: '../save_content_block',
+                saveRequestType: 'POST',
+	            saveParams: {name:'style consultations', id: '5446bd7b6e6f645822000000',web_page_id: '544558616e6f645e23000000',authenticity_token: '<%=form_authenticity_token%>'},
+	            autosave: false,
+				minHeight: 400,
+				imageUploadToS3: {
+                    bucket: 'kodekloud',
+                    region: 's3',
+                    keyStart: 'site/5438407c6e6f64462d020000/8247c454c347f596a42a8f08ee6c84b6/${filename}',
+					callback: function (url, key) {
+                      $.ajax({
+                            url : "/web_pages/add_upload_from_content_block",
+                            type: "POST",
+                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
+                            success: function(data, textStatus, jqXHR)
+                            {
+                                log('saved image to uploads');
+                                log(textStatus);
+                            },
+                            error: function (jqXHR, textStatus, errorThrown)
+                            {
+                                log('saved image to uploads');
+                                log(textStatus);
+                            }
+                        });
+                    },
+                    params: {
+					  utf8: '&#x2713;',
+                      acl: 'public-read', // ACL according to Amazon Documentation.
+                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
+                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OC0wOC0wNFQyMDowOTozMS4yODFaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCw1MjQyODgwMDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRzdWNjZXNzX2FjdGlvbl9zdGF0dXMiLCIiXSxbInN0YXJ0cy13aXRoIiwiJFgtUmVxdWVzdGVkLVdpdGgiLCIiXSx7ImJ1Y2tldCI6ImtvZGVrbG91ZCJ9LHsiYWNsIjoicHVibGljLXJlYWQifV19', // Policy string computed in the backend.
+                      signature: 'MXZaXMW3feXRN8epVG0/F8t0w6k=', // Signature computed in the backend.
+                    }
+                }
+            
+	        })
+		}
+		$('#status_5446bd7b6e6f645822000000').hide();
+        show_content()
+        $('#content_block_5446bd7b6e6f645822000000').click(function(event){
+            event.preventDefault();
+            $('#edit_5446bd7b6e6f645822000000').editable("save");
+        });
+        
+      }
+  </script>
