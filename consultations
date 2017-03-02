@@ -82,64 +82,25 @@
         </div>
     </div>
 </div>
-  <script>
-     $(document).ready(function(e){
+
+<script>
+    $(document).ready(function(e){
         init(e);
-        loadMallDataCached(renderAll);
-    });
-      function renderAll(){
-		if (typeof $('#edit_5446bd7b6e6f645822000000').editable != 'undefined') {
-			$('#content_block_5446bd7b6e6f645822000000').show();
-	        $('#edit_5446bd7b6e6f645822000000').editable({
-				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
-				inlineMode: false,
-                paragraphy: true,
-                alwaysBlank: true,
-                toolbarFixed: true,
-                imageMove: true,
-                saveURL: '/web_pages/save_content_block',
-                saveRequestType: 'POST',
-	            saveParams: {name:'style consultations', id: '5446bd7b6e6f645822000000',web_page_id: '544558616e6f645e23000000',authenticity_token: '<%=form_authenticity_token%>'},
-	            autosave: false,
-				minHeight: 400,
-				imageUploadToS3: {
-                    bucket: 'kodekloud',
-                    region: 's3',
-                    keyStart: 'site/5438407c6e6f64462d020000/8247c454c347f596a42a8f08ee6c84b6/${filename}',
-					callback: function (url, key) {
-                      $.ajax({
-                            url : "/web_pages/add_upload_from_content_block",
-                            type: "POST",
-                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
-                            success: function(data, textStatus, jqXHR)
-                            {
-                                log('saved image to uploads');
-                                log(textStatus);
-                            },
-                            error: function (jqXHR, textStatus, errorThrown)
-                            {
-                                log('saved image to uploads');
-                                log(textStatus);
-                            }
-                        });
-                    },
-                    params: {
-					  utf8: '&#x2713;',
-                      acl: 'public-read', // ACL according to Amazon Documentation.
-                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
-                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OC0wOC0wNFQyMDowOTozMS4yODFaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCw1MjQyODgwMDBdLFsic3RhcnRzLXdpdGgiLCIkQ29udGVudC1UeXBlIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRzdWNjZXNzX2FjdGlvbl9zdGF0dXMiLCIiXSxbInN0YXJ0cy13aXRoIiwiJFgtUmVxdWVzdGVkLVdpdGgiLCIiXSx7ImJ1Y2tldCI6ImtvZGVrbG91ZCJ9LHsiYWNsIjoicHVibGljLXJlYWQifV19', // Policy string computed in the backend.
-                      signature: 'MXZaXMW3feXRN8epVG0/F8t0w6k=', // Signature computed in the backend.
-                    }
+        function renderAll(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = prefix+ "/pages/halifaxcentre-contact-us.json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_title').html(data.title.toUpperCase());
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
                 }
-            
-	        })
-		}
-		$('#status_5446bd7b6e6f645822000000').hide();
-        show_content()
-        $('#content_block_5446bd7b6e6f645822000000').click(function(event){
-            event.preventDefault();
-            $('#edit_5446bd7b6e6f645822000000').editable("save");
-        });
-        
-      }
-  </script>
+            }); 
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
