@@ -99,7 +99,7 @@
                 imageMove: true,
                 saveURL: '/web_pages/save_content_block',
                 saveRequestType: 'POST',
-	            saveParams: {name:'consultations', id: '5446bd7b6e6f645822000000',web_page_id: '544558616e6f645e23000000',authenticity_token: '<%=form_authenticity_token%>'},
+	            saveParams: {name:'style consultations', id: '5446bd7b6e6f645822000000',web_page_id: '544558616e6f645e23000000',authenticity_token: '<%=form_authenticity_token%>'},
 	            autosave: false,
 				minHeight: 400,
 				imageUploadToS3: {
@@ -108,7 +108,7 @@
                     keyStart: 'site/5438407c6e6f64462d020000/8247c454c347f596a42a8f08ee6c84b6/${filename}',
 					callback: function (url, key) {
                       $.ajax({
-                            url : "../add_upload_from_content_block",
+                            url : "/web_pages/add_upload_from_content_block",
                             type: "POST",
                             data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
                             success: function(data, textStatus, jqXHR)
