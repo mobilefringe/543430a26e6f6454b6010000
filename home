@@ -1,3 +1,9 @@
+<div class="popup_home hidden_now">
+    <a href="#">
+        <img src="#" alt="pop up" />
+    </a>
+    <i class="fa fa-remove close_popup"></i>
+</div>
 <div class="hero_banner text-center">
     <h3>SHOPPING IS OUR MIDDLE NAME</h3>
     <p>The fashion capital of Atlantic Canada</p>
