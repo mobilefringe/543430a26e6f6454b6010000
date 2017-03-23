@@ -23,7 +23,7 @@
         font-family: 'Open Sans Condensed';
         font-weight: 700;
         font-size: 24px;
-        text-transform: capitalize;
+        text-transform: uppercase;
     }
     .post_container {
         border: 1px solid #d3d3d3;
