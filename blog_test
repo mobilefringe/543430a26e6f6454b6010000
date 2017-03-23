@@ -27,6 +27,7 @@
     }
     .post_content {
         padding: 50px 55px;
+        position: relative;
     }
     .main_post_header, .post_header {
         font-family: 'Open Sans Condensed', sans-serif;
@@ -46,6 +47,14 @@
     }
     .read_more {
         font-size: 20px;
+    }
+    .post_share_icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .post_icon {
+        width: 36px;
     }
 </style>
 <div class="jobs_banner text-center">
