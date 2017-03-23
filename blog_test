@@ -61,6 +61,12 @@
     .post_icon {
         width: 36px;
     }
+    .load_more {
+        font-weight: lighter;
+        font-size: 24px;
+        color: #D8836C;
+        display: inline-block;
+    }
 </style>
 <div class="jobs_banner text-center">
     <h3>BLOG</h3>
@@ -145,6 +151,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h5>Previous</h5>
+                a href="javascript:void(0);" onclick="renderPostTileTemplate('#blog_tile_template', '#main-content',getBlogDataBySlug('ptc-blog').posts);">SEE MORE</a>
             </div>
         </div>
     </div>
