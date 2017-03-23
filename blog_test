@@ -78,7 +78,7 @@
         console.log(main_post)
     
         // blog.posts = blog.posts.sortBy(function(o){ return new Date(o.created_at) }).reverse();
-        renderPosts('#main_post_container', "#main_post_template", main_post);
+        renderSinglePost('#main_post_container', "#main_post_template", main_post);
         show_content();
     }
     function renderSinglePost(container, template, main_post){
