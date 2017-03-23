@@ -1,21 +1,21 @@
 <div class="jobs_banner text-center">
-    <h3>STYLE FILE</h3>
+    <h3>BLOG</h3>
     <p>explore • enjoy • shop</p>
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-3">
-            <h5><a href="/shop_the_look">STYLE FILE</a></h5>
-        </div>
-        <div class="col-md-3 text-center">
-            <h5><a href="/shop_the_look">SHOP THE LOOK</a></h5>
-        </div>
-        <div class="col-md-3 text-center">
-            <h5><a href="/attract">OPPOSITES ATTRACT</a></h5>
-        </div>
-        <div class="col-md-3">
-            <h5 class="active_heading">BLOG</h5>
-        </div>
+        <!--<div class="col-md-3">-->
+        <!--    <h5><a href="/shop_the_look">STYLE FILE</a></h5>-->
+        <!--</div>-->
+        <!--<div class="col-md-3 text-center">-->
+        <!--    <h5><a href="/shop_the_look">SHOP THE LOOK</a></h5>-->
+        <!--</div>-->
+        <!--<div class="col-md-3 text-center">-->
+        <!--    <h5><a href="/attract">OPPOSITES ATTRACT</a></h5>-->
+        <!--</div>-->
+        <!--<div class="col-md-3">-->
+        <!--    <h5 class="active_heading">BLOG</h5>-->
+        <!--</div>-->
     </div>
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
