@@ -48,7 +48,7 @@
     .read_more {
         font-size: 20px;
     }
-    .post_share_icon {
+    .post_share_icons {
         position: absolute;
         top: 0;
         right: 0;
