@@ -189,11 +189,10 @@
         Mustache.parse(template_html);   // optional, speeds up future uses
         
         var interval = 3;
-        var totalPosts;
-        var showingPosts;
-        totalPosts = posts.length;
+        var totalPosts = posts.length;
+        var showingPosts = showingPosts = $('.post_container').length + interval;
         console.log(total_posts);
-        showingPosts = $('.post_container').length + interval;
+        
     
         $.each( collection , function( key, val ) {
             if (val.image_url.indexOf('missing.png') > -1) {
