@@ -181,7 +181,7 @@
     var totalPosts;
     var showingPosts;
 
-    function renderPosts(container, template, collection){
+    function renderPosts(container, template, posts){
         var item_list = [];
         var item_rendered = [];
         var template_html = $(template).html();
