@@ -180,6 +180,14 @@
     var interval = 3;
     var totalPosts;
     var showingPosts;
+    
+    function loadMoreButton(){
+        if(totalPosts > showingPosts){
+            $('.sparkNowMore').fadeIn();
+        }else{
+            $('.sparkNowMore').fadeOut();
+        }
+    }
 
     function renderPosts(container, template, posts){
         var item_list = [];
@@ -216,6 +224,7 @@
         });
         $(container).show();
         $(container).html(item_rendered.join(''));
+        loadMoreButton();
     }
     
     function renderSinglePost(container, template, main_post){
