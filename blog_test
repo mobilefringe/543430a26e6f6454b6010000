@@ -46,8 +46,8 @@
 <div class="content_container main_container mobile_padding">
     <div class="margin_25_across">
         <div class="row">
-            <div class="col-md-12" id="post_container">
-                <script id="post_template" type="x-tmpl-mustache">
+            <div class="col-md-12" id="main_post_container">
+                <script id="main_post_template" type="x-tmpl-mustache">
                     <div class="">
                         <div class="main_post_image_container">
                             <img src="{{post_image}}" alt="{{title}}">
@@ -72,7 +72,8 @@
     
     function renderPageData(){
         var blog = getBlogDataBySlug('halifaxcentre-test-blog');
-        console.log(blog)
+        var blog_posts = blog.posts.reverse();
+        console.log(blog_posts)
         // blog.posts = blog.posts.sortBy(function(o){ return new Date(o.created_at) }).reverse();
         renderPosts('#post_container', "#post_template", blog.posts.reverse())
         show_content();
