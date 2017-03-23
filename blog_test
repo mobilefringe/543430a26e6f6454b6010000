@@ -4,6 +4,9 @@
         height: 450px;
         position: relative;
     }
+    .main_post_image_container img {
+        height: 100%;
+    }
     .main_post_content {
         width: 460px;
         height: 302px;
