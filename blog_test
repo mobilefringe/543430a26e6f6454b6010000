@@ -188,6 +188,9 @@
         var counter = 1;
         Mustache.parse(template_html);   // optional, speeds up future uses
         
+        var interval = 3;
+        var totalPosts;
+        var showingPosts;
         totalPosts = posts.length;
         console.log(total_posts);
         showingPosts = $('.post_container').length + interval;
