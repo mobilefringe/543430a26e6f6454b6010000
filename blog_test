@@ -69,15 +69,17 @@
             <div class="col-md-12" id="post_container">
                 <script id="post_template" type="x-tmpl-mustache">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="post_image_container">
-                                <img src="{{post_image}}" alt="{{title}}">
+                        <div class="post_container">
+                            <div class="col-md-6">
+                                <div class="post_image_container">
+                                    <img src="{{post_image}}" alt="{{title}}">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="post_content">
-                                <h2 class="post_header">{{title}}</h2>
-                                <div class="">{{description_short}}</div>
+                            <div class="col-md-6">
+                                <div class="post_content">
+                                    <h2 class="post_header">{{title}}</h2>
+                                    <div class="">{{description_short}}</div>
+                                </div>
                             </div>
                         </div>
                     </div>
