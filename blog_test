@@ -32,6 +32,9 @@
         font-size: 22px;
         line-height: 30px;
     }
+    .read_more {
+        font-size: 20px;
+    }
 </style>
 <div class="jobs_banner text-center">
     <h3>BLOG</h3>
