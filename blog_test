@@ -191,7 +191,7 @@
         var interval = 3;
         var totalPosts = posts.length;
         var showingPosts = showingPosts = $('.post_container').length + interval;
-        console.log(total_posts);
+        console.log(totalPosts);
         
     
         $.each( collection , function( key, val ) {
