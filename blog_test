@@ -50,7 +50,7 @@
                 <script id="main_post_template" type="x-tmpl-mustache">
                     <div class="">
                         <div class="main_post_image_container">
-                            <img src="{{post_image}}" alt="{{title}}">
+                            <img src="{{image_url}}" alt="{{title}}">
                         </div>
                         <div class="main_post_content">
                             <h2 class="post_header">{{title}}</h2>
@@ -80,5 +80,34 @@
         // blog.posts = blog.posts.sortBy(function(o){ return new Date(o.created_at) }).reverse();
         renderPosts('#main_post_container', "#main_post_template", main_post);
         show_content();
+    }
+    function renderPosts(container, template, collection){
+        var item_list = [];
+        var item_rendered = [];
+        var template_html = $(template).html();
+        var counter = 1;
+        Mustache.parse(template_html);   // optional, speeds up future uses
+        $.each( collection , function( key, val ) {
+            if (val.image_url.indexOf('missing.png') > 0) {
+                val.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+            } else {
+                val.post_image = val.image_url;
+            }
+            if(val.body.length > 100){
+                val.description_short = val.body.substring(0,100) + "...";
+            }
+            else{
+                val.description_short = val.body;
+            }
+            val.description_short = val.description_short.replace("&amp;", "&");
+            var date_blog = new Date(val.publish_date);
+            val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
+            
+            var rendered = Mustache.render(template_html,val);
+            item_rendered.push(rendered);
+            counter = counter+1;
+        });
+        $(container).show();
+        $(container).html(item_rendered.join(''));
     }
 </script>
