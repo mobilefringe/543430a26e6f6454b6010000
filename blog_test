@@ -33,13 +33,12 @@
             <div class="col-md-12" id="post_container">
                 <script id="post_template" type="x-tmpl-mustache">
                     <div class="">
-                        
-                        <h2 class="post_header">{{title}}</h2>
-                        <div class="row">
-                           
-                            <div class="col-md-12">
-                                {{{html_body}}}
-                            </div>
+                        <div class="post_image_container">
+                            <img src="" alt="">
+                        </div>
+                        <div class="post_content">
+                            <h2 class="post_header">{{title}}</h2>
+                            <div class="">{{description_short}}</div>
                         </div>
                         <hr>
                     </div>
