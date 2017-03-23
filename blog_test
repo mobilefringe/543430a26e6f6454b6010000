@@ -95,7 +95,8 @@
         renderSinglePost('#main_post_container', "#main_post_template", main_post);
 
         var posts = blog_posts.shift();
-        renderPosts('#post_container', '#post_template', posts);
+        console.log(posts);
+        // renderPosts('#post_container', '#post_template', posts);
         show_content();
     }
     
