@@ -24,7 +24,7 @@
         height: 302px;
         position: absolute;
         top: 74px;
-        right: 0;
+        right: 15px;
         background: rgba(250, 250, 250, .7);
         border: 1px solid #d3d3d3;
     }
