@@ -37,6 +37,7 @@
     .post_text {
         font-size: 22px;
         line-height: 30px;
+        color: #5F574B;
     }
     .read_more {
         font-size: 20px;
