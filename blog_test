@@ -177,6 +177,7 @@
         renderPosts('#post_container', '#post_template', posts);
         show_content();
     }
+    
     function renderPosts(container, template, collection){
         var item_list = [];
         var item_rendered = [];
@@ -206,6 +207,7 @@
         $(container).show();
         $(container).html(item_rendered.join(''));
     }
+    
     function renderSinglePost(container, template, main_post){
         var item_list = [];
         var template_html = $(template).html();
