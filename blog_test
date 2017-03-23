@@ -28,6 +28,10 @@
     .post_container {
         border: 1px solid #d3d3d3;
     }
+    .post_text {
+        font-size: 22px;
+        line-height: 30px;
+    }
 </style>
 <div class="jobs_banner text-center">
     <h3>BLOG</h3>
@@ -69,7 +73,7 @@
                         </div>
                         <div class="main_post_content">
                             <h2 class="main_post_header">{{title}}</h2>
-                            <div class="">{{description_short}}</div>
+                            <div class="post_text">{{description_short}}</div>
                         </div>
                     </div>
                 </script>
@@ -94,7 +98,7 @@
                             <div class="col-md-6">
                                 <div class="post_content">
                                     <h2 class="post_header">{{title}}</h2>
-                                    <div class="">{{description_short}}</div>
+                                    <div class="post_text">{{description_short}}</div>
                                 </div>
                             </div>
                         </div>
