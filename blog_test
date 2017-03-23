@@ -3,6 +3,7 @@
         font-family: 'Eb Garamond', serif;
         font-size: 24px;
         color: #467384;
+        text-transform:uppercase;
     }
     .main_post_image_container {
         width: 700px;
