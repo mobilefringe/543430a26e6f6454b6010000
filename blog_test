@@ -88,11 +88,11 @@
         var counter = 1;
         Mustache.parse(template_html);   // optional, speeds up future uses
         $.each( collection , function( key, val ) {
-            if (val.image_url.indexOf('missing.png') > 0) {
-                val.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
-            } else {
+            // if (val.image_url.indexOf('missing.png') > 0) {
+            //     val.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+            // } else {
                 val.post_image = val.image_url;
-            }
+            // }
             if(val.body.length > 100){
                 val.description_short = val.body.substring(0,100) + "...";
             }
