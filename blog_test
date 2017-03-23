@@ -114,6 +114,10 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="post_content">
+                                    <div class="post_share_icons">
+                                        <img class="post_icon" src="http://assets.codecloudapp.com/sites/5808c7e76e6f6414b30c0000/image/png/1490295919000/Facebook Button Small.png" class="" alt="">
+                                        <img class="post_icon" src="http://assets.codecloudapp.com/sites/5808c7e76e6f6414b30c0000/image/png/1490295931000/Twitter Button Small.png" class="" alt="">
+                                    </div>
                                     <h2 class="post_header">{{title}}</h2>
                                     <div class="post_text">{{description_short}}</div>
                                 </div>
