@@ -81,35 +81,32 @@
         renderPosts('#main_post_container', "#main_post_template", main_post);
         show_content();
     }
-    function renderPosts(container, template, collection){
+    function renderSinglePost(container, template, main_post){
         var item_list = [];
-        var item_rendered = [];
+        // var item_rendered = [];
         var template_html = $(template).html();
-        var counter = 1;
+        // var counter = 1;
         Mustache.parse(template_html);   // optional, speeds up future uses
-        $.each( collection , function( key, val ) {
-            if (val.image_url.indexOf('missing.png') > 0) {
-                val.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+        // $.each( collection , function( key, val ) {
+            if (main_post.image_url.indexOf('missing.png') > 0) {
+                main_post.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
             } else {
-                val.post_image = val.image_url;
+                main_post.post_image = main_post.image_url;
             }
             
-            if(val.body.length > 100){
-                val.description_short = val.body.substring(0,100) + "...";
-            }
-            else{
-                val.description_short = val.body;
-            }
+            // if(val.body.length > 100){
+            //     val.description_short = val.body.substring(0,100) + "...";
+            // }
+            // else{
+            //     val.description_short = val.body;
+            // }
             
-            val.description_short = val.description_short.replace("&amp;", "&");
-            var date_blog = new Date(val.publish_date);
-            val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
+            // val.description_short = val.description_short.replace("&amp;", "&");
+            // var date_blog = new Date(val.publish_date);
+            // val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
             
-            var rendered = Mustache.render(template_html,val);
-            item_rendered.push(rendered);
-            counter = counter+1;
-        });
-        $(container).show();
-        $(container).html(item_rendered.join(''));
+            var blog_rendered = Mustache.render(blog_template_html, blog_detail);
+        item_list.push(blog_rendered);
+        $(container).html(item_list.join(''));
     }
 </script>
