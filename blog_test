@@ -65,12 +65,12 @@
                 <script id="post_template" type="x-tmpl-mustache">
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="main_post_image_container">
+                            <div class="post_image_container">
                                 <img src="{{post_image}}" alt="{{title}}">
                             </div>
                         </div>
                         <div class="col-md-8">
-                            <div class="main_post_content">
+                            <div class="post_content">
                                 <h2 class="post_header">{{title}}</h2>
                                 <div class="">{{description_short}}</div>
                             </div>
