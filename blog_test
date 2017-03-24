@@ -183,9 +183,9 @@
     
     function loadMoreButton(){
         if(totalPosts > showingPosts){
-            $('.load_more').fadeIn();
+            $('.sparkNowMore').fadeIn();
         }else{
-            $('.load_more').fadeOut();
+            $('.sparkNowMore').fadeOut();
         }
     }
 
