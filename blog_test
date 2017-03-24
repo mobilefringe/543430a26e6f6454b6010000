@@ -150,7 +150,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <a class="load_more" href="javascript:void(0);" onclick="renderPosts('#post_container', '#post_template', getBlogDataBySlug('halifaxcentre-test-blog'););">
+                <a class="load_more" href="javascript:void(0);" onclick="renderPosts('#post_container', '#post_template', getBlogDataBySlug('halifaxcentre-test-blog'));">
                     Load More
                 </a>
             </div>
