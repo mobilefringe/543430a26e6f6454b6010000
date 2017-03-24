@@ -231,8 +231,8 @@
             main_post.post_image = main_post.image_url;
         }
             
-        if(main_post.body.length > 240){
-            main_post.description_short = main_post.body.substring(0,240) + "...";
+        if(main_post.body.length > 235){
+            main_post.description_short = main_post.body.substring(0,235) + "...";
         }
         else{
             main_post.description_short = main_post.body;
