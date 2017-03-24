@@ -189,42 +189,39 @@
         }
     }
 
-    function renderPosts(container, template, posts){
+    function renderPosts(post_container, post_template, posts){
         var item_list = [];
         var item_rendered = [];
-        var template_html = $(template).html();
-        var counter = 1;
+        var template_html = $(post_template).html();
         Mustache.parse(template_html);   // optional, speeds up future uses
         
         var interval = 3;
-        var totalPosts = posts.length;
-        var showingPosts = showingPosts = $('.post_container').length + interval;
-        console.log(totalPosts);
-        
+        var totalPosts = post.length;
+        var showingPosts = $('.sparkNowTile').length + interval;
     
-        $.each( posts, function( key, val ) {
-            if (val.image_url.indexOf('missing.png') > -1) {
-                val.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
-            } else {
-                val.post_image = val.image_url;
-            }
-            if(val.body.length > 100){
-                val.description_short = val.body.substring(0,100) + "...";
-            }
-            else{
-                val.description_short = val.body;
-            }
-            val.description_short = val.description_short.replace("&amp;", "&");
-            var date_blog = new Date(val.publish_date);
-            val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
-            
-            var rendered = Mustache.render(template_html,val);
-            item_rendered.push(rendered);
-            counter = counter+1;
+        $.each(posts, function(key, val) {
+            item_list.push(val);
         });
-        $(container).show();
-        $(container).html(item_rendered.join(''));
-        loadMoreButton();
+    
+        $.each( item_list , function(key,val){
+            if(val.tag.length != 0){
+                val.tag_first = val.tag[0];
+            }
+        });
+        item_list.sort(function(a, b){
+            if(a.publish_date > b.publish_date) return -1;
+            if(a.publish_date < b.publish_date) return 1;
+            return 0;
+        });
+    
+        $.each( item_list , function( index, val ) {
+            if (index >= showingPosts) {return false;};
+            
+            var blog_rendered = Mustache.render(template_html, val);
+            item_rendered.push(blog_rendered);
+        });
+        $(post_container).html(item_rendered.join(''));
+        checkSeeMoreButton();
     }
     
     function renderSinglePost(container, template, main_post){
