@@ -95,8 +95,8 @@
                             <h2 class="main_post_header">{{title}}</h2>
                             <div class="post_text">
                                 {{description_short}}
-                                <a class="read_more" href="/blog/{{slug}}">Read More</a>
                             </div>
+                            <a class="read_more" href="/blog/{{slug}}">Read More</a>
                         </div>
                     </div>
                 </script>
