@@ -193,11 +193,8 @@
         var template_html = $(post_template).html();
         Mustache.parse(template_html);   // optional, speeds up future uses
         
-        var interval = 3;
-        var totalPosts = posts.length;
-        console.log(totalPosts);
-        var showingPosts = $('.post_container').length + interval;
-        console.log(showingPosts)
+        totalPosts = posts.length;
+        showingPosts = $('.post_container').length + interval;
     
         $.each(posts, function(key, val) {
             item_list.push(val);
