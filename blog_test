@@ -166,15 +166,12 @@
     
     function renderPageData(){
         var blog = getBlogDataBySlug('halifaxcentre-test-blog');
-        console.log(blog)
         var blog_posts = blog.posts.reverse();
-            console.log(blog_posts);
         
         var main_post = blog_posts[0];
         renderSinglePost('#main_post_container', "#main_post_template", main_post);
 
         var posts = blog_posts.splice(1);
-        console.log(posts);
         renderPosts('#post_container', '#post_template', posts);
         show_content();
     }
@@ -198,7 +195,9 @@
         
         var interval = 3;
         var totalPosts = posts.length;
+        console.log(totalPosts);
         var showingPosts = $('.post_container').length + interval;
+        console.log(showingPosts)
     
         $.each(posts, function(key, val) {
             item_list.push(val);
