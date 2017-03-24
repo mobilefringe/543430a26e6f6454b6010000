@@ -102,6 +102,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
+                <div class="margin_30 hidden_phone"></div>
                 <h5>Previous</h5>
             </div>
         </div>
