@@ -166,6 +166,7 @@
     
     function renderPageData(){
         var blog = getBlogDataBySlug('halifaxcentre-test-blog');
+        console.log(blog)
         var blog_posts = blog.posts.reverse();
             console.log(blog_posts);
         
