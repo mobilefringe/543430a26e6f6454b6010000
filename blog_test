@@ -180,18 +180,15 @@
         var posts = blog_posts.splice(1);
         renderPosts('#post_container', '#post_template', posts);
         show_content();
+        load_more(1);
+            
+        $('#load_more_posts').click(function(e){
+            var i = $('#num_loaded').val();
+            load_more(i);
+            e.preventDefault();
+        });
     }
-    var interval = 3;
-    var totalPosts;
-    var showingPosts;
     
-    function loadMoreButton(){
-        if(totalPosts > showingPosts){
-            $('.sparkNowMore').fadeIn();
-        }else{
-            $('.sparkNowMore').fadeOut();
-        }
-    }
 
     function renderPosts(container, template, collection){
         var item_list = [];
