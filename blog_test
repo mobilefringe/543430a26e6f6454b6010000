@@ -110,7 +110,7 @@
                             <h2 class="main_post_header">{{title}}</h2>
                             <div class="post_text">
                                 {{description_short}}
-                                <a class="read_more" href="">Read More</a>
+                                <a class="read_more" href="{{slug}}">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -188,7 +188,6 @@
     function load_more(num){
         var n = parseInt(num);
         for(i=n; i < n + 3; i++){
-            
             var id = i.toString();
             $('#show_' + id ).fadeIn();
         }
