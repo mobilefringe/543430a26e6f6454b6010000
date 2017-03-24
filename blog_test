@@ -221,7 +221,7 @@
             item_rendered.push(blog_rendered);
         });
         $(post_container).html(item_rendered.join(''));
-        checkSeeMoreButton();
+        loadMoreButton();
     }
     
     function renderSinglePost(container, template, main_post){
