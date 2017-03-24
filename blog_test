@@ -208,6 +208,18 @@
             if(val.tag.length != 0){
                 val.tag_first = val.tag[0];
             }
+            if (val.image_url.indexOf('missing.png') > -1) {
+                val.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+            } else {
+                val.post_image = val.image_url;
+            }
+            if(val.body.length > 100){
+                val.description_short = val.body.substring(0,100) + "...";
+            }
+            else{
+                val.description_short = val.body;
+            }
+            val.description_short = val.description_short.replace("&amp;", "&");
         });
         item_list.sort(function(a, b){
             if(a.publish_date > b.publish_date) return -1;
