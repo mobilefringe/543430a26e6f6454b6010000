@@ -197,7 +197,7 @@
         
         var interval = 3;
         var totalPosts = posts.length;
-        var showingPosts = $('.sparkNowTile').length + interval;
+        var showingPosts = $('.post_container').length + interval;
     
         $.each(posts, function(key, val) {
             item_list.push(val);
