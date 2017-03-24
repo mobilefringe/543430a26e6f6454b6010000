@@ -19,7 +19,7 @@
     }
     
     .main_post_content {
-        padding: 33px 35px;
+        padding: 33px 50px 33px 35px;
         width: 460px;
         height: 302px;
         position: absolute;
@@ -48,6 +48,7 @@
     .post_text {
         font-size: 22px;
         line-height: 30px;
+        letter-spacing: 0.5px;
         color: #5F574B;
     }
     .read_more {
