@@ -38,6 +38,7 @@
         font-size: 24px;
     }
     .main_post_header {
+        margin-top: 0;
         text-transform: uppercase;
     }
     .post_container {
