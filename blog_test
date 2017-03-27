@@ -75,7 +75,7 @@
     });
     
     function renderPageData(){
-        var blog = getBlogDataBySlug('halifaxcentre-life-style');
+        var blog_posts = getBlogDataBySlug('halifaxcentre-life-style');
         var main_post = blog_posts[0];
         renderSinglePost('#main_post_container', "#main_post_template", main_post);
 
@@ -97,7 +97,7 @@
             var id = i.toString();
             $('#show_' + id ).fadeIn();
         }
-        var total_posts = getBlogDataBySlug('halifaxcentre-life-style').posts;
+        var total_posts = getBlogDataBySlug('halifaxcentre-test-blog').posts;
         if(i >= total_posts.length){
             $('#loaded_posts').hide();
             $('#all_loaded').show();
