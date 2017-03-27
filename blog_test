@@ -100,6 +100,7 @@
         }
         console.log(i)
         if(i >= getBlogDataBySlug('halifaxcentre-test-blog').length + 1){
+            console.log(getBlogDataBySlug('halifaxcentre-test-blog').length + 1);
             $('#loaded_posts').hide();
             $('#all_loaded').show();
         }
