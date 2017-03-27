@@ -12,9 +12,9 @@
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
     <div class="row_fluid">
-        <div class="col-md-12" id="main_post_container">
+        <div id="main_post_container">
             <script id="main_post_template" type="x-tmpl-mustache">
-                <div class="">
+                <div class="main_post_container">
                     <div class="main_post_image_container">
                         <img src="{{post_image}}" alt="{{title}}">
                     </div>
