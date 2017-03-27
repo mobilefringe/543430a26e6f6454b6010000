@@ -99,9 +99,8 @@
             $('#show_' + id ).fadeIn();
         }
         console.log(i)
-        var blog_length = getBlogDataBySlug('halifaxcentre-test-blog').length;
-        console.log(blog_length);
-        if(i >= getBlogDataBySlug('halifaxcentre-test-blog').length + 1){
+        var total_posts = getBlogDataBySlug('halifaxcentre-test-blog').posts;
+        if(i >= total_posts.length + 1){
             $('#loaded_posts').hide();
             $('#all_loaded').show();
         }
