@@ -106,7 +106,7 @@
             $('#show_' + id ).fadeIn();
         }
         if(i >= getAllPublishedPosts().length+1){
-            $('#loaded_posts').hide();
+            $('#load_more_posts').hide();
             $('#all_loaded').show();
         }
         $('#num_loaded').val(i);
