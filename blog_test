@@ -105,7 +105,7 @@
             var id = i.toString();
             $('#show_' + id ).fadeIn();
         }
-        if(i >= getAllPublishedPosts().length+1){
+        if(i >= getBlogDataBySlug('halifaxcentre-test-blog').length + 1){
             $('#load_more_posts').hide();
             $('#all_loaded').show();
         }
