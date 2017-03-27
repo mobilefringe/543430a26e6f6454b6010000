@@ -94,12 +94,11 @@
     
     function load_more(num){
         var n = parseInt(num);
-        console.log(n)
-        for(i=n; i < n + 3; i++){
+        for(i = n; i < n + 3; i++){
             var id = i.toString();
-            console.log(id)
             $('#show_' + id ).fadeIn();
         }
+        console.log(i)
         if(i >= getBlogDataBySlug('halifaxcentre-test-blog').length + 1){
             $('#loaded_posts').hide();
             $('#all_loaded').show();
