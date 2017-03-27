@@ -41,12 +41,12 @@
                 <script id="post_template" type="x-tmpl-mustache">
                     <div class="row_fluid hidden_now" id="show_{{counter}}">
                         <div class="post_container">
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="post_image_container">
                                     <img src="{{post_image}}" alt="{{title}}">
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-sm-6">
                                 <div class="post_content">
                                     <div class="post_share_icons">
                                         <img class="post_icon" src="http://assets.codecloudapp.com/sites/5808c7e76e6f6414b30c0000/image/png/1490295919000/Facebook Button Small.png" class="" alt="">
