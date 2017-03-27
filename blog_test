@@ -37,10 +37,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12" id="post_container">
+            <div id="post_container">
                 <script id="post_template" type="x-tmpl-mustache">
-                    <div class="row hidden_now" id="show_{{counter}}">
-                        <div class="post_container">
+                    <div class="post_container hidden_now" id="show_{{counter}}">
+                        
                             <div class="col-md-6">
                                 <div class="post_image_container">
                                     <img src="{{post_image}}" alt="{{title}}">
@@ -56,7 +56,7 @@
                                     <div class="post_text">{{description_short}}</div>
                                 </div>
                             </div>
-                        </div>
+                        
                     </div>
                     <div class="margin_30"></div>
                 </script>
