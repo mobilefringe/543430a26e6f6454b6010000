@@ -53,8 +53,8 @@
                         <div class="post_text">{{description_short}}</div>
                         <a class="post_read_more" href="{{slug}}">Read More</a>
                     </div>
+                    <div class="blog_30"></div>
                 </div>
-                <div class="blog_30"></div>
             </script>
         </div>
     </div>
