@@ -21,9 +21,7 @@
                         </div>
                         <div class="main_post_content">
                             <h2 class="main_post_header">{{title}}</h2>
-                            <div class="post_text">
-                                {{description_short}}
-                            </div>
+                            <div class="post_text">{{description_short}}</div>
                             <a class="read_more" href="/blog/{{slug}}">Read More</a>
                         </div>
                     </div>
@@ -52,6 +50,7 @@
                             </div>
                             <h2 class="post_header">{{title}}</h2>
                             <div class="post_text">{{description_short}}</div>
+                            <a class="read_more" href="/blog/{{slug}}">Read More</a>
                         </div>
                     </div>
                     <div class="margin_30"></div>
