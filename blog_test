@@ -29,7 +29,7 @@
     </div>
     <div class="row hidden_phone">
         <div class="col-md-12">
-            <div class="margin_30"></div>
+            <div class="blog_30"></div>
             <p class="previous_title">Previous</p>
         </div>
     </div>
@@ -54,7 +54,7 @@
                         <a class="post_read_more" href="{{slug}}">Read More</a>
                     </div>
                 </div>
-                <div class="margin_30"></div>
+                <div class="blog_30"></div>
             </script>
         </div>
     </div>
