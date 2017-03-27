@@ -12,15 +12,17 @@
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
     <div class="row_fluid">
-        <div id="main_post_container">
+        <div class="col-md-12" id="main_post_container">
             <script id="main_post_template" type="x-tmpl-mustache">
-                <div class="main_post_image_container">
-                    <img src="{{post_image}}" alt="{{title}}">
-                </div>
-                <div class="main_post_content">
-                    <h2 class="main_post_header">{{title}}</h2>
-                    <div class="post_text">{{description_short}}</div>
-                    <a class="main_read_more" href="{{slug}}">Read More</a>
+                <div class="">
+                    <div class="main_post_image_container">
+                        <img src="{{post_image}}" alt="{{title}}">
+                    </div>
+                    <div class="main_post_content">
+                        <h2 class="main_post_header">{{title}}</h2>
+                        <div class="post_text">{{description_short}}</div>
+                        <a class="main_read_more" href="{{slug}}">Read More</a>
+                    </div>
                 </div>
             </script>
         </div>
