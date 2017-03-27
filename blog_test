@@ -49,7 +49,7 @@
                                 <img class="post_icon pull-right" src="//codecloud.cdn.speedyrails.net/sites/5808c7e76e6f6414b30c0000/image/png/1490295931000/Twitter Button Small.png" class="" alt="">
                             </a>
                         </div>
-                        <h2 class="post_header">{{title}}</h2>
+                        <a href="{{slug}}"><h2 class="post_header">{{title}}</h2></a>
                         <div class="post_text">{{description_short}}</div>
                         <a class="post_read_more" href="{{slug}}">Read More</a>
                     </div>
@@ -77,9 +77,7 @@
     
     function renderPageData(){
         var blog = getBlogDataBySlug('halifaxcentre-test-blog');
-        var blog_posts = blog.posts.reverse();
-        console.log(blog_posts)
-        
+        var blog_posts = blog.posts.reverse()
         var main_post = blog_posts[0];
         renderSinglePost('#main_post_container', "#main_post_template", main_post);
 
