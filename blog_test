@@ -43,7 +43,7 @@
                     <div class="post_content">
                         <div class="post_share_icons">
                             <a href="https://www.facebook.com/sharer.php?u=https://www.halifaxshoppingcentre.com/{{slug}}" target="_blank">
-                                <img class="post_icon" src="http://assets.codecloudapp.com/sites/5808c7e76e6f6414b30c0000/image/png/1490295919000/Facebook Button Small.png" class="" alt="">
+                                <img class="post_icon" src="//codecloud.cdn.speedyrails.net/sites/5808c7e76e6f6414b30c0000/image/png/1490295919000/Facebook Button Small.png" class="" alt="">
                             </a>
                             <a href="https://twitter.com/home?status={{twitter_title}} https://www.halifaxshoppingcentre.com/{{slug}}" target="_blank">
                                 <img class="post_icon pull-right" src="//codecloud.cdn.speedyrails.net/sites/5808c7e76e6f6414b30c0000/image/png/1490295931000/Twitter Button Small.png" class="" alt="">
