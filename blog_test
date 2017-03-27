@@ -30,9 +30,9 @@
                 </script>
             </div>
         </div>
-        <div class="row">
+        <div class="row hidden_phone">
             <div class="col-md-12">
-                <div class="margin_30 hidden_phone"></div>
+                <div class="margin_30"></div>
                 <p class="previous_title">Previous</p>
             </div>
         </div>
