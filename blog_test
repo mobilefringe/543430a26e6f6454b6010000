@@ -99,7 +99,7 @@
             var id = i.toString();
             $('#show_' + id ).fadeIn();
         }
-        var total_posts = getBlogDataBySlug('halifaxcentre-test-blog').;
+        var total_posts = getBlogDataBySlug('halifaxcentre-test-blog');
         if(i >= total_posts.length + 1){
             $('#loaded_posts').hide();
             $('#all_loaded').show();
