@@ -87,9 +87,8 @@
             
         $('#load_more_posts').click(function(e){
             var i = $('#num_loaded').val();
-            console.log(i)
             load_more(i);
-            e.preventDefault();
+            // e.preventDefault();
         });
     }
     
