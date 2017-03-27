@@ -161,7 +161,9 @@
             main_post.description_short = main_post.body;
         }
         main_post.description_short = main_post.description_short.replace("&amp;", "&");
-            
+        
+        val.slug = "blog/" + val.slug;
+        
         var rendered = Mustache.render(template_html, main_post);
         item_list.push(rendered);
         $(container).html(item_list.join(''));
