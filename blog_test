@@ -101,7 +101,7 @@
         console.log(id)
         var total_posts = getBlogDataBySlug('halifaxcentre-test-blog').posts;
         console.log(total_posts.length)
-        if(i >= total_posts.length + 1){
+        if(i >= total_posts.length){
             $('#loaded_posts').hide();
             $('#all_loaded').show();
         }
