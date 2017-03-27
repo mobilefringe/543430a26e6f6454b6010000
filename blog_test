@@ -94,6 +94,7 @@
     
     function load_more(num){
         var n = parseInt(num);
+        console.log(n)
         for(i=n; i < n + 3; i++){
             var id = i.toString();
             $('#show_' + id ).fadeIn();
