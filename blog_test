@@ -34,8 +34,8 @@
         </div>
     </div>
     <div class="row_fluid">
-        <div id="post_container">
-            <script id="post_template" type="x-tmpl-mustache">
+        <div id="posts_container">
+            <script id="posts_template" type="x-tmpl-mustache">
                 <div class="post_container hidden_now" id="show_{{counter}}">
                     <div class="post_image_container">
                         <img src="{{post_image}}" alt="{{title}}">
