@@ -730,6 +730,68 @@ function renderPosts(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
+function renderPostDetails(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    $.each(collection , function( key, val ) {
+        if (val.image_url.indexOf('missing.png') > -1) {
+            val.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+        } else {
+            val.post_image = val.image_url;
+        }
+        
+        if(val.body.length > 100){
+            val.description_short = val.body.substring(0,100) + "...";
+        }
+        else{
+            val.description_short = val.body;
+        }
+        // var all posts = getAllPublishedPosts().sortBy(function(o){ return o.p})
+        var prev_slug = getPrevPublishedPostBySlug(val.slug);
+        if(prev_slug != undefined || prev_slug != null){
+            val.prev_post = "/blog/" + prev_slug.slug;
+            val.prev_show = "display: block";
+        } else {
+            val.prev_show = "display: none";
+        }
+        
+        var next_slug = getNextPublishedPostBySlug(val.slug);
+        if(next_slug != undefined || next_slug != null){
+            val.next_post = "/blog/" + next_slug.slug;
+            val.next_show = "display: block";
+        } else {
+            val.next_show = "display: none";
+        }
+
+        val.twitter_title = val.title + " via @shopHSC";
+        
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    
+    $(container).html(item_rendered.join(''));
+}
+
+function renderGallery(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html);   // optional, speeds up future uses
+    $.each( collection , function( key, val ) {
+        if (val.photo_url.indexOf('missing.png') > -1) {
+            val.gallery_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+        } else {
+            val.gallery_image = "//www.mallmaverick.com" + val.photo_url;
+        }
+
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    
+    $(container).show();
+    $(container).html(item_rendered.join(''));
+}
 
 function renderFeatureItems(){
     var items = getFeatureList();
