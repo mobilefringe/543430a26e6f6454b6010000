@@ -19,7 +19,7 @@
                         <img src="{{post_image}}" alt="{{title}}">
                     </div>
                     <div class="main_post_content">
-                        <div class="post_share_icons">
+                        <div class="main_post_share_icons">
                             <a href="https://www.facebook.com/sharer.php?u=https://www.halifaxshoppingcentre.com/{{slug}}" target="_blank">
                                 <img class="post_icon pull-left" src="//codecloud.cdn.speedyrails.net/sites/5808c7e76e6f6414b30c0000/image/jpeg/1490794350000/fb.jpg" class="" alt="">
                             </a>
@@ -83,10 +83,8 @@
     });
     
     function renderPageData(){
-        var blog_posts = getBlogDataBySlug('halifaxcentre-test-blog').posts.reverse();;
-        console.log(blog_posts)
+        var blog_posts = getBlogDataBySlug('halifaxcentre-test-blog').posts.reverse();
         var main_post = blog_posts[0];
-        console.log(main_post)
         renderSinglePost('#main_post_container', "#main_post_template", main_post);
 
         var posts = blog_posts.splice(1);
