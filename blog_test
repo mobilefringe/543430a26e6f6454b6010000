@@ -172,7 +172,7 @@
         
         main_post.slug = "blog/" + main_post.slug;
         
-        val.twitter_title = val.title + " via @shopHSC";
+        main_post.twitter_title = main_post.title + " via @shopHSC";
         
         var rendered = Mustache.render(template_html, main_post);
         item_list.push(rendered);
