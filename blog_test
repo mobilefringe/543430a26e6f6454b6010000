@@ -107,9 +107,9 @@
         }
         var posts = getBlogDataBySlug('halifaxcentre-test-blog').posts;
         var total_posts = posts.length;
-        console.log(total_posts);
-        console.log(i)
         if(i >= total_posts + 1){
+            console.log(total_posts);
+            console.log(i)
             $('#loaded_posts').hide();
             $('#all_loaded').show();
         }
