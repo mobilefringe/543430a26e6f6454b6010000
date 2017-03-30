@@ -747,6 +747,20 @@ function renderPostDetails(container, template, collection){
         else{
             val.description_short = val.body;
         }
+        
+        var current_post = val.id;
+        var posts = getBlogDataBySlug('halifaxcentre-test-blog').sortBy(function(o){ return o.publish_date }).reverse();
+        var num = 0;
+        $.each(posts, function(i, val){
+            if (val.id == current_post){
+              num = i;
+            }
+        });
+        return posts[num-1];
+        console.log(posts)
+        
+        
+        
         // var all posts = getAllPublishedPosts().sortBy(function(o){ return o.p})
         var prev_slug = getPrevPostBySlug(val.slug);
         if(prev_slug != undefined || prev_slug != null){
@@ -756,7 +770,7 @@ function renderPostDetails(container, template, collection){
             val.prev_show = "display: none";
         }
         
-        var next_slug = getNextPostBySlug(val.slug);
+        var next_slug = getNextPublishedPostBySlug(val.slug);
         if(next_slug != undefined || next_slug != null){
             val.next_post = "/blog/" + next_slug.slug;
             val.next_show = "display: block";
