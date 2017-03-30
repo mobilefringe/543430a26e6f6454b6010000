@@ -90,7 +90,7 @@
         var posts = blog_posts.splice(1);
         renderPosts('#posts_container', '#posts_template', posts);
         show_content();
-        // load_more(1);
+        load_more(1);
             
         $('#load_more_posts').click(function(e){
             var i = $('#num_loaded').val();
