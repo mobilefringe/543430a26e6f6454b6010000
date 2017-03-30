@@ -758,7 +758,7 @@ function renderPostDetails(container, template, collection){
             }
         });
         return posts[num-1];
-        // console.log(posts)
+        console.log(posts[num-1])
         
         
         
