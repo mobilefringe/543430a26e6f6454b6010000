@@ -749,7 +749,8 @@ function renderPostDetails(container, template, collection){
         }
         
         var current_post = val.id;
-        var posts = getBlogDataBySlug('halifaxcentre-test-blog').sortBy(function(o){ return o.publish_date }).reverse();
+        var blog = getBlogDataBySlug('halifaxcentre-test-blog');
+        var posts = blog.sortBy(function(o){ return o.publish_date }).reverse();
         var num = 0;
         $.each(posts, function(i, val){
             if (val.id == current_post){
