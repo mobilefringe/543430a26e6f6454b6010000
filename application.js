@@ -750,7 +750,8 @@ function renderPostDetails(container, template, collection){
         
         var current_post = val.id;
         console.log(current_post)
-        // var blog = getBlogDataBySlug('halifaxcentre-test-blog').posts;
+        var blog = getBlogDataBySlug('halifaxcentre-test-blog').posts;
+        console.log(blog)
         // var sorted_blog = blog.sortBy(function(o){ return o.publish_date });
         // var posts = blog.reverse();
         // var num = 0;
