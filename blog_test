@@ -93,8 +93,7 @@
         load_more(1);
             
         $('#load_more_posts').click(function(e){
-            var loaded_posts = $('#num_loaded').val();
-            console.log(loaded_posts);
+            var i = $('#num_loaded').val();
             load_more(i);
             e.preventDefault();
         });
@@ -102,6 +101,7 @@
     
     function load_more(num){
         var n = parseInt(num);
+        console.log(n);
         for(i = n; i < n + 3; i++){
             var id = i.toString();
             $('#show_' + id ).fadeIn();
