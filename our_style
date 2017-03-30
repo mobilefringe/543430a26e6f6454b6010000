@@ -1,0 +1,180 @@
+<div class="jobs_banner text-center">
+    <h3>BLOG</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="store_list_head main_container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="blog_header_filler"></div>
+        </div>
+    </div>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding">
+    <div class="row_fluid">
+        <div id="main_post_container">
+            <script id="main_post_template" type="x-tmpl-mustache">
+                <div class="main_post_container">
+                    <div class="main_post_image_container">
+                        <img src="{{post_image}}" alt="{{title}}">
+                    </div>
+                    <div class="main_post_content">
+                        <div class="main_post_share_icons">
+                            <a href="https://www.facebook.com/sharer.php?u=https://www.halifaxshoppingcentre.com/{{slug}}" target="_blank">
+                                <img class="post_icon pull-left" src="//codecloud.cdn.speedyrails.net/sites/5808c7e76e6f6414b30c0000/image/jpeg/1490794350000/fb.jpg" class="" alt="">
+                            </a>
+                            <a href="https://twitter.com/home?status={{twitter_title}} https://www.halifaxshoppingcentre.com/{{slug}}" target="_blank">
+                                <img class="post_icon pull-right" src="//codecloud.cdn.speedyrails.net/sites/5808c7e76e6f6414b30c0000/image/jpeg/1490794359000/tw.jpg" class="" alt="">
+                            </a>
+                        </div>
+                        <a href="{{slug}}"><h2 class="main_post_header">{{title}}</h2></a>
+                        <div class="post_text">{{description_short}}</div>
+                        <a class="main_read_more" href="{{slug}}">Read More</a>
+                    </div>
+                </div>
+            </script>
+        </div>
+    </div>
+    <div class="row hidden_phone">
+        <div class="col-md-12">
+            <div class="blog_30"></div>
+            <p class="previous_title">Previous</p>
+        </div>
+    </div>
+    <div class="row_fluid">
+        <div id="posts_container">
+            <script id="posts_template" type="x-tmpl-mustache">
+                <div class="post_container hidden_now" id="show_{{counter}}">
+                    <div class="post_image_container">
+                        <img src="{{post_image}}" alt="{{title}}">
+                    </div>
+                    <div class="post_content">
+                        <div class="post_share_icons">
+                            <a href="https://www.facebook.com/sharer.php?u=https://www.halifaxshoppingcentre.com/{{slug}}" target="_blank">
+                                <img class="post_icon pull-left" src="//codecloud.cdn.speedyrails.net/sites/5808c7e76e6f6414b30c0000/image/jpeg/1490794350000/fb.jpg" class="" alt="">
+                            </a>
+                            <a href="https://twitter.com/home?status={{twitter_title}} https://www.halifaxshoppingcentre.com/{{slug}}" target="_blank">
+                                <img class="post_icon pull-right" src="//codecloud.cdn.speedyrails.net/sites/5808c7e76e6f6414b30c0000/image/jpeg/1490794359000/tw.jpg" class="" alt="">
+                            </a>
+                        </div>
+                        <a href="{{slug}}"><h2 class="post_header">{{title}}</h2></a>
+                        <div class="post_text">{{description_short}}</div>
+                        <a class="post_read_more" href="{{slug}}">Read More</a>
+                    </div>
+                </div>
+            </script>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <input type="hidden" value="1" id="num_loaded" />
+            <p class="hidden_now" id ="all_loaded">No More Posts</p>
+            <p class="" id="loaded_posts">
+                <a href="#" class="red" id="load_more_posts"><img src="//codecloud.cdn.speedyrails.net/sites/5808c7e76e6f6414b30c0000/image/png/1490624975000/down.png" class="load_more_arrow" alt=""><span class="post_details_link">Load More</span></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPageData);
+    });
+    
+    function renderPageData(){
+        var blog_posts = getBlogDataBySlug('halifaxcentre-test-blog').posts.reverse();
+        var main_post = blog_posts[0];
+        renderSinglePost('#main_post_container', "#main_post_template", main_post);
+
+        var posts = blog_posts.splice(1);
+        renderPosts('#posts_container', '#posts_template', posts);
+        show_content();
+        load_more(1);
+            
+        $('#load_more_posts').click(function(e){
+            var i = $('#num_loaded').val();
+            load_more(i);
+            e.preventDefault();
+        });
+    }
+    
+    function load_more(num){
+        var n = parseInt(num);
+        for(i = n; i < n + 3; i++){
+            var id = i.toString();
+            $('#show_' + id ).fadeIn();
+        }
+        var posts = getBlogDataBySlug('halifaxcentre-test-blog').posts;
+        var total_posts = posts.length;
+        if(i >= total_posts){
+            $('#loaded_posts').hide();
+            $('#all_loaded').show();
+        }
+        $('#num_loaded').val(i);
+    }
+
+    function renderPosts(container, template, collection){
+        var item_list = [];
+        var item_rendered = [];
+        var template_html = $(template).html();
+        var counter = 1;
+        Mustache.parse(template_html);   // optional, speeds up future uses
+        $.each( collection , function( key, val ) {
+            if (val.image_url.indexOf('missing.png') > -1) {
+                val.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+            } else {
+                val.post_image = val.image_url;
+            }
+            
+            if(val.body.length > 175){
+                val.description_short = val.body.substring(0, 175) + "...";
+            }
+            else{
+                val.description_short = val.body;
+            }
+            val.description_short = val.description_short.replace("&amp;", "&");
+            
+            val.slug = "blog/" + val.slug;
+            
+            val.twitter_title = val.title + " via @shopHSC";
+            
+            val.counter = counter;
+            
+            var rendered = Mustache.render(template_html,val);
+            item_rendered.push(rendered);
+            counter = counter + 1;
+        });
+        
+        $(container).show();
+        $(container).html(item_rendered.join(''));
+    }
+    
+    function renderSinglePost(container, template, main_post){
+        var item_list = [];
+        var template_html = $(template).html();
+        Mustache.parse(template_html);   // optional, speeds up future uses
+
+        if (main_post.image_url.indexOf('missing.png') > 0) {
+            main_post.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+        } else {
+            main_post.post_image = main_post.image_url;
+        }
+            
+        if(main_post.body.length > 235){
+            main_post.description_short = main_post.body.substring(0,235) + "...";
+        }
+        else{
+            main_post.description_short = main_post.body;
+        }
+        main_post.description_short = main_post.description_short.replace("&amp;", "&");
+        
+        main_post.slug = "blog/" + main_post.slug;
+        
+        main_post.twitter_title = main_post.title + " via @shopHSC";
+        
+        var rendered = Mustache.render(template_html, main_post);
+        item_list.push(rendered);
+        $(container).html(item_list.join(''));
+    }
+</script>
