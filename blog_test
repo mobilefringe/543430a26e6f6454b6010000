@@ -93,8 +93,8 @@
         load_more(1);
             
         $('#load_more_posts').click(function(e){
-            var i = $('#num_loaded').val();
-            console.log(i);
+            var loaded_posts = $('#num_loaded').val();
+            console.log(loaded_posts);
             load_more(i);
             e.preventDefault();
         });
