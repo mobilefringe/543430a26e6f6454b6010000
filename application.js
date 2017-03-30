@@ -748,7 +748,7 @@ function renderPostDetails(container, template, collection){
             val.description_short = val.body;
         }
 
-        var prev_slug = getPrevPostBySlug(val.slug);
+        var prev_slug = getPrevPublishedPostBySlug(val.slug);
         if(prev_slug != undefined || prev_slug != null){
             val.prev_post = "/blog/" + prev_slug.slug;
             val.prev_show = "display: block";
