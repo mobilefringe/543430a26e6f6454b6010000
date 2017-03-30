@@ -748,7 +748,7 @@ function renderPostDetails(container, template, collection){
             val.description_short = val.body;
         }
         // var all posts = getAllPublishedPosts().sortBy(function(o){ return o.p})
-        var prev_slug = getPrevPublishedPostBySlug(val.slug);
+        var prev_slug = getPrevPostBySlug(val.slug);
         if(prev_slug != undefined || prev_slug != null){
             val.prev_post = "/blog/" + prev_slug.slug;
             val.prev_show = "display: block";
@@ -756,7 +756,7 @@ function renderPostDetails(container, template, collection){
             val.prev_show = "display: none";
         }
         
-        var next_slug = getNextPublishedPostBySlug(val.slug);
+        var next_slug = getNextPostBySlug(val.slug);
         if(next_slug != undefined || next_slug != null){
             val.next_post = "/blog/" + next_slug.slug;
             val.next_show = "display: block";
