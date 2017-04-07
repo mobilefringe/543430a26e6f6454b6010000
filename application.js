@@ -767,12 +767,14 @@ function renderPostDetails(container, template, collection, blog_posts){
             }
         }
         if(index >= 0 && index < blog_list.length){
-          var prev_slug = blog_list[index - 1];
-          console.log(prev_slug);
-        //   $('.prev_arrow').show();
-        //   if(prev === undefined) {
-        //       $('.prev_arrow').hide();
-        //   }
+            var prev_slug = blog_list[index - 1];
+            console.log(prev_slug);
+            if(prev_slug != undefined || prev_slug != null){
+                val.prev_post = "/blog/" + prev_slug;
+                val.prev_show = "display: block";
+            } else {
+                val.prev_show = "display: none";
+            }
         }
             
         // var prev_slug = getPrevPublishedPostBySlug(val.slug);
