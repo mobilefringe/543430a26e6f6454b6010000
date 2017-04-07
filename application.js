@@ -756,9 +756,9 @@ function renderPostDetails(container, template, collection, blog_posts){
             blog_list.push(val.slug);
         });
         console.log(blog_list);
-        var current_id = val.id;
-        console.log(current_id)
-        var index = blog_list.indexOf(current_id);
+        var current_slug = val.slug;
+        console.log(current_slug)
+        var index = blog_list.indexOf(current_slug);
         console.log(index);
         // if(index >= 0 && index < id_list.length){
         //   var next = id_list[index + 1];
