@@ -752,6 +752,7 @@ function renderPostDetails(container, template, collection, blog_posts){
         var blog_list = blog_posts;
         console.log(blog_list);
         var current_id = val.id;
+        console.log(current_id)
         var index = blog_list.indexOf(current_id);
         console.log(index);
         // if(index >= 0 && index < id_list.length){
