@@ -749,7 +749,8 @@ function renderPostDetails(container, template, collection, blog_posts){
             val.description_short = val.body;
         }
         
-        // var blog_list = blog_posts;
+        var blog_list = blog_posts;
+        console.log(blog_list);
         // var index = id_list.indexOf(current_id);
         // if(index >= 0 && index < id_list.length){
         //   var next = id_list[index + 1];
