@@ -41,6 +41,10 @@ function init(e){
     $('#option_selector').change(function(){
         window.location = $(this).val();
     })
+    $('.modal-backdrop').click(function(){
+            $('.custom_modal').fadeOut();
+            $('.modal-backdrop').remove();
+        });
 
 }
 
