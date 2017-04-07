@@ -731,7 +731,7 @@ function renderPosts(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function renderPostDetails(container, template, collection){
+function renderPostDetails(container, template, collection, blog_posts){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
@@ -749,7 +749,7 @@ function renderPostDetails(container, template, collection){
             val.description_short = val.body;
         }
         
-        // var blog_list = 
+        // var blog_list = blog_posts;
         // var index = id_list.indexOf(current_id);
         // if(index >= 0 && index < id_list.length){
         //   var next = id_list[index + 1];
