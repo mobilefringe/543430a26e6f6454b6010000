@@ -83,7 +83,7 @@
     });
     
     function renderPageData(){
-        var blog_posts = getBlogDataBySlug('halifaxcentre-test-blog').posts.reverse();
+        var blog_posts = getBlogDataBySlug('halifaxcentre-our-style').posts.reverse();
         var main_post = blog_posts[0];
         renderSinglePost('#main_post_container', "#main_post_template", main_post);
 
@@ -105,7 +105,7 @@
             var id = i.toString();
             $('#show_' + id ).fadeIn();
         }
-        var posts = getBlogDataBySlug('halifaxcentre-test-blog').posts;
+        var posts = getBlogDataBySlug('halifaxcentre-our-style').posts;
         var total_posts = posts.length;
         if(i >= total_posts){
             $('#loaded_posts').hide();
