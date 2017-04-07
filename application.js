@@ -748,32 +748,30 @@ function renderPostDetails(container, template, collection, blog_posts){
         else{
             val.description_short = val.body;
         }
-        
-        // var blog_list = blog_posts;
+
         var blog_list = [];
         $.each(blog_posts, function(key, val) {
             var slug = val.slug;
             blog_list.push(val.slug);
         });
-        console.log(blog_list);
         var current_slug = val.slug;
-        console.log(current_slug)
         var index = blog_list.indexOf(current_slug);
-        console.log(index);
-        // if(index >= 0 && index < id_list.length){
-        //   var next = id_list[index + 1];
+        if(index >= 0 && index < blog_list.length){
+          var next_slug = blog_list[index + 1];
+          console.log(next_slug);
         //   $('.next_arrow').show();
         //   if(next === undefined) {
         //       $('.next_arrow').hide();
         //   }
-        // }
-        // if(index >= 0 && index < id_list.length){
-        //   var prev = id_list[index - 1];
+        }
+        if(index >= 0 && index < blog_list.length){
+          var prev_slug = blog_list[index - 1];
+          console.log(prev_slug);
         //   $('.prev_arrow').show();
         //   if(prev === undefined) {
         //       $('.prev_arrow').hide();
         //   }
-        // }
+        }
             
         var prev_slug = getPrevPublishedPostBySlug(val.slug);
         if(prev_slug != undefined || prev_slug != null){
