@@ -99,8 +99,6 @@
         });
     }
     
-    
-
     function renderPosts(container, template, collection){
         var item_list = [];
         var item_rendered = [];
