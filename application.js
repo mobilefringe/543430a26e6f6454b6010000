@@ -749,7 +749,12 @@ function renderPostDetails(container, template, collection, blog_posts){
             val.description_short = val.body;
         }
         
-        var blog_list = blog_posts;
+        // var blog_list = blog_posts;
+        var blog_list = [];
+        $.each(blog_posts, function(key, val) {
+            var slug = val.slug;
+            blog_list.push(val.slug);
+        });
         console.log(blog_list);
         var current_id = val.id;
         console.log(current_id)
