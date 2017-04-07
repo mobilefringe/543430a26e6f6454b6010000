@@ -41,11 +41,6 @@ function init(e){
     $('#option_selector').change(function(){
         window.location = $(this).val();
     });
-    
-    $('.custom-modal-backdrop').click(function(){
-            $('.custom_modal').fadeOut();
-            $('.custom-modal-backdrop').remove();
-        });
 }
 
 function show_content(){
