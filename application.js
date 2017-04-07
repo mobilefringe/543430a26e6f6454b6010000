@@ -759,10 +759,12 @@ function renderPostDetails(container, template, collection, blog_posts){
         if(index >= 0 && index < blog_list.length){
           var next_slug = blog_list[index + 1];
           console.log(next_slug);
-        //   $('.next_arrow').show();
-        //   if(next === undefined) {
-        //       $('.next_arrow').hide();
-        //   }
+            if(next_slug != undefined || next_slug != null){
+                val.next_post = "/blog/" + next_slug;
+                val.next_show = "display: block";
+            } else {
+                val.next_show = "display: none";
+            }
         }
         if(index >= 0 && index < blog_list.length){
           var prev_slug = blog_list[index - 1];
