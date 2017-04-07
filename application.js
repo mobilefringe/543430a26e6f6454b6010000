@@ -749,21 +749,22 @@ function renderPostDetails(container, template, collection){
             val.description_short = val.body;
         }
         
-        var index = id_list.indexOf(current_id);
-        if(index >= 0 && index < id_list.length){
-           var next = id_list[index + 1];
-           $('.next_arrow').show();
-           if(next === undefined) {
-               $('.next_arrow').hide();
-           }
-        }
-        if(index >= 0 && index < id_list.length){
-           var prev = id_list[index - 1];
-           $('.prev_arrow').show();
-           if(prev === undefined) {
-               $('.prev_arrow').hide();
-           }
-        }
+        // var blog_list = 
+        // var index = id_list.indexOf(current_id);
+        // if(index >= 0 && index < id_list.length){
+        //   var next = id_list[index + 1];
+        //   $('.next_arrow').show();
+        //   if(next === undefined) {
+        //       $('.next_arrow').hide();
+        //   }
+        // }
+        // if(index >= 0 && index < id_list.length){
+        //   var prev = id_list[index - 1];
+        //   $('.prev_arrow').show();
+        //   if(prev === undefined) {
+        //       $('.prev_arrow').hide();
+        //   }
+        // }
             
         var prev_slug = getPrevPublishedPostBySlug(val.slug);
         if(prev_slug != undefined || prev_slug != null){
