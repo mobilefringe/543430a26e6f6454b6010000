@@ -775,21 +775,21 @@ function renderPostDetails(container, template, collection, blog_posts){
         //   }
         }
             
-        var prev_slug = getPrevPublishedPostBySlug(val.slug);
-        if(prev_slug != undefined || prev_slug != null){
-            val.prev_post = "/blog/" + prev_slug.slug;
-            val.prev_show = "display: block";
-        } else {
-            val.prev_show = "display: none";
-        }
+        // var prev_slug = getPrevPublishedPostBySlug(val.slug);
+        // if(prev_slug != undefined || prev_slug != null){
+        //     val.prev_post = "/blog/" + prev_slug.slug;
+        //     val.prev_show = "display: block";
+        // } else {
+        //     val.prev_show = "display: none";
+        // }
         
-        var next_slug = getNextPublishedPostBySlug(val.slug);
-        if(next_slug != undefined || next_slug != null){
-            val.next_post = "/blog/" + next_slug.slug;
-            val.next_show = "display: block";
-        } else {
-            val.next_show = "display: none";
-        }
+        // var next_slug = getNextPublishedPostBySlug(val.slug);
+        // if(next_slug != undefined || next_slug != null){
+        //     val.next_post = "/blog/" + next_slug.slug;
+        //     val.next_show = "display: block";
+        // } else {
+        //     val.next_show = "display: none";
+        // }
 
         val.twitter_title = val.title + " via @shopHSC";
         
