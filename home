@@ -7,7 +7,7 @@
 <div class="hero_banner text-center">
     <h3>SHOPPING IS OUR MIDDLE NAME</h3>
     <p>The fashion capital of Atlantic Canada</p>
-    <a class="animated_btn" href="/stores">visit our stores</a>
+    <!--<a class="animated_btn" href="/stores">visit our stores</a>-->
 </div>
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
