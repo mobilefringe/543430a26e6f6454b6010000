@@ -728,7 +728,7 @@ function renderSinglePost(container, template, main_post){
     item_list.push(rendered);
     $(container).html(item_list.join(''));
 }
-    
+
 function renderPosts(container, template, collection){
     var item_list = [];
     var item_rendered = [];
@@ -741,20 +741,29 @@ function renderPosts(container, template, collection){
         } else {
             val.post_image = val.image_url;
         }
-        if(val.body.length > 100){
-            val.description_short = val.body.substring(0,100) + "...";
+        
+        if(val.body.length > 175){
+            val.description_short = val.body.substring(0, 175) + "...";
         }
         else{
             val.description_short = val.body;
         }
         val.description_short = val.description_short.replace("&amp;", "&");
+        
+        val.slug = "our_style/" + val.slug;
+        
+        val.twitter_title = val.title + " via @shopHSC";
+        
         var date_blog = new Date(val.publish_date);
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
+    
+        val.counter = counter;
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
-        counter = counter+1;
+        counter = counter + 1;
     });
+    
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
