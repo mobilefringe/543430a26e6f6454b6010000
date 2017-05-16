@@ -1,5 +1,5 @@
 <div class="popup_home hidden_now">
-    <a href="#">
+    <a href="#" target="_blank">
         <img src="#" alt="pop up" />
     </a>
     <i class="fa fa-remove close_popup"></i>
@@ -91,7 +91,6 @@
                 var popup = getPopups()[0];
                 if (popup != undefined){
                     $('.popup_home a').attr('href', popup.photo_link)
-                    $('.popup_home a’).attr(‘target’, '_blank')
                     $('.popup_home img').attr('src', '//mallmaverick.cdn.speedyrails.net' + popup.photo_url)
                     $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
                     $('.popup_home').show()
