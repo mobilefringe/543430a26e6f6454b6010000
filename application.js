@@ -796,7 +796,7 @@ function renderPostDetails(container, template, collection, blog_posts){
         if(index >= 0 && index < blog_list.length){
           var next_slug = blog_list[index + 1];
             if(next_slug != undefined || next_slug != null){
-                val.next_post = "/blog/" + next_slug;
+                val.next_post = "/our_style/" + next_slug;
                 val.next_show = "display: block";
             } else {
                 val.next_show = "display: none";
@@ -805,7 +805,7 @@ function renderPostDetails(container, template, collection, blog_posts){
         if(index >= 0 && index < blog_list.length){
             var prev_slug = blog_list[index - 1];
             if(prev_slug != undefined || prev_slug != null){
-                val.prev_post = "/blog/" + prev_slug;
+                val.prev_post = "/our_style/" + prev_slug;
                 val.prev_show = "display: block";
             } else {
                 val.prev_show = "display: none";
