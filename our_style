@@ -84,7 +84,7 @@
     
     function renderPageData(){
         var blog = getBlogDataBySlug('halifaxcentre-our-style').posts
-        var blog_posts = blog.sortBy(function(o){ return o.published_on});
+        var blog_posts = blog.sortBy(function(o){ return o.publish_date});
         // var blog_posts = getBlogDataBySlug('halifaxcentre-our-style').posts.reverse();
         console.log(blog_posts)
         var main_post = blog_posts[0];
