@@ -63,9 +63,6 @@
             show_cat_stores()
             var published_promos = [];
             $.each( promotions , function( key, val ){
-                // today = new Date();
-                // webDate = new Date(val.show_on_web_date)
-                
                 today = moment();
                 webDate = moment(val.show_on_web_date);
                 if (today >= webDate) {
