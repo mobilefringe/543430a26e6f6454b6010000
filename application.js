@@ -805,7 +805,7 @@ function renderPostDetails(container, template, collection, blog_posts){
         if(index >= 0 && index < blog_list.length){
             var prev_slug = blog_list[index - 1];
             if(prev_slug != undefined || prev_slug != null){
-                val.prev_post = "/our_style/" + prev_slug;
+                val.prev_post = "/posts/" + prev_slug;
                 val.prev_show = "display: block";
             } else {
                 val.prev_show = "display: none";
