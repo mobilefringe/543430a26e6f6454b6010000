@@ -764,7 +764,7 @@ function renderPostDetails(container, template, collection, blog_posts){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
-    $.each(collection , function( key, val ) {
+    // $.each(collection , function( key, val ) {
         if (val.image_url.indexOf('missing.png') > -1) {
             val.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
         } else {
@@ -773,8 +773,7 @@ function renderPostDetails(container, template, collection, blog_posts){
         
         if(val.body.length > 100){
             val.description_short = val.body.substring(0,100) + "...";
-        }
-        else{
+        } else {
             val.description_short = val.body;
         }
 
@@ -783,10 +782,11 @@ function renderPostDetails(container, template, collection, blog_posts){
             var slug = val.slug;
             blog_list.push(val.slug);
         });
+        
         var current_slug = val.slug;
         var index = blog_list.indexOf(current_slug);
         if(index >= 0 && index < blog_list.length){
-          var next_slug = blog_list[index + 1];
+            var next_slug = blog_list[index + 1];
             if(next_slug != undefined || next_slug != null){
                 val.next_post = "/posts/" + next_slug;
                 val.next_show = "display: block";
@@ -794,6 +794,7 @@ function renderPostDetails(container, template, collection, blog_posts){
                 val.next_show = "display: none";
             }
         }
+        
         if(index >= 0 && index < blog_list.length){
             var prev_slug = blog_list[index - 1];
             if(prev_slug != undefined || prev_slug != null){
@@ -808,13 +809,10 @@ function renderPostDetails(container, template, collection, blog_posts){
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
-    });
-    
+    // });
     $(container).html(item_rendered.join(''));
 }
 
-
-    
 function renderGallery(container, template, collection){
     var item_list = [];
     var item_rendered = [];
