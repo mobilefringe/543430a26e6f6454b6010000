@@ -67,39 +67,43 @@ function renderStoreDetails(container, template, collection, slug){
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
-        if ((val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = "//codecloud.cdn.speedyrails.netssets.codecloudapp.com/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
-        } else {
+        if (val.store_front_url != null){
+            
             val.alt_store_front_url = getImageURL(val.store_front_url); 
+            // val.alt_store_front_url = "//codecloud.cdn.speedyrails.netssets.codecloudapp.com/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+        } else {
+            // val.alt_store_front_url = getImageURL(val.store_front_url); 
+            val.alt_store_front_url = "//codecloud.cdn.speedyrails.netssets.codecloudapp.com/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
         }
+        
         if (val.website != null && val.website.length > 0){
             val.show = "display:block";
-        }
-        else {
+        } else {
             val.show = "display:none";
         }
+        
         if (val.phone != null && val.phone.length > 0){
             val.phone_show = "display:block";
-        }
-        else {
+        } else {
             val.phone_show = "display:none";
         }
         
         if (val.twitter != null && val.twitter.length > 0){
             val.twitter_show = "display:inline-block";
-        }
-        else {
+        } else {
             val.twitter_show = "display:none";
         }
+        
         if ((val.twitter == null || val.twitter == "") && (val.facebook == "" || val.facebook == null)){
             val.hide_social = "display:none;";
         }
+        
         if (val.facebook != null && val.facebook.length > 0){
             val.facebook_show = "display:inline-block";
-        }
-        else {
+        } else {
             val.facebook_show = "display:none";
         }
+        
         val.map_x_coordinate = val.x_coordinate - 19;
         val.map_y_coordinate = val.y_coordinate - 58;
         var rendered = Mustache.render(template_html,val);
