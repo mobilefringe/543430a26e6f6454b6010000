@@ -115,7 +115,6 @@
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         var post = getPostDetailsBySlug(slug);
-        console.log(post)
         var blog_posts = getBlogDataBySlug('halifaxcentre-our-style').posts.reverse();
 
         renderPostDetails("#post_details_container", "#post_details_template", post, blog_posts);
