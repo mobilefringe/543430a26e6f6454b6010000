@@ -771,10 +771,12 @@ function renderPostDetails(container, template, post_details, blog_posts){
         //     val.post_image = val.image_url;
         // }
         
-        if(post_details.body.length > 100){
-            post_details.description_short = post_details.body.substring(0,100) + "...";
-        } else {
-            post_details.description_short = post_details.body;
+        if(post_details.body != null){
+            if(post_details.body.length > 100){
+                post_details.description_short = post_details.body.substring(0,100) + "...";
+            } else {
+                post_details.description_short = post_details.body;
+            }
         }
 
         // var blog_list = [];
