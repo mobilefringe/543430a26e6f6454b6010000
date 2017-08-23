@@ -68,11 +68,8 @@ function renderStoreDetails(container, template, collection, slug){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if (val.store_front_url != null){
-            
             val.alt_store_front_url = getImageURL(val.store_front_url); 
-            // val.alt_store_front_url = "//codecloud.cdn.speedyrails.netssets.codecloudapp.com/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
         } else {
-            // val.alt_store_front_url = getImageURL(val.store_front_url); 
             val.alt_store_front_url = "//codecloud.cdn.speedyrails.netssets.codecloudapp.com/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
         }
         
