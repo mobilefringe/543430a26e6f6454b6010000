@@ -304,20 +304,17 @@ function renderEventDetails(container, template, collection, mall_name){
             if (store_details.website != null && store_details.website.length > 0){
                 val.show = "display:block";
                 val.website = store_details.website
-            }
-            else{
+            } else {
                 val.show = "display:none";
             }
             if (store_details.phone != null && store_details.phone.length > 0){
                 val.phone_show = "display:block";
                 val.phone = store_details.phone
-            }
-            else{
+            } else {
                 val.phone_show = "display:none";
                 val.show = "display:none";
             }
-        }
-        else{
+        } else {
             val.store_name = mall_name;
             val.store_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
             val.store_show = "display:none";
@@ -333,22 +330,13 @@ function renderEventDetails(container, template, collection, mall_name){
         if(val.event_image_url_abs.indexOf('missing.png') > -1){
             val.promo_image_show="display:none";
         }
-        // var show_date = new Date (val.show_on_web_date + "T04:00:00Z");
-        // start = new Date (val.start_date + "T04:00:00Z");
-        // end = new Date (val.end_date + "T04:00:00Z");
-        // if (start.toDateString() == end.toDateString()) {
-        //     val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
-        // } else {
-        //     val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
-        // }
-        
+
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
         	val.dates = start.format("MMM D");
-        }
-        else {
+        } else {
         	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
         
