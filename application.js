@@ -760,15 +760,15 @@ function renderPosts(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function renderPostDetails(container, template, post_details, blog_posts){
+function renderPostDetails(container, template, post, blog_posts){
     var item_list = [];
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
      
-    if (post_details.image_url != null || post_details.image_url != undefined) {
-        post_details.post_image = post_details.image_url;
+    if (post.image_url != null || post.image_url != undefined) {
+        post.post_image = post.image_url;
     } else {
-        post_details.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+        post.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
     }
     
     if(post_details.body.length > 100){
