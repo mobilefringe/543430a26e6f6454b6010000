@@ -765,49 +765,49 @@ function renderPostDetails(container, template, collection, blog_posts){
     var item_rendered = [];
     var template_html = $(template).html();
     // $.each(collection , function( key, val ) {
-        if (val.image_url.indexOf('missing.png') > -1) {
-            val.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+        if (blog_posts.image_url.indexOf('missing.png') > -1) {
+            blog_posts.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
         } else {
-            val.post_image = val.image_url;
+            blog_posts.post_image = blog_posts.image_url;
         }
         
-        if(val.body.length > 100){
-            val.description_short = val.body.substring(0,100) + "...";
+        if(blog_posts.body.length > 100){
+            blog_posts.description_short = blog_posts.body.substring(0,100) + "...";
         } else {
-            val.description_short = val.body;
+            blog_posts.description_short = blog_posts.body;
         }
 
-        var blog_list = [];
-        $.each(blog_posts, function(key, val) {
-            var slug = val.slug;
-            blog_list.push(val.slug);
-        });
+        // var blog_list = [];
+        // $.each(blog_posts, function(key, val) {
+        //     var slug = val.slug;
+        //     blog_list.push(val.slug);
+        // });
         
-        var current_slug = val.slug;
-        var index = blog_list.indexOf(current_slug);
-        if(index >= 0 && index < blog_list.length){
-            var next_slug = blog_list[index + 1];
-            if(next_slug != undefined || next_slug != null){
-                val.next_post = "/posts/" + next_slug;
-                val.next_show = "display: block";
-            } else {
-                val.next_show = "display: none";
-            }
-        }
+        // var current_slug = val.slug;
+        // var index = blog_list.indexOf(current_slug);
+        // if(index >= 0 && index < blog_list.length){
+        //     var next_slug = blog_list[index + 1];
+        //     if(next_slug != undefined || next_slug != null){
+        //         val.next_post = "/posts/" + next_slug;
+        //         val.next_show = "display: block";
+        //     } else {
+        //         val.next_show = "display: none";
+        //     }
+        // }
         
-        if(index >= 0 && index < blog_list.length){
-            var prev_slug = blog_list[index - 1];
-            if(prev_slug != undefined || prev_slug != null){
-                val.prev_post = "/posts/" + prev_slug;
-                val.prev_show = "display: block";
-            } else {
-                val.prev_show = "display: none";
-            }
-        }
+        // if(index >= 0 && index < blog_list.length){
+        //     var prev_slug = blog_list[index - 1];
+        //     if(prev_slug != undefined || prev_slug != null){
+        //         val.prev_post = "/posts/" + prev_slug;
+        //         val.prev_show = "display: block";
+        //     } else {
+        //         val.prev_show = "display: none";
+        //     }
+        // }
 
-        val.twitter_title = val.title + " via @shopHSC";
+        // val.twitter_title = val.title + " via @shopHSC";
         
-        var rendered = Mustache.render(template_html,val);
+        var rendered = Mustache.render(template_html,blog_posts);
         item_rendered.push(rendered);
     // });
     $(container).html(item_rendered.join(''));
