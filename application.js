@@ -343,9 +343,6 @@ function renderJobs(container, template, collection){
             val.description_short = val.description;
         }
         
-        // var show_date = new Date (val.start_date + "T04:00:00Z");
-        // val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
-        
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         val.published_on = show_date.format("MMM D");
         
@@ -384,8 +381,7 @@ function renderJobDetails(container, template, collection, mall_name){
                 val.phone_show = "display:none";
                 val.show = "display:none";
             }
-        }
-        else {
+        } else {
             val.store_name = mall_name;
             val.store_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
             val.store_show = "display:none";
@@ -395,9 +391,6 @@ function renderJobDetails(container, template, collection, mall_name){
         if (val.store_image.indexOf('missing.png') > 0){
             val.store_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
         }
-        
-        // var show_date = new Date (val.start_date + "T04:00:00Z");
-        // val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
         
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         val.published_on = show_date.format("MMM D");
