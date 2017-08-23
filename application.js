@@ -10,7 +10,7 @@ function renderStoreList(container, template, collection, starter, breaker){
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url);    
         }
-        //var categories = getStoreCategories();
+        
         var current_initial = val.name[0];
         if(val.categories != null){
             val.cat_list = val.categories.join(',');
