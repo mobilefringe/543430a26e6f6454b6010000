@@ -760,21 +760,21 @@ function renderPosts(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function renderPostDetails(container, template, collection, blog_posts){
+function renderPostDetails(container, template, post_details, blog_posts){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
     // $.each(collection , function( key, val ) {
-        // if (blog_posts.image_url.indexOf('missing.png') > -1) {
-        //     blog_posts.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+        // if (val.image_url.indexOf('missing.png') > -1) {
+        //     val.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
         // } else {
-        //     blog_posts.post_image = blog_posts.image_url;
+        //     val.post_image = val.image_url;
         // }
         
-        if(blog_posts.body.length > 100){
-            blog_posts.description_short = blog_posts.body.substring(0,100) + "...";
+        if(post_details.body.length > 100){
+            post_details.description_short = post_details.body.substring(0,100) + "...";
         } else {
-            blog_posts.description_short = blog_posts.body;
+            post_details.description_short = post_details.body;
         }
 
         // var blog_list = [];
@@ -807,7 +807,7 @@ function renderPostDetails(container, template, collection, blog_posts){
 
         // val.twitter_title = val.title + " via @shopHSC";
         
-        var rendered = Mustache.render(template_html,blog_posts);
+        var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     // });
     $(container).html(item_rendered.join(''));
