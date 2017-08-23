@@ -765,11 +765,11 @@ function renderPostDetails(container, template, collection, blog_posts){
     var item_rendered = [];
     var template_html = $(template).html();
     // $.each(collection , function( key, val ) {
-        if (blog_posts.image_url.indexOf('missing.png') > -1) {
-            blog_posts.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
-        } else {
-            blog_posts.post_image = blog_posts.image_url;
-        }
+        // if (blog_posts.image_url.indexOf('missing.png') > -1) {
+        //     blog_posts.post_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
+        // } else {
+        //     blog_posts.post_image = blog_posts.image_url;
+        // }
         
         if(blog_posts.body.length > 100){
             blog_posts.description_short = blog_posts.body.substring(0,100) + "...";
