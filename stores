@@ -78,33 +78,38 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
-            var categories = getStoreCategories();
             var stores = getStoresList(); 
-            console.log(stores)
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "L");
             renderStoreList('#store_list_container2','#store_list_template', stores, "M", "Z");
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
-            renderGeneral('#category_container', '#category_template', categories);
             
-            renderGeneral('#mobile_cat_list', '#category_template2', categories);
+            var categories = getStoreCategories();
+            var category_list = [];
+            $.each( categories, function( key, val ){
+                if (val.store_ids != null) {
+                    category_list.push(val);
+                } 
+            });
+            renderGeneral('#category_container', '#category_template', category_list);
+            renderGeneral('#mobile_cat_list', '#category_template2', category_list);
+            
             $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             show_cat_stores();
-            var coming_soon_stores = getComingSoonList();
-            var new_stores = getNewStoresList();
             
+            var new_stores = getNewStoresList();
             if (new_stores.length > 0){
                 renderGeneral("#new_store_container","#new_store_template", new_stores);
-            }
-            else{
+            } else {
                 $('#new_stores').hide();
             }
             
-             if (coming_soon_stores.length > 0){
+            var coming_soon_stores = getComingSoonList();
+            if (coming_soon_stores.length > 0){
                 renderGeneral("#coming_soon_container","#coming_soon_template", coming_soon_stores);
-            }
-            else{
+            } else {
                 $('#coming_soon_stores').hide();
             }
+            
             show_content();
             $.each(stores, function(i, val){
                 x = val.x_coordinate - 19;
@@ -121,9 +126,7 @@
     				position: 'center'
     			}
     		});
-            
         }
-        
 		loadMallDataCached(renderAll); 
     })
 </script>
