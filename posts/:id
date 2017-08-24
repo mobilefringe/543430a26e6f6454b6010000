@@ -115,6 +115,7 @@
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         var post = getPostDetailsBySlug(slug);
+        console.log(post)
         
         // var pathArray = window.location.pathname.split( '/' );
         // var slug = pathArray[pathArray.length-1];
