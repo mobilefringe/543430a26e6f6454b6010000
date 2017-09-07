@@ -13,7 +13,14 @@ function renderStoreList(container, template, collection, starter, breaker){
         
         var current_initial = val.name[0];
         if(val.categories != null){
-            val.cat_list = val.categories.join(',');
+            try {
+                
+            
+                val.cat_list = val.categories.join(',');
+            }
+            catch(err) {
+                console.log(err);
+            }
         }
         
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){
