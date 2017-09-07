@@ -127,10 +127,9 @@ function renderPromotions(container, template, collection, centre){
                     val.cat_list = store_details.categories.join(',')
                 }
                 catch(err) {
-                console.log(err);
+                    console.log(err);
+                }
             }
-            }
-            
             val.store_slug = "/stores/" + store_details.slug
         }
         else{
