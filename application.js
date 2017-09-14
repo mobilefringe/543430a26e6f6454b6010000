@@ -118,6 +118,7 @@ function renderPromotions(container, template, collection, centre){
     $.each( collection , function( key, val ) {
         if (val.promotionable_type == "Store") {
             var store_details = getStoreDetailsByID(val.promotionable_id);
+            console.log(store_details)
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
             val.store_show = "display:inline-block";
