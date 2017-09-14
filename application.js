@@ -123,7 +123,7 @@ function renderPromotions(container, template, collection, centre){
             val.store_show = "display:inline-block";
             val.image_url = val.promo_image_url_abs;
             if (val.promo_image_url_abs.indexOf('missing.png') > 0){
-                val.image_url  = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461163897000/Logo.png";
+                val.image_url  = val.store_details.store_front_url_abs;
             }
             if(val.cat_list != null){
                 try {
