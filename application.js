@@ -122,6 +122,9 @@ function renderPromotions(container, template, collection, centre){
             val.store_name = store_details.name;
             val.store_show = "display:inline-block";
             val.image_url = val.promo_image_url_abs;
+            if (val.ipromo_image_url_abs.indexOf('missing.png') > 0){
+                val.image_url  = "";
+            }
             if(val.cat_list != null){
                 try {
                     val.cat_list = store_details.categories.join(',')
@@ -131,8 +134,7 @@ function renderPromotions(container, template, collection, centre){
                 }
             }
             val.store_slug = "/stores/" + store_details.slug
-        }
-        else{
+        } else {
             val.image_url = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461163897000/Logo.png";
             val.store_name = mall_name;
             val.store_slug = "/"
@@ -141,10 +143,10 @@ function renderPromotions(container, template, collection, centre){
         if (val.image_url.indexOf('missing.png') > 0){
             val.image_url  = "";
         }
+        
         if (val.description.length > 200){
             val.description_short = val.description.substring(0,200) + "...";
-        }
-        else {
+        } else {
             val.description_short = val.description
         }
 
@@ -153,8 +155,7 @@ function renderPromotions(container, template, collection, centre){
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
         	val.dates = start.format("MMM D");
-        }
-        else {
+        } else {
         	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
         
