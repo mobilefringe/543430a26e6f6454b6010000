@@ -122,9 +122,6 @@ function renderPromotions(container, template, collection, centre){
             val.store_name = store_details.name;
             val.store_show = "display:inline-block";
             val.image_url = val.promo_image_url_abs;
-            if (val.promo_image_url_abs.indexOf('missing.png') > 0){
-                val.image_url  = "";
-            }
             if(val.cat_list != null){
                 try {
                     val.cat_list = store_details.categories.join(',')
