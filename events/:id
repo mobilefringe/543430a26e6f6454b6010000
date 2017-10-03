@@ -57,7 +57,7 @@
             </div>
             
         </script>
-        <div >
+        <div id="pixel_tag">
             <!-- Facebook Pixel Code -->
             <script>
             !function(f,b,e,v,n,t,s)
@@ -88,6 +88,13 @@
         function renderAll(){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
+             if(slug.indexOf("halifaxcentre-closetheloop-with-h-m") > -1) {
+                $("#pixel_tag").show();
+            }
+            else {
+                $("#pixel_tag").hide();
+            }
+            
             promo_details = getEventDetailsBySlug(slug);
             renderEventDetails('#promo_details_container', '#promo_details_template', promo_details, "Halifax")
             show_content();
