@@ -87,8 +87,8 @@
         function renderAll(){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
-            console.log(slug);
              if(slug.indexOf("halifaxcentre-closetheloop-with-h-m") > -1) {
+            console.log(slug);
                 $("#pixel_tag").show();
             }
             else {
