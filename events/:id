@@ -39,16 +39,6 @@
                     </a>
                 </p>
                 <div class="details_desc">{{{rich_description}}}</div>
-                <div id="pixel_tag">
-            <!-- Facebook Pixel Code -->
-            
-            <noscript>
-            <img height="1" width="1" 
-            src="https://www.facebook.com/tr?id=735797539938138&ev=PageView
-            &noscript=1"/>
-            </noscript>
-            <!-- End Facebook Pixel Code -->
-        </div>
             </div>
             <div class="col-md-4 hidden_phone">
                 <img src="{{store_image}}" alt="Store Logo" class="store_logo" />
@@ -67,7 +57,16 @@
             </div>
             
         </script>
+    </div>
+    <div id="pixel_tag">
+        <!-- Facebook Pixel Code -->
         
+        <noscript>
+        <img height="1" width="1" 
+        src="https://www.facebook.com/tr?id=735797539938138&ev=PageView
+        &noscript=1"/>
+        </noscript>
+        <!-- End Facebook Pixel Code -->
     </div>
     <div class="divider"></div>
 </div>
