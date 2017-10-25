@@ -13,6 +13,9 @@
         <div class="col-md-3 spec_offer">
             <h5><a href="">Sub Page3</a></h5>
         </div>
+        <div class="col-md-3 spec_offer">
+            <h5><a href="">Sub Page3</a></h5>
+        </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
