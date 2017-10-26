@@ -79,6 +79,7 @@
                 $('#no_promos').show()
             }
             show_content();
+            $('.spec_offer').css('width', '50%')
         }
 		loadMallDataCached(renderAll); 
     })
