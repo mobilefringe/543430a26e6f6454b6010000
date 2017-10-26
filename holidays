@@ -35,7 +35,7 @@
                 <div class="holiday_page_content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend augue sed lorem sodales, non congue velit aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec nec nisi vel est mattis eleifend. Proin ante dolor, ullamcorper sit amet quam ac, suscipit porta augue. Fusce eleifend fermentum egestas. Vestibulum ligula elit, auctor non vehicula a, consequat at risus. Suspendisse sit amet tempus tortor. Pellentesque sed urna interdum, dignissim ipsum sit amet, interdum nisi. Fusce malesuada, mauris eu posuere lobortis, erat ipsum dapibus diam, et tempor sem nibh dapibus tortor.
                 </div>
-                <h3> Events Info</h3>
+                <h4> Events Info</h4>
                 <!--<div id="promos_container">-->
                 <!--    <script id="promos_template" type="x-tmpl-mustache/text">-->
                 <!--        <div class="row promo_item cats_row" data-cat="{{cat_list}}">-->
