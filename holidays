@@ -21,7 +21,9 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="">Sub Page1</option>
-            <option class="contest_link" value="/contests">Contest</option>
+            <option value="">Sub Page1</option>
+            <option value="">Sub Page1</option>
+            <option value="">Sub Page1</option>
         </select>
     </h5>
 </div>
