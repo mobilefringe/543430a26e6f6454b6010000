@@ -4,16 +4,16 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-3 spec_offer">
+        <div class="col-md-3 col-sm-3 spec_offer">
             <h5><a href="/pages/halifaxcentre-santa">Visit Santa</a></h5>
         </div>
-        <div class="col-md-3 spec_offer">
+        <div class="col-md-3 col-sm-3 spec_offer">
             <h5><a href="/pages/halifaxcentre-big-black-bow">Events</a></h5>
         </div>
-        <div class="col-md-3 spec_offer">
+        <div class="col-md-3 col-sm-3 spec_offer">
             <h5><a href="/pages/halifaxcentre-gift-cards">Gift Cards</a></h5>
         </div>
-        <div class="col-md-3 spec_offer">
+        <div class="col-md-3 col-sm-3 spec_offer">
             <h5><a href="/pages/halifaxcentre-holiday-hours">Holiday Hours</a></h5>
         </div>
         
