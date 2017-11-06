@@ -33,9 +33,9 @@
         <div class="row">
             <div class="col-md-12" style="text-align:center">
                 <img src="//codecloud.cdn.speedyrails.net/sites/599da5a06e6f6420d9d40000/image/jpeg/1510000430000/BBB Landing Page Header.jpeg">
-                <div class="holiday_page_content details_desc">
+                <!--<div class="holiday_page_content details_desc">-->
                     <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend augue sed lorem sodales, non congue velit aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec nec nisi vel est mattis eleifend. Proin ante dolor, ullamcorper sit amet quam ac, suscipit porta augue. Fusce eleifend fermentum egestas. Vestibulum ligula elit, auctor non vehicula a, consequat at risus. Suspendisse sit amet tempus tortor. Pellentesque sed urna interdum, dignissim ipsum sit amet, interdum nisi. Fusce malesuada, mauris eu posuere lobortis, erat ipsum dapibus diam, et tempor sem nibh dapibus tortor.-->
-                </div>
+                <!--</div>-->
                 <!--<h3 class="heading"> EVENTS INFO</h3>-->
                 <div class="col-md-6 holiday_event_images">
                     <a href="/pages/halifaxcentre-santa"><img src="//codecloud.cdn.speedyrails.net/sites/599da5a06e6f6420d9d40000/image/jpeg/1510001467000/Santa Tile.jpeg" class="" alt=""></a>
