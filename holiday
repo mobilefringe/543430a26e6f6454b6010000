@@ -21,7 +21,7 @@
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="">Sub Page1</option>
+            <option value="" href="/pages/halifaxcentre-santa">Visit Santa</option>
             <option value="">Sub Page2</option>
             <option value="">Sub Page3</option>
             <option value="">Sub Page4</option>
