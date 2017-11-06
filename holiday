@@ -24,7 +24,7 @@
             <option value="/pages/halifaxcentre-santa">Visit Santa</option>
             <option value="/pages/halifaxcentre-big-black-bow">Events</option>
             <option value="/pages/halifaxcentre-gift-cards">Gift Cards</option>
-            <option value="">Sub Page4</option>
+            <option value="/pages/halifaxcentre-holiday-hours">Holiday Hours</option>
         </select>
     </h5>
 </div>
