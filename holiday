@@ -37,6 +37,9 @@
                 </div>
                 <h3 class="heading"> EVENTS INFO</h3>
                 <div class="col-md-6 holiday_event_images">
+                    <a href="/pages/halifaxcentre-santa"><img src="http://via.placeholder.com/860x320"></a>
+                </div>
+                <div class="col-md-6 holiday_event_images">
                     <a href="/pages/halifaxcentre-big-black-bow"><img src="http://via.placeholder.com/860x320"></a>
                 </div>
                 <div class="col-md-6 holiday_event_images">
@@ -45,9 +48,7 @@
                 <div class="col-md-6 holiday_event_images">
                     <a href="/pages/halifaxcentre-holiday-hours"><img src="http://via.placeholder.com/860x320"></a>
                 </div>
-                <div class="col-md-6 holiday_event_images">
-                    <a href="/pages/halifaxcentre-santa"><img src="http://via.placeholder.com/860x320"></a>
-                </div>
+                
             </div>
         </div>
     </div>
