@@ -155,6 +155,13 @@
 						<li><a href="/security">Security</a></li>
 					</ul>
                 </li>
+                <li>
+                    <a href="#" class="submenu_expander">
+                        HOLIDAY
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
