@@ -1,0 +1,95 @@
+<div class="main_banner text-center">
+    <h3>Event Name</h3>
+    <p>Event Message</p>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-3 spec_offer">
+            <h5><a href="/pages/halifaxcentre-big-black-bow">Big Black Bow</a></h5>
+        </div>
+        <div class="col-md-3 spec_offer">
+            <h5><a href="/pages/halifaxcentre-gift-cards">Gift Cards</a></h5>
+        </div>
+        <div class="col-md-3 spec_offer">
+            <h5><a href="/pages/halifaxcentre-holiday-hours">Holiday Hours</a></h5>
+        </div>
+        <div class="col-md-3 spec_offer">
+            <h5><a href="/pages/halifaxcentre-santa">Santa</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="">Sub Page1</option>
+            <option value="">Sub Page2</option>
+            <option value="">Sub Page3</option>
+            <option value="">Sub Page4</option>
+        </select>
+    </h5>
+</div>
+ <div class="content_container main_container">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12" style="text-align:center">
+                <img src="//codecloud.cdn.speedyrails.net/sites/599da5a06e6f6420d9d40000/image/jpeg/1510000430000/BBB Landing Page Header.jpeg">
+                <div class="holiday_page_content details_desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend augue sed lorem sodales, non congue velit aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec nec nisi vel est mattis eleifend. Proin ante dolor, ullamcorper sit amet quam ac, suscipit porta augue. Fusce eleifend fermentum egestas. Vestibulum ligula elit, auctor non vehicula a, consequat at risus. Suspendisse sit amet tempus tortor. Pellentesque sed urna interdum, dignissim ipsum sit amet, interdum nisi. Fusce malesuada, mauris eu posuere lobortis, erat ipsum dapibus diam, et tempor sem nibh dapibus tortor.
+                </div>
+                <h3 class="heading"> EVENTS INFO</h3>
+                <div class="col-md-6 holiday_event_images">
+                    <a href="/pages/halifaxcentre-big-black-bow"><img src="http://via.placeholder.com/860x320"></a>
+                </div>
+                <div class="col-md-6 holiday_event_images">
+                    <a href="/pages/halifaxcentre-gift-cards"><img src="http://via.placeholder.com/860x320"></a>
+                </div>
+                <div class="col-md-6 holiday_event_images">
+                    <a href="/pages/halifaxcentre-holiday-hours"><img src="http://via.placeholder.com/860x320"></a>
+                </div>
+                <div class="col-md-6 holiday_event_images">
+                    <a href="/pages/halifaxcentre-santa"><img src="http://via.placeholder.com/860x320"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var promotions = getEventsList().sortBy(function(o){ return o.end_date });
+            var categories = getStoreCategories();
+            renderGeneral('#category_container', '#category_template', categories);
+            renderGeneral('#mobile_cat_list', '#category_template2', categories);
+            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
+            show_cat_stores()
+            var published_promos = [];
+            $.each( promotions , function( key, val ){
+                today = moment();
+                webDate = moment(val.show_on_web_date);
+                if (today >= webDate) {
+                    published_promos.push(val)
+                } 
+            });
+            if(published_promos.length > 0){
+                renderEvents("#promos_container","#promos_template", published_promos, "Halifax");
+            }
+            else{
+                $('#no_promos').show()
+            }
+            show_content();
+            $('.spec_offer').css('width', '')
+        }
+		loadMallDataCached(renderAll); 
+    })
+</script>
+<script type="text/javascript">
+(function l(d){
+ var site = '6763', page = 'Events', s, er = d.createElement('script');
+ er.type = 'text/javascript';
+ er.async = true;
+ er.src = '//o2.eyereturn.com/?site=' + site + '&page=' + page;
+ s = d.getElementsByTagName('script')[0];
+ s.parentNode.insertBefore(er, s);
+})(document);
+</script>
