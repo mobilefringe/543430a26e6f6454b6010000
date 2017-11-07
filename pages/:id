@@ -23,7 +23,7 @@
         </select>
     </h5>
 </div>
-<div class="store_list_head main_container" id="holiday_menu">
+<div class="store_list_head main_container hidden_now" id="holiday_menu">
     <div class="row hidden_phone">
         <div class="col-md-3 col-sm-3 spec_offer">
             <h5><a href="/pages/halifaxcentre-santa">Visit Santa</a></h5>
