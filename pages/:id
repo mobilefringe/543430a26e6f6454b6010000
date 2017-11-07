@@ -2,7 +2,7 @@
     <h3 id="mm_page_title"></h3>
     <p>explore • enjoy • shop</p>
 </div>
-<div class="store_list_head main_container">
+<div class="store_list_head main_container" id="default_menu">
     <div class="row hidden_phone">
         <div class="col-md-4">
             <h5 id="halifaxcentre-cummunity"><a href="/pages/halifaxcentre-cummunity">COMMUNITY</a></h5>
