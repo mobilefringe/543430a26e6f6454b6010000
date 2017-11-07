@@ -78,10 +78,12 @@
             if(slug == "/pages/halifaxcentre-santa" ||slug == "/pages/halifaxcentre-big-black-bow" || slug == "/pages/halifaxcentre-gift-cards" ||slug == "/pages/halifaxcentre-holiday-hours"){
                 $("#holiday_menu").show();
                 $("#default_menu").hide();
+                console.log(slug);
             }
             else {
                 $("#default_menu").show();
                 $("#holiday_menu").hide();
+                console.log(slug);
             }
             show_content();
         }
