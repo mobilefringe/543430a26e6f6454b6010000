@@ -80,6 +80,7 @@
             }
             else {
                 $("#default_menu").show();
+                $("#holiday_menu").hide();
             }
             show_content();
         }
