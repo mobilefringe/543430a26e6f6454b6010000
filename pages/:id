@@ -83,7 +83,7 @@
             else {
                 $("#default_menu").show();
                 $("#holiday_menu").hide();
-                console.log(slug);
+                console.log("default menu");
             }
             show_content();
         }
