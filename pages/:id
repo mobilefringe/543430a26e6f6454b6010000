@@ -78,7 +78,7 @@
             <option value="/pages/halifaxcentre-big-black-bow">Events</option>
             <option value="/pages/halifaxcentre-gift-cards">Gift Cards</option>
             <option value="/pages/halifaxcentre-holiday-hours">Holiday Hours</option>
-            if(slug == "/pages/halifaxcentre-santa" ||slug == "/pages/halifaxcentre-santa" || slug == "/pages/halifaxcentre-gift-cards" ||slug == "/pages/halifaxcentre-holiday-hours")
+            if(slug == "/pages/halifaxcentre-santa" ||slug == "/pages/halifaxcentre-big-black-bow" || slug == "/pages/halifaxcentre-gift-cards" ||slug == "/pages/halifaxcentre-holiday-hours")
             show_content();
         }
         loadMallDataCached(renderAll); 
