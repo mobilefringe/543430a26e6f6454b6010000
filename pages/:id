@@ -80,6 +80,7 @@
                 $("#holiday_menu").show();
                 $("#default_menu").hide();
                 console.log("holiday_menu");
+                is_holiday =true;
                 // console.log("holiday_menu",$('.spec_offer').removeAttr( 'style' ));
             }
             else {
