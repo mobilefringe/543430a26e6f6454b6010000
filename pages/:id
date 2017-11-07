@@ -74,9 +74,11 @@
                     $("#404_msg").fadeIn("fast");
                 }
             }); 
-            if(slug == "/pages/halifaxcentre-santa" ||slug == "/pages/halifaxcentre-big-black-bow" || slug == "/pages/halifaxcentre-gift-cards" ||slug == "/pages/halifaxcentre-holiday-hours")
-            {
+            if(slug == "/pages/halifaxcentre-santa" ||slug == "/pages/halifaxcentre-big-black-bow" || slug == "/pages/halifaxcentre-gift-cards" ||slug == "/pages/halifaxcentre-holiday-hours"){
                 $("#holiday_menu").show();
+            }
+            else {
+                
             }
             show_content();
         }
