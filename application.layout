@@ -159,6 +159,22 @@
                     <a href="/holiday" class="submenu_expander">
                         HOLIDAY
                     </a>
+                    <ul class="sub_menu hidden_now">
+						<li><a href="/pages/halifaxcentre-santa">Visit Santa</a></li>
+						<li><a href="/pages/halifaxcentre-big-black-bow">Events</a></li>
+						<li><a href="/pages/halifaxcentre-gift-cards">Gift Cards</a></li>
+						<li><a href="/pages/halifaxcentre-holiday-hours">Holiday Hours</a></li>
+					</ul>
+					<h5></h5>
+        </div>
+        <div class="col-md-3 col-sm-3 spec_offer">
+            <h5></h5>
+        </div>
+        <div class="col-md-3 col-sm-3 spec_offer">
+            <h5></h5>
+        </div>
+        <div class="col-md-3 col-sm-3 spec_offer">
+            <h5></h5>
                 </li>
             </ul>
         </div>
