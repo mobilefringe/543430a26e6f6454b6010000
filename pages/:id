@@ -75,7 +75,7 @@
                 }
             }); 
             console.log(slug);
-            if(slug == "/pages/halifaxcentre-santa" ||slug == "/pages/halifaxcentre-big-black-bow" || slug == "/pages/halifaxcentre-gift-cards" ||slug == "/pages/halifaxcentre-holiday-hours"){
+            if(slug == "halifaxcentre-santa" ||slug == "halifaxcentre-big-black-bow" || slug == "halifaxcentre-gift-cards" ||slug == "halifaxcentre-holiday-hours"){
                 $("#holiday_menu").show();
                 $("#default_menu").hide();
                 console.log("holiday_menu");
