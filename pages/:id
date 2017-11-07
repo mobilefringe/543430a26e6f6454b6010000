@@ -88,6 +88,9 @@
                 console.log("default menu");
             }
             show_content();
+            if(is_holiday == true){
+                
+            }
         }
         loadMallDataCached(renderAll); 
     })
