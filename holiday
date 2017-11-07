@@ -37,7 +37,7 @@
                     <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend augue sed lorem sodales, non congue velit aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec nec nisi vel est mattis eleifend. Proin ante dolor, ullamcorper sit amet quam ac, suscipit porta augue. Fusce eleifend fermentum egestas. Vestibulum ligula elit, auctor non vehicula a, consequat at risus. Suspendisse sit amet tempus tortor. Pellentesque sed urna interdum, dignissim ipsum sit amet, interdum nisi. Fusce malesuada, mauris eu posuere lobortis, erat ipsum dapibus diam, et tempor sem nibh dapibus tortor.-->
                 <!--</div>-->
                 <!--<h3 class="heading"> EVENTS INFO</h3>-->
-                <br/>
+                <br class="show_phone"/>
                 <br class="show_phone"/>
                 <div class="col-md-6 holiday_event_images" style="padding-left:0">
                     <a href="/pages/halifaxcentre-santa"><img src="//codecloud.cdn.speedyrails.net/sites/599da5a06e6f6420d9d40000/image/jpeg/1510001467000/Santa Tile.jpeg" class="" alt=""></a>
