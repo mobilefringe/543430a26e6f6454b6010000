@@ -78,7 +78,7 @@
                 $("#holiday_menu").show();
             }
             else {
-                
+                $("#default_menu").show();
             }
             show_content();
         }
