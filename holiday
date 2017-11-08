@@ -22,7 +22,7 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/pages/halifaxcentre-santa">Visit Santa</option>
-            <option value="/pages/halifaxcentre-big-black-bow">Events</option>
+            <option value="/pages/halifaxcentre-big-black-bow-2">Events</option>
             <option value="/pages/halifaxcentre-gift-cards">Gift Cards</option>
             <option value="/pages/halifaxcentre-holiday-hours">Holiday Hours</option>
         </select>
