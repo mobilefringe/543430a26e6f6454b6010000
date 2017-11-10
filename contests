@@ -58,30 +58,25 @@
         <div class="row">
             <div class="col-md-12">
                 <p class="hidden_now" id="no_contests">Sorry, there are no contests at this time. Please check back soon.</p>
-                <!--<div id="events_not_empty_section">-->
-                    <div class="" id="events_list">
-                        <script id="event_item_template" type="x-tmpl-mustache">
-                            <div class="promo-details">
-                                <div class="event-image">
-                                    <img class="contest banner" src="{{event_image_url_abs}}">
-                                </div>
-                                <div class="event-name">
-                                    <h3>{{ name }}</h3>
-                                </div>
-                                <div class="event-dates">
-                                    {{ dates}} 
-                                </div>
-                                <hr>
-                                <div class="event-description">
-                                    {{{ rich_description }}}
-                                </div>
-                            </div> 
-                        </script>
-                    </div>
-                <!--</div>-->
-                <!--<div id="events_empty_section" style="display:none;">-->
-                <!--    <p>Check back later for exciting contest details!</p>-->
-                <!--</div>-->
+                <div id="events_list">
+                    <script id="event_item_template" type="x-tmpl-mustache">
+                        <div class="promo-details">
+                            <div class="event-image">
+                                <img class="contest banner" src="{{event_image_url_abs}}">
+                            </div>
+                            <div class="event-name">
+                                <h3>{{ name }}</h3>
+                            </div>
+                            <div class="event-dates">
+                                {{ dates}} 
+                            </div>
+                            <hr>
+                            <div class="event-description">
+                                {{{ rich_description }}}
+                            </div>
+                        </div> 
+                    </script>
+                </div>
             </div>
         </div>  
     </div>
