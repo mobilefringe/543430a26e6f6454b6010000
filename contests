@@ -62,7 +62,7 @@
                         <script id="event_item_template" type="x-tmpl-mustache">
                             <div class="promo-details">
                                 <div class="event-image">
-                                    <img class="contest banner" src="{{event_image_url}}">
+                                    <img class="contest banner" src="{{event_image_url_abs}}">
                                 </div>
                                 <div class="event-name">
                                     <h3>{{ name }}</h3>
