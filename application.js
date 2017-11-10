@@ -256,6 +256,7 @@ function renderEvents(container, template, collection, centre){
         }
         if (val.event_image_url_abs.indexOf('missing.png') > -1){
             val.event_image_url_abs="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+            val.event_image_url_abs = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461163897000/Logo.png"
         }
 
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
