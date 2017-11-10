@@ -23,68 +23,68 @@
         </select>
     </h5>
 </div>
-<div class="content_container main_container">
-    <div class="margin_25_across">
-        <div class="row">
-            <div class="col-md-12">
-                <p class="hidden_now" id="no_contests">Sorry, there are no contests at this time. Please check back soon.</p>
-                <div id="promos_container">
-                    <script id="promos_template" type="x-tmpl-mustache/text">
-                        <div class="row promo_item cats_row" data-cat="{{cat_list}}">
-                            <div class="col-md-3">
-                                <div  class="cropped_image">
-                                    <img src="{{event_image_url_abs}}" alt="{{name}}" />
-                                </div>
-                            </div>
-                            <div class="col-md-9">
-                                <h2 class="promo_list_name">{{name}}</h2>
-                                <p>
-                                    <span class="promo_store">{{store_name}}</span>
-                                    <span class="promo_dates">{{dates}}</span>
-                                </p>
-                                <div class="promo_list_desc">{{description_short}}</div>
-                                <a class="read_more" href="/contests/{{slug}}">Read More</a>
-                            </div>
-                        </div>
-                    </script>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--<div class="margin_20"></div>-->
-<!--<div class="content_container main_container mobile_padding">-->
+<!--<div class="content_container main_container">-->
 <!--    <div class="margin_25_across">-->
 <!--        <div class="row">-->
 <!--            <div class="col-md-12">-->
-                <!--<div id="events_not_empty_section">-->
-<!--                    <div class="" id="events_list">-->
-<!--                        <script id="event_item_template" type="x-tmpl-mustache">-->
-<!--                            <div class="promo-details">-->
-<!--                                <div class="event-image">-->
-<!--                                    <img class="contest banner" src="{{event_image_url}}">-->
+<!--                <p class="hidden_now" id="no_contests">Sorry, there are no contests at this time. Please check back soon.</p>-->
+<!--                <div id="promos_container">-->
+<!--                    <script id="promos_template" type="x-tmpl-mustache/text">-->
+<!--                        <div class="row promo_item cats_row" data-cat="{{cat_list}}">-->
+<!--                            <div class="col-md-3">-->
+<!--                                <div  class="cropped_image">-->
+<!--                                    <img src="{{event_image_url_abs}}" alt="{{name}}" />-->
 <!--                                </div>-->
-<!--                                <div class="event-name">-->
-<!--                                    <h3>{{ name }}</h3>-->
-<!--                                </div>-->
-<!--                                <div class="event-dates">-->
-<!--                                    {{ start_date }} to {{ end_date }}-->
-<!--                                </div>-->
-<!--                                <hr>-->
-<!--                                <div class="event-description">-->
-<!--                                    {{{ rich_description }}}-->
-<!--                                </div>-->
-<!--                            </div> -->
-<!--                        </script>-->
-<!--                    </div>-->
-                <!--</div>-->
-                <!--<div id="events_empty_section" style="display:none;">-->
-                <!--    <p>Check back later for exciting contest details!</p>-->
-                <!--</div>-->
+<!--                            </div>-->
+<!--                            <div class="col-md-9">-->
+<!--                                <h2 class="promo_list_name">{{name}}</h2>-->
+<!--                                <p>-->
+<!--                                    <span class="promo_store">{{store_name}}</span>-->
+<!--                                    <span class="promo_dates">{{dates}}</span>-->
+<!--                                </p>-->
+<!--                                <div class="promo_list_desc">{{description_short}}</div>-->
+<!--                                <a class="read_more" href="/contests/{{slug}}">Read More</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </script>-->
+<!--                </div>-->
 <!--            </div>-->
-<!--        </div>  -->
+<!--        </div>-->
 <!--    </div>-->
 <!--</div>-->
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="events_not_empty_section">
+                    <div class="" id="events_list">
+                        <script id="event_item_template" type="x-tmpl-mustache">
+                            <div class="promo-details">
+                                <div class="event-image">
+                                    <img class="contest banner" src="{{event_image_url}}">
+                                </div>
+                                <div class="event-name">
+                                    <h3>{{ name }}</h3>
+                                </div>
+                                <div class="event-dates">
+                                    {{ start_date }} to {{ end_date }}
+                                </div>
+                                <hr>
+                                <div class="event-description">
+                                    {{{ rich_description }}}
+                                </div>
+                            </div> 
+                        </script>
+                    </div>
+                </div>
+                <div id="events_empty_section" style="display:none;">
+                    <p>Check back later for exciting contest details!</p>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
  
 <script>
     $(document).ready(function(e) {
@@ -102,6 +102,7 @@
                 }
             });
             if(published_contests.length > 0){
+                // renderEvents("#promos_container","#promos_template", published_contests, "Halifax Shopping Center");
                 renderEvents("#promos_container","#promos_template", published_contests, "Halifax Shopping Center");
             } else {
                 $('#no_contests').show()
