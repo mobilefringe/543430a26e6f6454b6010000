@@ -108,9 +108,4 @@
         }
         loadMallDataCached(renderPageData);
     });
-
-
-
-
-    
 </script>
