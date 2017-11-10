@@ -103,7 +103,7 @@
             });
             if(published_contests.length > 0){
                 // renderEvents("#promos_container","#promos_template", published_contests, "Halifax Shopping Center");
-                renderEvents("#promos_container","#promos_template", published_contests, "Halifax Shopping Center");
+                renderEvents("#events_list","#event_item_template", published_contests, "Halifax Shopping Center");
             } else {
                 $('#no_contests').show()
             }
