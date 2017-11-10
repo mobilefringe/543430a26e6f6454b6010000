@@ -102,7 +102,7 @@
             } else {
                 $('#no_contests').show()
             }
-            // renderEventsWithImgTemplate('#event_item_template','#events_list','#events_not_empty_section','#events_empty_section',getEventsList(), "contests");
+
             show_content();
         }
         loadMallDataCached(renderPageData);
