@@ -69,7 +69,6 @@
                                 </div>
                                 <div class="event-dates">
                                     {{ dates}} 
-                                    {{ start_date }} to {{ end_date }}
                                 </div>
                                 <hr>
                                 <div class="event-description">
