@@ -57,6 +57,7 @@
     <div class="margin_25_across">
         <div class="row">
             <div class="col-md-12">
+                <p class="hidden_now" id="no_contests">Sorry, there are no contests at this time. Please check back soon.</p>
                 <!--<div id="events_not_empty_section">-->
                     <div class="" id="events_list">
                         <script id="event_item_template" type="x-tmpl-mustache">
