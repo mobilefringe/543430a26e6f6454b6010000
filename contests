@@ -57,7 +57,7 @@
     <div class="margin_25_across">
         <div class="row">
             <div class="col-md-12">
-                <div id="events_not_empty_section">
+                <!--<div id="events_not_empty_section">-->
                     <div class="" id="events_list">
                         <script id="event_item_template" type="x-tmpl-mustache">
                             <div class="promo-details">
@@ -77,10 +77,10 @@
                             </div> 
                         </script>
                     </div>
-                </div>
-                <div id="events_empty_section" style="display:none;">
-                    <p>Check back later for exciting contest details!</p>
-                </div>
+                <!--</div>-->
+                <!--<div id="events_empty_section" style="display:none;">-->
+                <!--    <p>Check back later for exciting contest details!</p>-->
+                <!--</div>-->
             </div>
         </div>  
     </div>
