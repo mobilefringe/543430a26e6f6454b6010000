@@ -1,0 +1,226 @@
+<style>
+    h5
+    {
+        font-size:24px;
+    }
+</style>
+<div class="jobs_banner text-center">
+    <h3>GIFT CARDS</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-3">
+            <h5 class="active_heading">GIFT CARDS</h5>
+        </div>
+        <div class="col-md-3 text-center">
+            <h5><a href="/community">COMMUNITY</a></h5>
+        </div>
+        <div class="col-md-3 text-center">
+            <h5><a href="/mall_services">MALL SERVICES</a></h5>
+        </div>
+        <div class="col-md-3">
+            <h5><a href="/consultations">CONSULTATIONS</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/gift_cards">Gift Cards</option>
+            <option value="/community">Community</option>
+            <option value="/mall_services">Mall Services</option>
+            <option value="/consultations">Consultations</option>
+        </select>
+    </h5>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding pages_text">
+     <div class="margin_25_across">
+         <div class="giftbalance hidden_phone"><a target="_blank" href="//halifax.storecardsonline.com" style="padding: 15px 35px;" class="animated_btn hscbutton">Purchase Online</a></div>
+        <p>A Halifax Shopping Centre Gift Card offers an endless number of choices! Available in any denomination from $10 and up, our fee-free gift cards always fit your budget and their style. 
+Halifax Shopping Centre Gift Cards can be purchased at Guest Services or online.
+<br>
+<br>
+<strong>Online gift card orders which required shipping must be placed by December 18 to ensure delivery in time for christmas.</strong>
+</p>
+        
+        <div class="giftbalance show_phone"><a target="_blank" href="//halifax.storecardsonline.com" style="padding: 15px 35px;" class="animated_btn hscbutton">Purchase Online</a>
+            <br />
+            <br />
+        </div>
+        <p><b>Corporate Orders</b><br/> Our Gift Cards make a great incentive or gift for employees and colleagues. If you are interested in placing a corporate order, please contact Allyson Boyd, Guest Services Supervisor, at (902) 454-8666 or at <a href="mailto:aboyd@20vic.com">aboyd@20vic.com</a>. Halifax Shopping Centre provides incentives for larger corporate gift card orders. Contact us to learn more!</p>
+        
+        <p>&nbsp;</p>
+        <hr>
+        <p><a name="checkmybalance"></a></p>
+        <h2>Check My Balance</h2>
+        <div class="giftbalance"><a target="_blank" href="//www.getmybalance.com" class="animated_btn hscbutton">Check My Balance Online</a><p></p>
+        <p>Or call 1 (800) 755-8608.</p>
+        </div>
+        <div class="clearafter">&nbsp;</div>
+        <p>You can check the balance of your Halifax Shopping Centre Gift Card online, over the phone, or at Guest Services!</p>
+        <p>*Please Note cards purchased before February 1st, 2010 are unaffected by the changes in legislation made by the Government of Nova Scotia and can still be redeemed at Halifax Shopping Centre Retailers*</p>
+        <p>&nbsp;</p>
+        <hr>
+        <p><a name="faqs"></a></p>
+        <p>For questions about cards activated prior to March 25, 2015 please refer to your Terms & Conditions.  You may obtain a copy at <a href="//www.getmybalance.com" target="_blank">www.getmybalance.com</a></p>
+        <h2>FAQs</h2>
+        <!--<p>Here are some Frequently Asked Questions that will assist you in purchasing and using our New Halifax Shopping Centre Gift Cards.</p>-->
+        <div id="myAccordion" class="accordion">
+        <div class="accordion-group">
+        <div class="accordion-heading">
+        <h5><a data-toggle="collapse" data-parent="#myAccordion" href="#collapseOne" class="accordion-toggle">1. How can a customer find the available balance of the gift card?</a></h5>
+        </div>
+        <div id="collapseOne" class="accordion-body collapse">
+        <div class="accordion-inner">
+        <p>The value of the gift card will be written on the back of the gift card and may be listed with the materials that came with the gift card at the time of purchase.  Other options include calling the number on the back of the gift card, check www.getmybalance.com, or visit the Customer Service Desk or Management Administration Office during normal business hours.
+         </p>
+        </div>
+        </div>
+        </div>
+        <div class="accordion-group">
+        <div class="accordion-heading">
+        <h5><a data-toggle="collapse" data-parent="#myAccordion" href="#collapseTwo" class="accordion-toggle">2. What if the gift card is declined?</a></h5>
+        </div>
+        <div id="collapseTwo" class="accordion-body collapse">
+        <div class="accordion-inner">
+        <p>If a transaction is declined, the customer should check the balance (see, “How can a customer find the available balance on the gift card?”), tell the cashier how much is available on the gift card to use towards the purchase, and pay the remainder with another form of payment.</p>
+        </div>
+        </div>
+        </div>
+        <div class="accordion-group">
+        <div class="accordion-heading">
+        <h5><a data-toggle="collapse" data-parent="#myAccordion" href="#collapse3" class="accordion-toggle">3. How are returns, exchanges, or disputes handled?</a></h5>
+        </div>
+        <div id="collapse3" class="accordion-body collapse">
+        <div class="accordion-inner">
+        <p>Merchants may credit gift cards, subject to their return policy, back to the gift card used to make the original purchase.  For this reason, it is very important that customers keep gift cards and receipts. Funds credited by the merchant will be available 3-5 days after the return is processed. If the gift card is not present, the merchant may issue a store credit, store valued gift card or exchange. Please note that voided transactions may take up to 7 days to be credited back to the gift card’s available balance.</p>
+        </div>
+        </div>
+        </div>
+        <div class="accordion-group">
+        <div class="accordion-heading">
+        <h5><a data-toggle="collapse" data-parent="#myAccordion" href="#collapse4" class="accordion-toggle">4. How can a customer track activity on the gift card?</a></h5>
+        </div>
+        <div id="collapse4" class="accordion-body collapse">
+        <div class="accordion-inner">
+        <p>Transaction history is available through <a href="//www.getmybalance.com" target="_blank">www.getmybalance.com</a></p>
+        
+        </div>
+        </div>
+        </div>
+        <div class="accordion-group">
+        <div class="accordion-heading">
+        <h5><a data-toggle="collapse" data-parent="#myAccordion" href="#collapse5" class="accordion-toggle">5. Can the cardholder re-load the gift card by putting more money on it? </a></h5>
+        </div>
+        <div id="collapse5" class="accordion-body collapse">
+        <div class="accordion-inner">
+        <p>No, the gift card is not re-loadable. However, returns and credits can be applied.</p>
+        
+        </div>
+        </div>
+        </div>
+        <div class="accordion-group">
+        <div class="accordion-heading">
+        <h5><a data-toggle="collapse" data-parent="#myAccordion" href="#collapse6" class="accordion-toggle">6. What if the gift card is physically damaged?</a></h5>
+        </div>
+        <div id="collapse6" class="accordion-body collapse">
+        <div class="accordion-inner">
+        <p>Contact Halifax Shopping Centre management office or call the number on the back of the gift card.</p>
+        </div>
+        </div>
+        </div>
+        <div class="accordion-group">
+        <div class="accordion-heading">
+        <h5><a data-toggle="collapse" data-parent="#myAccordion" href="#collapse7" class="accordion-toggle">7. Whom should a customer contact if the gift card status reads, “inactive,” when funds should be available?</a></h5>
+        </div>
+        <div id="collapse7" class="accordion-body collapse">
+        <div class="accordion-inner">
+        <p>Please contact the Halifax Shopping Center management office or call the number on the back of the gift card for more information.</p>
+        </div>
+        </div>
+        </div>
+        <div class="accordion-group">
+        <div class="accordion-heading">
+        <h5><a data-toggle="collapse" data-parent="#myAccordion" href="#collapse8" class="accordion-toggle">8. Can other forms of payment be used with the gift card when making a purchase?</a></h5>
+        </div>
+        <div id="collapse8" class="accordion-body collapse">
+        <div class="accordion-inner">
+        <p>Yes. The customer should inform the cashier how much to deduct from the gift card and how much to deduct from the other payment method(s). Please note that some stores are not able to split purchases between gift cards and credit or debit cards. In these cases, a customer may need to pay the difference in cash or check.</p>
+        </div>
+        </div>
+        </div>
+        <div class="accordion-group">
+        <div class="accordion-heading">
+        <h5><a data-toggle="collapse" data-parent="#myAccordion" href="#collapse9" class="accordion-toggle">9. Can balances from multiple gift cards be combined on to one gift card? </a></h5>
+        </div>
+        <div id="collapse9" class="accordion-body collapse">
+        <div class="accordion-inner">
+        <p>Yes. Contact the shopping center management office or call the number on the back of the gift card for more information.</p>
+        </div>
+        </div>
+        </div>
+        <div class="accordion-group">
+        <div class="accordion-heading">
+        <h5><a data-toggle="collapse" data-parent="#myAccordion" href="#collapse10" class="accordion-toggle">10. What should a customer do with the gift card once the funds are depleted?</a></h5>
+        </div>
+        <div id="collapse10" class="accordion-body collapse">
+        <div class="accordion-inner">
+        <p>Keep the gift card, even after the balance is depleted, in case items need to be returned.  A merchant might ask a customer to present the gift card as proof of purchase.</p>
+        </div>
+        </div>
+        </div>
+        <div class="accordion-group">
+        <div class="accordion-heading">
+        <h5><a data-toggle="collapse" data-parent="#myAccordion" href="#collapse11" class="accordion-toggle">11. Do any HSC retailers not accept Halifax Shopping Centre gift cards?</a></h5>
+        </div>
+        <div id="collapse11" class="accordion-body collapse">
+        <div class="accordion-inner">
+        <p>Some HSC retailers are unable to accept Halifax Shopping Centre gift cards, please find a list below: <br></p>
+          <ul>
+             <li>Atlantic Dental</li> 
+             <li>Atlantic Lotto</li> 
+             <li>Eastlink</li> 
+             <li>Fido</li>
+             <li>First Choice Haircutters</li> 
+              <li>International Currency Exchange</li> 
+                <li>Koodo</li>
+                 <li>Maritime Travel</li>
+                   <li>Papa Mario’s</li> 
+                        <li>Rogers Plus</li>
+             <li>Shopper's Drug Mart</li>
+            
+         
+            
+              <li>Telus</li>
+         
+              
+            
+              <li>Virgin Mobile</li>
+          </ul>
+        
+        
+        </div>
+        </div>
+        </div>
+        <br>
+        <p><strong>For all other questions regarding the gift card</strong>, please contact the management office or email <a href="mailto:hscguestservices@20vic.com">hscguestservices@20vic.com</a>. Please be sure to provide the sixteen (16) digit card number.
+        <br><br>
+        The Halifax Shopping Centre Card is issued by Home Trust Company.
+        </p>
+        <br>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
+     
+      
