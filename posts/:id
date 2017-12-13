@@ -224,7 +224,7 @@
             $('#next').attr('data-modal-id', next);
         });
         
-        if(slug == "halifaxcentre-santa" ||slug == "halifaxcentre-big-black-bow" || slug == "halifaxcentre-gift-cards" ||slug == "halifaxcentre-holiday-hours" || slug == "halifaxcentre-big-black-bow-2"){
+        if(slug == "halifaxcentre-santa" ||slug == "halifaxcentre-big-black-bow"){
                 $("#holiday_menu").show();
                 $("#default_menu").hide();
                 console.log("holiday_menu");
