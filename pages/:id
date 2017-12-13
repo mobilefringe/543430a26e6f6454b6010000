@@ -25,17 +25,23 @@
 </div>
 <div class="store_list_head main_container hidden_now" id="holiday_menu">
     <div class="row hidden_phone">
-        <div class="col-md-3 col-sm-3 spec_offer">
+        <div class="col-md-2 col-sm-2 spec_offer">
             <h5><a href="/pages/halifaxcentre-santa">Visit Santa</a></h5>
         </div>
-        <div class="col-md-3 col-sm-3 spec_offer">
+        <div class="col-md-2 col-sm-2 spec_offer">
             <h5><a href="/pages/halifaxcentre-big-black-bow-2">Events</a></h5>
         </div>
-        <div class="col-md-3 col-sm-3 spec_offer">
+        <div class="col-md-2 col-sm-2 spec_offer">
             <h5><a href="/pages/halifaxcentre-gift-cards">Gift Cards</a></h5>
         </div>
-        <div class="col-md-3 col-sm-3 spec_offer">
+        <div class="col-md-2 col-sm-2 spec_offer">
             <h5><a href="/pages/halifaxcentre-holiday-hours">Holiday Hours</a></h5>
+        </div>
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/posts/gift-for-her">Gifts for Her</a></h5>
+        </div>
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/posts/gifts-for-him--2">Gifts for him</a></h5>
         </div>
         
     </div>
