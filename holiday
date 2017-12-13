@@ -30,7 +30,7 @@
             <option value="/pages/halifaxcentre-big-black-bow-2">Events</option>
             <option value="/pages/halifaxcentre-gift-cards">Gift Cards</option>
             <option value="/pages/halifaxcentre-holiday-hours">Holiday Hours</option>
-            <option value="/pages/halifaxcentre-holiday-hours">Gifts for Her</option>
+            <option value="/posts/gift-for-her">Gifts for Her</option>
             <option value="/posts/gifts-for-him--2">Gifts for Him</option>
         </select>
     </h5>
