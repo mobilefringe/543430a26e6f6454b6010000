@@ -38,6 +38,40 @@
         </div>
     </div>
 </div>
+<div class="store_list_head main_container hidden_now" id="holiday_menu">
+    <div class="row hidden_phone">
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/pages/halifaxcentre-santa">Visit Santa</a></h5>
+        </div>
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/pages/halifaxcentre-big-black-bow-2">Events</a></h5>
+        </div>
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/pages/halifaxcentre-gift-cards">Gift Cards</a></h5>
+        </div>
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/pages/halifaxcentre-holiday-hours">Holiday Hours</a></h5>
+        </div>
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/posts/gift-for-her">Gifts for Her</a></h5>
+        </div>
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/posts/gifts-for-him--2">Gifts for him</a></h5>
+        </div>
+        
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/pages/halifaxcentre-santa">Visit Santa</option>
+            <option value="/pages/halifaxcentre-big-black-bow">Events</option>
+            <option value="/pages/halifaxcentre-gift-cards">Gift Cards</option>
+            <option value="/pages/halifaxcentre-holiday-hours">Holiday Hours</option>
+            <option value="/posts/gift-for-her">Gifts for Her</option>
+            <option value="/posts/gifts-for-him--2">Gifts for Him</option>
+        </select>
+    </h5>
+</div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
     <div id="post_details_container">
