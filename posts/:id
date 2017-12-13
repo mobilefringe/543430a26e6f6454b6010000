@@ -236,9 +236,7 @@
                 $("#holiday_menu").hide();
                 console.log("default menu");
             }
-            if(is_holiday == true){
-                $('.spec_offer').css('width', '');
-            }
+            
         show_content();
         
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
