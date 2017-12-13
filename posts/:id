@@ -224,7 +224,7 @@
             $('#next').attr('data-modal-id', next);
         });
         
-        if(slug == "halifaxcentre-santa" ||slug == "halifaxcentre-big-black-bow"){
+        if(slug == "halifaxcentre-santa" ||slug == "gift-for-her"){
                 $("#holiday_menu").show();
                 $("#default_menu").hide();
                 console.log("holiday_menu");
