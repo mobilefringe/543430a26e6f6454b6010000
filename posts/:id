@@ -237,7 +237,7 @@
                 console.log("default menu");
             }
             
-        show_content();
+            show_content();
         
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'halifax-shopping-centre'; // required: replace example with your forum shortname
