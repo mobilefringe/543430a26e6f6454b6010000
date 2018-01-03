@@ -490,8 +490,6 @@ function renderHours(container, template, collection, type){
         collection = []
         collection = item_list;
     }
-
-    
     // if (type == "closed_hours") {
     //     $.each( collection , function( key, val ) {
     //         if (!val.store_id && val.is_holiday == true) {
