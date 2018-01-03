@@ -79,7 +79,7 @@
             renderHours('#hours_container','#hours_template', hours, 'reg_hours')
             var holiday_hours = getPropertyHolidayHours();
             renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'holiday_hours')
-            renderHours('#closed_hours_container','#closed_hours_template', holiday_hours, 'closed_hours')
+            // renderHours('#closed_hours_container','#closed_hours_template', holiday_hours, 'closed_hours')
             show_content();
         }
         loadMallDataCached(renderAll); 
