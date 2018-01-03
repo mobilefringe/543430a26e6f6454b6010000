@@ -472,7 +472,7 @@ function renderHours(container, template, collection, type){
     }
 
     
-    if (type == "holiday_hours") {
+    if (type == "holiday_hours" && type == "closed_hours") {
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == true) {
                 holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
