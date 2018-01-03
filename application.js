@@ -427,35 +427,36 @@ function renderHours(container, template, collection, type){
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == false) {
                 switch(val.day_of_week) {
-                case 0:
-                    val.day = "Sunday"
-                    break;
-                case 1:
-                    val.day = "Monday"
-                    break;
-                case 2:
-                    val.day = "Tuesday"
-                    break;
-                case 3:
-                    val.day = "Wednesday"
-                    break;
-                case 4:
-                    val.day = "Thursday"
-                    break;
-                case 5:
-                    val.day = "Friday"
-                    break;
-                case 6:
-                    val.day = "Saturday"
-                    break;
-            }
-            if (val.open_time && val.close_time && val.is_closed == false){
-                var open_time = moment(val.open_time).tz(getPropertyTimeZone());
-                var close_time = moment(val.close_time).tz(getPropertyTimeZone());
-                val.h = open_time.format("h:mm A") + " - " + close_time.format("h:mm A");
-            } else {
-                "Closed"
-            }
+                    case 0:
+                        val.day = "Sunday"
+                        break;
+                    case 1:
+                        val.day = "Monday"
+                        break;
+                    case 2:
+                        val.day = "Tuesday"
+                        break;
+                    case 3:
+                        val.day = "Wednesday"
+                        break;
+                    case 4:
+                        val.day = "Thursday"
+                        break;
+                    case 5:
+                        val.day = "Friday"
+                        break;
+                    case 6:
+                        val.day = "Saturday"
+                        break;
+                }
+                if (val.open_time && val.close_time && val.is_closed == false){
+                    var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+                    var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+                    val.h = open_time.format("h:mm A") + " - " + close_time.format("h:mm A");
+                } else {
+                    "Closed"
+                }
+                
                 item_list.push(val)
             }
         });
@@ -483,16 +484,13 @@ function renderHours(container, template, collection, type){
                 } else {
                     val.h = "Closed"
                 }
-                // if (val.h != "Closed"){
-                    item_list.push(val)
-                // }
+                
+                item_list.push(val)
             }
         });
         collection = []
         collection = item_list;
     }
-
-    
     // if (type == "closed_hours") {
     //     $.each( collection , function( key, val ) {
     //         if (!val.store_id && val.is_holiday == true) {
