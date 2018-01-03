@@ -477,7 +477,7 @@ function renderHours(container, template, collection, type){
                     if (val.open_time == "0:00 AM"){
                         val.open_time = "12:00 AM"
                     }
-                     if (val.close_time == "0:00 AM"){
+                    if (val.close_time == "0:00 AM"){
                         val.close_time = "12:00 AM"
                     }
                     val.h = open_time.format("h:mmA") + " - " + close_time.format("h:mmA");
