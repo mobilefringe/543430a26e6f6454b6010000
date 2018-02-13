@@ -172,10 +172,14 @@
         
         var id_list = [];
         if (gallery != undefined){
-            $.each(gallery, function(key, val) {
-                var id = val.id;
-                id_list.push(val.id);
-            });
+            try {
+                $.each(gallery, function(key, val) {
+                    var id = val.id;
+                    id_list.push(val.id);
+                });
+            } catch (e) {
+                console.log("Error loading data: " + e.message);    
+            }
         }
     
         var window_width = $( window ).width();
