@@ -156,6 +156,7 @@
         renderPostDetails("#post_details_container", "#post_details_template", post, blog_posts);
         
         var galleries = $('gallery');
+        console.log(galleries)
         var gallery = [];
         $.each(galleries, function(key, val) {
             var container = $(val);
