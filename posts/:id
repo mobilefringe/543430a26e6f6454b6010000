@@ -161,9 +161,11 @@
             // gallery = getFashionBySlug(gallery_slug).fashion_images;
             gallery = getFashionBySlug(gallery_slug);
             if (gallery != undefined){
-                if(gallery.fashion_images != null) {
+                try {
                     var gallery_images = gallery.fashion_images
                     renderGallery(container, "#gallery_template", gallery_images);
+                } catch (e) {
+                    console.log("Error loading data: " + e.message);    
                 }
             }
         });
