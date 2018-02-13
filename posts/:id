@@ -154,15 +154,17 @@
         renderPostDetails("#post_details_container", "#post_details_template", post, blog_posts);
         
         var galleries = $('gallery');
-        console.log(galleries)
+        // console.log(galleries)
         var gallery = [];
         $.each(galleries, function(key, val) {
             var container = $(val);
             var gallery_slug = $(val).attr('source');
-            console.log(gallery_slug)
+            // console.log(gallery_slug)
             gallery = getFashionBySlug(gallery_slug).fashion_images;
             console.log(gallery)
-            renderGallery(container, "#gallery_template", gallery);
+            if (gallery != undefined){
+                renderGallery(container, "#gallery_template", gallery);
+            }
         });
         var id_list = [];
         $.each(gallery, function(key, val) {
