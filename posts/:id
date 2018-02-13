@@ -154,18 +154,14 @@
         renderPostDetails("#post_details_container", "#post_details_template", post, blog_posts);
         
         var galleries = $('gallery');
-        // console.log(galleries)
         var gallery = [];
         $.each(galleries, function(key, val) {
             var container = $(val);
             var gallery_slug = $(val).attr('source');
-            // console.log(gallery_slug)
             // gallery = getFashionBySlug(gallery_slug).fashion_images;
             gallery = getFashionBySlug(gallery_slug);
-            console.log(gallery)
             if (gallery != undefined){
                 var gallery_images = gallery.fashion_images
-                console.log(gallery_images)
                 renderGallery(container, "#gallery_template", gallery);
             }
         });
