@@ -160,7 +160,8 @@
             var container = $(val);
             var gallery_slug = $(val).attr('source');
             // console.log(gallery_slug)
-            gallery = getFashionBySlug(gallery_slug).fashion_images;
+            // gallery = getFashionBySlug(gallery_slug).fashion_images;
+            gallery = getFashionBySlug(gallery_slug);
             console.log(gallery)
             if (gallery != undefined){
                 renderGallery(container, "#gallery_template", gallery);
