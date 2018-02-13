@@ -242,6 +242,7 @@
         // }
             
         show_content();
+        
         // if(is_holiday == true){
         //     $('.spec_offer').css('width', '');
         // }
