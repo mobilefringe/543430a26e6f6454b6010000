@@ -169,11 +169,14 @@
                 renderGallery(container, "#gallery_template", gallery);
             }
         });
+        
         var id_list = [];
-        $.each(gallery, function(key, val) {
-            var id = val.id;
-            id_list.push(val.id);
-        });
+        if (gallery != undefined){
+            $.each(gallery, function(key, val) {
+                var id = val.id;
+                id_list.push(val.id);
+            });
+        }
     
         var window_width = $( window ).width();
         if (window_width < 769) {
