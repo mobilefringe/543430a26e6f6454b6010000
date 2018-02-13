@@ -164,6 +164,8 @@
             gallery = getFashionBySlug(gallery_slug);
             console.log(gallery)
             if (gallery != undefined){
+                var gallery_images = gallery.fashion_images
+                console.log(gallery_images)
                 renderGallery(container, "#gallery_template", gallery);
             }
         });
