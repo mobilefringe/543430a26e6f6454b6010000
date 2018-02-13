@@ -161,8 +161,10 @@
             // gallery = getFashionBySlug(gallery_slug).fashion_images;
             gallery = getFashionBySlug(gallery_slug);
             if (gallery != undefined){
-                var gallery_images = gallery.fashion_images
-                renderGallery(container, "#gallery_template", gallery_images);
+                if(gallery.fashion_images != null) {
+                    var gallery_images = gallery.fashion_images
+                    renderGallery(container, "#gallery_template", gallery_images);
+                }
             }
         });
         
