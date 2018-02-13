@@ -161,6 +161,7 @@
             var gallery_slug = $(val).attr('source');
             console.log(gallery_slug)
             gallery = getFashionBySlug(gallery_slug).fashion_images;
+            console.log(gallery)
             renderGallery(container, "#gallery_template", gallery);
         });
         var id_list = [];
