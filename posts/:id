@@ -234,22 +234,21 @@
         });
         
         if(slug == "gifts-for-him--2" ||slug == "gift-for-her"){
-                $("#holiday_menu").show();
-                $("#default_menu").hide();
-                console.log("holiday_menu");
-                is_holiday =true;
-                // console.log("holiday_menu",$('.spec_offer').removeAttr( 'style' ));
-            }
-            else {
-                $("#default_menu").show();
-                $("#holiday_menu").hide();
-                console.log("default menu");
-            }
+            $("#holiday_menu").show();
+            $("#default_menu").hide();
+            console.log("holiday_menu");
+            is_holiday = true;
+            // console.log("holiday_menu",$('.spec_offer').removeAttr( 'style' ));
+        } else {
+            $("#default_menu").show();
+            $("#holiday_menu").hide();
+            console.log("default menu");
+        }
             
-            show_content();
-            if(is_holiday == true){
-                $('.spec_offer').css('width', '');
-            }
+        show_content();
+        if(is_holiday == true){
+            $('.spec_offer').css('width', '');
+        }
             
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'halifax-shopping-centre'; // required: replace example with your forum shortname
