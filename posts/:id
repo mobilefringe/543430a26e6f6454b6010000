@@ -251,7 +251,8 @@
         // }
             
         show_content();
-        
+         
+         console.log(post)
         // if(is_holiday == true){
         //     $('.spec_offer').css('width', '');
         // }
