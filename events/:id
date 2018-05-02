@@ -58,16 +58,16 @@
             
         </script>
     </div>
-    <div id="pixel_tag">
+    <!--<div id="pixel_tag">-->
         <!-- Facebook Pixel Code -->
         
-        <noscript>
-        <img height="1" width="1" 
-        src="https://www.facebook.com/tr?id=735797539938138&ev=PageView
-        &noscript=1"/>
-        </noscript>
+    <!--    <noscript>-->
+    <!--    <img height="1" width="1" -->
+    <!--    src="https://www.facebook.com/tr?id=735797539938138&ev=PageView-->
+    <!--    &noscript=1"/>-->
+    <!--    </noscript>-->
         <!-- End Facebook Pixel Code -->
-    </div>
+    <!--</div>-->
     <div class="divider"></div>
 </div>
 <script>
