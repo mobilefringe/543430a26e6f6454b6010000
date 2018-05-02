@@ -149,7 +149,6 @@
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         var post = getPublishedPostDetailsBySlug(slug);
-        console.log(post)
         var blog_posts = getBlogDataBySlug('halifaxcentre-our-style').posts.reverse();
 
         renderPostDetails("#post_details_container", "#post_details_template", post, blog_posts);
@@ -204,7 +203,7 @@
         $('.open_details_modal').click(function(e){
             e.preventDefault();
             $('body').addClass('gallery_no_scroll');
-            
+            var fi = "";
             var modal_id = $(this).attr('data-modal-id');
             $.each(gallery, function(fi_i, fi_val){
                 if (fi_val.id == modal_id){
@@ -251,8 +250,7 @@
         // }
             
         show_content();
-         
-         console.log(post)
+
         // if(is_holiday == true){
         //     $('.spec_offer').css('width', '');
         // }
