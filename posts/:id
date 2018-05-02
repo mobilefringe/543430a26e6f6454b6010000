@@ -204,7 +204,7 @@
         $('.open_details_modal').click(function(e){
             e.preventDefault();
             $('body').addClass('gallery_no_scroll');
-            var fi = "";
+
             var modal_id = $(this).attr('data-modal-id');
             $.each(gallery, function(fi_i, fi_val){
                 if (fi_val.id == modal_id){
