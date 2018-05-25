@@ -243,10 +243,10 @@ function renderEvents(container, template, collection, centre){
             if(store_details.categories != null){
                 val.cat_list = store_details.categories.join(',')
             }
-            val.show_store = "display: inline-block;"
+            // val.show_store = "display: inline-block;"
         } else {
             val.store_name = centre;
-            val.show_mall = "display: inline-block;"
+            // val.show_mall = "display: inline-block;"
             val.image_url = "//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
         if (val.image_url.indexOf('missing.png') > 0){
@@ -267,8 +267,7 @@ function renderEvents(container, template, collection, centre){
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
         	val.dates = start.format("MMM D");
-        }
-        else {
+        } else {
         	val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
         
