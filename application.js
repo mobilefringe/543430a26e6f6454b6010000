@@ -235,6 +235,7 @@ function renderEvents(container, template, collection, centre){
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
         if (val.eventable_type == "Store") {
+            console.log("Yes")
             var store_details = getStoreDetailsByID(val.eventable_id);
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
