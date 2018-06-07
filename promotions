@@ -62,11 +62,13 @@
     </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
 <script>
     $(document).ready(function(e){
         init(e);
         function renderAll (){
             var promotions = getPromotionsList().sortBy(function(o){ return o.end_date });
+            
             var categories = getStoreCategories();
             renderGeneral('#category_container', '#category_template', categories);
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
@@ -81,7 +83,11 @@
                 } 
             });
             if(published_promos.length > 0){
-                renderPromotions("#promos_container","#promos_template", published_promos, "Halifax");
+                var feature_promos = _.filter(published_promos, function(o){return o.is_special_promo;});
+                var reg_promos = _.filter(published_promos, function(o){return !o.is_special_promo;});
+                var all_promos = _.concat(feature_promos, reg_promos);
+                console.log("ordered", all_promos);
+                renderPromotions("#promos_container","#promos_template", all_promos, "Halifax");
             }
             else{
                 $('#no_promos').show()
