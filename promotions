@@ -69,7 +69,7 @@
             var promotions = getPromotionsList().sortBy(function(o){ return o.end_date });
             var feature_promos = _.filter(promotions, function(o){return o.is_special_promo;});
             var reg_promos = _.filter(promotions, function(o){return !o.is_special_promo;});
-            var all_promos = _.concat(array, 2, [3], [[4]]);
+            var all_promos = _.concat(feature_promos, 2, [3], [[4]]);
             var categories = getStoreCategories();
             renderGeneral('#category_container', '#category_template', categories);
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
