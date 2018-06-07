@@ -85,7 +85,7 @@
                 var feature_promos = _.filter(published_promos, function(o){return o.is_special_promo;});
                 var reg_promos = _.filter(published_promos, function(o){return !o.is_special_promo;});
                 var all_promos = _.concat(feature_promos, reg_promos);
-                console.log(all_promos);
+                console.log("ordered", all_promos);
                 renderPromotions("#promos_container","#promos_template", all_promos, "Halifax");
             }
             else{
