@@ -24,6 +24,7 @@ function init(e){
         	$('.open').next().slideToggle();
         	$('.open').find('img').toggle();
         	$('.open').toggleClass('open')
+        	console.log("toggling something")
 		}
 		$(this).next().slideToggle();
 		$(this).find('img').toggle();
