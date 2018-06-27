@@ -29,7 +29,7 @@
     </form>
     
     
-        <form id="newsletter_form">
+        <form id="newsletter_form" action="//mobilefringe.createsend.com/t/d/s/tylikj/" method="post">
     
             <div class="floater-left">
                 <input title="giftcard newsletter" class="newletter-hidden" id="fieldwkdij_newsletter" name="cm-f-wkdij" type="hidden" />
@@ -111,7 +111,7 @@
         })
     
         
-        $("#newsletter_form").submit(function( e ) {
+        // $("#newsletter_form").submit(function( e ) {
         // e.preventDefault();
         //     if ($("#agree_newsletter_page").prop("checked") != true){
         //         alert("Please agree to the receiving newsletter.");
@@ -142,7 +142,7 @@
         //                     alert("Please try again later.");
         //                 } else { // 200
         //                     console.log(data)
-                            submitToMailChimp();
+                            // submitToMailChimp();
         //                 }
         //         }); 
                 
@@ -154,7 +154,7 @@
                 
         //     }
           
-        });
+        // });
         
         function submitToMailChimp(){
             var firstName = $('#firstName_newsletter').val();
