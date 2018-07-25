@@ -2,27 +2,6 @@
     <h3>ACT GREEN</h3>
     <p>explore • enjoy • shop</p>
 </div>
-<!--<div class="store_list_head main_container" id="default_menu">-->
-<!--    <div class="row hidden_phone">-->
-<!--        <div class="col-md-4">-->
-<!--            <h5 id="halifaxcentre-cummunity"><a href="/pages/halifaxcentre-cummunity">COMMUNITY</a></h5>-->
-<!--        </div>-->
-<!--        <div class="col-md-4 text-center">-->
-<!--            <h5 id=""><a href="/pages/halifaxcentre-accessibility">ACCESSIBILITY</a></h5>-->
-<!--        </div>-->
-<!--        <div class="col-md-4">-->
-<!--            <h5 id=""><a href="/consultations">CONSULTATIONS</a></h5>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <h5 class="text-center tap_here show_phone">-->
-<!--        <select id="option_selector" class="link_selector">-->
-<!--            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>-->
-<!--            <option value="/pages/halifaxcentre-cummunity">Community</option>-->
-<!--            <option value="/pages/halifaxcentre-accessibility">Accessibility</option>-->
-<!--            <option value="/consultations">Consultations</option>-->
-<!--        </select>-->
-<!--    </h5>-->
-<!--</div>-->
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
     <div class="margin_25_across">
@@ -38,9 +17,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
-            prefix = get_prefix();
+            var prefix = get_prefix();
             var pages_json = prefix+ "/pages/halifaxcentre-act-green.json"
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_page_title').html(data.title.toUpperCase());
