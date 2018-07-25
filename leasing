@@ -14,7 +14,7 @@
             <h5><a href="/security">SECURITY</a></h5>
         </div>
         <div class="col-md-3">
-            <h5 class="active_heading">Media</h5>
+            <h5><a href="/media">Media</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
