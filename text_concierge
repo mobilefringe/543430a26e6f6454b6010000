@@ -5,25 +5,25 @@
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-3">
-            <h5><a href="/gift_cards">GIFT CARDS</a></h5>
-        </div>
-        <div class="col-md-3 text-center">
-            <h5><a href="/community">COMMUNITY</a></h5>
-        </div>
-        <div class="col-md-3 text-center">
             <h5 class="active_heading">MALL SERVICES</h5>
         </div>
+        <div class="col-md-3 text-center">
+            <h5><a href="/free_wifi">FREE WIFI</a></h5>
+        </div>
+        <div class="col-md-3 text-center">
+            <h5 class="active_heading">TEXT CONCIERGE</h5>
+        </div>
         <div class="col-md-3">
-            <h5><a href="/consultations">CONSULTATIONS</a></h5>
+            <h5><a href="/cuddle_corner">Cuddle Corner</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/gift_cards">Gift Cards</option>
-            <option value="/community">Community</option>
-            <option value="/accessibility">Accessibility</option>
-            <option value="/consultations">Consultations</option>
+            <option value="/mall_services">Mall Services</option>
+            <option value="/free_wifi">Free Wifi</option>
+            <option value="/text_concierge">Text Concierge</option>
+            <option value="/cuddle_corner">Cuddle Corner</option>
         </select>
     </h5>
 </div>
