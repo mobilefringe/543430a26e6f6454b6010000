@@ -20,10 +20,10 @@
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/gift_cards">Mall Services</option>
-            <option value="/community">Free Wifi</option>
-            <option value="/accessibility">Text Concierge</option>
-            <option value="/consultations">Cuddle Corner</option>
+            <option value="/mall_services">Mall Services</option>
+            <option value="/free_wifi">Free Wifi</option>
+            <option value="/text_concierge">Text Concierge</option>
+            <option value="/cuddle_corner">Cuddle Corner</option>
         </select>
     </h5>
 </div>
