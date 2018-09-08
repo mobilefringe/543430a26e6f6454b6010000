@@ -1682,10 +1682,9 @@ gallery:after{
         text-align: center;
     }
     .hero_banner{
-        padding:0 60px;
-        height:400px;
+        padding: 0 60px;
+        height: 400px;
         p {
-            // margin-top:15px;
             margin-bottom: 25px;
             padding-top: 20px;
         }
