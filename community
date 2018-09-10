@@ -18,7 +18,6 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/gift_cards">Gift Cards</option>
-            <option value="/community">Community</option>
             <option value="/consultations">Consultations</option>
         </select>
     </h5>
