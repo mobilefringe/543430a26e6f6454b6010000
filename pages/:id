@@ -1,0 +1,109 @@
+<div class="jobs_banner text-center">
+    <h3 id="mm_page_title"></h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+     <div class="col-md-3 text-center">
+            <h5><a href="/holiday">HOLIDAY</a></h5>
+        </div>
+        <div class="col-md-3">
+            <h5><a href="/gift_cards">GIFT CARDS</a></h5>
+        </div>
+         <div class="col-md-3">
+            <h5><a href="/community">COMMUNITY</a></h5>
+        </div>
+        <div class="col-md-3">
+            <h5><a href="/consultations">CONSULTATIONS</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/pages/halifaxcentre-cummunity">Community</option>
+            <option value="/pages/halifaxcentre-accessibility">Accessibility</option>
+            <option value="/consultations">Consultations</option>
+        </select>
+    </h5>
+</div>
+<div class="store_list_head main_container hidden_now" id="holiday_menu">
+    <div class="row hidden_phone">
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/pages/halifaxcentre-santa">Visit Santa</a></h5>
+        </div>
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/pages/halifaxcentre-big-black-bow-2">Events</a></h5>
+        </div>
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/pages/halifaxcentre-gift-cards">Gift Cards</a></h5>
+        </div>
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/pages/halifaxcentre-holiday-hours">Holiday Hours</a></h5>
+        </div>
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/posts/gift-for-her">Gifts for Her</a></h5>
+        </div>
+        <div class="col-md-2 col-sm-2 spec_offer">
+            <h5><a href="/posts/gifts-for-him--2">Gifts for him</a></h5>
+        </div>
+        
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/pages/halifaxcentre-santa">Visit Santa</option>
+            <option value="/pages/halifaxcentre-big-black-bow">Events</option>
+            <option value="/pages/halifaxcentre-gift-cards">Gift Cards</option>
+            <option value="/pages/halifaxcentre-holiday-hours">Holiday Hours</option>
+            <option value="/posts/gift-for-her">Gifts for Her</option>
+            <option value="/posts/gifts-for-him--2">Gifts for Him</option>
+        </select>
+    </h5>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding pages_text">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="mm_page_content"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        var is_holiday = false;
+        function renderAll(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = prefix+"/pages/" + slug + ".json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_title').html(data.title.toUpperCase());
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            console.log(slug);
+            if(slug == "halifaxcentre-santa" ||slug == "halifaxcentre-big-black-bow" || slug == "halifaxcentre-gift-cards" ||slug == "halifaxcentre-holiday-hours" || slug == "halifaxcentre-big-black-bow-2"){
+                $("#holiday_menu").show();
+                $("#default_menu").hide();
+                console.log("holiday_menu");
+                is_holiday =true;
+                // console.log("holiday_menu",$('.spec_offer').removeAttr( 'style' ));
+            }
+            else {
+                $("#default_menu").show();
+                $("#holiday_menu").hide();
+                console.log("default menu");
+            }
+            show_content();
+            if(is_holiday == true){
+                $('.spec_offer').css('width', '');
+            }
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
