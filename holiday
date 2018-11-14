@@ -57,3 +57,10 @@
         loadMallDataCached(renderAll); 
     })
 </script>
+<style>
+    #mm_page_content p a img{
+        padding: 0 10px;
+        max-width: 100%;
+        max-width: 50%;
+    }
+</style>
