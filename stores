@@ -168,7 +168,6 @@
                } 
             });
             $('#cat_name_header').hide();
-            e.preventDefault();
         } else {
             console.log("cat is", cat_id)
             $('.main_row .col-md-6').addClass('full_width')
