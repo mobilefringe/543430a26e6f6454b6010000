@@ -155,7 +155,6 @@
     });
     function show_mobile_cat_stores(cat_id, el){
         if(cat_id == 0){
-            console.log("all cat")
             $('.main_row .col-md-6').removeClass('full_width')
             $('#no_promo_in_category').hide();
             $('.active_cat').removeClass('active_cat');
@@ -169,7 +168,6 @@
             });
             $('#cat_name_header').hide();
         } else {
-            console.log("cat is", cat_id)
             $('.main_row .col-md-6').addClass('full_width')
             var visible_row = 0
             $('.active_cat').removeClass('active_cat');
