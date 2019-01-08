@@ -178,7 +178,7 @@
             rows.hide();
             $('#no_promo_in_category').hide();
             $('.store_initial').hide();
-            $('#cat_name_header').text($(this).text());
+            $('#cat_name_header').text(el.text());
             $('#cat_name_header').css('display', 'block');
             $.each(rows, function(i, val){
                 var cat_array = val.getAttribute('data-cat').split(',');
