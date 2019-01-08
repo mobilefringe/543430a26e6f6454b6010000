@@ -169,27 +169,27 @@
             $('#cat_name_header').hide();
             e.preventDefault();
         } else {
-                $('.main_row .col-md-6').addClass('full_width')
-                var visible_row = 0
-                var cat_id = $(this).attr('data-id');
-                $('.active_cat').removeClass('active_cat');
-                $(this).addClass('active_cat');
-                var rows = $('.cats_row');
-                rows.hide();
-                $('#no_promo_in_category').hide();
-                $('.store_initial').hide();
-                $('#cat_name_header').text($(this).text());
-                $('#cat_name_header').css('display', 'block');
-                $.each(rows, function(i, val){
-                    var cat_array = val.getAttribute('data-cat').split(',');
-                    if ($.inArray(cat_id, cat_array) >= 0){
-                        $(val).show();
-                        visible_row++;
-                    }
-                });
-                if(visible_row == 0){
-                    $('#no_promo_in_category').show();
+            $('.main_row .col-md-6').addClass('full_width')
+            var visible_row = 0
+            var cat_id = $(this).attr('data-id');
+            $('.active_cat').removeClass('active_cat');
+            $(this).addClass('active_cat');
+            var rows = $('.cats_row');
+            rows.hide();
+            $('#no_promo_in_category').hide();
+            $('.store_initial').hide();
+            $('#cat_name_header').text($(this).text());
+            $('#cat_name_header').css('display', 'block');
+            $.each(rows, function(i, val){
+                var cat_array = val.getAttribute('data-cat').split(',');
+                if ($.inArray(cat_id, cat_array) >= 0){
+                    $(val).show();
+                    visible_row++;
                 }
+            });
+            if(visible_row == 0){
+                $('#no_promo_in_category').show();
+            }
         }
         
         
