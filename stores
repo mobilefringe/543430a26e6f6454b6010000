@@ -165,8 +165,7 @@
             });
             $('#cat_name_header').hide();
             e.preventDefault();
-        });
-        $('.show_cat_stores').click(function(e){
+    } else {
             $('.main_row .col-md-6').addClass('full_width')
             var visible_row = 0
             var cat_id = $(this).attr('data-id');
@@ -190,7 +189,7 @@
             }
             
             e.preventDefault();
-        });
+    }
         
         
     }
