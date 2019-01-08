@@ -109,7 +109,7 @@
             renderGeneral('#category_selector_container', '#category_selector_template', mobile_cat_list);
             
             $(".store_category_selector").click(function(e){
-                $("#category_selector_container").slideIn();
+                $("#category_selector_container").slideToggle();
             })
             
             // $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
