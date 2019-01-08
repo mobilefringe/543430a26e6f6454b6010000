@@ -153,7 +153,7 @@
         }
 		loadMallDataCached(renderAll); 
     });
-    function show_mobile_cat_stores(cat_id){
+    function show_mobile_cat_stores(cat_id, el){
         if(cat_id == 0){
             console.log("all cat")
             $('.main_row .col-md-6').removeClass('full_width')
