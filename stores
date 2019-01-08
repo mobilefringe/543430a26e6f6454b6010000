@@ -112,7 +112,7 @@
                 $("#category_selector_container").slideToggle();
             })
             $(".mobile_cat").click(function(e){
-                console.log("clicked", $(this))
+                console.log("clicked", $(this), $(this).attr('cat_id'))
             })
             // $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             show_cat_stores();
