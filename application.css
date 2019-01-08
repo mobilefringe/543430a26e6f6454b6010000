@@ -1628,6 +1628,11 @@ gallery:after{
         margin-top: -20px;
        h5, a{
            font-size:20px;
+           color: #D8836C;
+            letter-spacing: 1.5px;
+            padding: 27px 0px;
+            margin: 0;
+            text-transform:uppercase;
        }
     }
     body{
