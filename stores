@@ -23,7 +23,11 @@
         </select>
     </h5>
 </div>
-<div class="store_category_selector" id="category_selector_container">
+<div class="store_category_selector" >
+    <h5 class="text-center tap_here show_phone">SELECT CATEGORY
+    </h5>
+</div>
+<div class="" id="category_selector_container">
     <script id="category_selector_template" type="x-tmpl-mustache/text">
         <p>{{name}}</p>
     </script>
