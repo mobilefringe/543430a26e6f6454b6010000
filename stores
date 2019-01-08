@@ -99,7 +99,7 @@
             var mobile_cat_list = category_list;
             var all_cat = {};
             all_cat.name = "All Categories";
-            all_cat.id
+            all_cat.id= 0;
             mobile_cat_list.unshift();
             console.log("mobile_cat_list", mobile_cat_list)
             renderGeneral('#category_selector_container', '#category_selector_template', mobile_cat_list);
