@@ -27,7 +27,7 @@
     <h5 class="text-center tap_here">SELECT CATEGORY
     </h5>
 </div>
-<div class="hidden_now content_container main_container" id="category_selector_container">
+<div class="hidden_now margin_25_across" id="category_selector_container">
     <script id="category_selector_template" type="x-tmpl-mustache/text">
         <p>{{name}}</p>
     </script>
