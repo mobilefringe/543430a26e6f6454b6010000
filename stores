@@ -24,7 +24,7 @@
     </h5>
 </div>
 <div class="store_category_selector show_phone" >
-    <h5 class="text-center tap_here show_phone">SELECT CATEGORY
+    <h5 class="text-center tap_here">SELECT CATEGORY
     </h5>
 </div>
 <div class="show_phone hidden_now" id="category_selector_container">
