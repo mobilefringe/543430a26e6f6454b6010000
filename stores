@@ -114,7 +114,7 @@
             $(".mobile_cat").click(function(e){
                 console.log("clicked", $(this), $(this).attr('cat_id'))
                 cat_id = $(this).attr('cat_id');
-                show_mobile_cat_stores(cat_id);
+                show_mobile_cat_stores(cat_id, $(this));
                  $("#category_selector_container").slideToggle();
             })
             // $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
