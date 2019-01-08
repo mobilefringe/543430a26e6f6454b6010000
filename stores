@@ -99,7 +99,7 @@
             var mobile_car_list = category_list.unshift("All Categories");
             renderGeneral('#mobile_cat_list', '#category_template2', mobile_car_list);
             
-            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
+            // $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             show_cat_stores();
             
             var new_stores = getNewStoresList();
