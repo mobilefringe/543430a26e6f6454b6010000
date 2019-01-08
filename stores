@@ -29,7 +29,7 @@
 </div>
 <div class="hidden_now margin_25_across" id="category_selector_container">
     <script id="category_selector_template" type="x-tmpl-mustache/text">
-        <p>{{name}}</p>
+        <p cat_id="{{id}}>{{name}}</p>
     </script>
 </div>
 <div class="content_container main_container position_relative">
