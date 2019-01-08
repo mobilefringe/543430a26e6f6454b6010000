@@ -1623,6 +1623,10 @@ gallery:after{
             text-transform:uppercase;
        }
     }
+    #category_selector_container{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
     body{
         padding-top:0;
     }
