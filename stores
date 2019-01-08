@@ -96,7 +96,8 @@
                 } 
             });
             renderGeneral('#category_container', '#category_template', category_list);
-            var mobile_cat_list = category_list.unshift("All Categories");
+            var mobile_cat_list = category_list;
+            mobile_cat_list.unshift("All Categories");
             console.log("mobile_cat_list", mobile_cat_list)
             renderGeneral('#category_selector_container', '#category_selector_template', mobile_cat_list);
             
