@@ -476,18 +476,7 @@ h4{
    
 }
 
-/**** mobile category selector *****/
-.store_category_selector{
-    h5, a{
-        font-size: 24px;
-        color: #D8836C;
-        letter-spacing: 1.5px;
-        padding: 27px 0px;
-        margin: 0;
-        text-transform:uppercase;
-        
-    }
-}
+
 .hero_banner{
     background-color:#000;
     background-image: url(//codecloud.cdn.speedyrails.net/sites/5af2ef146e6f6450e9160100/image/jpeg/1536412184000/1920x540-HSC-Header-image-Fall-18-compressor.jpg);
