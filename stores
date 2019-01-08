@@ -23,7 +23,7 @@
         </select>
     </h5>
 </div>
-<div class="store_category_selector" >
+<div class="store_list_head store_category_selector" >
     <h5 class="text-center tap_here show_phone">SELECT CATEGORY
     </h5>
 </div>
