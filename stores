@@ -159,7 +159,7 @@
             $('.main_row .col-md-6').removeClass('full_width')
             $('#no_promo_in_category').hide();
             $('.active_cat').removeClass('active_cat');
-            $(this).addClass('active_cat');
+            el.addClass('active_cat');
             var rows = $('.cats_row');
             rows.show();
             $.each($('.store_initial'), function(i, val){
