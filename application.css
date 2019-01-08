@@ -1623,9 +1623,12 @@ gallery:after{
     
     }
     /**** mobile category select ****/ 
-    .store_category_selector h5, .store_category_selector a{
-        font-size:20px;
-    
+    .store_category_selector {
+        margin-bottom: 20px;
+        margin-top: -20px;
+       h5, a{
+           font-size:20px;
+       }
     }
     body{
         padding-top:0;
