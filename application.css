@@ -1622,6 +1622,11 @@ gallery:after{
         font-size:20px;
     
     }
+    /**** mobile category select ****/ 
+    .store_category_selector h5, .store_category_selector a{
+        font-size:20px;
+    
+    }
     body{
         padding-top:0;
     }
