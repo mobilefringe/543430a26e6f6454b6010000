@@ -173,7 +173,7 @@
             console.log("cat is", cat_id)
             $('.main_row .col-md-6').addClass('full_width')
             var visible_row = 0
-            var cat_id = $(this).attr('data-id');
+            var cat_id = cat_id;
             $('.active_cat').removeClass('active_cat');
             $(this).addClass('active_cat');
             var rows = $('.cats_row');
