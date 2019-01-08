@@ -189,7 +189,5 @@
                 $('#no_promo_in_category').show();
             }
         }
-        
-        
     }
 </script>
