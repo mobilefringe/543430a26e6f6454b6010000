@@ -190,8 +190,6 @@
                 if(visible_row == 0){
                     $('#no_promo_in_category').show();
                 }
-                
-                e.preventDefault();
         }
         
         
