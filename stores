@@ -155,6 +155,7 @@
     });
     function show_mobile_cat_stores(cat_id){
         if(cat_id == 0){
+            console.log("all cat")
             $('.main_row .col-md-6').removeClass('full_width')
             $('#no_promo_in_category').hide();
             $('.active_cat').removeClass('active_cat');
