@@ -116,6 +116,7 @@
                 cat_id = $(this).attr('cat_id');
                 show_mobile_cat_stores(cat_id, $(this));
                  $("#category_selector_container").slideToggle();
+                 $(".padded_border").toggle()
             })
             // $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             show_cat_stores();
