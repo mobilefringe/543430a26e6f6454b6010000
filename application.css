@@ -2320,7 +2320,7 @@ gallery:after{
         -moz-column-gap: 75px;
         column-gap: 75px;
     }
-    .store_new_cat_list{
+    .store_new_cat_list .category_header{
         border-bottom: 1px solid #979797;
         padding: 10px;
         margin-bottom: 20px;
