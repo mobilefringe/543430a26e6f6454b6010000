@@ -2324,6 +2324,9 @@ gallery:after{
         color: #D8836C;
         font-size:20px;
         text-transform: uppercase;
+        border-bottom: 1px solid #979797;
+        padding: 10px;
+        margin-bottom: 20px;
     }
     .category_name{
         margin: 10px 0;
