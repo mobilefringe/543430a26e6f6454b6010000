@@ -1627,6 +1627,10 @@ gallery:after{
         max-height: 300px;
         overflow-y: scroll;
     }
+    .padded_border{
+            border-top: 1px solid #979797;
+    margin-top: 20px;
+    }
     body{
         padding-top:0;
     }
