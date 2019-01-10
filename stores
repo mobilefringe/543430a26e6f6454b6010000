@@ -111,6 +111,7 @@
             
             $(".store_category_selector").click(function(e){
                 $("#category_selector_container").slideToggle();
+                $(".padded_border").toggle()
             })
             $(".mobile_cat").click(function(e){
                 cat_id = $(this).attr('cat_id');
