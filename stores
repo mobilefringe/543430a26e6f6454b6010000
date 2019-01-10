@@ -32,7 +32,7 @@
         <p class="mobile_cat" cat_id="{{id}}">{{name}}</p>
     </script>
 </div>
-<div class="padded_border"></div>
+<div class="padded_border show_phone"></div>
 <div class="content_container main_container position_relative">
     <div class="margin_25_across">
         <div class="row">
