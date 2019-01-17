@@ -2327,7 +2327,13 @@ gallery:after{
         padding: 10px;
         margin-bottom: 20px;
     }
-    
+    /*** mobile category *****/ 
+    #category_selector_container{
+        display:none;
+    }
+    .padded_border{
+        display:none;
+    }
     .category_header{
         font-family:'eb garamond';
         color: #D8836C;
