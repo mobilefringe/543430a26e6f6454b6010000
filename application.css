@@ -2329,10 +2329,10 @@ gallery:after{
     }
     /*** mobile category *****/ 
     #category_selector_container{
-        display:none;
+        display:none!important;
     }
     .padded_border{
-        display:none;
+        display:none!important;
     }
     .category_header{
         font-family:'eb garamond';
