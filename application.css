@@ -1631,6 +1631,7 @@ gallery:after{
     .padded_border{
         border-top: 1px solid #979797;
         margin-top: 20px;
+        display:none;
     }
     body{
         padding-top:0;
