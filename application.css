@@ -1626,6 +1626,7 @@ gallery:after{
     #category_selector_container{
         max-height: 300px;
         overflow-y: scroll;
+        display:none;
     }
     .padded_border{
         border-top: 1px solid #979797;
