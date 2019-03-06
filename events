@@ -1,0 +1,104 @@
+<style>
+    .promo_store{
+        display: none;
+    }
+</style>
+<div class="main_banner text-center">
+    <h3>Events</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-4 spec_offer">
+            <h5><a href="/promotions">PROMOTIONS</a></h5>
+        </div>
+        <div class="col-md-4 spec_offer">
+            <h5 class="active_heading">EVENTS</h5>
+        </div>
+        <div class="col-md-4 spec_offer">
+            <h5 class="contest_link"><a href="/contests">CONTEST</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <label for="option_selector">Options</label>
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/promotions">Promotions</option>
+            <option class="contest_link" value="/contests">Contest</option>
+        </select>
+    </h5>
+</div>
+ <div class="content_container main_container">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="hidden_now" id="no_events">Sorry, there are no events at this time. Please check back soon.</p>
+                <div id="promos_container">
+                    <script id="promos_template" type="x-tmpl-mustache/text">
+                        <div class="row promo_item cats_row" data-cat="{{cat_list}}">
+                            <div class="col-md-3">
+                                <div  class="cropped_image">
+                                    <img src="{{event_image_url_abs}}" alt="{{name}}" />
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <h2 class="promo_list_name">{{name}}</h2>
+                                <p>
+                                    <span class="promo_store hidden_now" style="{{show_store}}">
+                                        <a href="/stores/{{store_detail_btn}}">{{store_name}}</a>
+                                    </span>
+                                    <span class="promo_store hidden_now" style="{{show_mall}}">{{store_name}}</span>
+                                    <span class="promo_dates">{{dates}}</span>
+                                </p>
+                                <div class="promo_list_desc">{{description_short}}</div>
+                                <a class="read_more" href="/events/{{slug}}">Read More</a>
+                            </div>
+                        </div>
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var events = getEventsList().sortBy(function(o){ return o.end_date });
+            var published_events = [];
+            $.each( events , function( key, val ){
+                if(val.tags == null || val.tags == ""){
+                    today = moment();
+                    webDate = moment(val.show_on_web_date);
+                    if (today >= webDate) {
+                        published_events.push(val)
+                    } 
+                }
+            });
+            if(published_events.length > 0){
+                var feature_events = _.sortBy(_.filter(published_events, function(o){return o.is_featured;}), [function(a) { return a.feature_item_index; }]);
+                var reg_events = _.filter(published_events, function(o){return !o.is_featured;});
+                var all_events = _.concat(feature_events, reg_events);
+                console.log(all_events);
+                renderEvents("#promos_container","#promos_template", all_events, "Halifax Shopping Centre");
+            } else {
+                $('#no_events').show()
+            }
+    
+            show_content();
+        }
+		loadMallDataCached(renderAll); 
+    })
+</script>
+<script type="text/javascript">
+(function l(d){
+ var site = '6763', page = 'Events', s, er = d.createElement('script');
+ er.type = 'text/javascript';
+ er.async = true;
+ er.src = '//o2.eyereturn.com/?site=' + site + '&page=' + page;
+ s = d.getElementsByTagName('script')[0];
+ s.parentNode.insertBefore(er, s);
+})(document);
+</script>
