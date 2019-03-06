@@ -21,7 +21,6 @@
         <label for="option_selector">Options</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/mall_services">Mall Services</option>
             <option value="/free_wifi">Free Wifi</option>
             <option value="/text_concierge">Text Concierge</option>
             <option value="/cuddle_corner">Cuddle Corner</option>
