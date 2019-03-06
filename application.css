@@ -111,7 +111,7 @@ body{
     padding: 15px 20px;
     text-align: center;
     text-decoration: none !important;
-    background: #D8836C;
+    background: #cc4a27;
     width:240px;
 }
 
@@ -129,7 +129,7 @@ a:hover, a:active, a:focus{
 }
 
 a{
-    color: #D8836C;
+    color: #cc4a27;
 }
 
 .store_list_navigation{
@@ -185,7 +185,7 @@ a{
     font-size:16px;
     margin-bottom: 0;
      a{
-        color:#D8836C !important;
+        color:#cc4a27 !important;
     }
 }
 
@@ -194,7 +194,7 @@ a{
     padding-left: 5px;
     padding-right: 10px;
     a{
-        color:#D8836C !important;
+        color:#cc4a27 !important;
     }
 }
 .animated_btn{
@@ -453,7 +453,7 @@ h4{
     font-family:'Open Sans Condensed';
     h5, a{
         font-size: 24px;
-        color: #D8836C;
+        color: #cc4a27;
         letter-spacing: 1.5px;
         padding: 27px 0px;
         margin: 0;
@@ -519,7 +519,7 @@ h4{
             text-decoration:none;
         }
         &:before{
-                background: #D8836C !important;
+                background: #cc4a27 !important;
         }
     }
 }
@@ -992,7 +992,7 @@ h4{
 
 .store_initial{
     font-size: 24px;
-    color: #D8836C;
+    color: #cc4a27;
     border-bottom: 1px solid #979797;
     padding: 10px;
     margin-bottom: 20px;
@@ -1055,7 +1055,7 @@ h4{
 .promo_main_header{
     font-weight:bold;
     font-size: 22px;
-    color: #D8836C;
+    color: #cc4a27;
     margin-top:0;
 }
 
@@ -1247,7 +1247,7 @@ h4{
     font-style:normal;
     text-transform: uppercase;
     font-size: 22px;
-    color: #D8836C;
+    color: #cc4a27;
     margin-bottom:25px;
     padding-bottom:10px;
     border-bottom:1px solid #979797;
@@ -1261,7 +1261,7 @@ h4{
     
     text-align:center;
     a{
-        background:#D8836C;
+        background:#cc4a27;
         margin-top:20px;
         font-weight:100;
         font-size: 22px;
@@ -1294,7 +1294,7 @@ h4{
 
 .store_anchors{
     font-size: 20px;
-    color: #D8836C;
+    color: #cc4a27;
     font-weight: 400;
 }
 
@@ -1410,7 +1410,7 @@ h4{
 .load_more {
     font-weight: lighter;
     font-size: 24px;
-    color: #D8836C;
+    color: #cc4a27;
     display: inline-block;
 }
 .load_more_arrow {
@@ -1619,7 +1619,7 @@ gallery:after{
         margin-top: -20px;
        h5, a{
             font-size:20px;
-            color: #D8836C;
+            color: #cc4a27;
             letter-spacing: 1.5px;
             padding: 27px 0px;
             margin: 0;
@@ -1857,7 +1857,7 @@ gallery:after{
     
     .promo_main_header select{
         margin-top:10px;
-        color: #D8836C;   
+        color: #cc4a27;   
     }
     .mobile_padding{
         padding-left:15px;
@@ -1984,7 +1984,7 @@ gallery:after{
     }
     
     .stores_main_heading{
-        color: #D8836C;
+        color: #cc4a27;
     }
     
     .stores_main_desc{
@@ -2002,7 +2002,7 @@ gallery:after{
     .mobile_dd{
         background: #F1F1F1;
         font-size: 20px;
-        color: #D8836C;
+        color: #cc4a27;
         letter-spacing: 1.5px;
         text-align:center;
         width:100%;
@@ -2015,7 +2015,7 @@ gallery:after{
         height:39px;
         margin-bottom:10px;
         background: #F1F1F1;
-        color: #D8836C;
+        color: #cc4a27;
         &::focus{
             outline:none;
         }
@@ -2023,7 +2023,7 @@ gallery:after{
     
     .category_header{
         font-family:'eb garamond';
-        color: #D8836C;
+        color: #cc4a27;
         font-size:20px;
         text-transform: uppercase;
         text-align:center;
@@ -2339,7 +2339,7 @@ gallery:after{
     }
     .category_header{
         font-family:'eb garamond';
-        color: #D8836C;
+        color: #cc4a27;
         font-size:20px;
         text-transform: uppercase;
         
@@ -2355,9 +2355,9 @@ gallery:after{
         font-weight:lighter;
     }
     .active_cat{
-        color: #D8836C;
+        color: #cc4a27;
         &:hover, &:focus{
-            color: #D8836C;;
+            color: #cc4a27;
         }
     }
     .alpha_list{
