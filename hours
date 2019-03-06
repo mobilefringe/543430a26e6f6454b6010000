@@ -18,7 +18,6 @@
         <label for="option_selector">Options</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/hours">Hours</option>
             <option value="/tourist_info">Tourist Info</option>
             <!--<option value="/news">News</option>-->
         </select>
