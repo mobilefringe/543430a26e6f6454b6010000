@@ -245,15 +245,19 @@
                         <div class="social_icons">
                             <a href="//www.facebook.com/halifaxshoppingcentre" target="_blank">
                                 <span id="social_fb"></span>
+                                <p>Facebook Link</p>
                             </a>
                             <a href="//www.twitter.com/shopHSC" target="_blank">
                                 <span id="social_twitter"></span>
+                                <p>Twitter Link</p>
                             </a>
                             <a href="//instagram.com/shophsc" target="_blank">
                                 <span id="social_insta"></span>
+                                <p>Instagram Link</p>
                             </a>
                             <a href="/newsletter">
                                 <span id="social_newsletter"></span>
+                                <p>Newletter Link</p>
                             </a>
                             <div class="clearfix"></div>
                             <br class="hidden_phone" />
