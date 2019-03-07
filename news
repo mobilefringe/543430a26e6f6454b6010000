@@ -43,16 +43,15 @@
                                 </div>
                                 <div class="promo-details col-md-12">
                                     <div class="name">
-                                            <a href="../events/{{slug}}">
+                                        <a href="../events/{{slug}}">
                                             <h3>{{ name }}</h3>
-                                            </a>
-                                        </div>
-                                       
-                                        <div class="dates">
-                                            {{ start_date }}
-                                        </div>
-                                        <div class="description_news">
-                                            {{{ rich_description }}}
+                                        </a>
+                                    </div>
+                                    <div class="dates">
+                                        {{ start_date }}
+                                    </div>
+                                    <div class="description_news">
+                                        {{{ rich_description }}}
                                     </div>
                                 </div>
                             </li>
