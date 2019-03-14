@@ -93,7 +93,7 @@
     .form-label {
         display: block;   
     }
-    input[type="text"], input[type="email] {
+    #firstName_newsletter, #lastName_newsletter, #fieldEmail_newsletter, #fieldBirthday_newsletter {
         width: 100%;
     }
 </style>
