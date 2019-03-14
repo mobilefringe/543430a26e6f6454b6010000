@@ -13,16 +13,13 @@
         <div class="col-md-3 plan_visit">
             <h5 class="active_heading">NEWS</h5>
         </div>
-        <!--<div class="col-md-3 plan_visit">-->
-        <!--    <h5><a href="//prettygreathsc.com/categories/redevelopment%20news" target="_blank">REDEVELOPMENT</a></h5>-->
-        <!--</div>-->
     </div>
     <h5 class="text-center tap_here show_phone">
+        <label for="option_selector">Options</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/hours">Hours</option>
             <option value="/tourist_info">Tourist Info</option>
-            <!--<option value="//prettygreathsc.com/categories/redevelopment%20news">REDEVELOPMENT</option>-->
         </select>
     </h5>
 </div>
@@ -37,15 +34,11 @@
                             <li class="promotion-list-item">
                                 <a name="{{name}}"></a>
                                 <div class="promo-image col-md-12">
-                                    <a href="../events/{{ slug }}">
-                                        <img alt="news" src="{{event_image_url}}" style="width:100%; height:auto; {{show}}">
-                                    </a>
+                                    <img alt="news" src="{{event_image_url}}" style="width:100%; height:auto; {{show}}">
                                 </div>
                                 <div class="promo-details col-md-12">
                                     <div class="name">
-                                        <a href="../events/{{slug}}">
-                                            <h3>{{ name }}</h3>
-                                        </a>
+                                        <h3>{{ name }}</h3>
                                     </div>
                                     <div class="dates">
                                         {{ start_date }}
@@ -65,9 +58,6 @@
         </div>
     </div>
 </div>
-        
-  
-
 <script>
     $(document).ready(function(e){
         init(e);    
