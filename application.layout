@@ -218,19 +218,12 @@
     <section class="yield">
         {{yield}}
     </section>
-    
     <section class="content_container main_container">
         <div class="newsletter_container text-center">
             <h3 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h3>
             <p class="newsletter_desc"><span>•</span> Fashion <br class="show_phone" /><span>•</span> Events  <br class="show_phone" /><span>•</span> Sales </p>
             <a href="/newsletter" class="newsletter_btn animated_btn">Sign Up</a>
         </div>
-        <!-- Rohingya Crisis BANNER -->
-        <!--<div class="trim_screen">-->
-        <!--    <a id="track_link" href="https://secure.humanitariancoalition.ca/index.php?lang=en&source_form=20vic/" target="_blank">-->
-        <!--        <img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/jpeg/1510252672000/Rohingya_en.jpg" alt=""/>-->
-        <!--    </a>-->
-        <!--</div>-->
         <div class="site_map">
             <div class="row">
                 <div class="col-md-4">
@@ -242,19 +235,19 @@
                         <div class="social_icons">
                             <a href="//www.facebook.com/halifaxshoppingcentre" target="_blank">
                                 <span id="social_fb"></span>
-                                <p>Facebook Link</p>
+                                <h5>Facebook Link</h5>
                             </a>
                             <a href="//www.twitter.com/shopHSC" target="_blank">
                                 <span id="social_twitter"></span>
-                                <p>Twitter Link</p>
+                                <h5>Twitter Link</h5>
                             </a>
                             <a href="//instagram.com/shophsc" target="_blank">
                                 <span id="social_insta"></span>
-                                <p>Instagram Link</p>
+                                <h5>Instagram Link</h5>
                             </a>
                             <a href="/newsletter">
                                 <span id="social_newsletter"></span>
-                                <p>Newsletter Link</p>
+                                <h5>Newsletter Link</h5>
                             </a>
                             <div class="clearfix"></div>
                             <br class="hidden_phone" />
@@ -292,7 +285,6 @@
                         <br />
                         Administration: <a href="tel:9024548666">902.454.8666</a><br />
                         <a href="http://www.cushmanwakefield.ca/en/" target="_blank">
-                            <!--<img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1464722874000/Picture1.png" class="vic_logo" alt="">-->
                             <img src="//codecloud.cdn.speedyrails.net/sites/599da5a06e6f6420d9d40000/image/png/1509381758000/CW Logos-_CW_Colorlogo.png" class="" alt="Cushman and Wakefield Logo" style="width:140px;padding-top: 10px;">
                         </a>
                     </p>
@@ -349,11 +341,6 @@
   
     </script>
     <a class="chat_link hidden_now" href="#" onclick="window.open('https://secure.kipsu.com/acct/widget/374/8c47', ' Hello, how can I can help you today?','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi, this is the Halifax Shopping Centre Guest Services.  How can we help?</a>
-    <!--<script>-->
-    <!--    $("#track_link").click( function() {-->
-    <!--        trackOutboundLink('https://secure.humanitariancoalition.ca/index.php?lang=en&source_form=20vic/');-->
-    <!--    });-->
-    <!--</script>-->
 </body>
 
 </html>
