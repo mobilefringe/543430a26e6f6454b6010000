@@ -45,7 +45,7 @@
                     <input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-tylikj-tylikj" type="email" required />
                 </div>
                 <div class="col-md-6">
-                    <label class="form-label" for="fieldjhtyly">Birth Month</label> 
+                    <label class="form-label" for="fieldBirthday_newsletter">Birth Month</label> 
                     <select class="month-newsletter"  id="fieldBirthday_newsletter" name="cm-f-jhtyly">
                         <option default selected disabled>Select one</option>
                         <option>January</option>
