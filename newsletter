@@ -20,38 +20,25 @@
             <!--end mail chimp hidden inputs-->
         </form>
         <form id="newsletter_form" action="//mobilefringe.createsend.com/t/d/s/tylikj/" method="post">
+            <div>
+                <input title="giftcard newsletter" class="newletter-hidden" id="fieldwkdij_newsletter" name="cm-f-wkdij" type="hidden" />
+                <input title="contest newsletter" class="newletter-hidden" id="fieldwkdik_newsletter" name="cm-f-wkdik" type="hidden" />
+                <input title="sales newsletter" class="newletter-hidden" id="fieldwkdiu_newsletter" name="cm-f-wkdiu" type="hidden" />
+                <input title="advice newsletter" class="newletter-hidden" id="fieldwkddl_newsletter" name="cm-f-wkddl" type="hidden" />
+                <input title="birthday newsletter" class="newletter-hidden" id="fieldjuqp_newsletter" name="cm-f-juqp" type="hidden" />
+            </div>
             <div class="row">
                 <div class="col-md-6">
-                    <input title="giftcard newsletter" class="newletter-hidden" id="fieldwkdij_newsletter" name="cm-f-wkdij" type="hidden" />
+                    <label for="firstName_newsletter">First Name *</label> 
+                    <br/>
+                    <input class="firstname-newsletter" id="firstName_newsletter" name="firstName" type="text" required />
+                    <input title="fullname newsletter" class="newletter-hidden" id="fieldName_newsletter" name="cm-name" type="hidden" />
                 </div>
                 <div class="col-md-6">
-                    <input title="contest newsletter" class="newletter-hidden" id="fieldwkdik_newsletter" name="cm-f-wkdik" type="hidden" />
+                    <label for="lastName_newsletter">Last name *</label>
+                    <br/>
+                    <input class="lastname-newsletter" id="lastName_newsletter" name="lastName" type="text" required />
                 </div>
-            </div>
-             <div class="row">
-                <div class="col-md-6">
-                    <input title="sales newsletter" class="newletter-hidden" id="fieldwkdiu_newsletter" name="cm-f-wkdiu" type="hidden" />
-                </div>
-                <div class="col-md-6">
-                    <input title="advice newsletter" class="newletter-hidden" id="fieldwkddl_newsletter" name="cm-f-wkddl" type="hidden" />
-                </div>
-            </div>
-                
-               
-                
-            
-                <input title="birthday newsletter" class="newletter-hidden" id="fieldjuqp_newsletter" name="cm-f-juqp" type="hidden" />
-                
-                
-                <label for="firstName_newsletter">First Name *</label> 
-                <br/>
-                <input class="firstname-newsletter" id="firstName_newsletter" name="firstName" type="text" required />
-                <input title="fullname newsletter" class="newletter-hidden" id="fieldName_newsletter" name="cm-name" type="hidden" />
-            </div>
-            <div class="floater-left">
-                <label for="lastName_newsletter">Last name *</label>
-                <br/>
-                <input class="lastname-newsletter" id="lastName_newsletter" name="lastName" type="text" required />
             </div>
             <div class="floater-left">
                 <label for="fieldEmail_newsletter">Email *</label> 
