@@ -63,11 +63,7 @@
                     </select>
                     <div class="input-group birthday_input_group">
                     <ul>
-                        <li>
-                            <label>Would you like to receive our birthday offers?
-                            <input id="birthdayCheck" type="checkbox" style="float:left"/>
-                            </label>
-                        </li>
+                        <li><label>Would you like to receive our birthday offers?</label><input id="birthdayCheck" type="checkbox" style="float:left"/></li>
                     </ul>
                 </div>
             </div>
