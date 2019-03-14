@@ -4,7 +4,7 @@
 </div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
-    <p>Be the first to know! Sign up to receive the latest Halifax Shopping Centre updates including contests, events and promotions.</p>
+    <p class="margin_30">Be the first to know! Sign up to receive the latest Halifax Shopping Centre updates including contests, events and promotions.</p>
     <div class="newsletter_page">
         <form action="//halifaxshoppingcentre.us2.list-manage.com/subscribe/post-json?u=606e5e50d5c4e3e328b36adbe&amp;id=69aa212972&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
             <!--mail chimp hidden inputs-->
