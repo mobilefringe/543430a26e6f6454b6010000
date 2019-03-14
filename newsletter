@@ -46,7 +46,7 @@
                 </div>
                 <div class="col-md-6">
                     <label class="form-label" for="fieldjhtyly">Birth Month</label> 
-                    <select class="month-newsletter"  id="fieldBirthday_newsletter" name="cm-f-jhtyly">
+                    <select class="month-newsletter"  id="fieldjhtyly" name="cm-f-jhtyly">
                         <option default selected disabled>Select one</option>
                         <option>January</option>
                         <option>February</option>
