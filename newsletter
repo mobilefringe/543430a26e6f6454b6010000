@@ -72,14 +72,18 @@
                     </ul>
                 </div>
             </div>
-    
-            <div class="input-group">Select the categories you would like to hear about:
-                <ul>
-                    <li><label for="giftcard_newsletter">Gift Card Offers</label><input title="giftcard" name="giftcard" id="giftcard_newsletter" type="checkbox" checked="checked" style="float:left"/></li>
-                    <li><label for="contest_newsletter">Contests</label><input title="contest" name="contest" id="contest_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
-                    <li><label for="sales_newsletter">Sales &amp; Events</label><input title="sales" name="sales" id="sales_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
-                    <li><label for="advice_newsletter">Fashion Advice</label><input title="advice" name="advice" id="advice_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
-                </ul>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group">Select the categories you would like to hear about:
+                        <ul>
+                            <li><label for="giftcard_newsletter">Gift Card Offers</label><input title="giftcard" name="giftcard" id="giftcard_newsletter" type="checkbox" checked="checked" style="float:left"/></li>
+                            <li><label for="contest_newsletter">Contests</label><input title="contest" name="contest" id="contest_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
+                            <li><label for="sales_newsletter">Sales &amp; Events</label><input title="sales" name="sales" id="sales_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
+                            <li><label for="advice_newsletter">Fashion Advice</label><input title="advice" name="advice" id="advice_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             
             <p style="font-size: 13px;"><input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;" required><label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from Halifax Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the 
