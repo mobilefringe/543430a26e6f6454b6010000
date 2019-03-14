@@ -64,7 +64,7 @@
                     <div class="input-group birthday_input_group">
                     <ul>
                         <li>
-                            <label>
+                            <label class="birthday_label">
                                 <input id="birthdayCheck" type="checkbox" style="float:left"/>
                                 Would you like to receive our birthday offers?
                             </label>
@@ -94,6 +94,9 @@
 <style>
     .form-label {
         display: block;   
+    }
+    .birthday_label {
+        font-size: 16px;
     }
     #firstName_newsletter, #lastName_newsletter, #fieldEmail_newsletter, #fieldBirthday_newsletter {
         width: 100%;
