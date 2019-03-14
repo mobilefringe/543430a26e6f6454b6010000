@@ -38,6 +38,7 @@
                     <input class="lastname-newsletter" id="lastName_newsletter" name="lastName" type="text" required />
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col-md-6">
                     <label class="form-label" for="fieldEmail_newsletter">Email *</label> 
