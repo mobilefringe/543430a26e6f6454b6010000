@@ -15,43 +15,14 @@
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
+        <label for="option_selector">Options</label>
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/promotions">Promotions</option>
             <option value="/events">Events</option>
-            <option value="/development">Development</option>
         </select>
     </h5>
 </div>
-<!--<div class="content_container main_container">-->
-<!--    <div class="margin_25_across">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-12">-->
-<!--                <p class="hidden_now" id="no_contests">Sorry, there are no contests at this time. Please check back soon.</p>-->
-<!--                <div id="promos_container">-->
-<!--                    <script id="promos_template" type="x-tmpl-mustache/text">-->
-<!--                        <div class="row promo_item cats_row" data-cat="{{cat_list}}">-->
-<!--                            <div class="col-md-3">-->
-<!--                                <div  class="cropped_image">-->
-<!--                                    <img src="{{event_image_url_abs}}" alt="{{name}}" />-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="col-md-9">-->
-<!--                                <h2 class="promo_list_name">{{name}}</h2>-->
-<!--                                <p>-->
-<!--                                    <span class="promo_store">{{store_name}}</span>-->
-<!--                                    <span class="promo_dates">{{dates}}</span>-->
-<!--                                </p>-->
-<!--                                <div class="promo_list_desc">{{description_short}}</div>-->
-<!--                                <a class="read_more" href="/contests/{{slug}}">Read More</a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </script>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
     <div class="margin_25_across">
