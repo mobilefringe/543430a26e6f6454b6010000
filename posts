@@ -29,7 +29,7 @@
                         </div>
                         <h2 class="main_post_header">{{title}}</h2>
                         <div class="post_text">{{description_short}}</div>
-                        <a class="main_read_more" href="{{slug}}">Read More</a>
+                        <a class="main_read_more" href="{{slug}}">View Posts</a>
                     </div>
                 </div>
             </script>
