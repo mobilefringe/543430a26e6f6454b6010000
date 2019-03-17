@@ -62,20 +62,22 @@
                         <option>December</option>
                     </select>
                     <div class="input-group birthday_input_group">
-                    <ul>
-                        <li>
-                            <label class="birthday_label">
-                                <input id="birthdayCheck" type="checkbox" style="float:left"/>
-                                Would you like to receive our birthday offers?
-                            </label>
-                        </li>
-                    </ul>
+                        <ul>
+                            <li>
+                                <label class="birthday_label">
+                                    <input id="birthdayCheck" type="checkbox" style="float:left"/>
+                                    Would you like to receive our birthday offers?
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <br>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="input-group">Select the categories you would like to hear about:
+                    <div class="input-group">
+                        Select the categories you would like to hear about:
                         <ul>
                             <li><label for="giftcard_newsletter">Gift Card Offers</label><input title="giftcard" name="giftcard" id="giftcard_newsletter" type="checkbox" checked="checked" style="float:left"/></li>
                             <li><label for="contest_newsletter">Contests</label><input title="contest" name="contest" id="contest_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
