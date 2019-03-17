@@ -90,7 +90,7 @@
             <br>
             <div class="row">
                 <div class="col-md-12">
-                    <p style="font-size: 14px;">
+                    <p style="font-size: 16px;">
                         <label for="agree_newsletter_page" style="display: inline; font-weight: normal;">
                             <input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;" required>
                             I agree to receive newsletters from Halifax Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the <a style="color:#581d37" target="_blank" href="/privacy_policy">Privacy Terms &amp; Conditions</a>.
