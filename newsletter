@@ -122,113 +122,66 @@
         margin-bottom: 0;
     }
 </style>
-    <script type="text/javascript">
-        $(document).ready(function(e){
-            init(e);
-            show_content();
-        })
-    
+<script type="text/javascript">
+    $(document).ready(function(e){
+        init(e);
+        show_content();
+    })
+
+    function submitToMailChimp(){
+        var firstName = $('#firstName_newsletter').val();
+        var lastName = $('#lastName_newsletter').val();
+        var giftcard = getCheckBoxValue('#giftcard_newsletter');
+        var contest = getCheckBoxValue('#contest_newsletter');
+        var sales = getCheckBoxValue('#sales_newsletter');
+        var advice = getCheckBoxValue('#advice_newsletter');
+        var birthday = getCheckBoxValue('#birthdayCheck');
         
-        // $("#newsletter_form").submit(function( e ) {
-        // e.preventDefault();
-        //     if ($("#agree_newsletter_page").prop("checked") != true){
-        //         alert("Please agree to the receiving newsletter.");
-        //         $("#agree_newsletter_page").focus();
-        //     } else {
-        //         var firstName = $('#firstName_newsletter').val();
-        //         var lastName = $('#lastName_newsletter').val();
-        //         var name = firstName + " " + lastName;
-        //         $('#fieldName_newsletter.newletter-hidden').val(name);
-                
-        //         var giftcard = getCheckBoxValue('#giftcard_newsletter');
-        //         var contest = getCheckBoxValue('#contest_newsletter');
-        //         var sales = getCheckBoxValue('#sales_newsletter');
-        //         var advice = getCheckBoxValue('#advice_newsletter');
-        //         var birthday = getCheckBoxValue('#birthdayCheck');
-        //         $('#fieldwkdij_newsletter.newletter-hidden').val(giftcard);
-        //         $('#fieldwkdik_newsletter.newletter-hidden').val(contest);
-        //         $('#fieldwkdiu_newsletter.newletter-hidden').val(sales);
-        //         $('#fieldjuqp_newsletter.newletter-hidden').val(birthday);
-        //         $('#fieldwkddl_newsletter.newletter-hidden').val(advice);
-        //         visited = 100; 
-        //         $.cookie('visited', visited, { expires: 7 });
-        //         $.getJSON(
-        //             "//mobilefringe.createsend.com/t/d/s/tylikj/?callback=?",
-        //           $("#newsletter_form").serialize(),
-        //             function (data) {
-        //                 if (data.Status === 400) {
-        //                     alert("Please try again later.");
-        //                 } else { // 200
-        //                     console.log(data)
-                            // submitToMailChimp();
-        //                 }
-        //         }); 
-                
-                
-                
-                
-                
-                
-                
-        //     }
-          
-        // });
-        
-        function submitToMailChimp(){
-            var firstName = $('#firstName_newsletter').val();
-            var lastName = $('#lastName_newsletter').val();
-            var giftcard = getCheckBoxValue('#giftcard_newsletter');
-            var contest = getCheckBoxValue('#contest_newsletter');
-            var sales = getCheckBoxValue('#sales_newsletter');
-            var advice = getCheckBoxValue('#advice_newsletter');
-            var birthday = getCheckBoxValue('#birthdayCheck');
-            
-            $("#mce-FNAME").val(firstName)
-                $("#mce-LNAME").val(lastName)
-                $("#mce-EMAIL").val($('#fieldEmail_newsletter').val())
-                $("#mce-MMERGE4").val($('#fieldBirthday_newsletter').val()) 
-                $("#mce-MMERGE5").val($('#birthdayCheck').val()) 
-                $("#mce-group[5]-5-0").val(giftcard);
-                $("#mce-group[5]-5-1").val(contest);
-                $("#mce-group[5]-5-2").val(sales);
-                $("#mce-group[5]-5-3").val(advice);
-                
-    
-                
-                
-                $.ajax({
-                    type: $("#mc-embedded-subscribe-form").attr('method'),
-                    url: $("#mc-embedded-subscribe-form").attr('action'),
-                    data: $("#mc-embedded-subscribe-form").serialize(),
-                    cache       : false,
-                    dataType    : 'json',
-                    contentType: "application/json; charset=utf-8",
-                    error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
-                    success     : function(data) {
-                        if (data.result != "success") {
-                            window.location.href="/thank_you"
-                        } else {
-                            
-                            window.location.href="/thank_you"
-                        }
-                    }
-                })
-        }
-     
-        function getCheckBoxValue(checkbox){
-            if($(checkbox).prop('checked')){
-                return "1";
-            }else {
-                return "0";
-            }
-        }
-        $(function() {
-            var location = window.location.toString();
-            if (location.indexOf("s=1") != -1) {
-                alert("You least form request has been submitted.")
-            } else if (location.indexOf("s=0") != -1) {
-                alert("Please try to submit the form later.")
+        $("#mce-FNAME").val(firstName)
+        $("#mce-LNAME").val(lastName)
+        $("#mce-EMAIL").val($('#fieldEmail_newsletter').val())
+        $("#mce-MMERGE4").val($('#fieldBirthday_newsletter').val()) 
+        $("#mce-MMERGE5").val($('#birthdayCheck').val()) 
+        $("#mce-group[5]-5-0").val(giftcard);
+        $("#mce-group[5]-5-1").val(contest);
+        $("#mce-group[5]-5-2").val(sales);
+        $("#mce-group[5]-5-3").val(advice);
+
+        $.ajax({
+            type: $("#mc-embedded-subscribe-form").attr('method'),
+            url: $("#mc-embedded-subscribe-form").attr('action'),
+            data: $("#mc-embedded-subscribe-form").serialize(),
+            cache       : false,
+            dataType    : 'json',
+            contentType: "application/json; charset=utf-8",
+            error: function(err) {
+                alert("Could not connect to the registration server. Please try again later."); 
+            },
+            success: function(data) {
+                if (data.result != "success") {
+                    window.location.href="/thank_you"
+                } else {
+                    
+                    window.location.href="/thank_you"
+                }
             }
         });
-    </script>
+    }
+ 
+    function getCheckBoxValue(checkbox) {
+        if ($(checkbox).prop('checked')) {
+            return "1";
+        } else {
+            return "0";
+        }
+    }
     
+    $(function() {
+        var location = window.location.toString();
+        if (location.indexOf("s=1") != -1) {
+            alert("You least form request has been submitted.")
+        } else if (location.indexOf("s=0") != -1) {
+            alert("Please try to submit the form later.")
+        }
+    });
+</script>
