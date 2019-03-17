@@ -1389,14 +1389,14 @@ h4{
     color: #000;
 }
 
-.main_read_more {
-    color: #000
-}
 .main_read_more, .post_read_more {
     position: absolute;
     bottom: 33px;
     font-size: 20px;
     color: #ba573c;
+}
+.main_read_more {
+    color: #000
 }
 .main_post_share_icons {
     position: absolute;
