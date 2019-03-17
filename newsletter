@@ -113,10 +113,14 @@
         font-size: 16px;
     }
     #firstName_newsletter, #lastName_newsletter, #fieldEmail_newsletter, #fieldBirthday_newsletter {
+        margin-bottom: 20px;
         width: 100%;
         border: 1px solid;
         border-radius: 4px;
         background-color: transparent;
+    }
+    #fieldBirthday_newsletter {
+        margin-bottom: 0;
     }
 </style>
     <script type="text/javascript">
