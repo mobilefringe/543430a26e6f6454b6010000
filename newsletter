@@ -104,6 +104,9 @@
     }
     #firstName_newsletter, #lastName_newsletter, #fieldEmail_newsletter, #fieldBirthday_newsletter {
         width: 100%;
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: transparent;
     }
 </style>
     <script type="text/javascript">
