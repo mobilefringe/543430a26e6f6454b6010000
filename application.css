@@ -1389,8 +1389,8 @@ h4{
     color: #000;
 }
 
-.main_read_more:hover {
-    color: #000;
+.main_read_more {
+    color: #000
 }
 .main_read_more, .post_read_more {
     position: absolute;
