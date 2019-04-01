@@ -231,7 +231,8 @@
         <!-- Cyclone Idai Banner -->
         <div class="trim_screen">
             <a id="track_link" href="http://bit.ly/cyclone-idai-cushman-wakefield" target="_blank">
-                <img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/5af2ef146e6f6450e9160100/image/jpeg/1554151186820/Idaix2_800x100.jpg" alt=""/>
+                <!--<img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/5af2ef146e6f6450e9160100/image/jpeg/1554151186820/Idaix2_800x100.jpg" alt=""/>-->
+                <img src="//codecloud.cdn.speedyrails.net/sites/5af2ef146e6f6450e9160100/image/jpeg/1554151186820/Idaix2_banner_800x100.jpg" class="" alt="">
             </a>
         </div>
         <div class="site_map">
