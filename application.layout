@@ -48,7 +48,7 @@
     
     <script>
         setEndPoint('//halifaxcentre.mallmaverick.com/api/v4/halifaxcentre/all.json');
-        setSocialEndPoint('//halifaxcentre.mallmaverick.com/api/v2/halifaxcentre/social.json')
+        setSocialEndPoint('//halifaxcentre.mallmaverick.com/api/v4/halifaxcentre/social.json')
     </script>
     
      <script>
