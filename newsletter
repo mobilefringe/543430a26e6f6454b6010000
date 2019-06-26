@@ -142,7 +142,7 @@
         //                     alert("Please try again later.");
         //                 } else { // 200
         //                     console.log(data)
-                            // submitToMailChimp();
+                            submitToMailChimp();
         //                 }
         //         }); 
                 
