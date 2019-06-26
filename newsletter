@@ -111,12 +111,12 @@
         })
     
         
-        // $("#newsletter_form").submit(function( e ) {
-        // e.preventDefault();
-        //     if ($("#agree_newsletter_page").prop("checked") != true){
-        //         alert("Please agree to the receiving newsletter.");
-        //         $("#agree_newsletter_page").focus();
-        //     } else {
+        $("#newsletter_form").submit(function( e ) {
+        e.preventDefault();
+            if ($("#agree_newsletter_page").prop("checked") != true){
+                alert("Please agree to the receiving newsletter.");
+                $("#agree_newsletter_page").focus();
+            } else {
         //         var firstName = $('#firstName_newsletter').val();
         //         var lastName = $('#lastName_newsletter').val();
         //         var name = firstName + " " + lastName;
@@ -152,9 +152,9 @@
                 
                 
                 
-        //     }
+            }
           
-        // });
+        });
         
         function submitToMailChimp(){
             var firstName = $('#firstName_newsletter').val();
