@@ -1,5 +1,5 @@
 function init(e){
-    $('<div class="modal-backdrop custom_backdrop"><img src="//kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
+    $('<div class="modal-backdrop custom_backdrop"><img src="//codecloud.cdn.speedyrails.net/sites/5af2ef146e6f6450e9160100/image/gif/1565879091860/loading.gif" class="" alt=""></div>').appendTo(document.body);
     
     var current_year = moment().year();
     $("#current_year").text(current_year);
