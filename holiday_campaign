@@ -1,17 +1,17 @@
 
-<div class="flexslider text-center">
-    <ul class="slides" id="time_banner">
-        <script id="banner_template" type="x-tmpl-mustache/text">
-            <li class="position_relative">
-                <div class="hero_banner special_event_banner" style="background-image: url({{image_url}})">
-                    <h2 class="banner_header">{{name}}</h2>
-                    <p>{{description}}</p>
-                    <a style="display:none" href="#event_details_page_image" class="time_btn animated_btn">Buy tickets</a>
-                </div>
-            </li>    
-        </script>
-    </ul>
-</div>
+<!--<div class="flexslider text-center">-->
+<!--    <ul class="slides" id="time_banner">-->
+<!--        <script id="banner_template" type="x-tmpl-mustache/text">-->
+<!--            <li class="position_relative">-->
+<!--                <div class="hero_banner special_event_banner" style="background-image: url({{image_url}})">-->
+<!--                    <h2 class="banner_header">{{name}}</h2>-->
+<!--                    <p>{{description}}</p>-->
+<!--                    <a style="display:none" href="#event_details_page_image" class="time_btn animated_btn">Buy tickets</a>-->
+<!--                </div>-->
+<!--            </li>    -->
+<!--        </script>-->
+<!--    </ul>-->
+<!--</div>-->
 
 <div class="content_container main_container container_bottom_border">
     <div class="details_flex_container">
