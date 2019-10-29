@@ -78,18 +78,7 @@
 </div>
 
              
-<div class="content_container main_container container_bottom_border text-center">
-    <div class="row">
-        <div class="col-md-12 event_updates_container">
-            <div id="updates_container">
-                <div class="event_updates">
-                    <h2 id="updates_page_title" class="special_event_name"></h2>
-                    <p id="updates_page_desc" class="updates_desc"></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <div class="content_container main_container">
     <div class="workshops_spacing">
@@ -149,16 +138,7 @@
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
             
-            var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign.json"
-            $.getJSON(pages_json).done(function(data) {
-                $('#updates_page_title').html(data.title.toUpperCase());
-                $('#updates_page_desc').html(data.body);
-    
-            }).fail(function(jqXHR) {
-                if (jqXHR.status == 404) {
-                    $("#404_msg").fadeIn("fast");
-                }
-            });
+
         
             var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-1.json"
             $.getJSON(pages_json).done(function(data) {
