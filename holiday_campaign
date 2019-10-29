@@ -127,53 +127,7 @@
     </div>
 </div>
 
-<!--<div class="hero_banner contact_banner">-->
-<!--    <div id="contact_banner_form">-->
-<!--        <div class="content_container main_container form_flex">-->
-<!--            <h2 class="contact_form_header mobile_padding text-center">Get in touch</h2>-->
-<!--            <form id="contact_form" method="post">-->
-<!--                <div class="row">-->
-<!--                    <div class="col-md-8 col-md-offset-2">-->
-<!--                    <div class="message_box">-->
-<!--                        <p class="contact_form_text">Send us a message and we will get back to you as soon as possible.</p>-->
-<!--                        <label for="message"><p class="visibilityhidden">Message<span>*</span></p></label>-->
-<!--                        <textarea name="feedback[comment]" id="message" placeholder="Type Here..." class="form-control textarea_height"></textarea>-->
-<!--                    </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-md-3 no_padding col-md-offset-2">-->
-<!--                        <label for="full_name"><p class="visibilityhidden">Your Full Name<span>*</span></p></label>-->
-<!--                        <input name="feedback[full_name]" id="full_name" placeholder="Your Full Name" type="text" class="form-control contact_form_control" required />-->
-<!--                    </div>-->
-<!--                    <div class="col-md-3 no_padding">-->
-<!--                        <label for="email"><p class="visibilityhidden">Email<span>*</span></p></label>-->
-<!--                        <input name="feedback[email]" id="email" placeholder="Your Email*" type="email" class="form-control contact_form_control" required />-->
-<!--                    </div>-->
-<!--                    <div class="col-md-2 no_padding">-->
-<!--                        <div class="g-recaptcha" data-sitekey="6LfQuxQTAAAAAH2oW0qeTSs95tujK7FllF7Hjzt4"></div>-->
-<!--                        <input type="submit" value="Send Message" class="contact_btn" />-->
-<!--                        <br /><br />-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-md-8 col-md-offset-2">-->
-<!--                        <div id="send_contact_success" class="alert alert-success hidden_now" role="alert">-->
-<!--                            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>-->
-<!--                            <span class="sr-only">Success</span>-->
-<!--                            Thank you for contacting us. A member from our team will contact you shortly.-->
-<!--                        </div>-->
-<!--                        <div id="send_contact_error" class="alert alert-danger hidden_now" role="alert">-->
-<!--                            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>-->
-<!--                            <span class="sr-only">Error:</span>-->
-<!--                            There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and                             please try again.-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </form>-->
-<!--        </div>-->
-<!--    </div>    -->
-<!--</div>-->
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
 <script>
     $(document).ready(function(e){
