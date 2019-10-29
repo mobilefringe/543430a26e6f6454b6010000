@@ -1,17 +1,17 @@
 
-<!--<div class="flexslider text-center">-->
-<!--    <ul class="slides" id="time_banner">-->
-<!--        <script id="banner_template" type="x-tmpl-mustache/text">-->
-<!--            <li class="position_relative">-->
-<!--                <div class="hero_banner special_event_banner" style="background-image: url({{image_url}})">-->
-<!--                    <h2 class="banner_header">{{name}}</h2>-->
-<!--                    <p>{{description}}</p>-->
-<!--                    <a style="display:none" href="#event_details_page_image" class="time_btn animated_btn">Buy tickets</a>-->
-<!--                </div>-->
-<!--            </li>    -->
-<!--        </script>-->
-<!--    </ul>-->
-<!--</div>-->
+<div class="flexslider text-center">
+    <ul class="slides" id="time_banner">
+        <script id="banner_template" type="x-tmpl-mustache/text">
+            <li class="position_relative">
+                <div class="hero_banner special_event_banner" style="background-image: url({{image_url}})">
+                    <h2 class="banner_header">{{name}}</h2>
+                    <p>{{description}}</p>
+                    <a style="display:none" href="#event_details_page_image" class="time_btn animated_btn">Buy tickets</a>
+                </div>
+            </li>    
+        </script>
+    </ul>
+</div>
 
 <div class="content_container main_container container_bottom_border">
     <div class="details_flex_container">
@@ -150,11 +150,11 @@
                 
             
             
-            // var first_banner = banners[0];
+            var first_banner = banners[0];
             renderGeneral('#time_banner','#banner_template',banners);
 
             var pathArray = window.location.pathname.split( '/' );
-            // var slug = pathArray[pathArray.length-1];
+            var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
             var pages_json = prefix + "/pages/billings-event-updates.json"
             $.getJSON(pages_json).done(function(data) {
@@ -195,9 +195,9 @@
                 }
             });
             
-            const workshopImages = getRepoDetailsByName("Workshop Images").images;
-            const sortedWorkshopImages = _.sortBy(workshopImages, [function(o) { return o.updated_at; }]);
-            renderGeneral('#workshops_container','#workshop_template', sortedWorkshopImages);
+            // const workshopImages = getRepoDetailsByName("Workshop Images").images;
+            // const sortedWorkshopImages = _.sortBy(workshopImages, [function(o) { return o.updated_at; }]);
+            // renderGeneral('#workshops_container','#workshop_template', sortedWorkshopImages);
             
              var pages_json = prefix + "/pages/billings-event-details.json"
             $.getJSON(pages_json).done(function(data) {
@@ -213,13 +213,13 @@
                 }
             });
             
-            const sponsors = getRepoDetailsByName("Time to 69 Sponsors").images;
-            const sortedSponsors = _.sortBy(sponsors, [function(o) { return o.name; }]);
-            renderGeneral('#sponsors_container', '#sponsors_template', sortedSponsors);
+            // const sponsors = getRepoDetailsByName("Time to 69 Sponsors").images;
+            // const sortedSponsors = _.sortBy(sponsors, [function(o) { return o.name; }]);
+            // renderGeneral('#sponsors_container', '#sponsors_template', sortedSponsors);
             
-            const formBanner = getRepoDetailsByName("Time to 69 Form Banner").images;
-            const firstBanner = formBanner[0].image_url;
-            $('.contact_banner').css('background-image', 'url(' + firstBanner + ')');
+            // const formBanner = getRepoDetailsByName("Time to 69 Form Banner").images;
+            // const firstBanner = formBanner[0].image_url;
+            // $('.contact_banner').css('background-image', 'url(' + firstBanner + ')');
             
             show_content();
             
