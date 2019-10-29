@@ -13,6 +13,8 @@
     </ul>
 </div>
 
+
+<!--FIRST BOX-->
 <div class="content_container main_container container_bottom_border">
     <div class="details_flex_container">
         <div class="details_img_container">
@@ -25,6 +27,7 @@
     </div>
 </div>
 
+<!--SECOND BOX -->
 <div class="content_container main_container container_bottom_border">
     <div class="details_flex_container left_column_reverse">
         <div class="left_details_info_container">
@@ -37,6 +40,7 @@
     </div>
 </div>
 
+<!--THIRD BOX -->
 <div class="content_container main_container container_bottom_border">
     <div class="details_flex_container">
         <div class="details_img_container">
