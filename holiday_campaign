@@ -1,0 +1,285 @@
+
+<div class="flexslider text-center">
+    <ul class="slides" id="time_banner">
+        <script id="banner_template" type="x-tmpl-mustache/text">
+            <li class="position_relative">
+                <div class="hero_banner special_event_banner" style="background-image: url({{image_url}})">
+                    <h2 class="banner_header">{{name}}</h2>
+                    <p>{{description}}</p>
+                    <a style="display:none" href="#event_details_page_image" class="time_btn animated_btn">Buy tickets</a>
+                </div>
+            </li>    
+        </script>
+    </ul>
+</div>
+
+<div class="content_container main_container container_bottom_border">
+    <div class="details_flex_container">
+        <div class="details_img_container">
+            <img id="about_page_image" src="" alt="">
+        </div>
+        <div class="details_info_container">
+            <div class="details_title" id="about_page_title"></div>
+            <div class="details_info" id="about_page_desc"></div>
+        </div>
+    </div>
+</div>
+
+<div class="content_container main_container container_bottom_border">
+    <div class="details_flex_container left_column_reverse">
+        <div class="left_details_info_container">
+            <div class="details_title" id="concert_page_title"></div>
+            <div class="details_info" id="concert_page_desc"></div>
+        </div>
+        <div class="left_details_img_container">
+            <img id="concert_page_image" src="" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="content_container main_container container_bottom_border">
+    <div class="details_flex_container">
+        <div class="details_img_container">
+            <img id="event_details_page_image" src="" alt="">
+        </div>
+        <div class="details_info_container">
+            <div class="details_title" id="event_details_page_title"></div>
+            <div class="details_info" id="event_details_page_desc"></div>
+        </div>
+    </div>
+</div>
+
+<div class="content_container main_container container_bottom_border">
+    <div class="workshops_spacing">
+        <h2 class="details_title workshop_title text-center">Workshops</h2>
+        <div class="row hidden-xs margin_30">
+            <div class="col-sm-3 col-xs-6">
+                <img src="//codecloud.cdn.speedyrails.net/sites/59c3f9f46e6f646526050000/image/jpeg/1561064353949/food.jpg" class="" alt="">
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img src="//codecloud.cdn.speedyrails.net/sites/59c3f9f46e6f646526050000/image/jpeg/1561064378346/fashion.jpg" class="" alt="">
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img src="//codecloud.cdn.speedyrails.net/sites/59c3f9f46e6f646526050000/image/jpeg/1561064338390/crafts.jpg" class="" alt="">
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img src="//codecloud.cdn.speedyrails.net/sites/59c3f9f46e6f646526050000/image/jpeg/1561064322696/fitness.jpg" class="" alt="">
+            </div>
+        </div>
+        <div class="row" id="workshops_container">
+            <script id="workshop_template" type="x-tmpl-mustache/text">
+                <div class="col-md-12 workshop_details_container">
+                    <div class="content">
+                        <div class="name_container">
+                            <h2 class="workshop_name">{{name}}</h2>
+                        </div>
+                        <div class="btn_container">
+                            <a href="{{url}}" target="_blank" class="workshop_btn">Workshop Details</a>
+                        </div>
+                    </div>
+                </div>
+            </script>
+        </div>
+    </div>
+</div>
+
+<!--<div class="col-md-4 col-sm-6 workshop_details_container" >-->
+<!--                    <div class="cropped_image">-->
+<!--                        <img class="workshop_image" alt="{{name}}" src="{{image_url}}" />-->
+<!--                    </div>-->
+<!--                    <div class="workshops_details middle">-->
+<!--                        <h2 class="workshop_name">{{name}}</h2>-->
+<!--                        <a href="{{url}}" target="_blank" class="workshop_btn">Workshop Details</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+                
+<div class="content_container main_container container_bottom_border text-center">
+    <div class="row">
+        <div class="col-md-12 event_updates_container">
+            <div id="updates_container">
+                <div class="event_updates">
+                    <h2 id="updates_page_title" class="special_event_name"></h2>
+                    <p id="updates_page_desc" class="updates_desc"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content_container main_container">
+    <div class="workshops_spacing">
+        <h2 class="details_title workshop_title text-center">Sponsors</h2>
+        <div class="row" id="sponsors_container">
+            <script id="sponsors_template" type="x-tmpl-mustache/text">
+                <div class="col-md-4 col-sm-6">
+                    {{#url}}
+                    <a href="{{url}}" target="_blank">
+                    {{/url}}
+                        <img class="sponsor_img" alt="{{name}}" src="{{image_url}}" />
+                    </a>
+                </div>
+            </script>
+        </div>
+    </div>
+</div>
+
+<!--<div class="hero_banner contact_banner">-->
+<!--    <div id="contact_banner_form">-->
+<!--        <div class="content_container main_container form_flex">-->
+<!--            <h2 class="contact_form_header mobile_padding text-center">Get in touch</h2>-->
+<!--            <form id="contact_form" method="post">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-8 col-md-offset-2">-->
+<!--                    <div class="message_box">-->
+<!--                        <p class="contact_form_text">Send us a message and we will get back to you as soon as possible.</p>-->
+<!--                        <label for="message"><p class="visibilityhidden">Message<span>*</span></p></label>-->
+<!--                        <textarea name="feedback[comment]" id="message" placeholder="Type Here..." class="form-control textarea_height"></textarea>-->
+<!--                    </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-3 no_padding col-md-offset-2">-->
+<!--                        <label for="full_name"><p class="visibilityhidden">Your Full Name<span>*</span></p></label>-->
+<!--                        <input name="feedback[full_name]" id="full_name" placeholder="Your Full Name" type="text" class="form-control contact_form_control" required />-->
+<!--                    </div>-->
+<!--                    <div class="col-md-3 no_padding">-->
+<!--                        <label for="email"><p class="visibilityhidden">Email<span>*</span></p></label>-->
+<!--                        <input name="feedback[email]" id="email" placeholder="Your Email*" type="email" class="form-control contact_form_control" required />-->
+<!--                    </div>-->
+<!--                    <div class="col-md-2 no_padding">-->
+<!--                        <div class="g-recaptcha" data-sitekey="6LfQuxQTAAAAAH2oW0qeTSs95tujK7FllF7Hjzt4"></div>-->
+<!--                        <input type="submit" value="Send Message" class="contact_btn" />-->
+<!--                        <br /><br />-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-8 col-md-offset-2">-->
+<!--                        <div id="send_contact_success" class="alert alert-success hidden_now" role="alert">-->
+<!--                            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>-->
+<!--                            <span class="sr-only">Success</span>-->
+<!--                            Thank you for contacting us. A member from our team will contact you shortly.-->
+<!--                        </div>-->
+<!--                        <div id="send_contact_error" class="alert alert-danger hidden_now" role="alert">-->
+<!--                            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>-->
+<!--                            <span class="sr-only">Error:</span>-->
+<!--                            There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and                             please try again.-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </div>    -->
+<!--</div>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var banners = getRepoDetailsByName("Time to 69 Banner").images;
+            var first_banner = banners[0];
+            renderGeneral('#time_banner','#banner_template',banners);
+
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = prefix + "/pages/billings-event-updates.json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#updates_page_title').html(data.title.toUpperCase());
+                $('#updates_page_desc').html(data.body);
+    
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            });
+        
+            var pages_json = prefix + "/pages/billings-about-us.json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#about_page_title').html(data.title.toUpperCase());
+                $('#about_page_desc').html(data.body);
+                $('#about_page_image').attr('src', data.image_url);
+                $('#about_page_image').attr('alt', data.title);
+                
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            });
+            
+            
+            var pages_json = prefix + "/pages/billings-concert.json"
+            $.getJSON(pages_json).done(function(data) {
+                const image = data.image_url;
+                $('#concert_page_title').html(data.title.toUpperCase());
+                $('#concert_page_desc').html(data.body);
+                $('#concert_page_image').attr('src', data.image_url);
+                $('#concert_page_image').attr('alt', data.title);
+    
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            });
+            
+            const workshopImages = getRepoDetailsByName("Workshop Images").images;
+            const sortedWorkshopImages = _.sortBy(workshopImages, [function(o) { return o.updated_at; }]);
+            renderGeneral('#workshops_container','#workshop_template', sortedWorkshopImages);
+            
+             var pages_json = prefix + "/pages/billings-event-details.json"
+            $.getJSON(pages_json).done(function(data) {
+                const image = data.image_url;
+                $('#event_details_page_title').html(data.title.toUpperCase());
+                $('#event_details_page_desc').html(data.body);
+                $('#event_details_page_image').attr('src', data.image_url);
+                $('#event_details_page_image').attr('alt', data.title);
+    
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            });
+            
+            const sponsors = getRepoDetailsByName("Time to 69 Sponsors").images;
+            const sortedSponsors = _.sortBy(sponsors, [function(o) { return o.name; }]);
+            renderGeneral('#sponsors_container', '#sponsors_template', sortedSponsors);
+            
+            const formBanner = getRepoDetailsByName("Time to 69 Form Banner").images;
+            const firstBanner = formBanner[0].image_url;
+            $('.contact_banner').css('background-image', 'url(' + firstBanner + ')');
+            
+            show_content();
+            
+             $('#contact_form').submit(function(e) {
+                e.preventDefault();
+                 $.ajax({
+                    url : "//mallmaverick.com/send_contact_email",
+                    type: "POST",
+                    data : { 
+                        'send_to': "Charlotte.Hanington@cushwake.com", 
+                        'subject': "Bridge Through Time", 
+                        'body': {
+                            "Name": $('#full_name').val(), 
+                            "Email Adddress": $('#email').val(), 
+                            "Message": $('#message').val()
+                        } 
+                    },
+                    success: function(data, textStatus, jqXHR) {
+                        $('#send_contact_success').fadeIn();
+                        $('#contact_form').find("input[type=text], textarea").val("");
+                        
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        $('#send_contact_error').fadeIn();
+                    }
+                }); 
+    		});
+    		
+    		$('.flexslider').flexslider({
+                animation: "slide",
+            });
+        }
+        
+        
+        loadMallDataCached(renderAll); 
+    });
+</script>
