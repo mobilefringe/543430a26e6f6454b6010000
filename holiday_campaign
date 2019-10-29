@@ -171,7 +171,7 @@
             // const sortedWorkshopImages = _.sortBy(workshopImages, [function(o) { return o.updated_at; }]);
             // renderGeneral('#workshops_container','#workshop_template', sortedWorkshopImages);
             
-             var pages_json = prefix + "	/pages/halifaxcentre-holiday-campaign-intro-2.json"
+             var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-3.json"
             $.getJSON(pages_json).done(function(data) {
                 const image = data.image_url;
                 $('#box_3_page_title').html(data.title.toUpperCase());
@@ -184,6 +184,10 @@
                     $("#404_msg").fadeIn("fast");
                 }
             });
+            
+            
+            var holiday_hours = getPropertyHolidayHours().sortBy(function(o){ return o.holiday_date });;
+            renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'holiday_hours')
             
             // const sponsors = getRepoDetailsByName("Time to 69 Sponsors").images;
             // const sortedSponsors = _.sortBy(sponsors, [function(o) { return o.name; }]);
