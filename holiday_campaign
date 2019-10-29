@@ -120,7 +120,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var pageBanner: null;
+            var pageBanner: "";
             var banners = getRepoDetailsByName("Holiday Campaign Banner");
             if (banners) {
                 try {
