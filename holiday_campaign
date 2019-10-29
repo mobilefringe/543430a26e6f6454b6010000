@@ -152,7 +152,7 @@
             
             
             // var first_banner = banners[0];
-            renderGeneral('#time_banner','#banner_template',pageBanners);
+            renderGeneral('#time_banner','#banner_template',pageBanner);
 
             var pathArray = window.location.pathname.split( '/' );
             console.log(pathArray)
