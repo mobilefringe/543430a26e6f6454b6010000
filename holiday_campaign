@@ -154,7 +154,7 @@
             renderGeneral('#time_banner','#banner_template',banners);
 
             var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
+            // var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
             var pages_json = prefix + "/pages/billings-event-updates.json"
             $.getJSON(pages_json).done(function(data) {
