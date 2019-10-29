@@ -173,8 +173,8 @@
             $.getJSON(pages_json).done(function(data) {
                 $('#about_page_title').html(data.title.toUpperCase());
                 $('#about_page_desc').html(data.body);
-                // $('#about_page_image').attr('src', data.image_url);
-                // $('#about_page_image').attr('alt', data.title);
+                $('#about_page_image').attr('src', data.image_url);
+                $('#about_page_image').attr('alt', data.title);
                 
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
