@@ -154,6 +154,7 @@
             renderGeneral('#time_banner','#banner_template',banners);
 
             var pathArray = window.location.pathname.split( '/' );
+            console.log(pathArray)
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
             // var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign.json"
