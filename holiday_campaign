@@ -121,6 +121,35 @@
         init(e);
         function renderAll(){
             var banners = getRepoDetailsByName("Holiday Campaign Banner").images;
+            if (banners) {
+                try {
+                    this.pageBanner = temp_repo.images[0];
+                } catch (e) {
+                    this.pageBanner = { "image_url": "" }
+                }
+            } else {
+                this.pageBanner = { "image_url": "" }
+            }
+            
+            
+            // this.loadData().then(response => {
+            //     var temp_repo = this.findRepoByName('Events Banner');
+            //     if (temp_repo) {
+            //         try {
+            //             this.pageBanner = temp_repo.images[0];
+            //         } catch(e) {
+            //             this.pageBanner = { "image_url": "" }
+            //         }
+            //     } else {
+            //         this.pageBanner = { "image_url": "" }
+            //     }
+
+            //     this.handleButton();
+            //     this.dataLoaded = true;
+            // });
+                
+            
+            
             var first_banner = banners[0];
             renderGeneral('#time_banner','#banner_template',banners);
 
