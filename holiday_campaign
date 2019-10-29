@@ -124,12 +124,12 @@
             var banners = getRepoDetailsByName("Holiday Campaign Banner");
             if (banners) {
                 try {
-                    this.pageBanner = banners.images[0];
+                    pageBanner = banners.images[0];
                 } catch (e) {
-                    this.pageBanner = { "image_url": "" }
+                    pageBanner = { "image_url": "" }
                 }
             } else {
-                this.pageBanner = { "image_url": "" }
+                pageBanner = { "image_url": "" }
             }
             
             
