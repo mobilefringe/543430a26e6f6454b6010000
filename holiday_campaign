@@ -49,9 +49,11 @@
     </div>
 </div>
 
+
+<!--rename this section for holiday hours-->
 <div class="content_container main_container container_bottom_border">
     <div class="workshops_spacing">
-        <h2 class="details_title workshop_title text-center">Workshops</h2>
+        <h2 class="details_title workshop_title text-center">Holiday Hours</h2>
         <div class="row hidden-xs margin_30">
             <div class="col-sm-3 col-xs-6">
                 <img src="//codecloud.cdn.speedyrails.net/sites/59c3f9f46e6f646526050000/image/jpeg/1561064353949/food.jpg" class="" alt="">
@@ -99,7 +101,7 @@
 
 <div class="content_container main_container">
     <div class="workshops_spacing">
-        <h2 class="details_title workshop_title text-center">Sponsors</h2>
+        <h2 class="details_title workshop_title text-center">Promos</h2>
         <div class="row" id="sponsors_container">
             <script id="sponsors_template" type="x-tmpl-mustache/text">
                 <div class="col-md-4 col-sm-6">
