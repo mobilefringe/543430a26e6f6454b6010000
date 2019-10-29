@@ -15,14 +15,26 @@
 
 
 <!--FIRST BOX-->
+<!--<div class="content_container main_container container_bottom_border">-->
+<!--    <div class="details_flex_container">-->
+<!--        <div class="details_img_container">-->
+<!--            <img id="box_1_image" src="" alt="">-->
+<!--        </div>-->
+<!--        <div class="details_info_container">-->
+<!--            <div class="details_title" id="box_1_title"></div>-->
+<!--            <div class="details_info" id="box_1_desc"></div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
 <div class="content_container main_container container_bottom_border">
     <div class="details_flex_container">
         <div class="details_img_container">
-            <img id="box_1_image" src="" alt="">
+            <img id="box_1_page_image" src="" alt="">
         </div>
         <div class="details_info_container">
-            <div class="details_title" id="box_1_title"></div>
-            <div class="details_info" id="box_1_desc"></div>
+            <div class="details_title" id="box_1_page_title"></div>
+            <div class="details_info" id="box_1_page_desc"></div>
         </div>
     </div>
 </div>
