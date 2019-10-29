@@ -168,7 +168,7 @@
                 }
             });
         
-            var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-1"
+            var pages_json = prefix + "	/pages/halifaxcentre-shopping-under-the-sun"
             $.getJSON(pages_json).done(function(data) {
                 $('#about_page_title').html(data.title.toUpperCase());
                 $('#about_page_desc').html(data.body);
