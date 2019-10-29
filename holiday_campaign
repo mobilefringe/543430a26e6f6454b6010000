@@ -133,7 +133,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var banners = getRepoDetailsByName("Time to 69 Banner").images;
+            var banners = getRepoDetailsByName("Holiday Campaign Banner").images;
             var first_banner = banners[0];
             renderGeneral('#time_banner','#banner_template',banners);
 
