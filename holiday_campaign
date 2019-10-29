@@ -157,6 +157,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
+            
             var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign.json"
             $.getJSON(pages_json).done(function(data) {
                 $('#updates_page_title').html(data.title.toUpperCase());
