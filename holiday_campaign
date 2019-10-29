@@ -6,7 +6,7 @@
                 <div class="hero_banner special_event_banner" style="background-image: url({{image_url}})">
                     <h2 class="banner_header">{{name}}</h2>
                     <p>{{description}}</p>
-                    <a style="display:none" href="#event_details_page_image" class="time_btn animated_btn">Buy tickets</a>
+                    <a style="display:none" href="#box_3_page_image" class="time_btn animated_btn">Buy tickets</a>
                 </div>
             </li>    
         </script>
@@ -44,11 +44,11 @@
 <div class="content_container main_container container_bottom_border">
     <div class="details_flex_container">
         <div class="details_img_container">
-            <img id="event_details_page_image" src="" alt="">
+            <img id="box_3_page_image" src="" alt="">
         </div>
         <div class="details_info_container">
-            <div class="details_title" id="event_details_page_title"></div>
-            <div class="details_info" id="event_details_page_desc"></div>
+            <div class="details_title" id="box_3_page_title"></div>
+            <div class="details_info" id="box_3_page_desc"></div>
         </div>
     </div>
 </div>
@@ -194,10 +194,10 @@
              var pages_json = prefix + "	/pages/halifaxcentre-holiday-campaign-intro-2.json"
             $.getJSON(pages_json).done(function(data) {
                 const image = data.image_url;
-                $('#event_details_page_title').html(data.title.toUpperCase());
-                $('#event_details_page_desc').html(data.body);
-                $('#event_details_page_image').attr('src', data.image_url);
-                $('#event_details_page_image').attr('alt', data.title);
+                $('#box_3_page_title').html(data.title.toUpperCase());
+                $('#box_3_page_desc').html(data.body);
+                $('#box_3_page_image').attr('src', data.image_url);
+                $('#box_3_page_image').attr('alt', data.title);
     
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
