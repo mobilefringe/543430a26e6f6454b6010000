@@ -182,7 +182,7 @@
             });
             
             
-            var pages_json = prefix + "/pages/billings-concert.json"
+            var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign.json"
             $.getJSON(pages_json).done(function(data) {
                 const image = data.image_url;
                 $('#concert_page_title').html(data.title.toUpperCase());
