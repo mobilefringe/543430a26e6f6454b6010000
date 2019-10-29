@@ -105,7 +105,7 @@
 
 
 <div class="content_container main_container">
-    <div class="workshops_spacing">
+    <div class="workshops_spacing application-info">
         <h2 class="details_title workshop_title text-center">Application Info</h2>
         <div class="row" id="sponsors_container">
             <script id="sponsors_template" type="x-tmpl-mustache/text">
