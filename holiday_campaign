@@ -18,11 +18,11 @@
 <div class="content_container main_container container_bottom_border">
     <div class="details_flex_container">
         <div class="details_img_container">
-            <img id="about_page_image" src="" alt="">
+            <img id="box_1_image" src="" alt="">
         </div>
         <div class="details_info_container">
-            <div class="details_title" id="about_page_title"></div>
-            <div class="details_info" id="about_page_desc"></div>
+            <div class="details_title" id="box_1_title"></div>
+            <div class="details_info" id="box_1_desc"></div>
         </div>
     </div>
 </div>
@@ -161,10 +161,10 @@
         
             var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-1.json"
             $.getJSON(pages_json).done(function(data) {
-                $('#about_page_title').html(data.title.toUpperCase());
-                $('#about_page_desc').html(data.body);
-                $('#about_page_image').attr('src', data.image_url);
-                $('#about_page_image').attr('alt', data.title);
+                $('#box_1_title').html(data.title.toUpperCase());
+                $('#box_1_desc').html(data.body);
+                $('#box_1_image').attr('src', data.image_url);
+                $('#box_1_image').attr('alt', data.title);
                 
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
