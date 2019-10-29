@@ -1,7 +1,3 @@
-<div class="jobs_banner text-center">
-    <h3>SHOPPING HOURS</h3>
-    <p>explore • enjoy • shop</p>
-</div>
 
 <div class="flexslider text-center">
     <ul class="slides" id="time_banner">
@@ -87,16 +83,7 @@
     </div>
 </div>
 
-<!--<div class="col-md-4 col-sm-6 workshop_details_container" >-->
-<!--                    <div class="cropped_image">-->
-<!--                        <img class="workshop_image" alt="{{name}}" src="{{image_url}}" />-->
-<!--                    </div>-->
-<!--                    <div class="workshops_details middle">-->
-<!--                        <h2 class="workshop_name">{{name}}</h2>-->
-<!--                        <a href="{{url}}" target="_blank" class="workshop_btn">Workshop Details</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-                
+             
 <div class="content_container main_container container_bottom_border text-center">
     <div class="row">
         <div class="col-md-12 event_updates_container">
@@ -133,7 +120,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var banners = getRepoDetailsByName("Holiday Campaign Banner").images;
+            var banners = getRepoDetailsByName("Time to 69 Banner").images;
             var first_banner = banners[0];
             renderGeneral('#time_banner','#banner_template',banners);
 
