@@ -211,7 +211,6 @@
                 var feature_events = _.sortBy(_.filter(published_events, function(o){return o.is_featured;}), [function(a) { return a.feature_item_index; }]);
                 var reg_events = _.filter(published_events, function(o){return !o.is_featured;});
                 var all_events = _.concat(feature_events, reg_events);
-                console.log(all_events);
                 renderEvents("#promos_container","#promos_template", all_events, "Halifax Shopping Centre");
             } else {
                 $('#no_events').show()
