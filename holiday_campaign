@@ -86,8 +86,8 @@
         <h2 class="details_title workshop_title text-center">Promos</h2>
         <div id="promos_container">
             <script id="promos_template" type="x-tmpl-mustache/text">
-                <div class="promo_item cats_row" data-cat="{{cat_list}}">
-                    <div class="col-md-3">
+                <div class="promo_item cats_row col-md-3" data-cat="{{cat_list}}">
+                    // <div class="col-md-3">
                         <div class="cropped_image">
                             <img src="{{image_url}}" alt="{{name}}" />
                         </div>
@@ -99,7 +99,7 @@
                         </p>
                 
                         <a class="read_more" href="/promotions/{{slug}}">Read More</a>
-                    </div>
+                    // </div>
                 </div>
             </script>
         </div>
