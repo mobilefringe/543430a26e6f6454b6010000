@@ -56,7 +56,7 @@
 </div>
 
 
-<!--rename this section for holiday hours-->
+<!--HOLIDAY HOURS -->
 <div class="content_container main_container container_bottom_border">
     <div class="workshops_spacing">
         <h2 class="details_title workshop_title text-center">Holiday Hours</h2>
@@ -66,19 +66,15 @@
                 <div class="col-md-6 hours_div">
                     <div class="content">
                         <span>{{holiday_name}} ({{formatted_date}})</span>
-                        
                     </div>
                 </div>
                 <div class="col-md-6 hours_div">
                     <div class="content">
-                        
                         <span>{{h}}</span>
                     </div>
                 </div>
             </script>
         </div>
-        
-        
     </div>
 </div>
 
