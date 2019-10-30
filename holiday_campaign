@@ -81,7 +81,7 @@
         <h2 class="details_title workshop_title text-center">Holiday Events</h2>
         <div id="promos_container" class="row">
             <script id="promos_template" type="x-tmpl-mustache/text">
-                <div class="col-md-4"">
+                <div class="col-md-4">
                     <div class="promo_item cats_row"  data-cat="{{cat_list}}">
                         <div class="cropped_image">
                             <img src="{{image_url}}" alt="{{name}}" />
