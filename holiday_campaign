@@ -221,30 +221,7 @@
             }
             show_content();
             
-             $('#contact_form').submit(function(e) {
-                e.preventDefault();
-                 $.ajax({
-                    url : "//mallmaverick.com/send_contact_email",
-                    type: "POST",
-                    data : { 
-                        'send_to': "Charlotte.Hanington@cushwake.com", 
-                        'subject': "Bridge Through Time", 
-                        'body': {
-                            "Name": $('#full_name').val(), 
-                            "Email Adddress": $('#email').val(), 
-                            "Message": $('#message').val()
-                        } 
-                    },
-                    success: function(data, textStatus, jqXHR) {
-                        $('#send_contact_success').fadeIn();
-                        $('#contact_form').find("input[type=text], textarea").val("");
-                        
-                    },
-                    error: function (jqXHR, textStatus, errorThrown) {
-                        $('#send_contact_error').fadeIn();
-                    }
-                }); 
-    		});
+            
     		
     		$('.flexslider').flexslider({
                 animation: "slide",
