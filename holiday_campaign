@@ -136,6 +136,7 @@
             } else {
                 pageBanner = { "image_url": "" }
             }
+            console.log(pageBanner)
             
             renderGeneral('#time_banner','#banner_template',pageBanner);
 
