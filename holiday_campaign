@@ -61,7 +61,7 @@
     <div class="workshops_spacing">
         <h2 class="details_title workshop_title text-center">Holiday Hours</h2>
         
-        <div class="row" id="holidays_hours_container">
+        <div class="row extended_hours_container" id="holidays_hours_container">
             <script id="holidays_hours_template" type="x-tmpl-mustache/text">
                 <div class="col-md-6 hours_div">
                     <div class="content">
