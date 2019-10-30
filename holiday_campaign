@@ -220,8 +220,8 @@
             var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign.json"
             $.getJSON(pages_json).done(function(data) {
                 const image = data.image_url;
-                $('#box_4_page_title').html(data.title.toUpperCase());
-                $('#box_4_page_desc').html(data.body);
+                $('#box_4_title').html(data.title.toUpperCase());
+                $('#box_4_desc').html(data.body);
     
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
