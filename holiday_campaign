@@ -101,7 +101,7 @@
     <div class="content_container main_container">
         <div class="workshops_spacing">
             <h2 class="details_title" id="box_4_title"></h2>
-            <div class="row" id="box_4_desc">
+            <div id="box_4_desc">
                 <script id="sponsors_template" type="x-tmpl-mustache/text">
                     <div class="col-md-12">
                         <p id="box_4_desc"></p>
