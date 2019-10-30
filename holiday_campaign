@@ -52,7 +52,7 @@
 </div>
 
 
-<!--HOLIDAY HOURS -->
+<!--HOLIDAY HOURS make dynamic titles-->
 <div class="content_container main_container hours_section">
     <div class="workshops_spacing">
         <h2 class="details_title workshop_title text-center">Holiday Hours</h2>
