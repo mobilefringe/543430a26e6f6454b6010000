@@ -195,7 +195,7 @@
             console.log(events)
             var published_events = [];
             $.each( events , function( key, val ){
-                if(val.tags !== null || val.tags !== ""){
+                if(val.tags.length > 0){
                     today = moment();
                     webDate = moment(val.show_on_web_date);
                     if (today >= webDate) {
