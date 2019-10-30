@@ -63,9 +63,15 @@
         
         <div class="row" id="holidays_hours_container">
             <script id="holidays_hours_template" type="x-tmpl-mustache/text">
-                <div class="col-md-12 hours_div">
+                <div class="col-md-6 hours_div">
                     <div class="content">
                         <span>{{holiday_name}} ({{formatted_date}})</span>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6 hours_div">
+                    <div class="content">
+                        
                         <span>{{h}}</span>
                     </div>
                 </div>
