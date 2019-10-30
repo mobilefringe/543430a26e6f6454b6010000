@@ -1,6 +1,6 @@
 
-<div>
-    <ul  id="time_banner">
+<div class="flexslider text-center">
+    <ul class="slides" id="time_banner">
         <script id="banner_template" type="x-tmpl-mustache/text">
             <li class="position_relative">
                 <div class="hero_banner holiday_campaign_banner" style="background-image: url({{image_url}})">
