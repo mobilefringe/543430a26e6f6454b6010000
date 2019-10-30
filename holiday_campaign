@@ -120,11 +120,12 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var pageBanner = null;
+            var pageBanner = [];
             var banners = getRepoDetailsByName("Holiday Campaign Banner");
-            if (banners) {
+            if (banners && banners.images.length > 1) {
                 try {
-                    pageBanner = banners.images[0];
+                    // pageBanner = banners.images[0];
+                    pageBanner = banners
                 } catch (e) {
                     pageBanner = { "image_url": "" }
                 }
