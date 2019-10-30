@@ -125,7 +125,7 @@
             if (banners && banners.images.length > 0) {
                 try {
                     
-                    pageBanner = banners
+                    pageBanner = banners.images
                 } catch (e) {
                     pageBanner = [{ "image_url": "" }]
                 }
