@@ -59,15 +59,13 @@
         
         <div class="row extended_hours_container" id="holidays_hours_container">
             <script id="holidays_hours_template" type="x-tmpl-mustache/text">
-                <div class="col-md-6">
-                    <div class="hours_div holiday_dates">
-                        <span>{{formatted_date}}</span>
-                    </div>
+                <div class="col-md-6 hours_div holiday_dates">
+                    
+                    <span>{{formatted_date}}</span>
+                    
                 </div>
                 <div class="col-md-6 holiday_hrs hours_div">
-                    
-                        <span>{{h}}</span>
-                    
+                    <span>{{h}}</span>
                 </div>
             </script>
         </div>
