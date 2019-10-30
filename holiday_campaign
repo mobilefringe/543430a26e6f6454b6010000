@@ -195,7 +195,7 @@
             console.log(events)
             var published_events = [];
             $.each( events , function( key, val ){
-                if(val.tags.length > 0){
+                if(val.tags.length > 0 && val.tags.includes('Holiday')){
                     today = moment();
                     webDate = moment(val.show_on_web_date);
                     if (today >= webDate) {
