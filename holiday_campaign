@@ -86,7 +86,6 @@
                         <div class="cropped_image">
                             <img src="{{image_url}}" alt="{{name}}" />
                         </div>
-
                         <h2 class="promo_list_name"><a href="/promotions/{{slug}}">{{short_name}}</a></h2>
                         <p>
                             <a href="{{store_slug}}" style="{{store_show}}"><span class="underline promo_store">{{store_name}}</span></a>
