@@ -54,7 +54,7 @@
 
 <!--HOLIDAY HOURS-->
 <div class="content_container main_container hours_section">
-    <div class="workshops_spacing">
+    <div class="hol_campaign_spacing">
         <h2 class="details_title workshop_title">Holiday Hours</h2>
         
         <div class="row extended_hours_container" id="holidays_hours_container">
@@ -75,7 +75,7 @@
 
 <!--HOLIDAY EVENTS -->
 <div class="content_container main_container">
-    <div class="workshops_spacing">
+    <div class="hol_campaign_spacing">
         <h2 class="details_title workshop_title">Holiday Events</h2>
         <div id="promos_container" class="row">
             <script id="promos_template" type="x-tmpl-mustache/text">
@@ -100,7 +100,7 @@
 <!--FOURTH BOX -->
 <div class="application-info">
     <div class="content_container main_container">
-        <div class="workshops_spacing">
+        <div class="hol_campaign_spacing">
             <h2 class="details_title" id="box_4_title"></h2>
             <div id="box_4_desc">
                 <script id="sponsors_template" type="x-tmpl-mustache/text">
