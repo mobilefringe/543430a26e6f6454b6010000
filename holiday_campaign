@@ -122,15 +122,15 @@
         function renderAll(){
             var pageBanner = [];
             var banners = getRepoDetailsByName("Holiday Campaign Banner");
-            if (banners && banners.images.length > 1) {
+            if (banners && banners.images.length > 0) {
                 try {
-                    // pageBanner = banners.images[0];
+                    
                     pageBanner = banners
                 } catch (e) {
-                    pageBanner = { "image_url": "" }
+                    pageBanner = [{ "image_url": "" }]
                 }
             } else {
-                pageBanner = { "image_url": "" }
+                pageBanner = [{ "image_url": "" }]
             }
             console.log(pageBanner)
             
