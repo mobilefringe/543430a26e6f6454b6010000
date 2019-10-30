@@ -97,19 +97,32 @@
     </div>
 </div>
 
-<!--make dynamic title-->
 <div class="content_container main_container">
     <div class="workshops_spacing application-info">
-        <h2 class="details_title workshop_title text-center">Application Info</h2>
-        <div class="row" id="sponsors_container">
+        <h2 class="details_title" id="box_4_title"></h2>
+        <div class="row" id="box_4_desc">
             <script id="sponsors_template" type="x-tmpl-mustache/text">
                 <div class="col-md-12">
+                    <p></p>
                     
                 </div>
             </script>
         </div>
     </div>
 </div>
+<div class="content_container main_container container_bottom_border">
+    <div class="details_flex_container left_column_reverse">
+        <div class="left_details_info_container">
+            <div class="details_title" id="box_2_title"></div>
+            <div class="details_info" id="box_2_desc"></div>
+        </div>
+        <div class="left_details_img_container">
+            <img id="box_2_image" src="" alt="">
+        </div>
+    </div>
+</div>
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
 <script>
@@ -212,6 +225,22 @@
             } else {
                 $('#no_events').show()
             }
+            
+            
+            var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign.json"
+            $.getJSON(pages_json).done(function(data) {
+                const image = data.image_url;
+                $('#box_3_page_title').html(data.title.toUpperCase());
+                $('#box_3_page_desc').html(data.body);
+                $('#box_3_page_image').attr('src', data.image_url);
+                $('#box_3_page_image').attr('alt', data.title);
+    
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            });
+            
             show_content();
             
             
