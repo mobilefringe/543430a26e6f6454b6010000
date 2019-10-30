@@ -174,10 +174,6 @@
                 }
             });
             
-            // const workshopImages = getRepoDetailsByName("Workshop Images").images;
-            // const sortedWorkshopImages = _.sortBy(workshopImages, [function(o) { return o.updated_at; }]);
-            // renderGeneral('#workshops_container','#workshop_template', sortedWorkshopImages);
-            
              var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-3.json"
             $.getJSON(pages_json).done(function(data) {
                 const image = data.image_url;
@@ -211,6 +207,11 @@
                 var feature_events = _.sortBy(_.filter(published_events, function(o){return o.is_featured;}), [function(a) { return a.feature_item_index; }]);
                 var reg_events = _.filter(published_events, function(o){return !o.is_featured;});
                 var all_events = _.concat(feature_events, reg_events);
+                
+                _.forEach(all_events(val, key)) {
+                    val.short_name = _.truncate(val.name, { 'length': 21, 'separator': ' ' });
+                }
+                
                 renderEvents("#promos_container","#promos_template", all_events, "Halifax Shopping Centre");
             } else {
                 $('#no_events').show()
