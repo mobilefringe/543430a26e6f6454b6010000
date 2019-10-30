@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 holiday_hrs">
-                    <div class="hours_div holiday_hrs">
+                    <div class="hours_div">
                         <span>{{h}}</span>
                     </div>
                 </div>
