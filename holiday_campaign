@@ -12,7 +12,7 @@
 
 
 <!--FIRST BOX-->
-<div class="content_container main_container container_bottom_border">
+<div class="content_container container_bottom_border">
     <div class="details_flex_container">
         <div class="details_img_container">
             <img id="box_1_image" src="" alt="">
@@ -26,7 +26,7 @@
 
 
 <!--SECOND BOX -->
-<div class="content_container main_container container_bottom_border">
+<div class="content_container container_bottom_border">
     <div class="details_flex_container left_column_reverse">
         <div class="left_details_info_container">
             <div class="details_title" id="box_2_title"></div>
@@ -39,7 +39,7 @@
 </div>
 
 <!--THIRD BOX -->
-<div class="content_container main_container container_bottom_border">
+<div class="content_container container_bottom_border">
     <div class="details_flex_container">
         <div class="details_img_container">
             <img id="box_3_page_image" src="" alt="">
@@ -53,7 +53,7 @@
 
 
 <!--HOLIDAY HOURS-->
-<div class="content_container main_container hours_section">
+<div class="content_container  hours_section">
     <div class="workshops_spacing">
         <h2 class="details_title workshop_title text-center">Holiday Hours</h2>
         
@@ -74,7 +74,7 @@
 
 
 <!--HOLIDAY EVENTS -->
-<div class="content_container main_container">
+<div class="content_container ">
     <div class="workshops_spacing">
         <h2 class="details_title workshop_title text-center">Holiday Events</h2>
         <div id="promos_container" class="row">
@@ -98,7 +98,7 @@
 </div>
 <!--FOURTH BOX -->
 <div class="application-info">
-    <div class="content_container main_container">
+    <div class="content_container">
         <div class="workshops_spacing">
             <h2 class="details_title text-center" id="box_4_title"></h2>
             <div id="box_4_desc">
