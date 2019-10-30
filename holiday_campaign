@@ -57,7 +57,7 @@
 
 
 <!--HOLIDAY HOURS -->
-<div class="content_container main_container">
+<div class="content_container main_container hours_section">
     <div class="workshops_spacing">
         <h2 class="details_title workshop_title text-center">Holiday Hours</h2>
         
