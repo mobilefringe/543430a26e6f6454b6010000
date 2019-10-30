@@ -208,7 +208,7 @@
                 var reg_events = _.filter(published_events, function(o){return !o.is_featured;});
                 var all_events = _.concat(feature_events, reg_events);
                 
-                _.forEach(all_events(val, key)) {
+                _.forEach(all_events, function (val, key)) {
                     val.short_name = _.truncate(val.name, { 'length': 21, 'separator': ' ' });
                 }
                 
