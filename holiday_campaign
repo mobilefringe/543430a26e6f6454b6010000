@@ -199,8 +199,8 @@
                     today = moment();
                     webDate = moment(val.show_on_web_date);
                     if (today >= webDate) {
-                        if (val.name.length > 22) {
-                            val.short_name = _.truncate(val.name, { 'length': 21, 'separator': ' ' });
+                        if (val.name.length > 30) {
+                            val.short_name = _.truncate(val.name, { 'length': 30, 'separator': ' ' });
                         } else {
                             val.short_name = val.name
                         }
