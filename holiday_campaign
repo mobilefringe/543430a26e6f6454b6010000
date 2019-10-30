@@ -196,7 +196,7 @@
             });
             
             
-            var holiday_hours = getPropertyHolidayHours().sortBy(function(o){ return o.holiday_date });;
+            var holiday_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });;
             renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'holiday_hours')
             
             var promotions = getPromotionsList().sortBy(function(o){ return o.end_date });
