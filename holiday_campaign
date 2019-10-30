@@ -3,11 +3,7 @@
     <ul class="slides" id="time_banner">
         <script id="banner_template" type="x-tmpl-mustache/text">
             <li class="position_relative">
-                <div class="hero_banner special_event_banner" style="background-image: url({{image_url}})">
-                    // <h2 class="banner_header">{{name}}</h2>
-                    <h2 class="banner_header">Holiday Campaign</h2>
-                    <p>{{description}}</p>
-                    <a style="display:none" href="#box_3_page_image" class="time_btn animated_btn">Buy tickets</a>
+                <div class="hero_banner holiday_campaign_banner" style="background-image: url({{image_url}})">
                 </div>
             </li>    
         </script>
