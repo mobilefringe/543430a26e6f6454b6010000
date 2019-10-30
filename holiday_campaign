@@ -194,7 +194,7 @@
             var events = getEventsList().sortBy(function(o){ return o.end_date });
             var published_events = [];
             $.each( events , function( key, val ){
-                if(!val.tags == null || !val.tags == ""){
+                if(!val.tags || !val.tags){
                     today = moment();
                     webDate = moment(val.show_on_web_date);
                     if (today >= webDate) {
