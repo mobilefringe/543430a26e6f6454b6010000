@@ -196,30 +196,25 @@
             var holiday_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
             renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'extended_hours')
             
-            var promotions = getPromotionsList().sortBy(function(o){ return o.end_date });
-            
-            var categories = getStoreCategories();
-            renderGeneral('#category_container', '#category_template', categories);
-            renderGeneral('#mobile_cat_list', '#category_template2', categories);
-            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
-            show_cat_stores()
-            var published_promos = [];
-            $.each( promotions , function( key, val ){
-                today = moment();
-                webDate = moment(val.show_on_web_date);
-                if (today >= webDate) {
-                    published_promos.push(val)
-                } 
+            var events = getEventsList().sortBy(function(o){ return o.end_date });
+            var published_events = [];
+            $.each( events , function( key, val ){
+                if(val.tags == null || val.tags == ""){
+                    today = moment();
+                    webDate = moment(val.show_on_web_date);
+                    if (today >= webDate) {
+                        published_events.push(val)
+                    } 
+                }
             });
-            if(published_promos.length > 0){
-                var feature_promos = _.sortBy(_.filter(published_promos, function(o){return o.is_featured;}), [function(a) { return a.feature_item_index; }]);
-                var reg_promos = _.filter(published_promos, function(o){return !o.is_featured;});
-                var all_promos = _.concat(feature_promos, reg_promos);
-                console.log(all_promos);
-                renderPromotions("#promos_container","#promos_template", all_promos, "Halifax");
-            }
-            else{
-                $('#no_promos').show()
+            if(published_events.length > 0){
+                var feature_events = _.sortBy(_.filter(published_events, function(o){return o.is_featured;}), [function(a) { return a.feature_item_index; }]);
+                var reg_events = _.filter(published_events, function(o){return !o.is_featured;});
+                var all_events = _.concat(feature_events, reg_events);
+                console.log(all_events);
+                renderEvents("#promos_container","#promos_template", all_events, "Halifax Shopping Centre");
+            } else {
+                $('#no_events').show()
             }
             
             show_content();
