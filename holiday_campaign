@@ -192,6 +192,7 @@
             renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'extended_hours')
             
             var events = getEventsList().sortBy(function(o){ return o.end_date });
+            console.log(events)
             var published_events = [];
             $.each( events , function( key, val ){
                 if(val.tags !== null || val.tags !== ""){
