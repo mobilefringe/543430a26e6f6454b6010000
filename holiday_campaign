@@ -147,7 +147,7 @@
         
             var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-1.json"
             $.getJSON(pages_json).done(function(data) {
-                $('#box_1_title').html(data.title.toUpperCase());
+                $('#box_1_title').html(data.title);
                 $('#box_1_desc').html(data.body);
                 $('#box_1_image').attr('src', data.image_url);
                 $('#box_1_image').attr('alt', data.title);
