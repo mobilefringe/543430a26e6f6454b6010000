@@ -243,13 +243,13 @@
                             <a href="//www.facebook.com/halifaxshoppingcentre" aria-label="Go to Halifax Centre's Facebook page." target="_blank">
                                 <span id="social_fb"></span>
                             </a>
-                            <a href="//www.twitter.com/shopHSC" target="_blank">
+                            <a href="//www.twitter.com/shopHSC" aria-label="Go to Halifax Centre's Twitter page." target="_blank">
                                 <span id="social_twitter"></span>
                             </a>
-                            <a href="//instagram.com/shophsc" target="_blank">
+                            <a href="//instagram.com/shophsc" aria-label="Go to Halifax Centre's Instagram page." target="_blank">
                                 <span id="social_insta"></span>
                             </a>
-                            <a href="/newsletter">
+                            <a href="/newsletter" aria-label="Go to Halifax Centre's Newsletter page.">
                                 <span id="social_newsletter"></span>
                             </a>
                             <div class="clearfix"></div>
