@@ -98,8 +98,8 @@
                 <li>
                     <a href="#" class="submenu_expander open">
                         STORES
-                        <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: none;">
-						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: inline;">
+                        <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" alt="Open store's submenu button." style="display: none;">
+						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" alt="Close store's menu button." style="display: inline;">
                     </a>
                     <ul class="sub_menu">
 						<li><a href="/stores">Directory</a></li>
@@ -111,8 +111,8 @@
                 <li>
                     <a href="#"  class="submenu_expander">
                         SPECIAL OFFERS
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" alt="Open special offers's submenu button." style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" alt="Close store's submenu button." style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/promotions">Promotions</a></li>
@@ -126,8 +126,8 @@
                 <li>
                     <a href="#"  class="submenu_expander">
                         GUEST SERVICES
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" alt="Open guest service's submenu button." style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" alt="Close guest service's submenu button." style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/gift_cards">Gift Cards</a></li>
@@ -139,8 +139,8 @@
                  <li>
                     <a href="#"  class="submenu_expander">
                         MALL SERVICES
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" alt="Open mall service's submenu button." style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" alt="Close mall service's submenu button." style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/mall_services">Mall Services</a></li>
@@ -152,8 +152,8 @@
                 <li>
                     <a href="#" class="submenu_expander">
                         PLAN YOUR VISIT
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" alt="Open plan your visit's submenu button." style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" alt="Close plan your visit's submenu button." style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/hours">Shopping Hours</a></li>
@@ -164,8 +164,8 @@
                 <li>
                     <a href="#" class="submenu_expander">
                         CONTACT US
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179667000/open_submenu.png" alt="Open contact us's submenu button." style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1466179703000/close_submenu.png" alt="Close contact us's submenu button." style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/contact_us">Contact Us</a></li>
