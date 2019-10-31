@@ -176,7 +176,7 @@
              var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-3.json"
             $.getJSON(pages_json).done(function(data) {
                 const image = data.image_url;
-                $('#box_3_page_title').html(data.title);
+                $('#box_3_page_title').html(data.title.toUpperCase());
                 $('#box_3_page_desc').html(data.body);
                 $('#box_3_page_image').attr('src', data.image_url);
                 $('#box_3_page_image').attr('alt', data.title);
@@ -224,7 +224,7 @@
             var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign.json"
             $.getJSON(pages_json).done(function(data) {
                 const image = data.image_url;
-                $('#box_4_title').html(data.title.toUpperCase());
+                $('#box_4_title').html(data.title);
                 $('#box_4_desc').html(data.body);
     
             }).fail(function(jqXHR) {
