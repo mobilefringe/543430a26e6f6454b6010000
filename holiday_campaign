@@ -90,7 +90,7 @@
                             <a href="{{store_slug}}" style="{{store_show}}"><span class="underline promo_store">{{store_name}}</span></a>
                             <span class="promo_dates">{{dates}}</span>
                         </p>
-                        <p class="text-center"><a class="read_more" href="/events/{{slug}}">Read More</a></p>
+                        <p class="text-center"><a class="read_more" href="/events/{{slug}}">Read More about {{name}}</a></p>
                         
                     </div>
                 </div>
