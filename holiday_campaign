@@ -9,10 +9,7 @@
         </script>
     </ul>
 </div>
-
-
 <!--FIRST BOX-->
-
 <div class="content_container main_container container_bottom_border hol_box hol_box_1 margin_25_across">
     <div class="details_flex_container">
         <div class="details_img_container">
@@ -24,8 +21,6 @@
         </div>
     </div>
 </div>
-
-
 <!--SECOND BOX -->
 <div class="content_container main_container container_bottom_border hol_box margin_25_across">
     <div class="details_flex_container left_column_reverse">
@@ -38,7 +33,6 @@
         </div>
     </div>
 </div>
-
 <!--THIRD BOX -->
 <div class="content_container main_container container_bottom_border hol_box margin_25_across">
     <div class="details_flex_container">
@@ -51,8 +45,6 @@
         </div>
     </div>
 </div>
-
-
 <!--HOLIDAY HOURS-->
 <div class="content_container main_container margin_25_across">
     <div class="hol_campaign_spacing">
@@ -72,8 +64,6 @@
         </div>
     </div>
 </div>
-
-
 <!--HOLIDAY EVENTS -->
 <div class="content_container main_container margin_25_across">
     <div class="hol_campaign_spacing">
@@ -115,9 +105,6 @@
     </div>
 </div>
 
-
-
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
 <script>
     $(document).ready(function(e){
@@ -135,16 +122,11 @@
             } else {
                 pageBanner = [{ "image_url": "" }]
             }
-            console.log(pageBanner)
-            
             renderGeneral('#time_banner','#banner_template',pageBanner);
 
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
-            
-
-        
             var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-1.json"
             $.getJSON(pages_json).done(function(data) {
                 $('#box_1_title').html(data.title.toUpperCase());
@@ -186,13 +168,10 @@
                     $("#404_msg").fadeIn("fast");
                 }
             });
-            
-            
             var holiday_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
             renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'extended_hours')
             
             var events = getEventsList().sortBy(function(o){ return o.end_date });
-            console.log(events)
             var published_events = [];
             $.each( events , function( key, val ){
                 if(val.tags.includes('Holiday')){
@@ -219,30 +198,21 @@
             } else {
                 $('#no_events').show()
             }
-            
-            
             var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign.json"
             $.getJSON(pages_json).done(function(data) {
                 const image = data.image_url;
                 $('#box_4_title').html(data.title);
                 $('#box_4_desc').html(data.body);
-    
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
                 }
             });
-            
             show_content();
-            
-            
-    		
     		$('.flexslider').flexslider({
                 animation: "slide",
             });
         }
-        
-        
         loadMallDataCached(renderAll); 
     });
 </script>
