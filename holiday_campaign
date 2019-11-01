@@ -4,6 +4,8 @@
         <script id="banner_template" type="x-tmpl-mustache/text">
             <li class="position_relative">
                 <div class="hero_banner holiday_campaign_banner" style="background-image: url({{image_url}})">
+                    <h2 class="banner_header">{{name}}</h2>
+                    <p>{{description}}</p>
                 </div>
             </li>    
         </script>
