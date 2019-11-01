@@ -80,7 +80,7 @@
                         </div>
                         <h2 class="promo_list_name text-center">{{short_name}}</h2>
                         <p class="text-center">
-                            <span class="promo_store">{{store_name}}</span>
+                            <span class="promo_store promo_store_hol">{{store_name}}</span>
                             <span class="promo_dates">{{dates}}</span>
                         </p>
                         <p class="text-center"><a class="read_more" href="/events/{{slug}}">See Event Details</a></p>
