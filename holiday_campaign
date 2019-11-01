@@ -74,7 +74,7 @@
             <script id="promos_template" type="x-tmpl-mustache/text">
                 <div class="col-md-4">
                     <div class="promo_item cats_row"  data-cat="{{cat_list}}">
-                        <div class="cropped_image">
+                        <div class="store_logo_container">
                             <img class="transparent_logo" src="//codecloud.cdn.speedyrails.net/sites/5b1550796e6f641cab010000/image/png/1536094421888/default_background.png" alt="">
                             <img src="{{image_url}}" alt="{{name}}" />
                         </div>
