@@ -226,6 +226,11 @@
             
     		$('.flexslider').flexslider({
                 animation: "slide",
+                animationLoop: true,
+                animationSpeed: 600,
+                pauseOnAction: true,            
+                pauseOnHover: true,            
+                pauseInvisible: true,   
             });
         }
         
