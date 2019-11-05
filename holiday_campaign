@@ -111,6 +111,9 @@
     .promo_list_name {
         margin-top: 10px;
     }
+    .promo_dates {
+        margin-bottom: 10px;
+    }
     .newsletter_container {
         margin-top: 0;
     }
