@@ -117,6 +117,9 @@
     .promo_dates {
         margin-bottom: 10px;
     }
+    .read_more {
+        margin-top: 0;
+    }
     .newsletter_container {
         margin-top: 0;
     }
