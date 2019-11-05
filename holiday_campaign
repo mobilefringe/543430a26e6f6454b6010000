@@ -194,20 +194,19 @@
                             val.short_name = val.name
                         }
                         published_events.push(val)
-                        
                     } 
                 }
             });
-            if(published_events.length > 0){
-                var feature_events = _.sortBy(_.filter(published_events, function(o){return o.is_featured;}), [function(a) { return a.feature_item_index; }]);
-                var reg_events = _.filter(published_events, function(o){return !o.is_featured;});
-                var all_events = _.concat(feature_events, reg_events);
+            if (published_events.length > 0){
+                // var feature_events = _.sortBy(_.filter(published_events, function(o){return o.is_featured;}), [function(a) { return a.feature_item_index; }]);
+                // var reg_events = _.filter(published_events, function(o){return !o.is_featured;});
+                // var all_events = _.concat(feature_events, reg_events);
             
                 
-                renderEvents("#promos_container","#promos_template", all_events, "Halifax Shopping Centre");
-            } else {
-                $('#no_events').show()
+                renderEvents("#promos_container","#promos_template", published_events, "Halifax Shopping Centre");
+                $('#holiday_events').show();
             }
+            
             var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign.json"
             $.getJSON(pages_json).done(function(data) {
                 const image = data.image_url;
