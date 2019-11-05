@@ -108,6 +108,9 @@
 </div>
 
 <style>
+    .promo_list_name {
+        margin-top: 10px;
+    }
     .newsletter_container {
         margin-top: 0;
     }
