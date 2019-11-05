@@ -108,6 +108,9 @@
 </div>
 
 <style>
+    .store_logo_container {
+        border: 1px solid #eee;    
+    }
     .promo_list_name {
         margin-top: 10px;
     }
