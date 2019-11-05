@@ -111,6 +111,9 @@
 </div>
 
 <style>
+    .flexslider a:hover {
+        text-decoration: none;
+    }
     .flex-direction-nav a:before {
         font-size: 24px;
     }
