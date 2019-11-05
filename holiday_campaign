@@ -67,7 +67,7 @@
     </div>
 </div>
 <!--HOLIDAY EVENTS -->
-<div id="holiday_event" class="content_container main_container margin_25_across hidden_now">
+<div id="holiday_events" class="content_container main_container margin_25_across hidden_now">
     <div class="hol_campaign_spacing">
         <h2 class="details_title hol_title">Holiday Events</h2>
         <div id="promos_container" class="row">
