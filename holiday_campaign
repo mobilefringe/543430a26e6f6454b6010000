@@ -143,61 +143,61 @@
             } else {
                 pageBanner = [{ "image_url": "" }]
             }
-            renderGeneral('#time_banner','#banner_template',pageBanner);
+            renderGeneral('#time_banner','#banner_template', pageBanner);
 
-            var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
+            // SECTION 1
             prefix = get_prefix();
-            var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-1.json"
-            $.getJSON(pages_json).done(function(data) {
+            var page1_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-1.json"
+            $.getJSON(page1_json).done(function(data) {
                 $('#box_1_title').html(data.title.toUpperCase());
                 $('#box_1_desc').html(data.body);
                 $('#box_1_image').attr('src', data.image_url);
                 $('#box_1_image').attr('alt', data.title);
-                
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
                 }
             });
             
-            
-            var pages_json = prefix + "	/pages/halifaxcentre-holiday-campaign-intro-2.json"
-            $.getJSON(pages_json).done(function(data) {
+            // SECTION 2
+            var page2_json = prefix + "	/pages/halifaxcentre-holiday-campaign-intro-2.json"
+            $.getJSON(page2_json).done(function(data) {
                 const image = data.image_url;
                 $('#box_2_title').html(data.title.toUpperCase());
                 $('#box_2_desc').html(data.body);
                 $('#box_2_image').attr('src', data.image_url);
                 $('#box_2_image').attr('alt', data.title);
-    
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
                 }
             });
             
-             var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-3.json"
-            $.getJSON(pages_json).done(function(data) {
+            // SECTION 3
+            var page3_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-3.json"
+            $.getJSON(page3_json).done(function(data) {
                 const image = data.image_url;
                 $('#box_3_page_title').html(data.title.toUpperCase());
                 $('#box_3_page_desc').html(data.body);
                 $('#box_3_page_image').attr('src', data.image_url);
                 $('#box_3_page_image').attr('alt', data.title);
-    
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
                 }
             });
+            
+            // HOLIDAY HOURS
             var holiday_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
             renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'extended_hours')
             
+            // HOLIADY EVENTS
             var events = getEventsList().sortBy(function(o){ return o.end_date });
             var published_events = [];
-            $.each( events , function( key, val ){
-                if(val.tags.includes('Holiday')){
-                    today = moment();
-                    webDate = moment(val.show_on_web_date);
+            $.each(events, function(key, val) {
+                if (val.tags.includes('Holiday')) {
+                    var today = moment();
+                    var webDate = moment(val.show_on_web_date);
                     if (today >= webDate) {
                         if (val.name.length > 30) {
                             val.short_name = _.truncate(val.name, { 'length': 30, 'separator': ' ' });
@@ -208,19 +208,14 @@
                     } 
                 }
             });
-            if (published_events.length > 0){
-                // var feature_events = _.sortBy(_.filter(published_events, function(o){return o.is_featured;}), [function(a) { return a.feature_item_index; }]);
-                // var reg_events = _.filter(published_events, function(o){return !o.is_featured;});
-                // var all_events = _.concat(feature_events, reg_events);
-            
-                
+            if (published_events.length > 0) {
                 renderEvents("#promos_container","#promos_template", published_events, "Halifax Shopping Centre");
                 $('#holiday_events').show();
             }
             
-            var pages_json = prefix + "/pages/halifaxcentre-holiday-campaign.json"
-            $.getJSON(pages_json).done(function(data) {
-                const image = data.image_url;
+            // SECTION 4
+            var page4_json = prefix + "/pages/halifaxcentre-holiday-campaign.json"
+            $.getJSON(page4_json).done(function(data) {
                 $('#box_4_title').html(data.title);
                 $('#box_4_desc').html(data.body);
             }).fail(function(jqXHR) {
@@ -228,11 +223,14 @@
                     $("#404_msg").fadeIn("fast");
                 }
             });
+            
             show_content();
+            
     		$('.flexslider').flexslider({
                 animation: "slide",
             });
         }
+        
         loadMallDataCached(renderAll); 
     });
 </script>
