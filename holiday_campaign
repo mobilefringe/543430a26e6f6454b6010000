@@ -1,4 +1,3 @@
-
 <div class="flexslider text-center">
     <ul class="slides" id="time_banner">
         <script id="banner_template" type="x-tmpl-mustache/text">
