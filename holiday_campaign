@@ -199,42 +199,20 @@
             
             
             // pseudo: get holiday hours (extended), actual holiday shortened hours, combine, display only Dec and Jan
-            
             var extended_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
-            // format if no formatted date, add it
-            
-            // var ext_hours_formatted = () => {
-            //     $.each( extended_hours , function( key, val ) {
-            //         console.log(val)
-            //         if (!val.formatted_date) {
-            //             holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
-            //             var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-            //             val.formatted_date = holiday.format("ddd, MMM D, YYYY");
-            //         }
-            //     })
-            // }
-            // var holiday = moment(v.holiday_date).tz(getPropertyTimeZone());
             const ext_hours_formatted = extended_hours.map(v => ({...v, formatted_date: moment(v.holiday_date).tz(getPropertyTimeZone()).format("ddd, MMM D, YYYY") }))
-            
-            console.log(ext_hours_formatted)
-            
-
             var holiday_hours = getPropertyHolidayHours().filter(function(o){ return o.is_closed === 0});
             const holiday_hours_formatted = holiday_hours.map(v => ({...v, formatted_date: moment(v.holiday_date).tz(getPropertyTimeZone()).format("ddd, MMM D, YYYY") }))
             
-            console.log(holiday_hours_formatted)
-            
-    
-        
             const joined_hours = holiday_hours_formatted.concat(ext_hours_formatted)
             const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
-            console.log(sorted_hours)
             
+            // filter out dates beyond January
             
             
             renderHours('#holidays_hours_container','#holidays_hours_template', sorted_hours, 'extended_hours')
             
-            // HOLIADY EVENTS
+            // HOLIDAY EVENTS
             var events = getEventsList().sortBy(function(o){ return o.end_date });
             var published_events = [];
             $.each(events, function(key, val) {
