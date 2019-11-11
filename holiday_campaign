@@ -225,6 +225,9 @@
             const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
             console.log(sorted_hours)
             
+            const DecJanOnly = sorted_hours.formatted_date.includes('November') || sorted_hours.formatted_date.includes('January')
+            console.log(DecJanOnly)
+            
             
             renderHours('#holidays_hours_container','#holidays_hours_template', sorted_hours, 'extended_hours')
             
