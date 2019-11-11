@@ -205,15 +205,13 @@
             var holiday_hours = getPropertyHolidayHours().filter(function(o){ return o.is_closed === 0});
         
             const joined_hours = holiday_hours.concat(ext_hours)
-            console.log(joined_hours)
+            // console.log(joined_hours)
             
             const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
-            console.log(sorted_hours)
-            
-            // renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'holiday_hours')
+            // console.log(sorted_hours)
             
             
-            renderHours('#holidays_hours_container','#holidays_hours_template', ext_hours, 'extended_hours')
+            renderHours('#holidays_hours_container','#holidays_hours_template', sorted_hours, 'extended_hours')
             
             // HOLIADY EVENTS
             var events = getEventsList().sortBy(function(o){ return o.end_date });
