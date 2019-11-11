@@ -214,10 +214,13 @@
                 
             // });
             
-            const hol_season_dates = sorted_hours.forEach()
+            sorted_hours.forEach(DecJanOnly)
             function DecJanOnly(item, index, array) {
-                sorted_hours[index] = item.formatted_date.includes('November')
+                array[index] = item.formatted_date.includes('November')
             }
+            
+            
+            
             
             // const hol_season_dates = _.filter(sorted_hours, ['formatted_date', 'November'] )
             
