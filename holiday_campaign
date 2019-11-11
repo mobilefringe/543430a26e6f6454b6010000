@@ -202,7 +202,7 @@
             
             var ext_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
             // format if no formatted date, add it
-            var ext_hours_formatted = () => {
+            var ext_hours_formatted = function() {
                 $.each( ext_hours , function( key, val ) {
                     console.log(val)
                     // if (!val.formatted_date) {
