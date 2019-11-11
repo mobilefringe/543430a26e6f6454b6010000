@@ -203,7 +203,7 @@
             var ext_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
             var ext_hours_formatted = () => {
                 $.each( collection , function( key, val ) {
-                    if (!formatted_date) {
+                    if (!val.formatted_date) {
                         holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
                         var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
                         val.formatted_date = holiday.format("ddd, MMM D, YYYY");
