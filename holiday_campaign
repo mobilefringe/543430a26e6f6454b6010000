@@ -206,6 +206,8 @@
             const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
             // filter out dates beyond January
             
+            
+            
             renderHours('#holidays_hours_container','#holidays_hours_template', sorted_hours, 'extended_hours')
             
             // HOLIDAY EVENTS
