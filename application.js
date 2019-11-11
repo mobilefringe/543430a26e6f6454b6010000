@@ -494,7 +494,7 @@ function renderHours(container, template, collection, type){
     }
     if (type == "extended_hours") {
         $.each( collection , function( key, val ) {
-            if (!val.store_id && val.is_extended_hour == true) {
+            if (!val.store_id) {
                 holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
                 var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
                 val.formatted_date = holiday.format("dddd, MMMM D, YYYY");
