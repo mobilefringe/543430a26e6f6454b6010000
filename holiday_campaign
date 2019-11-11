@@ -214,7 +214,7 @@
             //     })
             // }
             var holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
-            const ext_hours_formatted = extended_hours.map(v => ({...v, formatted_date: holiday.format("ddd, MMM D, YYYY"); }))
+            const ext_hours_formatted = extended_hours.map(v => ({...v, formatted_date: holiday.format("ddd, MMM D, YYYY") }))
             
             console.log(ext_hours_formatted)
             
