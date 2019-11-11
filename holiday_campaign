@@ -201,6 +201,17 @@
             // pseudo: get holiday hours (extended), actual holiday shortened hours, combine, display only Dec and Jan
             
             var ext_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
+            var ext_hr_formatted = function(collection) {
+                $.each( collection , function( key, val ) {
+
+                    holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
+                    var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+                    val.formatted_date = holiday.format("dddd, MMMM D, YYYY");
+                
+            }
+            console.log(ext_hr_formatted)
+
+            
 
             var holiday_hours = getPropertyHolidayHours().filter(function(o){ return o.is_closed === 0});
         
