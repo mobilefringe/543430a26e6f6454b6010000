@@ -60,6 +60,7 @@
         init(e);
         function renderAll(){
             var hours = getPropertyRegularHours();
+            hours = _.filter(hours, function(o) { return !o.is_extended_hour; });
             console.log(hours)
             renderHours('#hours_container','#hours_template', hours, 'reg_hours')
             var holiday_hours = getPropertyHolidayHours().sortBy(function(o){ return o.holiday_date });;
