@@ -225,7 +225,7 @@
             const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
             console.log(sorted_hours)
             
-            const DecJanOnly = sorted_hours.formatted_date.includes('November') || sorted_hours.formatted_date.includes('January')
+            const DecJanOnly = sorted_hours[0].formatted_date.includes('November') || sorted_hours.formatted_date.includes('January')
             console.log(DecJanOnly)
             
             
