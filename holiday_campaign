@@ -224,7 +224,7 @@
             
             console.log(holiday_hours_formatted)
             
-            console.log(holiday_hours)
+    
         
             const joined_hours = holiday_hours.concat(extended_hours)
             const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
