@@ -214,7 +214,7 @@
                 
             // });
             
-            const hol_season_dates = _.filter(sorted_hours, {'formatted_date', 'November' )
+            const hol_season_dates = _.filter(sorted_hours, ['formatted_date', 'November'] )
             
             console.log(hol_season_dates)
             
