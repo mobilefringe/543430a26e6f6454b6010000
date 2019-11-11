@@ -218,14 +218,9 @@
             function DecJanOnly(item, index, array) {
                 array[index] = item.formatted_date.includes('November')
             }
-            
-            
-            
-            
+
             // const hol_season_dates = _.filter(sorted_hours, ['formatted_date', 'November'] )
-            
-            console.log(hol_season_dates)
-            
+    
             
             renderHours('#holidays_hours_container','#holidays_hours_template', sorted_hours, 'extended_hours')
             
