@@ -219,7 +219,7 @@
             extended_hours.forEach(v => {v.isActive = true;});
             
             
-            console.log(ext_hours)
+            console.log(extended_hours)
             
 
             var holiday_hours = getPropertyHolidayHours().filter(function(o){ return o.is_closed === 0});
