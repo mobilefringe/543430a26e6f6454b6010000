@@ -200,10 +200,10 @@
             
             // pseudo: get holiday hours (extended), actual holiday shortened hours, combine, display only Dec and Jan
             
-            var ext_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
+            var extended_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
             // format if no formatted date, add it
             var ext_hours_formatted = () => {
-                $.each( ext_hours , function( key, val ) {
+                $.each( extended_hours , function( key, val ) {
                     console.log(val)
                     if (!val.formatted_date) {
                         holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
@@ -218,7 +218,7 @@
 
             var holiday_hours = getPropertyHolidayHours().filter(function(o){ return o.is_closed === 0});
         
-            const joined_hours = holiday_hours.concat(ext_hours)
+            const joined_hours = holiday_hours.concat(extended_hours)
             const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
             // console.log(sorted_hours)
             
