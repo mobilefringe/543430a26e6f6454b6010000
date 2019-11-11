@@ -200,11 +200,11 @@
             
             // pseudo: get holiday hours (extended), actual holiday shortened hours, combine, display only Dec and Jan
             
-            var extended_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
+            var ext_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
 
             var holiday_hours = getPropertyHolidayHours().filter(function(o){ return o.is_closed === 0});
         
-            const joined_hours = holiday_hours.concat(extended_hours)
+            const joined_hours = holiday_hours.concat(ext_hours)
             // console.log(joined_hours)
             
             const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
