@@ -207,6 +207,8 @@
             // filter out dates beyond January
             const hol_season_dates = sorted_hours._filter(o.formatted_date.includes('November'))
             
+            console.log(hol_season_dates)
+            
             
             renderHours('#holidays_hours_container','#holidays_hours_template', sorted_hours, 'extended_hours')
             
