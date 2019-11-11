@@ -209,11 +209,7 @@
             // filter out dates beyond January
             
 
-            sorted_hours.forEach(DecJanOnly)
-            function DecJanOnly(item, index, array) {
-                array[index] = item.formatted_date.includes('November')
-            }
-
+    
 
             renderHours('#holidays_hours_container','#holidays_hours_template', sorted_hours, 'extended_hours')
             
