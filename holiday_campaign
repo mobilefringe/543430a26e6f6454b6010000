@@ -241,7 +241,7 @@
                 $('#box_4_title').html(data.title);
                 $('#box_4_desc').html(data.body);
                 // add condition if there is content to display: block
-                if (data.title.length > 0 || data.body.length > 0) {
+                if (data.body.length > 0) {
                     $('.application-info').addClass('display_now')
                 }
                 
