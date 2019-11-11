@@ -204,7 +204,7 @@
             var holiday_hours = getPropertyHolidayHours().filter(function(o){ return o.is_closed === 0});
             // console.log(holiday_hours)
             
-            const join_hours = () => {
+            const joined_hours = () => {
                 combined_hours.push(ext_hours)
                 combined_hours.push(holiday_hours)
                 return combined_hours
