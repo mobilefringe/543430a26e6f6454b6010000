@@ -214,7 +214,7 @@
             //     })
             // }
             // var holiday = moment(v.holiday_date).tz(getPropertyTimeZone());
-            const ext_hours_formatted = extended_hours.map(v => ({...v, formatted_date: moment(v.holiday_date).tz(getPropertyTimeZone());.format("ddd, MMM D, YYYY") }))
+            const ext_hours_formatted = extended_hours.map(v => ({...v, formatted_date: moment(v.holiday_date).tz(getPropertyTimeZone()).format("ddd, MMM D, YYYY") }))
             
             console.log(ext_hours_formatted)
             
