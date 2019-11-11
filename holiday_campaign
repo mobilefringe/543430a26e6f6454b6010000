@@ -205,8 +205,8 @@
             // console.log(holiday_hours)
             
             const joined_hours = () => {
-                combined_hours[0] = ext_hours
-                combined_hours[1] = holiday_hours
+                combined_hours[0] = ext_hours, holiday_hours
+                // combined_hours[1] = holiday_hours
                 return combined_hours
             }
             
