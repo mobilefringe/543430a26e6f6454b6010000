@@ -235,12 +235,11 @@
                 $('#holiday_events').show();
             }
             
-            // SECTION 4
+            // SECTION 4 // only renders if there is content in the body
             var page4_json = prefix + "/pages/halifaxcentre-holiday-campaign-text-box.json"
             $.getJSON(page4_json).done(function(data) {
                 $('#box_4_title').html(data.title);
                 $('#box_4_desc').html(data.body);
-                // add condition if there is content to display: block
                 if (data.body.length > 0) {
                     $('.application-info').addClass('display_now')
                 }
