@@ -203,12 +203,9 @@
             // combine and sort
             const joined_hours = holiday_hours_formatted.concat(ext_hours_formatted)
             const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
-            
-            console.log(sorted_hours)
             // filter out dates beyond January
             var DecJanOnly = []
             _.forEach(sorted_hours, function(val, key) {
-                
                 var formatted_date = moment(val.holiday_date).format('X')
                 var end_date = moment('2020-01-07').format('X')
                 console.log(formatted_date, end_date)
