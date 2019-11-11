@@ -196,7 +196,14 @@
             });
             
             // HOLIDAY HOURS
+            
+            
+            // pseudo: get holiday hours (extended), actual holiday shortened hours, combine, display only Dec and Jan
             var holiday_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
+            
+            
+            
+            
             renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'extended_hours')
             
             // HOLIADY EVENTS
