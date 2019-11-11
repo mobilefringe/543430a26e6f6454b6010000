@@ -212,6 +212,7 @@
                 
                 var formatted_date = moment(val.holiday_date).format('X')
                 var end_date = moment('2020-01-07').format('X')
+                console.log(end_date)
                 if (val.formatted_date < end_date) {
                     DecJanOnly.push(val)
                 }
