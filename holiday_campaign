@@ -211,7 +211,7 @@
             // }
             
             const joined_hours = _.merge(ext_hours, holiday_hours)
-            console.log(joined_hours
+            console.log(joined_hours)
             
             // renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'holiday_hours')
             
