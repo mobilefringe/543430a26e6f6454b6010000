@@ -213,7 +213,7 @@
                 })
             }
             
-            console.log(ext_hours_formatted)
+
             
 
             var holiday_hours = getPropertyHolidayHours().filter(function(o){ return o.is_closed === 0});
