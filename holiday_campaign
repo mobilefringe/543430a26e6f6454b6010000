@@ -207,8 +207,16 @@
             
             console.log(sorted_hours)
             // filter out dates beyond January
+            var DecJanOnly = []
+            _.forEach(sorted_hours, function(val, key) {
+                
+                var formatted_date = moment(holiday_date).format('X')
+                var end_date = moment('January, 7 2020').format('X')
+                if (val.formatted_date < end_date) {
+                    DecJanOnly.push(val)
+                }
+            }) 
             
-
     
 
             renderHours('#holidays_hours_container','#holidays_hours_template', sorted_hours, 'extended_hours')
