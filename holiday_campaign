@@ -208,7 +208,7 @@
                         var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
                         val.formatted_date = holiday.format("ddd, MMM D, YYYY");
                     }
-                }
+                })
             }
             
             console.log(ext_hours_formatted)
