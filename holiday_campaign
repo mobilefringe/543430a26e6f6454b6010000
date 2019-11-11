@@ -207,6 +207,9 @@
             const joined_hours = holiday_hours.concat(ext_hours)
             console.log(joined_hours)
             
+            const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
+            console.log(sorted_hours)
+            
             // renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'holiday_hours')
             
             
