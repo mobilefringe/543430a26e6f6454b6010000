@@ -204,6 +204,8 @@
             // combine and sort
             const joined_hours = holiday_hours_formatted.concat(ext_hours_formatted)
             const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
+            
+            console.log(sorted_hours)
             // filter out dates beyond January
             
             // const hol_season_dates = _.filter(sorted_hours, function(o) { 
@@ -212,9 +214,9 @@
                 
             // });
             
-            const hol_season_dates = _.filter(sorted_hours, {'formatted_date' : })
+            // const hol_season_dates = _.filter(sorted_hours, {'formatted_date' : )
             
-            console.log(hol_season_dates)
+            // console.log(hol_season_dates)
             
             
             renderHours('#holidays_hours_container','#holidays_hours_template', sorted_hours, 'extended_hours')
