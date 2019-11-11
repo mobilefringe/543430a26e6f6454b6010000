@@ -240,6 +240,9 @@
             $.getJSON(page4_json).done(function(data) {
                 $('#box_4_title').html(data.title);
                 $('#box_4_desc').html(data.body);
+                // add condition if there is content to display: block
+                
+                
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
