@@ -210,7 +210,7 @@
             var DecJanOnly = []
             _.forEach(sorted_hours, function(val, key) {
                 
-                var formatted_date = moment(holiday_date).format('X')
+                var formatted_date = moment(val.holiday_date).format('X')
                 var end_date = moment('January, 7 2020').format('X')
                 if (val.formatted_date < end_date) {
                     DecJanOnly.push(val)
@@ -219,7 +219,7 @@
             
     
 
-            renderHours('#holidays_hours_container','#holidays_hours_template', sorted_hours, 'extended_hours')
+            renderHours('#holidays_hours_container','#holidays_hours_template', DecJanOnly, 'extended_hours')
             
             // HOLIDAY EVENTS
             var events = getEventsList().sortBy(function(o){ return o.end_date });
