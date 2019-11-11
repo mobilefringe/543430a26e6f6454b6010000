@@ -214,9 +214,12 @@
             //     })
             // }
             // var holiday = moment(v.holiday_date).tz(getPropertyTimeZone());
-            const ext_hours_formatted = extended_hours.map(v => ({...v, v.formatted_date: moment(v.holiday_date).tz(getPropertyTimeZone()).format("ddd, MMM D, YYYY") }))
+            // const ext_hours_formatted = extended_hours.map(v => ({...v, v.formatted_date: moment(v.holiday_date).tz(getPropertyTimeZone()).format("ddd, MMM D, YYYY") }))
             
-            console.log(ext_hours_formatted)
+            extended_hours.forEach(v => {v.isActive = true;});
+            
+            
+            console.log(ext_hours)
             
 
             var holiday_hours = getPropertyHolidayHours().filter(function(o){ return o.is_closed === 0});
