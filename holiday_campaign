@@ -210,7 +210,7 @@
                 return combined_hours
             }
             
-            console.log(joinHours)
+            console.log(joinHours())
             
             // renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'holiday_hours')
             
