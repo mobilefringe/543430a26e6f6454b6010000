@@ -220,6 +220,9 @@
             
 
             var holiday_hours = getPropertyHolidayHours().filter(function(o){ return o.is_closed === 0});
+            const holiday_hours_formatted = holiday_hours.map(v => ({...v, formatted_date: moment(v.holiday_date).tz(getPropertyTimeZone()).format("ddd, MMM D, YYYY") }))
+            
+            console.log(holiday_hours_formatted)
             
             console.log(holiday_hours)
         
