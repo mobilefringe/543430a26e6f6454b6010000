@@ -208,20 +208,10 @@
             console.log(sorted_hours)
             // filter out dates beyond January
             
-            // const hol_season_dates = _.filter(sorted_hours, function(o) { 
-            //     if (o.formatted_date.includes('November')) 
-            //     return hol_season_dates
-                
-            // });
-            
-            sorted_hours.forEach(DecJanOnly)
-            function DecJanOnly(item, index, array) {
-                array[index] = item.formatted_date.includes('November')
-            }
 
-            // const hol_season_dates = _.filter(sorted_hours, ['formatted_date', 'November'] )
-    
             
+
+
             renderHours('#holidays_hours_container','#holidays_hours_template', sorted_hours, 'extended_hours')
             
             // HOLIDAY EVENTS
