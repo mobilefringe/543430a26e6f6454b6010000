@@ -202,16 +202,19 @@
             
             var extended_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
             // format if no formatted date, add it
-            var ext_hours_formatted = () => {
-                $.each( extended_hours , function( key, val ) {
-                    console.log(val)
-                    if (!val.formatted_date) {
-                        holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
-                        var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-                        val.formatted_date = holiday.format("ddd, MMM D, YYYY");
-                    }
-                })
-            }
+            
+            // var ext_hours_formatted = () => {
+            //     $.each( extended_hours , function( key, val ) {
+            //         console.log(val)
+            //         if (!val.formatted_date) {
+            //             holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
+            //             var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            //             val.formatted_date = holiday.format("ddd, MMM D, YYYY");
+            //         }
+            //     })
+            // }
+            var holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
+            const ext_hours_formatted = extended_hours.map(v => ({...v, formatted_date: holiday.format("ddd, MMM D, YYYY"); }))
             
             console.log(ext_hours_formatted)
             
