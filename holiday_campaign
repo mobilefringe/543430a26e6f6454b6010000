@@ -211,7 +211,7 @@
             _.forEach(sorted_hours, function(val, key) {
                 
                 var formatted_date = moment(val.holiday_date).format('X')
-                var end_date = moment('January, 7 2020').format('X')
+                var end_date = moment('2020-01-07').format('X')
                 if (val.formatted_date < end_date) {
                     DecJanOnly.push(val)
                 }
