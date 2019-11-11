@@ -236,7 +236,7 @@
             }
             
             // SECTION 4
-            var page4_json = prefix + "/pages/halifaxcentre-holiday-campaign.json"
+            var page4_json = prefix + "/pages/halifaxcentre-holiday-campaign-text-box.json"
             $.getJSON(page4_json).done(function(data) {
                 $('#box_4_title').html(data.title);
                 $('#box_4_desc').html(data.body);
