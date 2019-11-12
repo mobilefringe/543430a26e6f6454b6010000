@@ -12,7 +12,9 @@
         <script id="banner_template" type="x-tmpl-mustache/text">
             {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
                 <div class="hero_banner" style="background-image: url({{image_url}})">
-                    <div class="banner_text" id="welcome_msg_container"></div>
+                    <h3>SHOPPING IS OUR MIDDLE NAME</h3>
+                    <p>The fashion capital of Atlantic Canada</p>
+                    <a class="animated_btn" href="/stores">visit our stores</a>
                 </div>
             </a>
         </script>
@@ -81,15 +83,7 @@
     </div>
 </div>
 
-<script id="welcome_msg_template" type="x-tmpl-mustache/text">
-    {{#welcome_message}}<h3>
-        {{welcome_message}}
-    </h3>{{/welcome_message}}
-    {{#description}}<p>
-        {{description}}
-    </p>{{/description}}
 
-</script>
 
 <style>
     .newsletter_container{
@@ -104,8 +98,6 @@
             var first_banner = banners[0];
             renderBanner('#banner_template','#home_banner',banners);
             
-            var property = [getPropertyDetails()];
-            renderGeneral('#welcome_msg_container','#welcome_msg_template',property);
             
             loadSocialFeeds(render_social)
             renderFeatureItems();
