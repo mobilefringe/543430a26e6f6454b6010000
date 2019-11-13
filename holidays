@@ -200,11 +200,13 @@
             // add formatted_date key-val pair
             const ext_hours_formatted = extended_hours.map(v => ({...v, formatted_date: moment(v.holiday_date).tz(getPropertyTimeZone()).format("MMMM D") }))
             const holiday_hours_formatted = holiday_hours.map(v => ({...v, formatted_date: moment(v.holiday_date).tz(getPropertyTimeZone()).format("MMMM D") }))
-            console.log(holiday_hours_formatted)
+            
             
             // combine and sort
             const joined_hours = holiday_hours_formatted.concat(ext_hours_formatted)
             const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
+            
+            console.log(sorted_hours)
             // filter out dates beyond January
             var DecJanOnly = []
             _.forEach(sorted_hours, function(val, key) {
