@@ -146,7 +146,7 @@
             
             $("a").click(function(event){
                 var position = $(this).attr('id');
-                position = position.offset().top - 90
+                position = position.offset().top - 150
                 $('html, body').animate({
             		scrollTop: position
             	}, 750, 'smooth');
