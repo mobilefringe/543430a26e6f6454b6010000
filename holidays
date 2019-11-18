@@ -255,7 +255,7 @@
             $('a').smoothScroll({
                 speed: 750,
                 // to offset from beginning of where section is
-                offset: -300,
+                offset: -90,
             });
 
     		$('.flexslider').flexslider({
