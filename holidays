@@ -145,6 +145,7 @@
             // });
             
             $("a.banner_link").click(function(event){
+                console.log("click!")
                 var position = $(this).attr('id');
                 console.log("position1", position)
                 position = position.offset().top - 500; 
