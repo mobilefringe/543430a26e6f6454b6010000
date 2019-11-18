@@ -3,7 +3,7 @@
         <script id="banner_template" type="x-tmpl-mustache/text">
             <li class="position_relative">
                 {{#url}}
-                <a href="{{url}}">
+                <a class="banner_link" href="{{url}}">
                 {{/url}}
                     <div class="hero_banner holiday_campaign_banner center_content" style="background-image: url({{image_url}})">
                         <h2 class="banner_header">{{name}}</h2>
@@ -144,7 +144,7 @@
             //     offset: -300,
             // });
             
-            $("a").click(function(event){
+            $("a.banner_link").click(function(event){
                 var position = $(this).attr('id');
                 console.log("position1", position)
                 position = position.offset().top - 500; 
