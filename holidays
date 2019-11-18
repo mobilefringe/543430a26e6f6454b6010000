@@ -257,17 +257,7 @@
                 // to offset from beginning of where section is
                 offset: -300,
             });
-            
-            // $("a.banner_link").click(function(event){
-            //     var position = $(this).attr('id');
-            //     console.log("position1", position)
-            //     position = position.offset().top - 500; 
-            //     console.log("position2", position)
-            //     $('html, body').animate({
-            // 		scrollTop: position
-            // 	}, 750, 'smooth');
-            // });
-            
+
     		$('.flexslider').flexslider({
                 animation: "slide",
                 animationLoop: true,
