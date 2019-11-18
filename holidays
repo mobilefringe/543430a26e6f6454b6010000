@@ -141,7 +141,7 @@
             $('a').smoothScroll({
                 speed: 750,
                 // to offset from beginning of where section is
-                offset: -200,
+                offset: -300,
             });
             
             var pageBanner = [];
