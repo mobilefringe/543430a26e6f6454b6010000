@@ -135,13 +135,13 @@
 </style>
 
 <script>
+    $('a').smoothScroll({
+        speed: 750,
+        // to offset from beginning of where section is
+        offset: -60,
+    });
     $(document).ready(function(e){
         init(e);
-        $('a').smoothScroll({
-            speed: 750,
-            // to offset from beginning of where section is
-            offset: -60,
-        });
         function renderAll(){
             var pageBanner = [];
             var banners = getRepoDetailsByName("Holiday Campaign Banner");
