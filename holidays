@@ -138,12 +138,20 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            $('a').smoothScroll({
-                speed: 750,
-                // to offset from beginning of where section is
-                offset: -300,
-            });
+            // $('a').smoothScroll({
+            //     speed: 750,
+            //     // to offset from beginning of where section is
+            //     offset: -300,
+            // });
             
+            $("a").click(function(event){
+                var position = $(this).attr('id');
+                position = position.offset().top - 90
+                $('html, body').animate({
+            		scrollTop: position
+            	}, 750, 'smooth');
+            });
+                    	
             var pageBanner = [];
             var banners = getRepoDetailsByName("Holiday Campaign Banner");
             if (banners && banners.images.length > 0) {
