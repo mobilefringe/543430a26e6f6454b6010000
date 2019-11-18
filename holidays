@@ -133,17 +133,11 @@
         margin-top: 0;
     }
 </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js">
+
 <script>
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            $('a').smoothScroll({
-                speed: 750,
-                // to offset from beginning of where section is
-                offset: -60,
-            });
             var pageBanner = [];
             var banners = getRepoDetailsByName("Holiday Campaign Banner");
             if (banners && banners.images.length > 0) {
