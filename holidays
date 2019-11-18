@@ -138,6 +138,13 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
+            
+            $('a').smoothScroll({
+                speed: 750,
+                // to offset from beginning of where section is
+                offset: -60,
+            });
+            
             var pageBanner = [];
             var banners = getRepoDetailsByName("Holiday Campaign Banner");
             if (banners && banners.images.length > 0) {
