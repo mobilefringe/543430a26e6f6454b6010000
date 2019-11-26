@@ -154,7 +154,7 @@
 
             // SECTION 1
             prefix = get_prefix();
-            var page1_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-1.json"
+            var page1_json = prefix + "/pages/halifaxcentre-holiday-campaign-text-box.json"
             $.getJSON(page1_json).done(function(data) {
                 $('#box_1_title').html(data.title.toUpperCase());
                 $('#box_1_desc').html(data.body);
