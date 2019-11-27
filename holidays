@@ -131,7 +131,6 @@
             // HOLIDAY BLOG
             var blog = getBlogDataBySlug('halifaxcentre-holiday').posts;
             var blog_posts = blog.sortBy(function(o){ return o.publish_date});
-            console.log("blog_posts", blog_posts)
             renderPosts('#holiday_blog_container', '#holiday_blog_template', blog_posts);
             
             prefix = get_prefix();
