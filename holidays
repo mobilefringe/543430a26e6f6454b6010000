@@ -134,6 +134,48 @@
             console.log("blog_posts", blog_posts)
             renderPosts('#holiday_blog_container', '#holiday_blog_template', blog_posts);
             
+            prefix = get_prefix();
+            // SECTION 1
+            // var page1_json = prefix + "/pages/halifaxcentre-holiday-campaign-text-box.json"
+            // $.getJSON(page1_json).done(function(data) {
+            //     $('#box_1_title').html(data.title.toUpperCase());
+            //     $('#box_1_desc').html(data.body);
+            //     $('#box_1_image').attr('src', data.image_url);
+            //     $('#box_1_image').attr('alt', data.title);
+            // }).fail(function(jqXHR) {
+            //     if (jqXHR.status == 404) {
+            //         $("#404_msg").fadeIn("fast");
+            //     }
+            // });
+            
+            // // SECTION 2
+            // var page2_json = prefix + "	/pages/halifaxcentre-holiday-campaign-intro-2.json"
+            // $.getJSON(page2_json).done(function(data) {
+            //     const image = data.image_url;
+            //     $('#box_2_title').html(data.title.toUpperCase());
+            //     $('#box_2_desc').html(data.body);
+            //     $('#box_2_image').attr('src', data.image_url);
+            //     $('#box_2_image').attr('alt', data.title);
+            // }).fail(function(jqXHR) {
+            //     if (jqXHR.status == 404) {
+            //         $("#404_msg").fadeIn("fast");
+            //     }
+            // });
+            
+            // // SECTION 3
+            // var page3_json = prefix + "/pages/halifaxcentre-holiday-campaign-intro-3.json"
+            // $.getJSON(page3_json).done(function(data) {
+            //     const image = data.image_url;
+            //     $('#box_3_page_title').html(data.title.toUpperCase());
+            //     $('#box_3_page_desc').html(data.body);
+            //     $('#box_3_page_image').attr('src', data.image_url);
+            //     $('#box_3_page_image').attr('alt', data.title);
+            // }).fail(function(jqXHR) {
+            //     if (jqXHR.status == 404) {
+            //         $("#404_msg").fadeIn("fast");
+            //     }
+            // });
+            
             // HOLIDAY HOURS
             var extended_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
             var holiday_hours = getPropertyHolidayHours();
