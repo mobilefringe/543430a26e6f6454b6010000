@@ -25,7 +25,7 @@
             </div>
             <div class="details_info_container">
                 <h2 class="details_title">{{ title }}</h2>
-                <div class="details_info">{{ html_body }} </div>
+                <div class="details_info">{{{ html_body }}} </div>
             </div>
         </div>
     </script>
