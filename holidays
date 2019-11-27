@@ -46,29 +46,29 @@
 <!--    </div>-->
 <!--</div>-->
 <!--SECOND BOX -->
-<div id="section_2" class="content_container main_container container_bottom_border hol_box margin_25_across">
-    <div class="details_flex_container left_column_reverse">
-        <div class="left_details_info_container">
-            <h2 class="details_title" id="box_2_title"></h2>
-            <div class="details_info" id="box_2_desc"></div>
-        </div>
-        <div class="left_details_img_container">
-            <img id="box_2_image" src="" alt="">
-        </div>
-    </div>
-</div>
+<!--<div id="section_2" class="content_container main_container container_bottom_border hol_box margin_25_across">-->
+<!--    <div class="details_flex_container left_column_reverse">-->
+<!--        <div class="left_details_info_container">-->
+<!--            <h2 class="details_title" id="box_2_title"></h2>-->
+<!--            <div class="details_info" id="box_2_desc"></div>-->
+<!--        </div>-->
+<!--        <div class="left_details_img_container">-->
+<!--            <img id="box_2_image" src="" alt="">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 <!--THIRD BOX -->
-<div id="box_3" class="content_container main_container container_bottom_border hol_box margin_25_across">
-    <div class="details_flex_container">
-        <div class="details_img_container">
-            <img id="box_3_page_image" src="" alt="">
-        </div>
-        <div class="details_info_container">
-            <h2 class="details_title" id="box_3_page_title"></h2>
-            <div class="details_info" id="box_3_page_desc"></div>
-        </div>
-    </div>
-</div>
+<!--<div id="box_3" class="content_container main_container container_bottom_border hol_box margin_25_across">-->
+<!--    <div class="details_flex_container">-->
+<!--        <div class="details_img_container">-->
+<!--            <img id="box_3_page_image" src="" alt="">-->
+<!--        </div>-->
+<!--        <div class="details_info_container">-->
+<!--            <h2 class="details_title" id="box_3_page_title"></h2>-->
+<!--            <div class="details_info" id="box_3_page_desc"></div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 <!--HOLIDAY HOURS-->
 <div id="holiday_hours" class="content_container main_container margin_25_across">
     <div class="hol_campaign_spacing">
