@@ -154,6 +154,8 @@
             $('#latest_fb_link').attr('href', latest_fb_post.link)
             var fb_date = new Date(latest_fb_post.created_at.split(',')[0])
             $('#latest_fb_date').text(get_month(fb_date.getMonth()) + " " + fb_date.getDate())
+        } else {
+            $('#latest_fb').text("Check out our page to see our latest post!")
         }
         // if(latest_fb_post.text.length > 100){
         //     $('#latest_fb').text(latest_fb_post.text.substr(0,100) + "...")
