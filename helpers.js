@@ -54,7 +54,6 @@ function show_content(){
     var d = new Date();
     var n = d.getDay();
     var today_hours = getTodaysHours();
-    console.log("today_hours", today_hours)
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
     $.each( getPropertyHours(), function(i,v){
         if(v.is_closed == true){
@@ -64,7 +63,6 @@ function show_content(){
             }
         }
         if(v.is_holiday == true){
-            console.log("holiday")
             var hours_day = new Date(v.holiday_date + "T05:00:00Z")
             if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
                 console.log(v)
