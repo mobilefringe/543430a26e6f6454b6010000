@@ -64,6 +64,7 @@ function show_content(){
             }
         }
         if(v.is_holiday == true){
+            console.log("holiday")
             var hours_day = new Date(v.holiday_date + "T05:00:00Z")
             if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
                 console.log(v)
