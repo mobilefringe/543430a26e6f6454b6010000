@@ -138,7 +138,7 @@
         var tweet_date = new Date(latest_tweet.created_at.split(',')[0])
         $('#latest_tweet_date').text(get_month(tweet_date.getMonth()) + " " + tweet_date.getDate())
         
-        
+        console.log("latest_fb_post", latest_fb_post)
         if (latest_fb_post !== null && latest_fb_post !== undefined) {
             console.log("latest_fb_post", latest_fb_post)
             if (latest_fb_post.text.length > 0) {
