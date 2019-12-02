@@ -42,8 +42,8 @@
                         <div id="extended_hours_container" class="hours_container">
                             <script id="extended_hours_template" type="x-tmpl-mustache/text">
                                 <div class="hours_div">
-                                    <span>{{holiday_name}} ({{formatted_date}})</span>
-                                    <span>{{h}}</span>
+                                    <span>{{ formatted_date }}</span>
+                                    <span>{{ h }}</span>
                                 </div>
                             </script>
                         </div>
