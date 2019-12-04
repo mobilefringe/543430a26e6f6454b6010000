@@ -215,7 +215,7 @@ function drop_pin(id, map){
     var width = parseInt(coords["width"])
     var x_offset = (parseInt(width) / 2);
     var y_offset = (parseInt(height) /2);
-    
+    console.log('x_offset',x_offset,'y_offset',y_offset)
     map.setMarks([{ xy: [coords["x"] - 15 + x_offset, coords["y"] - 55 + y_offset],
               attrs: {
                         src:  '//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463000912000/pin2.png'     // image for marker
