@@ -222,7 +222,7 @@ function drop_pin(id, map){
                       }
         }
         ])
-        // map.setViewBox(id);
+        map.setViewBox(id);
         map.selectRegion(id);
 }
     
