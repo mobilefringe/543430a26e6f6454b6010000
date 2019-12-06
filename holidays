@@ -17,7 +17,7 @@
 <!-- HOLIDAY BLOG -->
 <div id="holiday_blog_container" class="content_container main_container container_bottom_border hol_box hol_box_1 margin_25_across">
     <script id="holiday_blog_template" type="x-tmpl-mustache/text">
-        <div class="details_flex_container" id="box_{{key}}">
+        <div class="details_flex_container" id="box_{{counter}}">
             <div class="details_img_container">
                 {{#image_url}}
                 <img src="{{ image_url }}" alt="">
