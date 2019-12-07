@@ -195,9 +195,9 @@
             // }) 
             // renderHours('#holidays_hours_container','#holidays_hours_template', DecJanOnly, 'extended_hours')
             
-            var extended_hours = getPropertyExtendedHours();
-            var extended_hours = getPropertyHolidayHours();
-            var all_holiday = _.concat(extended_hours, extended_hours);
+            var extended_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
+            var holiday_hours = getPropertyHolidayHours();
+            var all_holiday = _.concat(extended_hours, holiday_hours);
             var DecJanOnly = []
             _.forEach(all_holiday, function(val, key) {
                 var formatted_date = moment(val.holiday_date).format('X')
