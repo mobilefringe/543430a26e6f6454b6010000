@@ -206,7 +206,8 @@
                     DecJanOnly.push(val)
                 }
             }) 
-            renderHours('#holidays_hours_container','#holidays_hours_template', DecJanOnly, 'extended_hours')
+            var sorted_hours = _.sortBy(DecJanOnly, function(o) { return o.holiday_date; });
+            renderHours('#holidays_hours_container','#holidays_hours_template', sorted_hours, 'extended_hours')
             
             // HOLIDAY EVENTS
             var events = getEventsList().sortBy(function(o){ return o.end_date });
