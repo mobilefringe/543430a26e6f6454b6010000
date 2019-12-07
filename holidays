@@ -176,24 +176,40 @@
             // });
             
             // HOLIDAY HOURS
-            var extended_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
-            var holiday_hours = getPropertyHolidayHours();
-            // add formatted_date key-val pair
-            const ext_hours_formatted = extended_hours.map(v => ({...v, formatted_date: moment(v.holiday_date).tz(getPropertyTimeZone()).format("ddd, MMM D, YYYY") }))
-            const holiday_hours_formatted = holiday_hours.map(v => ({...v, formatted_date: moment(v.holiday_date).tz(getPropertyTimeZone()).format("ddd, MMM D, YYYY") }))
-            // combine and sort
-            const joined_hours = holiday_hours_formatted.concat(ext_hours_formatted)
-            const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
-            // filter out dates beyond January
+            // var extended_hours = getPropertyExtendedHours().sortBy(function(o){ return o.holiday_date });
+            // var holiday_hours = getPropertyHolidayHours();
+            // // add formatted_date key-val pair
+            // const ext_hours_formatted = extended_hours.map(v => ({...v, formatted_date: moment(v.holiday_date).tz(getPropertyTimeZone()).format("ddd, MMM D, YYYY") }))
+            // const holiday_hours_formatted = holiday_hours.map(v => ({...v, formatted_date: moment(v.holiday_date).tz(getPropertyTimeZone()).format("ddd, MMM D, YYYY") }))
+            // // combine and sort
+            // const joined_hours = holiday_hours_formatted.concat(ext_hours_formatted)
+            // const sorted_hours = joined_hours.sortBy(function(o){ return o.holiday_date });
+            // // filter out dates beyond January
+            // var DecJanOnly = []
+            // _.forEach(sorted_hours, function(val, key) {
+            //     var formatted_date = moment(val.holiday_date).format('X')
+            //     var end_date = moment('2020-01-07').format('X')
+            //     if (formatted_date < end_date) {
+            //         DecJanOnly.push(val)
+            //     }
+            // }) 
+            // renderHours('#holidays_hours_container','#holidays_hours_template', DecJanOnly, 'extended_hours')
+            
+            var extended_hours = getPropertyExtendedHours();
+            var extended_hours = getPropertyHolidayHours();
+            var all_holiday = _.concat(extended_hours, extended_hours);
             var DecJanOnly = []
-            _.forEach(sorted_hours, function(val, key) {
+            _.forEach(all_holiday, function(val, key) {
                 var formatted_date = moment(val.holiday_date).format('X')
                 var end_date = moment('2020-01-07').format('X')
                 if (formatted_date < end_date) {
                     DecJanOnly.push(val)
                 }
             }) 
+            console.log("DecJanOnly", DecJanOnly)
+            
             renderHours('#holidays_hours_container','#holidays_hours_template', DecJanOnly, 'extended_hours')
+            
             
             // HOLIDAY EVENTS
             var events = getEventsList().sortBy(function(o){ return o.end_date });
