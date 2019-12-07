@@ -208,7 +208,6 @@
             }) 
             renderHours('#holidays_hours_container','#holidays_hours_template', DecJanOnly, 'extended_hours')
             
-            
             // HOLIDAY EVENTS
             var events = getEventsList().sortBy(function(o){ return o.end_date });
             var published_events = [];
