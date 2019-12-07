@@ -206,8 +206,6 @@
                     DecJanOnly.push(val)
                 }
             }) 
-            console.log("DecJanOnly", DecJanOnly)
-            
             renderHours('#holidays_hours_container','#holidays_hours_template', DecJanOnly, 'extended_hours')
             
             
