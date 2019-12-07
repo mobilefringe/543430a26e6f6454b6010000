@@ -207,8 +207,8 @@
                 }
             }) 
             console.log("DecJanOnly", DecJanOnly)
-            var sorted_holiday = _.sortBy(DecJanOnly, function(o){ return o.holiday_date })
-            renderHours('#holidays_hours_container','#holidays_hours_template', sorted_holiday, 'extended_hours')
+            
+            renderHours('#holidays_hours_container','#holidays_hours_template', DecJanOnly, 'extended_hours')
             
             
             // HOLIDAY EVENTS
