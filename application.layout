@@ -313,7 +313,8 @@
                         $.each(messages, function(key ,val){
                             $('#bulletin').append('<li><strong>' + val.messages[0].title + ' </strong>'  + val.messages[0].body +  '</li>')
                         });
-                        $('.news-ticker').ticker();
+                        // $('.news-ticker').ticker();
+                        Marquee3k.init()
                         if ($('#bulletin li').length > 1){
                             console.log('hello')
                             var tickerSpeed = $('.news-ticker').attr('data-speed');
