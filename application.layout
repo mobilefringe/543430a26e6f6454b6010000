@@ -306,7 +306,6 @@
             $.getJSON("//halifaxcentre.mallmaverick.com/api/v3/halifaxcentre/messages.json").done(function(data){
                 var messages = data.messages.bulletin
                 if (messages != undefined){
-                      
                     if (messages.length == 0){
                         $('.news-ticker').hide();
                     }
@@ -318,7 +317,6 @@
                         $('.news-ticker').show();
                         Marquee3k.init()
                         if ($('#bulletin li').length > 1){
-                            console.log('hello')
                             var tickerSpeed = $('.news-ticker').attr('data-speed');
                             $('.news-ticker ul li').hide();
                             $('.news-ticker ul li:first').show();
