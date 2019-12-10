@@ -314,6 +314,7 @@
                         $.each(messages, function(key ,val){
                             $('#bulletin').append('<li><strong>' + val.messages[0].title + ' </strong>'  + val.messages[0].body +  '</li>')
                         });
+                         $('#bulletin').append('<li><strong>' + TITLE + ' </strong>'  + Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula purus sed venenatis aliquam. Nunc scelerisque est id sollicitudin congue. Nullam finibus, sapien at congue venenatis, libero tortor ornare ligula, ac eleifend sapien libero sed purus. Nunc lacinia velit lectus, nec eleifend odio malesuada non.  +  '</li>')
                         // $('.news-ticker').ticker();
                             Marquee3k.init()
                         if ($('#bulletin li').length > 1){
