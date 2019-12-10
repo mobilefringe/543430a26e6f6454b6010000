@@ -300,6 +300,7 @@
             </div>
         </div>
     </section>
+    <script src="//codecloud.cdn.speedyrails.net/sites/5af2ef146e6f6450e9160100/text/javascript/1575997653951/marquee3k.min.js"></script>
     <script>
         jQuery(document).ready(function($){
             $.getJSON("//halifaxcentre.mallmaverick.com/api/v3/halifaxcentre/messages.json").done(function(data){
