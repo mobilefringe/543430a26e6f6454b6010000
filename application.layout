@@ -345,7 +345,7 @@
                 //         }
                 //     $('.news-ticker').show();
                 //     }
-                // }
+                }
                 else{
                     $('.news-ticker').hide();
                 }
