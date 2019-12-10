@@ -312,7 +312,7 @@
                         $.each(messages, function(key ,val){
                             $('#bulletin').append('<li><strong>' + val.messages[0].title + ' </strong>'  + val.messages[0].body +  '</li>')
                         });
-                        
+                        $('.news-ticker').ticker();
                         if ($('#bulletin li').length > 1){
                             console.log('hello')
                             var tickerSpeed = $('.news-ticker').attr('data-speed');
