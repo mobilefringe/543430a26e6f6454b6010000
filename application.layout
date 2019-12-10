@@ -308,7 +308,9 @@
                 if (messages != undefined){
                     console.log('look', messages)
                     $('#bulletin').append('<li><strong>' + 'TITLE' + ' </strong>'  + 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula purus sed venenatis aliquam. Nunc scelerisque est id sollicitudin congue. Nullam finibus, sapien at congue venenatis, libero tortor ornare ligula, ac eleifend sapien libero sed purus. Nunc lacinia velit lectus, nec eleifend odio malesuada non.'  +  '</li>')
+                     $('.news-ticker').show();
                       Marquee3k.init()
+                      
                 //     if (messages.length == 0){
                 //         $('.news-ticker').hide();
                 //     }
