@@ -306,6 +306,7 @@
             $.getJSON("//halifaxcentre.mallmaverick.com/api/v3/halifaxcentre/messages.json").done(function(data){
                 var messages = data.messages.bulletin
                 if (messages != undefined){
+                    console.log('look')
                     if (messages.length == 0){
                         $('.news-ticker').hide();
                     }
