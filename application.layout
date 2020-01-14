@@ -351,9 +351,9 @@
   
     </script>
     <a class="chat_link hidden_now" href="#" onclick="window.open('https://secure.kipsu.com/acct/widget/374/8c47', ' Hello, how can I can help you today?','resizable=no,width=500,height=600,top=100,left=200'); return false;">Hi, this is the Halifax Shopping Centre Guest Services.  How can we help?</a>
-    <script>
+   <script>
         $("#track_link").click( function() {
-            trackOutboundLink('http://bit.ly/cyclone-idai-cushman-wakefield');
+            trackOutboundLink('https://www.wires.org.au/');
         });
     </script>
 </body>
