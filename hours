@@ -37,16 +37,16 @@
                             </script>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <h3 class="hours_heading">Extended Holiday Hours</h3>
-                        <div id="extended_hours_container" class="hours_container">
-                            <script id="extended_hours_template" type="x-tmpl-mustache/text">
-                                <div class="hours_div">
-                                    <span>{{ formatted_date }}</span>
-                                    <span>{{ h }}</span>
-                                </div>
-                            </script>
-                        </div>
+                    <!--<div class="col-md-6">-->
+                    <!--    <h3 class="hours_heading">Extended Holiday Hours</h3>-->
+                    <!--    <div id="extended_hours_container" class="hours_container">-->
+                    <!--        <script id="extended_hours_template" type="x-tmpl-mustache/text">-->
+                    <!--            <div class="hours_div">-->
+                    <!--                <span>{{ formatted_date }}</span>-->
+                    <!--                <span>{{ h }}</span>-->
+                    <!--            </div>-->
+                    <!--        </script>-->
+                    <!--    </div>-->
                         <h3 class="hours_heading">Holiday Hours</h3>
                         <div id="holidays_hours_container" class="hours_container">
                             <script id="holidays_hours_template" type="x-tmpl-mustache/text">
