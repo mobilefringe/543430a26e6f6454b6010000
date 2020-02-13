@@ -56,7 +56,11 @@
                         
                     </a>
                     <p>
-                        <a  class="social_link_blank" href="//www.facebook.com/halifaxshoppingcentre/" target="_blank">Facebook/ halifaxshoppingcentre</a> <br />
+                        <!--<a class="social_link_blank" href="//www.facebook.com/halifaxshoppingcentre/" target="_blank">Facebook/ halifaxshoppingcentre</a> -->
+                        <a class="social_link_blank" href="//www.facebook.com/halifaxshoppingcentre/" target="_blank">Follow Halifax Shopping Centre on Facebook</a> 
+                        
+                        
+                        <br />
                         <span id="latest_fb_date"></span>    
                     </p>
                 </div>
