@@ -67,17 +67,28 @@
             <div id="faq-intro"></div>
             
             <button class="accordion q1"></button>
-            <div class="panel a1">
-              
-            </div>
+            <div class="panel a1"></div>
             
             <button class="accordion q2"></button>
-            <div class="panel a2">
-            </div>
+            <div class="panel a2"></div>
             
             <button class="accordion q3"></button>
-            <div class="panel a3">
-            </div>
+            <div class="panel a3"></div>
+            
+            <button class="accordion q4"></button>
+            <div class="panel q4"></div>
+            
+            <button class="accordion q5"></button>
+            <div class="panel a5"></div>
+            
+            <button class="accordion q6"></button>
+            <div class="panel a6"></div>
+            
+            <button class="accordion q7"></button>
+            <div class="panel a7"></div>
+            
+            <button class="accordion q8"></button>
+            <div class="panel a8"></div>
             
         </div>
      
@@ -316,6 +327,21 @@
                 
                 $('.q3').text(data.subpages[5].title)
                 $('.a3').html(data.subpages[5].body)
+                
+                $('.q4').text(data.subpages[6].title)
+                $('.a4').html(data.subpages[6].body)
+                
+                $('.q5').text(data.subpages[7].title)
+                $('.a5').html(data.subpages[7].body)
+                
+                $('.q6').text(data.subpages[8].title)
+                $('.a6').html(data.subpages[8].body)
+                
+                $('.q7').text(data.subpages[9].title)
+                $('.a7').html(data.subpages[9].body)
+                
+                $('.q8').text(data.subpages[10].title)
+                $('.a8').html(data.subpages[10].body)
                 
                 
                 // $('#mm_page_title').html(data.title.toUpperCase());
