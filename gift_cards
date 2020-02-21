@@ -33,6 +33,8 @@
      <div class="margin_25_across">
      
         <div class="gift-card-purchase"></div>
+        <hr>
+        <div class="check-balance"></div>
      
      
 <!--         <div class="giftbalance hidden_phone"><a target="_blank" href="//halifax.storecardsonline.com" style="padding: 15px 35px;" class="animated_btn hscbutton">Purchase Online</a></div>-->
@@ -238,6 +240,7 @@
                 checkMyBalance = data.subpages[1]
                 
                 $('.gift-card-purchase').html(giftCardIntro.body)
+                $('.check-balance').html(checkMyBalance.body)
                 
                 // $('#mm_page_title').html(data.title.toUpperCase());
                 // $('#mm_page_content').html(data.body);
