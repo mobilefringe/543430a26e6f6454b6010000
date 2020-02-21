@@ -226,7 +226,7 @@ Halifax Shopping Centre Gift Cards can be purchased at Guest Services or online.
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             
-            var subpageOne = {}
+            var giftCardIntro = {}
             
             prefix = get_prefix();
             var pages_json = prefix+ "/pages/halifaxcentre-gift-cards.json"
@@ -234,7 +234,9 @@ Halifax Shopping Centre Gift Cards can be purchased at Guest Services or online.
                 
                 console.log(data)
                 
-                subpageOne = data.subpages[0]
+                giftCardIntro = data.subpages[0]
+                
+                console.log(giftCardIntro)
                 
                 // $('#mm_page_title').html(data.title.toUpperCase());
                 // $('#mm_page_content').html(data.body);
