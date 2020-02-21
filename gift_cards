@@ -32,6 +32,10 @@
 <div class="content_container main_container mobile_padding pages_text">
      <div class="margin_25_across">
          <div class="giftbalance hidden_phone"><a target="_blank" href="//halifax.storecardsonline.com" style="padding: 15px 35px;" class="animated_btn hscbutton">Purchase Online</a></div>
+         
+         
+        
+         
         <p>A Halifax Shopping Centre Gift Card offers an endless number of choices! Available in any denomination from $10 and up, our fee-free gift cards always fit your budget and their style. 
 Halifax Shopping Centre Gift Cards can be purchased at Guest Services or online.
 <br>
@@ -210,9 +214,30 @@ Halifax Shopping Centre Gift Cards can be purchased at Guest Services or online.
 </div>
 <script>
     $(document).ready(function(e){
+        // init(e);
+        // function renderAll(){
+            
+        //     show_content();
+        // }
+        // loadMallDataCached(renderAll); 
+        
         init(e);
         function renderAll(){
-            
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = prefix+ "/pages/halifaxcentre-gift-cards.json"
+            $.getJSON(pages_json).done(function(data) {
+                
+                console.log(data)
+                
+                // $('#mm_page_title').html(data.title.toUpperCase());
+                // $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
             show_content();
         }
         loadMallDataCached(renderAll); 
