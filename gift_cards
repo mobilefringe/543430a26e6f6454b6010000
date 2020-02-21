@@ -4,6 +4,10 @@
         font-size:24px;
     }
     
+    img {
+        object-fit: contain;
+    }
+    
     .accordion {
       color: #b8572e;
       cursor: pointer;
