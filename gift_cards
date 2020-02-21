@@ -63,7 +63,8 @@
         <hr>
         
         <div class="faqs">
-        
+            
+            <div class="faq-intro"></div>
             
             <button class="accordion">Section 1</button>
             <div class="panel">
@@ -301,9 +302,12 @@
                 
                 giftCardIntro = data.subpages[0]
                 checkMyBalance = data.subpages[1]
+                faqIntro = data.subpages[2]
                 
                 $('.gift-card-purchase').html(giftCardIntro.body)
                 $('.check-balance').html(checkMyBalance.body)
+                
+                $('.faq-intro').html()
                 
                 // $('#mm_page_title').html(data.title.toUpperCase());
                 // $('#mm_page_content').html(data.body);
