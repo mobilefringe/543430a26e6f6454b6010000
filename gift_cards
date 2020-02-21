@@ -237,7 +237,7 @@
                 giftCardIntro = data.subpages[0]
                 checkMyBalance = data.subpages[1]
                 
-                $('.gift-card-purchase').html(giftCardIntro)
+                $('.gift-card-purchase').html(giftCardIntro.body)
                 
                 // $('#mm_page_title').html(data.title.toUpperCase());
                 // $('#mm_page_content').html(data.body);
