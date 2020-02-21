@@ -306,7 +306,6 @@
                 
                 $('.gift-card-purchase').html(giftCardIntro.body)
                 $('.check-balance').html(checkMyBalance.body)
-                
                 $('#faq-intro').html(faqIntro.body)
                 
                 // $('#mm_page_title').html(data.title.toUpperCase());
