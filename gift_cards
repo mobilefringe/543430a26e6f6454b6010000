@@ -66,19 +66,17 @@
             
             <div id="faq-intro"></div>
             
-            <button class="accordion">Section 1</button>
-            <div class="panel">
-              <p>Lorem ipsum...</p>
+            <button class="accordion q1"></button>
+            <div class="panel a1">
+              
             </div>
             
-            <button class="accordion">Section 2</button>
-            <div class="panel">
-              <p>Lorem ipsum...</p>
+            <button class="accordion q2"></button>
+            <div class="panel a2">
             </div>
             
-            <button class="accordion">Section 3</button>
-            <div class="panel">
-              <p>Lorem ipsum...</p>
+            <button class="accordion q3"></button>
+            <div class="panel a3">
             </div>
             
         </div>
@@ -304,9 +302,21 @@
                 checkMyBalance = data.subpages[1]
                 faqIntro = data.subpages[2]
                 
+                
                 $('.gift-card-purchase').html(giftCardIntro.body)
                 $('.check-balance').html(checkMyBalance.body)
                 $('#faq-intro').html(faqIntro.body)
+                
+                
+                $('.q1').text(data.subpages[3].title)
+                $('.a1').html(data.subpages[3].body)
+                
+                $('.q2').text(data.subpages[4].title)
+                $('.a2').html(data.subpages[4].body)
+                
+                $('.q3').text(data.subpages[5].title)
+                $('.a3').html(data.subpages[5].body)
+                
                 
                 // $('#mm_page_title').html(data.title.toUpperCase());
                 // $('#mm_page_content').html(data.body);
