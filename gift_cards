@@ -129,6 +129,7 @@
             
             prefix = get_prefix();
             var pages_json = prefix+ "/pages/halifaxcentre-gift-cards.json"
+            console.log(pages_json)
             $.getJSON(pages_json).done(function(data) {
                 
                 
