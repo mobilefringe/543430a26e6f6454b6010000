@@ -798,7 +798,7 @@ function renderGallery(container, template, collection){
         if (val.photo_url.indexOf('missing.png') > -1) {
             val.gallery_image = "//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1461352407000/HallifaxLogo.png";
         } else {
-            val.gallery_image = "//www.mallmaverick.com" + val.photo_url;
+            val.gallery_image = "//www.assets.mallmaverick.com" + val.photo_url;
         }
 
         var rendered = Mustache.render(template_html,val);
