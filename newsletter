@@ -29,7 +29,6 @@
     </form>
     
     
-        <!--<form id="newsletter_form" action="//mobilefringe.createsend.com/t/d/s/tylikj/" method="post">-->
         <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1AB22B4981CDE5E674B08D82111C939ECC1BD58E7957ACBED03CFDC2FFF68C135D518E0CCCE457CB1B27ED24AE865F584E">
     
             <div class="floater-left">
@@ -46,20 +45,16 @@
                 
                 <label for="firstName_newsletter">First Name *</label> 
                 <br/>
-                <!--<input class="firstname-newsletter" id="firstName_newsletter" name="firstName" type="text" required />-->
                 <input aria-label="First Name" id="fieldjlkikdh" maxlength="200" name="cm-f-jlkikdh">
-                <!--<input title="fullname newsletter" class="newletter-hidden" id="fieldName_newsletter" name="cm-name" type="hidden" />-->
             </div>
             <div class="floater-left">
                 <label for="lastName_newsletter">Last name *</label>
                 <br/>
-                <!--<input class="lastname-newsletter" id="lastName_newsletter" name="lastName" type="text" required />-->
                 <input aria-label="Last Name" id="fieldjlkikdu" maxlength="200" name="cm-f-jlkikdu">
             </div>
             <div class="floater-left">
                 <label for="fieldEmail_newsletter">Email *</label> 
                 <br/>
-                <!--<input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-tylikj-tylikj" type="email" required />-->
                 <input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-tylikj-tylikj" required="" type="email">
             </div>
             <div style="clear:both;"></div>
@@ -68,7 +63,6 @@
             <div class="floater-left">
                 <label for="fieldjhtyly">Birth Month</label> 
                 <br/>
-                <!--<select class="month-newsletter"  id="fieldBirthday_newsletter" name="cm-f-jhtyly">-->
                 <select aria-label="Birth Month" id="fieldjlkikhy" name="cm-fo-jlkikhy" value="">
                     <option default selected disabled>Select one</option>
                     <option>January</option>
@@ -90,8 +84,6 @@
                     <li>
                     <input aria-label="Birthday Offers" id="fieldjlkikhj" name="cm-f-jlkikhj" type="checkbox" style="float:left">
                     <label>Would you like to receive our birthday offers?</label>
-                    <!--<input id="birthdayCheck" type="checkbox" style="float:left"/>-->
-                    
                         
                     </li>
                 </ul>
@@ -103,36 +95,27 @@
                     <li>
                     <input aria-label="Gift Card Offers" id="fieldjlkikht" name="cm-f-jlkikht" type="checkbox" checked="checked" style="float:left">
                     <label for="giftcard_newsletter">Gift Card Offers</label>
-                    <!--<input title="giftcard" name="giftcard" id="giftcard_newsletter" type="checkbox" checked="checked" style="float:left"/>-->
-                        
                     </li>
                     <li>
                     <input aria-label="Contests" id="fieldjlkikhi" name="cm-f-jlkikhi" type="checkbox"  checked="checked" style="float:left">
                     <label for="contest_newsletter">Contests</label>
-                    <!--<input title="contest" name="contest" id="contest_newsletter" type="checkbox"  checked="checked" style="float:left"/>-->
-                        
                     </li>
                     <li>
                     <input aria-label="Sales &amp; Events" id="fieldjlkikhd" name="cm-f-jlkikhd" type="checkbox"  checked="checked" style="float:left">
                     <label for="sales_newsletter">Sales &amp; Events</label>
-                    <!--<input title="sales" name="sales" id="sales_newsletter" type="checkbox"  checked="checked" style="float:left"/>-->
                     </li>
                     <li>
                     <input aria-label="Fashion Advice" id="fieldjlkikhh" name="cm-f-jlkikhh" type="checkbox"  checked="checked" style="float:left">
                     <label for="advice_newsletter">Fashion Advice</label>
-                    <!--<input title="advice" name="advice" id="advice_newsletter" type="checkbox"  checked="checked" style="float:left"/>-->
-                        
                     </li>
                 </ul>
             </div>
             
             <p style="font-size: 13px;">
-            <!--<input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;" required>-->
             <input aria-required="" id="cm-privacy-consent" name="cm-privacy-consent" required="" type="checkbox" style="margin-right:3px;">
             <label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from Halifax Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the 
             <a style="color:#581d37" target="_blank" href="/privacy_policy">Privacy Terms &amp; Conditions</a>.</label></p>
             <div>     
-                <!--<button class="newsletter_btn animated_btn text-center" name="commit" type="submit" value="SUBMIT" style="width:150px;">SUBMIT</button>            -->
                 <button type="submit" class="newsletter_btn animated_btn text-center" style="width:150px;">SUBMIT</button>
             </div>
         </form>
