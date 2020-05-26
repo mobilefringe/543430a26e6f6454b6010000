@@ -128,12 +128,12 @@
             
             <p style="font-size: 13px;">
             <!--<input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;" required>-->
-            <input aria-required="" id="cm-privacy-consent" name="cm-privacy-consent" required="" type="checkbox">
+            <input aria-required="" id="cm-privacy-consent" name="cm-privacy-consent" required="" type="checkbox" style="margin-right:3px;">
             <label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from Halifax Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the 
             <a style="color:#581d37" target="_blank" href="/privacy_policy">Privacy Terms &amp; Conditions</a>.</label></p>
             <div>     
                 <!--<button class="newsletter_btn animated_btn text-center" name="commit" type="submit" value="SUBMIT" style="width:150px;">SUBMIT</button>            -->
-                <button type="submit">Subscribe</button>
+                <button type="submit" class="newsletter_btn animated_btn text-center" style="width:150px;">Subscribe</button>
             </div>
         </form>
     </div>
