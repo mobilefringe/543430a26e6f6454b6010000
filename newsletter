@@ -110,7 +110,10 @@
                     <!--<input title="sales" name="sales" id="sales_newsletter" type="checkbox"  checked="checked" style="float:left"/>-->
                         <input aria-label="Sales &amp; Events" id="fieldjlkikhd" name="cm-f-jlkikhd" type="checkbox"  checked="checked">
                     </li>
-                    <li><label for="advice_newsletter">Fashion Advice</label><input title="advice" name="advice" id="advice_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
+                    <li><label for="advice_newsletter">Fashion Advice</label>
+                    <!--<input title="advice" name="advice" id="advice_newsletter" type="checkbox"  checked="checked" style="float:left"/>-->
+                        <input aria-label="Fashion Advice" id="fieldjlkikhh" name="cm-f-jlkikhh" type="checkbox"  checked="checked">
+                    </li>
                 </ul>
             </div>
             
