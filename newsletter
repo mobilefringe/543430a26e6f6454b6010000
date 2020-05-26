@@ -87,9 +87,11 @@
                 
                  <div class="input-group birthday_input_group">
                 <ul>
-                    <li><label>Would you like to receive our birthday offers?</label>
-                    <!--<input id="birthdayCheck" type="checkbox" style="float:left"/>-->
+                    <li>
                     <input aria-label="Birthday Offers" id="fieldjlkikhj" name="cm-f-jlkikhj" type="checkbox">
+                    <label>Would you like to receive our birthday offers?</label>
+                    <!--<input id="birthdayCheck" type="checkbox" style="float:left"/>-->
+                    
                         
                     </li>
                 </ul>
@@ -98,21 +100,28 @@
     
             <div class="input-group">Select the categories you would like to hear about:
                 <ul>
-                    <li><label for="giftcard_newsletter">Gift Card Offers</label>
+                    <li>
+                    <input aria-label="Gift Card Offers" id="fieldjlkikht" name="cm-f-jlkikht" type="checkbox" checked="checked">
+                    <label for="giftcard_newsletter">Gift Card Offers</label>
                     <!--<input title="giftcard" name="giftcard" id="giftcard_newsletter" type="checkbox" checked="checked" style="float:left"/>-->
-                        <input aria-label="Gift Card Offers" id="fieldjlkikht" name="cm-f-jlkikht" type="checkbox" checked="checked">
+                        
                     </li>
-                    <li><label for="contest_newsletter">Contests</label>
+                    <li>
+                    <input aria-label="Contests" id="fieldjlkikhi" name="cm-f-jlkikhi" type="checkbox"  checked="checked">
+                    <label for="contest_newsletter">Contests</label>
                     <!--<input title="contest" name="contest" id="contest_newsletter" type="checkbox"  checked="checked" style="float:left"/>-->
-                        <input aria-label="Contests" id="fieldjlkikhi" name="cm-f-jlkikhi" type="checkbox"  checked="checked">
+                        
                     </li>
-                    <li><label for="sales_newsletter">Sales &amp; Events</label>
+                    <li>
+                    <input aria-label="Sales &amp; Events" id="fieldjlkikhd" name="cm-f-jlkikhd" type="checkbox"  checked="checked">
+                    <label for="sales_newsletter">Sales &amp; Events</label>
                     <!--<input title="sales" name="sales" id="sales_newsletter" type="checkbox"  checked="checked" style="float:left"/>-->
-                        <input aria-label="Sales &amp; Events" id="fieldjlkikhd" name="cm-f-jlkikhd" type="checkbox"  checked="checked">
                     </li>
-                    <li><label for="advice_newsletter">Fashion Advice</label>
+                    <li>
+                    <input aria-label="Fashion Advice" id="fieldjlkikhh" name="cm-f-jlkikhh" type="checkbox"  checked="checked">
+                    <label for="advice_newsletter">Fashion Advice</label>
                     <!--<input title="advice" name="advice" id="advice_newsletter" type="checkbox"  checked="checked" style="float:left"/>-->
-                        <input aria-label="Fashion Advice" id="fieldjlkikhh" name="cm-f-jlkikhh" type="checkbox"  checked="checked">
+                        
                     </li>
                 </ul>
             </div>
