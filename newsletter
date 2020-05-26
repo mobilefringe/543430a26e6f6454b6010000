@@ -133,7 +133,7 @@
             <a style="color:#581d37" target="_blank" href="/privacy_policy">Privacy Terms &amp; Conditions</a>.</label></p>
             <div>     
                 <!--<button class="newsletter_btn animated_btn text-center" name="commit" type="submit" value="SUBMIT" style="width:150px;">SUBMIT</button>            -->
-                <button type="submit" class="newsletter_btn animated_btn text-center" style="width:150px;">Subscribe</button>
+                <button type="submit" class="newsletter_btn animated_btn text-center" style="width:150px;">SUBMIT</button>
             </div>
         </form>
     </div>
